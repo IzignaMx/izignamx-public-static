@@ -1,0 +1,19 @@
+const aiProjectBanner = {
+  newService: "NEW SERVICE",
+  titlePrefix: "Is Your AI Project ",
+  stuck: "Stuck",
+  titleSuffix: "?",
+  description: `If you generated a web project with <strong class="text-blue-400">ChatGPT</strong>, <strong class="text-orange-400">Claude</strong> or <strong class="text-purple-400">Cursor</strong> but it doesn't work or you need professional improvements, <strong class="text-green-400">we complete it</strong>.`,
+  freeAnalysis: "FREE Analysis in 2h",
+  rescuedProjects: "+150 AI Projects Rescued",
+  rating: "4.9/5 Rating",
+  delivery: "24-48h Delivery",
+  guarantee: "30-day Guarantee"
+};
+const en_AIProjectBanner = {
+  aiProjectBanner
+};
+export {
+  aiProjectBanner,
+  en_AIProjectBanner as default
+};
