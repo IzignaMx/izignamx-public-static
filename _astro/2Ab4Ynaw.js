@@ -1,0 +1,37 @@
+const gracias = {
+  seo: {
+    title: "\u611F\u8C22\u60A8\u7684\u8054\u7CFB\uFF01 - IzignaMx",
+    description: "\u6211\u4EEC\u5DF2\u6536\u5230\u60A8\u7684\u6D88\u606F\uFF0C\u5C06\u5C3D\u5FEB\u4E0E\u60A8\u8054\u7CFB\u3002"
+  },
+  titleHtml: '\u6D88\u606F<span class="text-gradient bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">\u5DF2\u6210\u529F</span>\u53D1\u9001\uFF01',
+  successHtml: '\u611F\u8C22\u60A8\u7684\u8054\u7CFB\u3002\u6211\u4EEC\u5DF2\u6536\u5230\u60A8\u7684\u8BF7\u6C42\uFF0C\u4E13\u4E1A\u4EBA\u5458\u5C06\u5728\u63A5\u4E0B\u6765\u7684<strong class="text-green-400">24\u5C0F\u65F6</strong>\u5185\u4E0E\u60A8\u53D6\u5F97\u8054\u7CFB\u3002',
+  sectionNextStepsTitle: "\u63A5\u4E0B\u6765\u662F\u4EC0\u4E48\uFF1F",
+  nextSteps: {
+    reviewTitle: "\u5BA1\u6838\u60A8\u7684\u8BF7\u6C42",
+    reviewDesc: "\u6211\u4EEC\u5C06\u5206\u6790\u60A8\u7684\u9879\u76EE\u548C\u5177\u4F53\u9700\u6C42",
+    contactTitle: "\u4E2A\u6027\u5316\u8054\u7CFB",
+    contactDesc: "\u6211\u4EEC\u4F1A\u8054\u7CFB\u60A8\u9884\u7EA6\u514D\u8D39\u54A8\u8BE2",
+    proposalTitle: "\u4E2A\u6027\u5316\u65B9\u6848",
+    proposalDesc: "\u60A8\u5C06\u6536\u5230\u8BE6\u7EC6\u7684\u65B9\u6848\u548C\u9879\u76EE\u65F6\u95F4\u8868",
+    startTitle: "\u9879\u76EE\u542F\u52A8",
+    startDesc: "\u6279\u51C6\u540E\u6211\u4EEC\u5C06\u5F00\u59CB\u4E3A\u60A8\u5F00\u5C55\u9879\u76EE"
+  },
+  urgentContactTitle: "\u9700\u8981\u7D27\u6025\u8054\u7CFB\u6211\u4EEC\uFF1F",
+  actions: {
+    backHome: "\u8FD4\u56DE\u9996\u9875",
+    viewServices: "\u67E5\u770B\u6211\u4EEC\u7684\u670D\u52A1"
+  },
+  social: {
+    joinText: "\u52A0\u5165\u4FE1\u4EFB\u6211\u4EEC\u7684 500+ \u5BB6\u4F01\u4E1A",
+    ratingText: "\u57FA\u4E8E 200+ \u6761\u8BC4\u4EF7\u7684 4.9/5",
+    whatsapp: "WhatsApp",
+    whatsappText: "\u4F60\u597D IzignaMx\uFF0C\u6211\u521A\u521A\u63D0\u4EA4\u4E86\u4E00\u4E2A\u8868\u5355"
+  }
+};
+const zh_gracias = {
+  gracias
+};
+export {
+  zh_gracias as default,
+  gracias
+};

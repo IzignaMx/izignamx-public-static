@@ -1,0 +1,14 @@
+{
+  "aiProjectBanner": {
+    "newService": "NOWA USŁUGA",
+    "titlePrefix": "Czy Twój projekt AI jest ",
+    "stuck": "zablokowany",
+    "titleSuffix": "?",
+    "description": "Jeśli wygenerowałeś projekt webowy za pomocą <strong class=\"text-blue-400\">ChatGPT</strong>, <strong class=\"text-orange-400\">Claude</strong> lub <strong class=\"text-purple-400\">Cursor</strong>, ale nie działa lub potrzebujesz profesjonalnych ulepszeń, <strong class=\"text-green-400\">my go dokończymy</strong>.",
+    "freeAnalysis": "Bezpłatna analiza w 2h",
+    "rescuedProjects": "+150 uratowanych projektów AI",
+    "rating": "Ocena 4.9/5",
+    "delivery": "Dostawa w 24–48h",
+    "guarantee": "Gwarancja 30 dni"
+  }
+}

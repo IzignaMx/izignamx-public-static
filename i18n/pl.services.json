@@ -1,0 +1,10 @@
+{
+  "services": {
+    "seo": {
+      "title": "Usługi | IzignaMx",
+      "description": "Kompletne i spersonalizowane rozwiązania cyfrowe, które wzmacniają Twoją obecność online.",
+      "keywords": "usługi cyfrowe, tworzenie stron www, aplikacje, projektowanie graficzne, marketing cyfrowy, SEO, branding",
+      "image": "/assets/images/og-image.jpg"
+    }
+  }
+}

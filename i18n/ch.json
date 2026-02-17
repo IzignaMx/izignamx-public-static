@@ -1,0 +1,1312 @@
+{
+  "common": {
+    "welcome": "欢迎来到 IzignaMx",
+    "about": "关于我们",
+    "services": "服务",
+    "portfolio": "作品集",
+    "contact": "联系我们",
+    "language": "语言",
+    "readMore": "阅读更多",
+    "getStarted": "开始使用",
+    "learnMore": "了解更多",
+    "viewAll": "查看全部",
+    "viewMore": "Lipe siha",
+    "viewMoreAbout": "Atan mas put ___PH0___",
+    "exploreService": "Na'i __PH0___",
+    "backToHome": "返回首页",
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "warning": "警告",
+    "info": "信息",
+    "requestProposal": "Manmalago' Manma'å'ñao",
+    "startProject": "tutuhon i Proseta",
+    "startProjectNow": "tutuhon",
+    "seeMore": "Lipe siha",
+    "exploreStack": "Ekspåtta",
+    "premiumService": "Premium",
+    "quantifiableResults": "I Reantidad Resulusion",
+    "cuttingEdgeTechnology": "Cut-egayu` na taotao siha",
+    "lastUpdated": "Uttimeilas",
+    "newService": "NUE' NA SERBIS",
+    "allRightsReserved": "Todu manma reserva",
+    "all": "Todu",
+    "web": "Hekkna",
+    "mobile": "Movil",
+    "design": "Disehu",
+    "more": "yan lokkue",
+    "moreInformation": "Mas Infotma",
+    "requestQuote": "Manmanli’e’",
+    "ourServices": "i Setbisiun-måmi",
+    "readyToBoost": "Listo para un na'fanmetgot i prohekto-mu",
+    "readyToTransform": "Listo para un na'lå'la' i organisasion-mu.",
+    "readyToImprove": "Listo para un na'maolek i posision-mu?",
+    "readyToElevate": "Listo para un` eleba i marka-mu gi sigiente na nivel?",
+    "readyToMultiply": "Listu para un` multiplu i bentan benta?",
+    "readyToBringToLife": "Listo para un na'lå'la' i prohekto-mu gi 3D?",
+    "benefits": "Benefisiu siha",
+    "skipToContent": "Siha manma'gas",
+    "backToTop": "Back para",
+    "darkModeActivated": "Dark na modun modun modun linala`",
+    "lightModeActivated": "Lucha' na modun modun",
+    "returningToTop": "Manmatto ham gi i sanhilo' na pahina .",
+    "connectingPhysicalDigital": "Konekta i Mundo Fina’tika yan i Digital na Mundo .",
+    "iotDashboard": "IT Dash",
+    "temperature": "Kåntot",
+    "humidity": "Minaipi",
+    "live": "Lala",
+    "deviceStatus": "Estabi Device Device",
+    "connected": "Koneksion",
+    "battery": "Batteria",
+    "signal": "Siniat",
+    "uptime": "Gi Uttinan",
+    "update": "Güiya",
+    "configure": "Pripara",
+    "ourIotSolutions": "I Solusion-måmi",
+    "industryApplications": "Aplikasion siha gi Industs.",
+    "ourDevelopmentProcess": "I Development-ta gi i Manma’gås-ta",
+    "consultingAnalysis": "Konsunto yan Analisis",
+    "prototyping": "Protodu",
+    "developmentIntegration": "Desarollasion yan Inteste",
+    "testingOptimization": "Este na fina’tinas yan Optisasion",
+    "deploymentSupport": "Deployment yan Supotta siha",
+    "iotDescription": "Gi IzignaMx, in na'guaha solusion IT ni' muna'lå'la' i dañuyan na infotmasion put i bisnis-mu. I manma'gås-ta na dipattamenton-måmi para u ayuda muna'maolek i prugråma siha, u na'lå'la' i gasto siha yan u na'guaha nuebu na opottunidåt bisnis ginen i teknolohian smart teknolohiha.",
+    "realTimeMonitoring": "I Tiempo na Tiempo siha.",
+    "realTimeMonitoringDesc": "Sistema siha ni’ manma’a’ñao nu i dañuyan na infotmasion yan kritikat gi tiempon-ñiha para u fanmacho’cho’ insigidas.",
+    "intelligentAutomation": "Inteligente siha",
+    "intelligentAutomationDesc": "Prosedimitizasion pot autosion gi dañkulu na dañkulu na kondision.",
+    "scalability": "Espagi",
+    "scalabilityDesc": "Solusion siha ni’ ma disidi para u fanma cho’gue gi i bisnis-ñiha, gi i prototypes para i full-scale na implementasion siha.",
+    "energyEfficiency": "Effisita",
+    "energyEfficiencyDesc": "Debiles mas mauleg para i man-ma`gasta gi hilu` diskuidu yan mas dañkulu na durasion gi difirentes atmos banda.",
+    "smartSensors": "Smart Senser",
+    "smartSensorsDesc": "Desarolla i sensor siha ni’ ma’a’a’ñao para i ambiente, industria, agrikultura yan monitoring gi salut yan wireles na koneksion.",
+    "automationSystems": "Sisteman i Sisteman",
+    "automationSystemsDesc": "Komparasion solusion para i industria ni’ automasion, kometsiante yan residensia siha ni’ man-ma’gas.",
+    "wearables": "Kase",
+    "wearablesDesc": "I siña ma'usa para i monitor, i fitme, i aplikasion siguridåt yan i industria siha ni' intuitibu siha.",
+    "smartHomeBuildings": "Smart Home yan Kulande",
+    "smartHomeBuildingsDesc": "I sisteman guma'emplehao siha para i gima'emplehao siha ni' muna'maolek i konsumo yan i minaolek yan i inañadi.",
+    "iotManagementPlatforms": "I Inachaila' IT",
+    "iotManagementPlatformsDesc": "Desarolla i dashboards yan aplikasion para u ma li’e’, i “control” yan i inanalisa ginen i “data” ginen IoT.",
+    "edgeComputing": "Na'i Engkungok .",
+    "edgeComputingDesc": "I pruseson i lugåt gi i kanton i rediu para u na'menos i latensia yan u ma'optimize i bandwidth gi i kritikat na aplikasion siha.",
+    "agriculture": "Agrikuttura",
+    "agricultureApps": "Crop monitoring, automated na rigasion, climate control gi greenhouses .",
+    "manufacturing": "Manu",
+    "manufacturingApps": "I manma'gås-ta, i monitoring makina, i inadelantan i inadelanta",
+    "healthcare": "Hinemlo",
+    "healthcareApps": "Remote monitoring gi tautau-ta, hospitat, man-ma-ayuda gi che`chu` niha, dispensasion smart .",
+    "logistics": "Logistiku",
+    "logisticsApps": "I kosas siha manma'a'ñao, manma'a'ñao, manma'a'ñao, manma'a'ñao, manma'a'ñao na u fanma'a'ñao.",
+    "smartCities": "Smart Sit .",
+    "smartCitiesApps": "Dikike' na lina'la', mana'dokko' i lina'la', i lina'la', i mamonitor, i mamonitor, i kualidåt aire",
+    "retail": "Kustumbre",
+    "retailApps": "I manma'gås-ta, i eksperensian-ñiha gi i fina'tinas, i inanalisa gi i chalan siha gi i tenda siha.",
+    "iotSolutionsAdapt": "I Io-ta siha na solusion-ta siha ma adapta gi i espesiåt na nisisidåt siha gi diferentes na industria siha, ma na’guaha balotu yan optimization gi diferentes na konteksto.",
+    "frequentQuestions": "Frekuentemente i Manma’gas-ta siha gi i",
+    "faqQuestion1": "Kuanto na tiempo para u makomple un prohekton IT?",
+    "faqAnswer1": "Desarollasion tiempo siha, manmafa’tinas gi i kompleksidat yan i “scope” gi i prohektos. I dikike' na prohektos siña ma kumple gi 2-4 na simana, mientras mas komplikao na prohektos siña ma cho'gue 2-6 na mes. Siempre ta na’guaha un detailed na schedule gi tutuhon i prohektos.",
+    "faqQuestion2": "Kau guaha mas aproksima na gaston setbisiu?",
+    "faqAnswer2": "I price-ta siha manmafa’sahnge sigun i espesiåt na rekisitos gi kada prohektos. Manma'o'ofresi ham option para diferentes na salåpe' sin un na'fanmagof i taotao siha. Kontaktu ham para in risibi un` quote ni man-personat gi eksaktu na nesessidat-mu.",
+    "faqQuestion3": "Kao guaha infotmasion ni’ debi di u tutuhon i prohektos?",
+    "faqAnswer3": "Para u tutuhon, debi di ta komprende i obhetibu-ta, target audience, disision-ta yan i manma’gas-ta ni’ manma’a’ñao. I prugråma-ta ha tutuhon gi un detailao na konsulta anai ha na’guaha todu i nisisåriu na infotmasion para u na’guaha un eksakto na prupositu.",
+    "faqQuestion4": "Kao guaha mantension-mu despues di un kumple i prohekto?",
+    "faqAnswer4": "Hunggan, manma'o'ofresi ham meggai na planun mantension yan manma'a'ñao para in na'siguru na i solusion-mu sigi ha' ha cho'gue maolek. Este siha na inadelanta gi i siguridåt, i inadelanta gi i che'cho', yan i inayudan teknolohiha ni' ma fa'tinas ginen i nisisidåt-mu.",
+    "consultingAnalysisDesc": "Ma ebaluyi i nisisidåt-mu yan i fina'tinas-mu put i nisisidåt tekniku gi i prohekto.",
+    "prototypingDesc": "Ma na’guaha un “funsion prototype” para u ma na’siguru na guaha konseptu siha ni’ manma’ayek yan para u ma cho’gue i fine’nina na prublema siha.",
+    "developmentIntegrationDesc": "Manma’implementa ham gi i hardware, firmware yan software, manma’a’ñao todu.",
+    "testingOptimizationDesc": "Ma cho’gue i mas takhilo’ na testing para u na’siguru na guaha responsipåblidåt sistema yan efisiente.",
+    "deploymentSupportDesc": "Manma’implementa i solusion yan manma’ayuda gi sigiente na supotte tekniku.",
+    "expertTeamReady": "I gurupon eksperto-ta siha manlisto para u ayuda muna’guaha i me’nan-ñiha gi solusion siha ni’ ma na’setbe yan ma na’setbe i teknolohian-ñiha.",
+    "iotSubtitle": "Manma'ayek Solusion para i Digital na Mundo .",
+    "iotServiceDescription": "Manmafa’tinas ham ni’ kustumbren IoT na disposision yan sistema siha ni’ manma’a’ñao gi mundon fisika yan digital. Gi i sensor siha ni’ manma’espiha para u ma kumple i sisteman autosion, ta na’guaha solusion siha ni’ muna’maolek i prosesu siha, ma na’guaha baliña na dañuyan na infotmasion yan ma na’menos i effisiensian operasion.",
+    "analysis": "Manmaʼgas",
+    "development": "Fina'tinas",
+    "testing": "Ebidensia",
+    "deployment": "Deploy",
+    "technologies": "Teknot",
+    "consultingSubtitle": "I Konsulto na Kontenuha para i Dibision",
+    "consultingDescription": "Ma ofresi setbisio siha ni’ manma’espiha para u fanma ayuda i kompaniha yan i organisasion siha ni’ manma’optimize i prusesu-ñiha, ma implementa i nuebu na teknolohiha siha yan i ma na’guaha na estratehian digital ni’ ma na’fanmetgot i lina’la’-ñiha yan i kinalamten-ñiha.",
+    "powerOrganizationGrowth": "Boost i Growth gi i Organisasion-mu .",
+    "consultingIntro": "Gi IzignaMx, ta ofresi setbisio siha ni' manma'ayek para u fanma'ayuda gi i teknolohiha yan i estrañhes na bidan-ñiha para u fanma ayuda muna'lå'la' i lina'la'-ñiha gi i lina'la'-ñiha. I maneran-måmi ni' ma'usa para i espesiåt na nisisidåt i organisasion-mu para u na'fanhuyong tangible, ya u na'fanhuyong i risulta siha.",
+    "specializedExperience": "Espesiat na Experielidad?",
+    "specializedExperienceDesc": "Guaha tiningo' yan tiningo' put i manma'estra yan manma'estro gi diferentes na lugåt siha gi teknolohiha yan bisnis.",
+    "objectiveVision": "Prosision Siha",
+    "objectiveVisionDesc": "I mas maolek na punton lini'e' para u maidentifika i opottunidåt siha para i inadelanta siha.",
+    "resourceOptimization": "Resourente siha",
+    "resourceOptimizationDesc": "Maximidasion para u fan ma-ayuda gi inbetsion pot efisiente na alokasion teknolohia yan taotao.",
+    "riskReduction": "Risgu na Manmafa'na'gue Man-ma'gas-mu",
+    "riskReductionDesc": "I fine'nina na identifikasion i posipble na prublema siha yan i inadelanta gi i estratehian mitigasion.",
+    "requestConsultation": "Riliktu",
+    "ourConsultingServices": "I Setbisio-ta giya hita .",
+    "digitalTransformation": "Digital Transform",
+    "digitalTransformationDesc": "Disision yan implementasion estratehia siha para u na’daña’ i teknolohian digital gi todu i lugat siha gi bisnis-mu.",
+    "processAnalysisOptimization": "Prosesu siha yan Osalization",
+    "processAnalysisOptimizationDesc": "I evaluasion yan i rediseña para u na’menos i “operasion efficienal” yan u na’menos i gasto siha.",
+    "technologyStrategy": "Estådu na Eksétiku",
+    "technologyStrategyDesc": "I fina'tinas teknolohiha siha manma'a'a'ñao nu i intension i bisnis yan i tendensia gi i merkadu.",
+    "technologyProjectManagement": "Prohitto na Manma'gås-ta",
+    "technologyProjectManagementDesc": "I fina'nå'gue, i fina'tinas yan i inatan i prohektos teknolohiha.",
+    "systemsAudit": "Sistema siha Audi",
+    "systemsAuditDesc": "I inayek i infrastructure ni' gaige på'go para u maidentifika i inadelanta yan i inadelanta siha.",
+    "trainingKnowledgeTransfer": "I fina'nå'gue yan i Tranding na Transåda",
+    "trainingKnowledgeTransferDesc": "I mapo’lo na prugråman fina’nå’gue tekniku yan fina’tinas i taotao siha.",
+    "ourMethodology": "Metudu",
+    "methodologyIntro": "Ma aplika un estruktura yan pruba na manera para u na’siguru na guaha eksitos na risulta siha gi kada prohektos konsultasion.",
+    "diagnosis": "Diug",
+    "diagnosisDesc": "I ma na'setbe na inanalisa put i presente na siñat, i identifikasion put i nisisidåt yan i difirensia gi i inayek siha.",
+    "planning": "Manmanatinu",
+    "planningDesc": "Desarolla i estratehian petsonat yan planun aksion yan klaru na metkao yan obhetibu siha.",
+    "implementation": "Manhulong",
+    "implementationDesc": "Ekseku gi maproponi na solusion siha ni’ para u na’suha i supotte yan inadåpta siha.",
+    "evaluation": "Katnon",
+    "evaluationDesc": "I inafekta siha, i inanalisa yan i inadelanta para i sigiente na inadelanta.",
+    "transfer": "Traslada",
+    "transferDesc": "I fina’tinas i ekipo siha gi halom yan detailed na dokumento siha para u na’siguru na guaha “continuity.”",
+    "industriesWeServe": "Industries Manma’å’ñao ham.",
+    "financesBanking": "Finatto yan Banke",
+    "health": "Hinemlo",
+    "retailEcommerce": "Remeran yan E-commer",
+    "education": "Edukasion",
+    "logisticsTransport": "Logistik yan Transpotun",
+    "professionalServices": "Sesso Prufession",
+    "publicSector": "Pusisi",
+    "scheduleFreeConsultation": "Ha li'e' un Lina'la'",
+    "dataAnalysis": "Analis . Analisa",
+    "processOptimization": "Prosesion Prosemis .",
+    "cybersecurity": "Kåsia siha",
+    "projectManagement": "Magai",
+    "systemsArchitecture": "Sisteman Arkiteru",
+    "innovation": "Inobasion",
+    "innovationDesc": "I inafekta nu i nuebu na taotao siha.",
+    "efficiency": "Efisiensiya",
+    "efficiencyDesc": "I inayek i klaru na manera .",
+    "collaboration": "Kolepbla",
+    "collaborationDesc": "Manmachocho’cho’ yan i sanhiyong",
+    "growth": "Kinahulo",
+    "growthDesc": "I eksperensia yan i eskalåbilidåt",
+    "security": "Inasegura",
+    "securityDesc": "kineni",
+    "roi": "ROO",
+    "roiDesc": "Man-ma-elihe tatte gi rekueddo?",
+    "expectedResults": "Ma na'gof magof yu'.",
+    "start": "Tutuhon",
+    "results": "Resutto siha",
+    "frequentQuestionsAbout": "Frekuentemente i Manma’gas-ta siha gi i",
+    "consultingFaqQuestion1": "Kuanto na tiempo para u makomple un prohekton konsultasion?",
+    "consultingFaqAnswer1": "Desarollasion tiempo siha, manmafa’tinas gi i kompleksidat yan i “scope” gi i prohektos. I dikike' na prohektos siña ma kumple gi 2-4 na simana, mientras mas komplikao na prohektos siña ma cho'gue 2-6 na mes. Siempre ta na’guaha un detailed na schedule gi tutuhon i prohektos.",
+    "consultingFaqQuestion2": "Kau guaha mas aproksima na gaston setbisiu?",
+    "consultingFaqAnswer2": "I price-ta siha manmafa’sahnge sigun i espesiåt na rekisitos gi kada prohektos. Manma'o'ofresi ham option para diferentes na salåpe' sin un na'fanmagof i taotao siha. Kontaktu ham para in risibi un` quote ni man-personat gi eksaktu na nesessidat-mu.",
+    "consultingFaqQuestion3": "Kao guaha infotmasion ni’ debi di u tutuhon i prohektos?",
+    "consultingFaqAnswer3": "Para u tutuhon, debi di ta komprende i obhetibu-ta, target audience, disision-ta yan i manma’gas-ta ni’ manma’a’ñao. I prugråma-ta ha tutuhon gi un detailao na konsulta anai ha na’guaha todu i nisisåriu na infotmasion para u na’guaha un eksakto na prupositu.",
+    "consultingFaqQuestion4": "Kao guaha mantension-mu despues di un kumple i prohekto?",
+    "consultingFaqAnswer4": "Hunggan, manma'o'ofresi ham meggai na planun mantension yan manma'a'ñao para in na'siguru na i solusion-mu sigi ha' ha cho'gue maolek. Este siha na inadelanta gi i siguridåt, i inadelanta gi i che'cho', yan i inayudan teknolohiha ni' ma fa'tinas ginen i nisisidåt-mu.",
+    "expertTeamReadyConsulting": "I gurupon eksperto-ta siha manlisto para u ayuda muna’guaha i me’nan-ñiha gi solusion siha ni’ ma na’setbe yan ma na’setbe i teknolohian-ñiha.",
+    "3dModelingSubtitle": "I fina'tinas i 3D na Prufesion siha para i Ebanghe",
+    "3dModelingDescription": "Ma ofresi ham na setbisio siha ni’ 3D para i modelu siha ni’ manma’a’ñao nu i arkitektura, disision prudukto, animasion, video games, virtual na relihion yan augmented. I manma'gås-ta yan i manma'gås-ta manma'ayuda para u fanmankomunika ideha siha, u fanma'a'ñao i konseptu siha yan u ma na'huyong i eksperensian-ñiha.",
+    "bringingIdeasToLife3D": "Ha na’i yu’ Lina’la’ para Ideas gi Tres na Dimension .",
+    "3dModelingIntro": "Gi IzignaMx, in konverti i konsepton yan ideha siha para i impresionåt na 3D na mudelu siha ni' guaha detalle yan realismo ni' nisisåriu i prohekto-mu. I gurupon 3D-måmi yan i mudelu siha, ma na'daña' i tiningo' yan i presisu na manera para u ma na'huyong 3D na aset siha ni' takhilo' i 3D na aset siha para maseha hafa na aplikasion.",
+    "realisticVisualization": "Realitiku na Visual",
+    "realisticVisualizationDesc": "I 3D na mudelu siha ni' siña un li'e' prudukto yan lugåt antes di i manmafa'tinas pat i fina'tinas-ñiha.",
+    "versatility": "Mulalamten",
+    "versatilityDesc": "I fina'tinas i meggai na format yan i plataforma siha, ginen i estatika ha na'fanhuyong eksperensia siha ni' manma'a'ñao.",
+    "optimization": "Okimi",
+    "optimizationDesc": "I Models ha na'maolek sigun i espesiåt na nisisidåt kada prohektos yan i plataforman target.",
+    "detailPrecision": "Detail yan Preset yan Presisibi",
+    "detailPrecisionDesc": "Metikulusu na atension gi detalle para u asegura na tekniku gi kada modelu.",
+    "requestQuotation": "Manmanli’e’",
+    "our3dModelingServices": "I 3D-ta na Setbisio-ta siha .",
+    "architecturalModeling": "Abatte siha na taotao Maliñgu",
+    "architecturalModelingDesc": "I fina'tinas 3D na mudelu siha put i edifisio siha, i inetnon siha yan i lugåt siha gi i siudå para i lina'la' yan i presentasion.",
+    "productDesign": "Produksion Dess",
+    "productDesignDesc": "Modela i produkto, prototype yan konseptu siha para i visualisasion, i manmafa’tinas na marketing.",
+    "charactersOrganics": "Kuaktu yan Otganic",
+    "charactersOrganicsDesc": "I fina’tinas i taotao siha, i kriatura siha yan i lina’la’-ñiha para i animasion, video games yan i epektos bihu.",
+    "virtualEnvironments": "Virtual Environtion",
+    "virtualEnvironmentsDesc": "Desarolla gi senario yan ambiente siha para i video games, relihion yan simulasion.",
+    "scientificVisualization": "Eyes na taotao Visuali",
+    "scientificVisualizationDesc": "Modela, mediku yan edukasion para u fasilita i intendimiento yan i fina'nå'guen-ñiha.",
+    "3dAnimation": "3D",
+    "3dAnimationDesc": "I fina'tinas i mudelu siha ni' ma'usa para i sisteman rigging yan i manma'gås-ñiha.",
+    "our3dModelingProcess": "I Proseson-mami 3D .",
+    "3dProcessIntro": "Sige ha` man-ma-elihe para u asegura na guaha 3D na modelu siha ni man-ma-elihe.",
+    "conceptPlanning": "Konseptu yan Plan",
+    "conceptPlanningDesc": "In difina i nisisidåt, i referensia siha yan i espesiåt na tinige' siha gi i mudelu.",
+    "baseModeling": "Basen Malise",
+    "baseModelingDesc": "Ma fa'tinas i estrukturan i båba yan i fundamental na geometria gi i mudelu.",
+    "detailingTexturing": "Deseña yan Teextures",
+    "detailingTexturingDesc": "Ma addåpta i detalle siha, i materiåt siha yan i textura siha para u ma na’i realism gi i modelu.",
+    "optimizationDelivery": "Opsitizasion yan i Yu’os?",
+    "optimizationDeliveryDesc": "In na'maolek i mudelu para i uttimo na uson-ña ya un na'i gui' gi i nisisidåt na format siha.",
+    "examplesOurWork": "Ehemplon-ta-ta siha",
+    "architecturalModelingWork": "Abatte siha na taotao Maliñgu",
+    "architecturalModelingWorkDesc": "I lina'la' i taotao siha gi i prohektos siha.",
+    "productDesignWork": "Produksion Dess",
+    "productDesignWorkDesc": "Detailed 3D na prototype para i prudukto yan marketing gi i manmafa’tinas.",
+    "characterCreationWork": "Kapitåt Creater",
+    "characterCreationWorkDesc": "Disision yan modeling na taotao siha para i video games yan animasion.",
+    "scenariosEnvironmentsWork": "Dinansa yan Inabira",
+    "scenariosEnvironmentsWorkDesc": "I fina'tinas i imbisibu yan i mas takhilo' na mundo para i manma'gås-ta.",
+    "readyToBringProjectToLife3D": "Listo para un na'lå'la' i prohekto-mu gi 3D?",
+    "contactTodayDiscuss3D": "Kontaktu ham pa`gu para bai`n diskute i 3D na nesessidat modelma siha yan para bai` na`e i quote quote.",
+    "start3dModelingProject": "Kumue tutuhon 3D",
+    "frequentQuestions3dModeling": "Siha i manma’gas gi 3D na Modela siha",
+    "3dModelingFaqQuestion1": "Kuanto na tiempo para u makomple un prohekton modelu?",
+    "3dModelingFaqAnswer1": "Desarollasion tiempo siha, manmafa’tinas gi i kompleksidat yan i “scope” gi i prohektos. I dikike' na prohektos siña ma kumple gi 2-4 na simana, mientras mas komplikao na prohektos siña ma cho'gue 2-6 na mes. Siempre ta na’guaha un detailed na schedule gi tutuhon i prohektos.",
+    "3dModelingFaqQuestion2": "Kau guaha mas aproksima na gaston setbisiu?",
+    "3dModelingFaqAnswer2": "I price-ta siha manmafa’sahnge sigun i espesiåt na rekisitos gi kada prohektos. Manma'o'ofresi ham option para diferentes na salåpe' sin un na'fanmagof i taotao siha. Kontaktu ham para in risibi un` quote ni man-personat gi eksaktu na nesessidat-mu.",
+    "3dModelingFaqQuestion3": "Kao guaha infotmasion ni’ debi di u tutuhon i prohektos?",
+    "3dModelingFaqAnswer3": "Para u tutuhon, debi di ta komprende i obhetibu-ta, target audience, disision-ta yan i manma’gas-ta ni’ manma’a’ñao. I prugråma-ta ha tutuhon gi un detailao na konsulta anai ha na’guaha todu i nisisåriu na infotmasion para u na’guaha un eksakto na prupositu.",
+    "3dModelingFaqQuestion4": "Kao guaha mantension-mu despues di un kumple i prohekto?",
+    "3dModelingFaqAnswer4": "Hunggan, manma'o'ofresi ham meggai na planun mantension yan manma'a'ñao para in na'siguru na i solusion-mu sigi ha' ha cho'gue maolek. Este siha na inadelanta gi i siguridåt, i inadelanta gi i che'cho', yan i inayudan teknolohiha ni' ma fa'tinas ginen i nisisidåt-mu.",
+    "expertTeamReady3dModeling": "I gurupon eksperto-ta siha manlisto para u ayuda muna’guaha i me’nan-ñiha gi solusion siha ni’ ma na’setbe yan ma na’setbe i teknolohian-ñiha."
+  },
+  "header": {
+    "home": "首页",
+    "aboutUs": "关于我们",
+    "ourServices": "我们的服务",
+    "ourWork": "我们的作品",
+    "blog": "博客",
+    "getInTouch": "联系我们"
+  },
+  "hero": {
+    "title": "我们将想法转化为卓越的数字体验",
+    "tagline": "Teknolohia ni’ ma’transfoma?",
+    "description": "Manma'estra yan manma'estro gi i web, i aplikasion siha gi i tilifon, disision grafiku yan innovative na solusion siha. Estague` na idea siha man-ma-translada gi eksepsion na eksperiensian digital.",
+    "techBadge": "Cut-egayu` na taotao siha",
+    "workButton": "Guaha Joe",
+    "contactButton": "A'gang",
+    "yearsExperience": "Abesas Experie?",
+    "projectsCompleted": "Komplidu",
+    "happyClients": "Komplefiku siha na taotao",
+    "explore": "Estudiayi",
+    "ctaPrimary": "查看我们的服务",
+    "ctaSecondary": "查看我们的作品"
+  },
+  "aiProjectBanner": {
+    "badge": "NUE' NA SERBIS",
+    "title": "Kao i Prohekto-mu gi AI AI?",
+    "stuck": "Chenglung",
+    "description": "Yanggen un genera un web project yan ChanGPT, Claude pat Cordor lao ti ma cho’gue osino nisisita prufesiunåt na mejoras, bai hu kumple.",
+    "ctaButton": "I FREE na inanalisa gi 2",
+    "projectsRescued": "+150 I Prohektos AI",
+    "weCompleteIt": "esta ante"
+  },
+  "contact": {
+    "badge": "TAOKSIO NA TAOTAO GI PARA I TAOTAO",
+    "title": "让我们谈谈您的项目",
+    "subtitle": "我们准备好将您的想法变为现实",
+    "directContact": "Dikkra",
+    "mainOffice": "Sentra gi",
+    "location": "Mexico, ni’ manma’ayek gi iya Mexico.",
+    "corporateEmail": "Manma'ayek na Eflitåt?",
+    "directLine": "Hotline (24/7",
+    "followUs": "iyu",
+    "form": {
+      "name": "Na'an",
+      "namePlaceholder": "Todu i taotao-mu",
+      "email": "Manma'ayek na Eflitåt?",
+      "emailPlaceholder": "email para un li’e’.",
+      "emailHelp": "Ma usa este na email para u na’i hao prupositu .",
+      "phone": "Dikseha Mali'e'",
+      "phoneHelp": "Opsion: Para i mas åpmam na tiempo.",
+      "company": "Kompania",
+      "message": "Proklista",
+      "messagePlaceholder": "Gi i ma'pos na tiempo, ma'a'atan i prohekto-mu ni' espesiåt na intension-mu...",
+      "messageHelp": "Minimum 10 na taotao, i mas takhilo’ na 2000",
+      "services": "Solug hao",
+      "servicesPlaceholder": "Sige ha' i solusion ni' un",
+      "budget": "I inbetsion siha (MX)",
+      "budgetHelp": "Opsion: Ayuda para i prupositu-ta",
+      "timeline": "Proyekto",
+      "timelineHelp": "Opsion: Ha ayuda ham para in na'i prioridat i prohekto",
+      "howDidYouHear": "Kao guaha siña un deskubre?",
+      "howDidYouHearPlaceholder": "Seleha un silette",
+      "howDidYouHearHelp": "Opsion: Ha ayuda hit muna’maolek i lina’la’-ta .",
+      "send": "I ma'pos na Propositu siha",
+      "reset": "Restar",
+      "sending": "Mantenu’i yu’",
+      "success": "I finaisen-mu esta ma risibi; Un espesiat na konsultasion para u kontak hao gi menos di 24 oras.",
+      "error": "Un` error ha tutuhon mientras ha na` fan daña` i mensahe-mu. På'go na tiempo, na'i ham ta'lo pat kontak ham.",
+      "generalError": "Un` error ha tutuhon. Fa’tinas ta’lo."
+    },
+    "benefits": {
+      "proposal24h": "Propositu gi 23 oras",
+      "freeDiagnosis": "Lili'e",
+      "confidentialityNDA": "I minalago' i taotao ni' manmakondesimialidat Nosfidet.",
+      "limitedSpots": "LIMITEST QU! - Soro 2 na prohektos guaha este na ."
+    },
+    "whatsapp": {
+      "immediateResponse": "Ma na'i ineppe siha ni' Whaikpo' na ineppe."
+    },
+    "security": {
+      "formProtected": "Este na forma maprotehi ni’ i manma’adelanta na medida siha.",
+      "dataProtected": "I dañu-mu para u maprotehi ni'",
+      "privacyPolicy": "Posipble na Polika para i primet lugat .",
+      "noThirdParties": "Nunka na in na’i i infotmasion-mu yan i tres na taotao siha."
+    },
+    "services": {
+      "web": "I Websiten professional",
+      "design": "Des Des Des Des Desi",
+      "app": "Mobile",
+      "ecommerce": "Na'siguru na ti siña un tungo'",
+      "marketing": "Digital Market;",
+      "seo": "Advanta na SE",
+      "social": "I red sosiåt",
+      "branding": "Manma'gås-ta gi i tano' para u fanma'gås-ta.",
+      "other": "Otro (Epesiha."
+    },
+    "serviceOptions": {
+      "googleSearch": "Google Sea",
+      "colleagueRecommendation": "Rekomendasion ginen un kolega .",
+      "socialMedia": "I red sosiåt",
+      "eventConference": "Espasion pat Konfisit",
+      "otherMedium": "Otro"
+    },
+    "urgencyOptions": {
+      "urgent": "I Urgent (1-2 simana siha.",
+      "priority": "I primet na taotao (1-2 na mes.",
+      "strategic": "Strategic (+3 na mes siha."
+    },
+    "budget": {
+      "less5k": "Mas ke $5,000 gi kada unu gi kada unu gi kada unu gi kada unu.",
+      "5k15k": "$5,000 -15,000",
+      "15k30k": "$15,000 gi $30,000",
+      "30k50k": "$30,000 na $50,000",
+      "more50k": "Mas ke $50,000"
+    },
+    "timeline": {
+      "urgent": "Ut mas ki 1 simana)",
+      "fast": "Fast (1-2 simana siha?",
+      "normal": "Normal (2-4 simana siha.",
+      "extended": "I prohekton Eksensian (13 na mes)",
+      "ongoing": "Siguru na"
+    },
+    "howDidYouHear": {
+      "google": "Google Sea",
+      "social": "I red sosiåt",
+      "referral": "Rekomendasion siha",
+      "event": "Espasion pat Konfisit",
+      "other": "Otro"
+    }
+  },
+  "footer": {
+    "description": "Ta transfoma i idea siha gi hilu` satton na inadahe gi solusion digital ni muna` fan daña` i ROI yan i magahet na kinalamten para i bisnismu.",
+    "quickAccess": "Acce Access",
+    "highImpactSolutions": "High Inaksion",
+    "startTransformation": "tutuhon",
+    "links": {
+      "home": "Tutuhon",
+      "whyChooseUs": "Sa' hafa na un cho'gue este?",
+      "digitalSolutions": "Digital Solusion",
+      "successCases": "Success Stotba",
+      "requestProposal": "Manmalago' Manma'å'ñao",
+      "termsConditions": "Temm yan Kondision siha",
+      "privacyPolicy": "Posipble na Polika para i primet lugat .",
+      "siteMap": "Atan Mada"
+    },
+    "services": {
+      "aiProjects": "Prohektos (UNW)",
+      "convertingWebs": "I Website siha ni’ Manma’a’ñao (+180%).",
+      "measurableSeo": "SEO yan i Manma'a'ñao na Manma'a'ñao .",
+      "highRoiMarketing": "Meggai",
+      "premiumApps": "Premium Apps (4.8★",
+      "connectingDesign": "Desaign este na Koneksion (+75%)",
+      "costReducingAi": "AI para Reduce Costs (60%)"
+    },
+    "contact": {
+      "title": "Dikkra",
+      "phone": "Tilifon",
+      "email": "E-o-",
+      "address": "Kodigu",
+      "whatsappNow": "Estigu para hamyo gi Whatba: +52 55 3376 0889",
+      "requestAnalysis": "Ma aliligao",
+      "immediateWhatsapp": "insigidas",
+      "location": "Mexico, ni’ manma’ayek gi iya Mexico."
+    },
+    "copyright": "Todu manma reserva"
+  },
+  "work": {
+    "title": "Manma'gåsi ham ni' Manma'gås-måmi yan Manma'gås-måmi gi i Manma'gås-måmi.",
+    "subtitle": "Kada prohektos un opottunidåt para u na’guaha nuebu na solusion siha para u na’guaha “real” gi i bisnis i kliente siha.",
+    "badge": "2UANTIFIFIBLE NA'",
+    "projectsThatConvert": "Proyekto siha ni’ Manma’a’ñao hao",
+    "professionalWebsites": "Professional na website yan modernu na aplikasion web ni man-ma-translada gi man-ma`gasta.",
+    "categories": {
+      "all": "Todu",
+      "web": "Hekkna",
+      "mobile": "Movil",
+      "design": "Disehu"
+    }
+  },
+  "services": {
+    "title": "我们的服务",
+    "subtitle": "为您的业务提供全面的数字解决方案",
+    "techBadge": "Finatto gi Teknology",
+    "expertsBadge": "Eknolohia Eksnafia gi Eksna;",
+    "webDevelopment": {
+      "title": "网页开发",
+      "description": "现代化、响应式且SEO优化的网站",
+      "subtitle": "HTML5 - CSS3 - JavaScript - PHP - MySQL",
+      "heroTitle": "Mamai",
+      "heroSubtitle": "Professional na website yan e-commerce",
+      "heroDescription": "Ma na’guaha yan ma disidi i website siha ni’ mas takhilo’ na kualidåt, gi papa’ i W3C na estao, ni’ i intension-ña na todu manma cho’cho’ rápido, manma’å’ñao yan manma’å’ñao, sin u ma na’suha i “magic” na todu i disision yan i eksperensian i taotao.",
+      "features": {
+        "responsive": {
+          "title": "Manma'å'ñao",
+          "description": "Website siha ni’ ma adapta perfekto gi maseha hafa na disposision, ginen i pantalan mobiet asta desktop screens."
+        },
+        "seo": {
+          "title": "SEO Oppimi",
+          "description": "Emplementasion mas mauleg na praktis para i man-ma`gas gi pueston niha yan mas dañkulu na visibilidat gi internet."
+        },
+        "fastLoading": {
+          "title": "sayu",
+          "description": "Opropiedat development para u asegura na guaha minimum na tiempon karga yan un` mas mauleg na eksperensian usu."
+        },
+        "cms": {
+          "title": "Intrebisa gi iya CMS .",
+          "description": "Sisteman siha ni’ manma’a’ñao para u na’fa’maolek i website-mu."
+        }
+      },
+      "packages": {
+        "corporate": {
+          "title": "I manma'pos na website siha",
+          "description": "Ma fa’tinas prufesiunåt, kustombre na websait siha ni’ ma na’fanhuyong i kompanian-ñiha, ma na’fanmagof i taotao siha ni’ i konfi’ansa yan ma konverti i bisita siha gi i posipble na kustombre.",
+          "features": [
+            "Kutón",
+            "SEO Oppimi",
+            "SSL",
+            "Integrasion yan i red siha gi sosiat ."
+          ]
+        },
+        "ecommerce": {
+          "title": "E-commerce yan gi i internet.",
+          "description": "Ma na’guaha kompletu na e-commerce na plataforma siha ni’ todu i nisisåriu na åmot siha para u fanma bende gi i internet: i katålog, i cart, i salåppe’, i fina’tinas i petta yan i manehanten inventario.",
+          "features": [
+            "Mula man-ma-apase salape` para",
+            "Inbeniente",
+            "I lai elektronic Electronic",
+            "Salu"
+          ]
+        },
+        "landing": {
+          "title": "Konbetsasion Landante.",
+          "description": "Man-ma-adelanta i web pages ni man-ma-transfoma i bisita siha gi lead pat benta gi hilu` estrañheru na approach yan effektibu na inagang para u fan aksion.",
+          "features": ["A/B", "I inayek", "I Intension", "Kumulasion"]
+        },
+        "webapp": {
+          "title": "Prohima",
+          "description": "Ma na’guaha solusion siha ni’ para u ma na’setbe para espesiåt na bisnis siha ni’ manma’a’ñao, i basen datos siha yan i kustumbren APIs para u ma automate i prusesu siha.",
+          "features": [
+            "Se Gaspas",
+            "I Konnisiona siha",
+            "Setse",
+            "Custom back back"
+          ]
+        },
+        "optimization": {
+          "title": "Manma'å'ñao na taotao siha",
+          "description": "Ma na’maolek i lina’la’ yan i fina’tinas i eksiste na website siha para u na’menos i eksperensian i taotao, i konbetsasion yan i ranking ranking.",
+          "features": [
+            "I Manma'gås-ñiha i Manma'gås-ñiha gi i Manma'gås-ñiha",
+            "Nadang",
+            "I mina'dos",
+            "atutuhon"
+          ]
+        },
+        "maintenance": {
+          "title": "I Manma'estra yan Manma'estro yan Manma'estra yan Manma'estro.",
+          "description": "Ma ofresi setbisio siha ni’ manmacho’cho’cho’ para u ma na’guaha nuebu na lugåt siha, siguru yan funsionåtmente, yan i planun prebension mantension yan i inayuda ni’ espesiåt.",
+          "features": [
+            "Setsea na inadelanta",
+            "Backup",
+            "24/7",
+            "I manma’gås-ta gi i primet na tiempo"
+          ]
+        }
+      }
+    },
+    "web-development": {
+      "title": "I Manma'gås",
+      "description": "Ma na’guaha yan ma disidi i website siha ni’ mas takhilo’ na kualidåt, gi papa’ i W3C na estao siha para u na’siguru na todu i che’cho’ rápido, efisiente, fa’tinas yan sin u ma na’suha i todu i disision yan i eksperensian i taotao.",
+      "subtitle": "HTML5 - CSC - Jacrip - PHP - MySQL",
+      "heroTitle": "I Manma'gås",
+      "heroSubtitle": "I Websiten professionåt siha yan i E-commerce gi i Professionåt.",
+      "heroDescription": "Ma na’guaha yan ma disidi i website siha ni’ mas takhilo’ na kualidåt, gi papa’ i estao W3C ni’ i intension-ña para u na’guaha todu i che’cho’ rápido, efisiente, fa’tinas yan sin u na’suha i ‘magic’ na todu i disision yan i eksperensian i taotao.",
+      "features": {
+        "responsive": {
+          "title": "Manma'å'ñao",
+          "description": "Website siha ni’ ma adapta perfekto gi maseha hafa na disposision, ginen i mobiet na pantalan siha."
+        },
+        "seo": {
+          "title": "SEO Oppimi",
+          "description": "Emplementasion mas mauleg na praktis para i man-ma`gas gi pueston niha yan mas dañkulu na visibilidat gi internet."
+        },
+        "fastLoading": {
+          "title": "Fast Charsa",
+          "description": "Opromatizing na desarollo para u guahåyi i minimum na tiempon karga yan mas maolek na eksperensian taotao."
+        },
+        "cms": {
+          "title": "Intrebisa gi iya CMS .",
+          "description": "Sisteman siha ni’ manma’a’ñao para u na’fa’maolek i website-mu."
+        }
+      },
+      "packages": {
+        "corporate": {
+          "title": "Website gi i Website",
+          "description": "Ma na’huyong, ma na’setbe i manma’estra yan manma’estro siha ni’ manma’å’ñao nu i kompanian-ñiha, ma na’fanmagof i taotao siha ni’ i konfi’ansa yan ma konverti i bisita siha gi i posipble na kustombre.",
+          "features": [
+            "Kutón",
+            "SEO Oppimi",
+            "SSL",
+            "Integrasion yan i red siha gi sosiat ."
+          ]
+        },
+        "ecommerce": {
+          "title": "E-commerce & Online Story .",
+          "description": "Ma na’guaha kompletu na e-commerce na plataforma siha ni’ todu i nisisåriu na åmot siha para u fanma bende gi i internet: i katålog, i cart, i salåppe’, i fina’tinas i petta yan i manehanten inventario.",
+          "features": [
+            "Mula man-ma-apase salape` para",
+            "Inbeniente",
+            "I lai elektronic Electronic",
+            "Salu"
+          ]
+        },
+        "landing": {
+          "title": "Konbetsasion Landante.",
+          "description": "Man-ma-adelanta i lands-oriented na pahina siha ni man-ma-transfoma bisita siha gi lead pat benta gi disision estrañheru yan effektibu na call para u fan aksion.",
+          "features": ["A/B", "I inayek", "Integrasion gi CRR", "Kumulasion"]
+        },
+        "webapp": {
+          "title": "Prohima",
+          "description": "Ma na’guaha solusion siha ni’ para u ma na’setbe para i espesiåt na nisisidåt i bisnis-mu yan i manma’gås-mu, i “base databases” yan i kustumbren APIs para i automate process.",
+          "features": [
+            "Se Gaspas",
+            "Koneksion yan APIs .",
+            "Setse",
+            "Custom back back"
+          ]
+        },
+        "optimization": {
+          "title": "Manma'å'ñao na taotao siha",
+          "description": "Ma na’maolek i lina’la’ yan i fina’tinas i eksiste na website siha para u na’menos i eksperensian i taotao, i “convertion rate rate” yan i posision SEO.",
+          "features": [
+            "I Manma'gås-ñiha i Manma'gås-ñiha gi i Manma'gås-ñiha",
+            "Nadang",
+            "I mina'dos",
+            "atutuhon"
+          ]
+        },
+        "maintenance": {
+          "title": "I Manma'estra yan Manma'estro yan Manma'estra yan Manma'estro.",
+          "description": "Ma ofresi setbisio siha para u ma na’setbe i site-mu, siguru yan functioning gi maolek na manera, ni’ ma prebeniyi i planun mantension yan espesiåt na supotte tekniku.",
+          "features": [
+            "Setsea na inadelanta",
+            "Backup",
+            "24/7",
+            "Prinidit i numeron taotao"
+          ]
+        }
+      }
+    },
+    "graphicDesign": {
+      "title": "平面设计",
+      "description": "视觉识别、品牌设计和宣传材料"
+    },
+    "graphic-design": {
+      "title": "Des Des Des Des Desi",
+      "description": "In na'huyong i disision-måmi para i båndan-miyu, ginen i logos asta i marketing na gå'ga' siha.",
+      "subtitle": "Manma'ayek - i Manma'ayek - manma'ayek ."
+    },
+    "app-development": {
+      "title": "App Develop",
+      "description": "Ma na’huyong i cross-platform na aplikasion siha ni’ manma’a’ñao nu i iOS (iPhone, iPad), Android, Web Apps yan otro siha. Ha bira gui’ gi idea-ña gi un’ funsionåt na aplikasion para u na’guaha i audience-ña gi maseha hafa na disposision.",
+      "subtitle": "iON - Android - WW - React Natibu - Flutter"
+    },
+    "digital-marketing": {
+      "title": "Digital Market;",
+      "description": "Ma tungo’ lokkue’ este na Marketting 3.0, este i nuebu na manera para u na’guaha i audience-mu, u mana’guaha yan u na’guaha dinidiseha gi i Google Adwords, i red sosiåt yan i espesiåt na kampaña siha ni’ manma’ayek.",
+      "subtitle": "Google Adwords - Anatiko - I Manma'a'ñao - E-Mail Marketing"
+    },
+    "ai-services": {
+      "title": "AI",
+      "description": "Ma na’guaha solusion siha ni’ ma fa’tinas gi i Artifikat Interllience para u ma na’optimize i prusesu siha, ma analisa i dañuyan na infotmasion yan ma na’menos i disision i kompanian-ñiha. Ma'usa i teknolohian-mu ni' manma'adapta gi i nisisidåt-mu.",
+      "subtitle": "I Lina'la' Machine - NPP - I Manma'gas - I Manma'gas - Siensia"
+    },
+    "cloud-enterprise": {
+      "title": "I taotao Cloi",
+      "description": "I siguridåt i infotmasion yan i basen datos siha, prioridat. Gi i cloud storage, siña un maneha infotmasion yan un na’i siguru gi entre i taotao siha gi i kompanian-mu.",
+      "subtitle": "AWS - Google Clour - Microsoft Azgrasa - Migrasion"
+    },
+    "iot-development": {
+      "title": "IoT",
+      "description": "Manmafa’tinas ham ni’ kustumbren IoT na disposision yan sistema siha ni’ manma’a’ñao gi mundon fisika yan digital. Ma na’guaha solusion siha ni’ manma’o’optimize i prosesu siha, ma na’guaha baliña na dañuyan na infotmasion yan ma na’menos i inafektan operasion.",
+      "subtitle": "Artuinno - I Raspber Pinde - - Sesenso - I Manma'a'ñao"
+    },
+    "3d-printing": {
+      "title": "3D",
+      "description": "Ma ofresi ham na setbisio siha ni’ 3D para i prototypes, i uttimo na prudukto siha, i kustumbren-ñiha yan i prohektos siha ni’ manma’gås-ñiha gi i manma’gås-ñiha na teknolohiha yan i materiåt siha ni’ manma’gås-ñiha.",
+      "subtitle": "Propiu siha - Produsi - Produsi - I Manma'a'ñao na Manma'a'ñao"
+    },
+    "3d-modeling": {
+      "title": "3D",
+      "description": "Ma na’huyong 3D na modelu na 3D na modelu 3D na modelu siha, disision siha ni’ manma’a’ñao nu i arkitektura, animasion, video games, virtual na relihion yan augmented ni’ ma na’setbe gi i eksepsion na detalle siha ni’ eksepsionåt na detalle.",
+      "subtitle": "Anamasion - Render - Mama'tinas"
+    },
+    "digitalMarketing": {
+      "title": "数字营销",
+      "description": "增长策略和社交媒体存在",
+      "subtitle": "Google Adwords - Anatiko - I Manma'a'ñao - E-Mail Marketing",
+      "technologies": "SEO - SEM - I Analista - Social Networks - Email na Manma'gas - I Manma'a'ñao"
+    },
+    "ecommerce": {
+      "title": "电子商务",
+      "description": "具有优化购物体验的在线商店"
+    },
+    "blockchain": {
+      "title": "Blockchain yan Web.",
+      "description": "Manmafa'tinas solusion siha ni' manmafa'tinas ginen i blockchain, manma'a'ñao i bisnis siha ya ma na'huyong nuebu na opottunidåt siha gi i Web3 na ecosystem. Gi i manma’gås-ta yan i manma’gås-ta siha ni’ manma’gås-ta gi i sisteman-ñiha yan DeFi.",
+      "subtitle": "DeFi - I Manma'gås-ta - NFTs - Manma'gås-ta",
+      "technologies": "Ethereum - Si Sola - Poliku - Smart Contracts - DeFi - NFTs - Tokeenisasion - Web3.js - Sobi"
+    },
+    "iotDevelopment": {
+      "title": "IIT Develop",
+      "description": "Manmafa’tinas ham ni’ kustumbren IoT na disposision yan sistema siha ni’ manma’a’ñao gi mundon fisika yan digital. Ma na’guaha solusion siha ni’ manma’o’optimize i prosesu siha, ma na’guaha baliña na dañuyan na infotmasion yan ma na’menos i inafektan operasion.",
+      "subtitle": "- I manma'gås-ta - ESP32 - Manma'gås-ta - Manma'gås-ta"
+    },
+    "3dPrinting": {
+      "title": "3D na tiempo",
+      "description": "Ma ofresi ham na setbisio siha ni’ 3D para i prototypes, i uttimo na prudukto siha, i kustumbren-ñiha yan i prohektos siha ni’ manma’gås-ñiha gi i manma’gås-ñiha na teknolohiha yan i materiåt siha ni’ manma’gås-ñiha.",
+      "subtitle": "Proto siha - Produsi - I Partes Custo - I taotao siha"
+    },
+    "consulting": {
+      "title": "Konsut",
+      "description": "Ma ofresi setbisio siha ni’ manma’espiha para u fanma ayuda i kompaniha yan i organisasion siha ni’ manma’optimize i prusesu-ñiha, manma’implementa nuebu na teknolohiha siha yan manma’a’ñao gi i digital na estratehian digital.",
+      "subtitle": "I Manma'gås-ta - Manma'gås-ta - Manma'gås-ta gi i tinige'-ta",
+      "technologies": "I Manma'gås-ta gi i Manma'gås-ta - I Manma'gås-ta - Manma'gås-ta - i Manma'gås-ta - I Cybersecurity"
+    },
+    "3dModeling": {
+      "title": "3D.",
+      "description": "Ma na’huyong 3D na modelu na 3D na modelu siha ni’ manma’a’a’ñao, manma’a’a’ñao i taotao, manma’a’a’ñao, video games, virtual yan augmented ni’ manma’a’a’ñao yan manma’a’a’ñao.",
+      "subtitle": "I Manma'gas - I Manma'a'ñao - I Manma'a'ñao - I manma'a'ñao na Manma'a'ñao",
+      "services": {
+        "architectural": {
+          "title": "Abatte siha na taotao Maliñgu",
+          "description": "I fina'tinas 3D na mudelu siha put i edifisio siha, i inetnon siha yan i lugåt siha gi i siudå para i lina'la' yan i presentasion."
+        },
+        "product": {
+          "title": "Produksion Dess",
+          "description": "Modela i produkto, prototype yan konseptu siha para i visualisasion, i manmafa’tinas na marketing."
+        },
+        "character": {
+          "title": "Kuaktu yan Otganic",
+          "description": "I fina’tinas i taotao siha, i kriatura siha yan i lina’la’-ñiha para i animasion, video games yan i epektos bihu."
+        },
+        "environment": {
+          "title": "Virtual Environtion",
+          "description": "Desarolla gi senario yan ambiente siha para i video games, relihion yan simulasion."
+        },
+        "scientific": {
+          "title": "Eyes na taotao Visuali",
+          "description": "Modela, mediku yan edukasion para u fasilita i intendimiento yan i fina'nå'guen-ñiha."
+        },
+        "animation": {
+          "title": "3D",
+          "description": "I fina'tinas i mudelu siha ni' ma'usa para i sisteman rigging yan i manma'gås-ñiha."
+        }
+      }
+    },
+    "aiServices": {
+      "title": "Setbi",
+      "description": "Ma na’guaha solusion siha ni’ ma fa’tinas gi i Artifikat Interllience para u ma na’optimize i prusesu siha, ma analisa i dañuyan na infotmasion yan ma na’menos i disision i kompanian-ñiha. Ma'usa i teknolohian-mu ni' manma'adapta gi i nisisidåt-mu.",
+      "subtitle": "I Lina'la' Machine - NPP - I Manma'gas - I Manma'gas - Siensia"
+    },
+    "seo": {
+      "title": "ANGUGUEE",
+      "description": "Ma na’maolek i visibility-mu gi i lina’la’-mu ni’ manma’gås-ta gi i SEO na estratehian SEO. Na'magof i trafiko-mu ya un na'maolek i posision-mu gi Google yan otro na inaligao siha.",
+      "subtitle": "- Si Kenword Analisis Analisis Analisis - Manmama'tinas"
+    },
+    "cloudEnterprise": {
+      "title": "Si Cloud Enterrprun",
+      "description": "I siguridåt i infotmasion yan i basen datos siha, prioridat. Gi i cloud storage, siña un maneha infotmasion yan un na’i siguru gi entre i taotao siha gi i kompanian-mu.",
+      "subtitle": "AWS - Google Clour - Microsoft Azgrasa - Migrasion",
+      "technologies": "AWS - Google Cloy - Azure - OwnCloud - Na'suha i Kuberneates - Virtualisasion"
+    },
+    "hosting": {
+      "title": "Hola",
+      "description": "Guaha i mas maolek na setbisio hosting, yan SSD na teknolohiha siha, proteksion kontra i atmas DDoS, OpenDNS yan i kompression gzip para u ma na’guaha un rápido yan siguru na website.",
+      "subtitle": "I Manma'å'ñao - SSL -L-L - I Backups - 24/7 Siga"
+    },
+    "appDevelopment": {
+      "title": "App Develop",
+      "description": "Ma na’huyong i cross-platform na aplikasion siha ni’ manma’a’ñao nu i iOS (iPhone, iPad), Android, Web Apps yan otro siha. Ha bira gui’ gi idea-ña gi un’ funsionåt na aplikasion para u na’guaha i audience-ña gi maseha hafa na disposision.",
+      "subtitle": "iON - Android - Manma'å'ñao - Flutter .",
+      "technologies": "Satan - Kotlin - I Natibu - Flutter - PWA - Firebase"
+    },
+    "blockchainService": {
+      "pageTitle": "Blockchain & Web | IzignaMX - Manma'a'agang na Solusion siha",
+      "pageDescription": "Manmafa'tinas solusion siha ni' muna'fanmagof i taotao siha ni' manma'a'ñao nu i bisnis-måmi. Gi i cryptocurrencies yan NFTs asta i manma'gås-ta yan i manma'gås-ta.",
+      "serviceInfo": {
+        "title": "Bluncha",
+        "subtitle": "I manma'estra yan manma'estro siha para i Nuebu na Digital Ekonomia .",
+        "description": "Manmafa'tinas solusion siha ni' muna'fanmagof i taotao siha ni' manma'a'ñao nu i bisnis-måmi. Gi i cryptocurrencies yan NFTs asta i manma’gås-ta yan i manma’gås-ta na aplikasion siha, ma implementa i teknolohianchain na teknolohia para u ma na’ma’ok i transpårensi, i siguridåt yan i efisiente na kompanian-miyu."
+      },
+      "benefits": {
+        "totalTransparency": {
+          "title": "Todu Manå'i",
+          "description": "Todu i transaksion siha manma'a'ñao yan manma'a'ñao gi i blockchain."
+        },
+        "advancedSecurity": {
+          "title": "Advanced gi Sirko siha",
+          "description": "I kritipikan kritia ni man-ma`gas gi man-ma`gas gi man-ma`gas yan man-ma`gas gi señgsoñg siha."
+        },
+        "eliminateIntermediaries": {
+          "title": "Eliminasion Intermedias",
+          "description": "Diretu na transaksion sin nesessidat konfiansa gi tres na taotao."
+        },
+        "smartAutomation": {
+          "title": "Inteligente siha",
+          "description": "Kontrato siha ni’ automatically manma’eksisibi yanggen i kondision siha manma’a’ñao."
+        }
+      },
+      "services": {
+        "title": "Sit- 2’-ta Blockchain-måmi",
+        "cryptocurrency": {
+          "title": "Crypptonorrency",
+          "description": "Ma na’guaha tokens yan cryptocurrencies para i prohektos-mu, kontodu i tokenomics, distribusion yan fina’tinas.",
+          "features": [
+            "I ERCP-20/BEP-20 Tokeens",
+            "Tokenologia",
+            "kontra i manma'ayek na taotao siha",
+            "I audit sentidasion ."
+          ]
+        },
+        "nfts": {
+          "title": "NFT siha yan Digital na Kosas siha .",
+          "description": "Ma na’guaha NFT na merkadu siha yan i manma’gås-ñiha ni’ manma’gås-ñiha gi i digital art gi i digital yan i uniku na aset siha.",
+          "features": [
+            "ERC na NFT na NFT na tracts",
+            "Markets",
+            "Metadata gi IPF .",
+            "I Manma'gås-ñiha gi i Manma'gås-ñiha"
+          ]
+        },
+        "defi": {
+          "title": "DeFi yan Desentrasion Finatto .",
+          "description": "Manmafa’tinas ham DeFi na protocol siha taiguihi desentral siha ni’ manma’a’ñao, piscina likidu yan plataforma siha ni’ manma’a’a’ñao.",
+          "features": [
+            "AMM yan DE",
+            "Si Yu'us para un fa'tinas guma'",
+            "tinga yan i gobietnamento",
+            "Likidu siha ni’ manma’a’agang"
+          ]
+        },
+        "smartContracts": {
+          "title": "Kontrata",
+          "description": "Manmafa'tinas yan manma'a'atan i kontrata siha ni' manma'a'atan gi i bisnis yan i transaksion siha.",
+          "features": [
+            "Kontraksion Solidit Saotta",
+            "I auditorion kode",
+            "Komplikao",
+            "si Gas ha optimi"
+          ]
+        },
+        "dapps": {
+          "title": "Decentralized d.",
+          "description": "Na'siguru na ti ma'usa i web aplikåsion siha ni' manmachocho'cho' sin sentralisao na serveru siha.",
+          "features": ["Froten", "MetaMask", "I IPFS para", "Desentrariusa"]
+        },
+        "consulting": {
+          "title": "I taotao siha gi i gima'",
+          "description": "Manma'a'ñao ham put i ma'usa i teknolohian blockchan para u ma'adelanta i eksiste na prugråman bisnis.",
+          "features": ["Inasapble", "I inafekta siha", "Inili'e", "Go-a-market"]
+        }
+      },
+      "methodology": {
+        "title": "Desarollo i Manma'gås-ta.",
+        "subtitle": "Sige ha’ ta cho’gue i rigorosu na manera ni’ ha prioritiza i siguridåt yan audibility gi kada fase gi i development blockchain.",
+        "steps": {
+          "analysis": {
+            "title": "Analisa yan Designun",
+            "description": "Ma evalua i rekisitos yan i ma disidi i mas maolek na arkitekturan blockchain ."
+          },
+          "development": {
+            "title": "Fina'tinas",
+            "description": "Manmaprograma kontrata yan komponente siha ni’ i mas maolek na praktis ."
+          },
+          "testing": {
+            "title": "Testing yan Audi",
+            "description": "In che'gue i mas takhilo' na testing yan i inatan i taotao siha?"
+          },
+          "deployment": {
+            "title": "Deploy",
+            "description": "Manma'ayek ham gi i ma'pos na tiempo."
+          },
+          "maintenance": {
+            "title": "Tentasion",
+            "description": "I inayuda yan i inadelanta siha sigun ginen i protof evolusion ."
+          }
+        }
+      },
+      "networks": {
+        "title": "Manma'å'ñao i taotao ni' manma'å'ñao",
+        "subtitle": "Manmachocho'cho' ham yan i red blockchain para in na'siguru na siña un na'siguru na siña un na'siguru."
+      },
+      "advantages": {
+        "title": "Sa' hafa na un cho'gue i Blockchain?",
+        "technical": {
+          "title": "I manma'å'ñao na Manma'å'ñao",
+          "immutability": "Rekolo'",
+          "decentralization": "Desentero yan 23/7 na siña maayek",
+          "transparency": "Todu transpottasion gi transaksion?",
+          "noFailure": "Eliminasion ni’ un’ perdon punto siha?"
+        },
+        "business": {
+          "title": "Kuisniti",
+          "costReduction": "Refaksion gi operasion .",
+          "eliminateIntermediaries": "Eliminasion i inetnon",
+          "newModels": "I lina'la' nuebu",
+          "userTrust": "Dañkulo i taotao?"
+        },
+        "cta": "Listo para un rebolusiona i bisnis-mu gi i blockchain?",
+        "ctaButton": "Ha na'huyong i Konsulasion"
+      },
+      "faq": {
+        "title": "Gi i Manma'å'ñao na Kuåksion put Blockchain",
+        "question1": {
+          "question": "Kau guaha red blockchain ni un` usa?",
+          "answer": "Manmachocho'cho' ham yan i red blockchain gi i blockchain, kontodu Ethereum, Binance Smart Chain, Polygon, Solana, yan otro na lugåt Layer 1 yan Layer 2. Ma selekta i mas maolek na red sigun gi i espesiåt na nisisidåt siha gi i prohektos, ma konsidera na faktores siha taiguihi i transaksion, i lina’la’, yan i siña ma na’setbe na “ecosystem.”"
+        },
+        "question2": {
+          "question": "Kuanto na gaston para u fanma-develop i prohekton blockchain?",
+          "answer": "I kompaniha siha manmafa'tinas depende gi i komplikao na prohektos. Un` sempli na token siña ha` $3,000 USD, mientras un` full dApp ni` man-ma`gas na eksiste na kontrata siha siña ha nesessita $15,000-50,000 USD. Manma'o'ofresi ham ni' detalye siha ni' ma fa'tinas gi i espesiåt na nisisidåt siha."
+        },
+        "question3": {
+          "question": "Haf` na ti un` chule` i seguridat audit gi smart kontrata siha?",
+          "answer": "Hunggan, in na’halom audit gi halom todu i prohektos-måmi yan in rekomenda i audits gi sanhiyong ni’ manma’espesiat na firma siha para i prohektos siha ni’ manma’a’ñao. Ma usa i åmot siha taiguihi Slither, Mylril yan para u ma cho’gue i testing tes antes di u ma deploy gi i mainsta."
+        },
+        "question4": {
+          "question": "Hafa na inayuda para un ofresi despues di un na'lå'la'?",
+          "answer": "Manma'ofresi ham para in na'i i manma'gås-ta ni' manma'gås-ta ni' manma'gås-ta gi i kontrata, manma'gås-ta gi i sanme'na, manma'gås-ta, manma'gås-ta ni' manma'gås-ta. Ma na’guaha lokkue’ kompletu na tekniku na dokumento yan fina’nå’gue para u na’siguru na i gurupu-mu siña ha na’guaha i prohektos independientemente."
+        }
+      },
+      "cta": {
+        "title": "Listo para un na'lå'la' i prohekto-mu yan i Bågo?",
+        "subtitle": "I gurupon manma'estra-ta siha manma'å'ñao para u fanma ayuda i bisnis-mu ni' manma'gås-ñiha.",
+        "requestQuote": "Manmanli’e’",
+        "whatsappDirect": "Ilek-ña si Whags Diref"
+      }
+    }
+  },
+  "portfolio": {
+    "projects": {
+      "proyecto1": {
+        "title": "Premium Web Develop",
+        "description": "I WordPress ni' muna'dokko' i 85% gi 3 na mes.",
+        "detailedDescription": "<p na klase\"> Este na prohekto ha na'lå'la' i kliente, ya ha na'guaha insigidas na risulta siha despues di ha na'menos i lina'la'.com para u na'setbe este na klasin cho'cho' ni' siña ha na'setbe i taotao siha ni' manma'a'agang: <p><p><l na klase\" na lista ni' manma'a'agang \"ca text-grade gi 2-gray-gray\" gi 3li>85% na inañadi gi i 3 na mes siha. ma na'siguru na ma disidi i responsipåt para u ma na'suha i tiempon animasion ni' ma na'i tiempo ni' i animasion siha ni' ma na'i i taotao ni' manma'a'ñao nu i lugåt siha ni' manma'a'agang na i lina'la'</i lao"
+      },
+      "proyecto2": {
+        "title": "Payment siha App ni' i inayuda para +15K Use na User .",
+        "description": "I app para u na’menos i tiempon prusesu gi transaksion siha gi 65%.",
+        "detailedDescription": "<p na klase\" yan ha na'guaha un aplikasion ni' ha na'fanhuyong i kliente-ta siha ni' manma'a'agang \"digital\" gi i digital =4\">Business impact: <p><l na klas =\" lista-disc na lista-gi-y-2 na tinige'-300 na gå'ga'-ña><li>sicquined +15,000 na taotao gi i 6 na mes siha gi i tutuhon. transforms , 38% mas takhilo’ ki i industria na Åpaka’ na 4.7/5 gi i tienda siha ni’ manma’aplika</ul></ul>"
+      },
+      "proyecto3": {
+        "title": "I Disision Salu'us",
+        "description": "I otro na siña maayek siha gi i internet gi i online na 120% para i espesiåt na clinic.",
+        "detailedDescription": "<p na klase\" gui' yan un dihitåt na presisu gi este na espesiåt na klinik ni' un manera ni' ma'a'atan gi i eksperensian i taotao ni' ma'a'atan i taotao.</p, i taotao siha ni' manma'a'agang: <p><l na klase\" na lista ni' ma'a'atan gi i lugåt ni' siña un na'i gi i lina'la'-ña gi i 2000% na inañadi gi i internet. I konsultasion</li><li>Riduction 40% gi i tiempon-ñiha para u fanmana'halom i infotmasion 40% para u fanmana'halom infotmasion </li><li>siksible na disision ni' muna'maolek i eksperensia para todu i taotao siha</i></ul>"
+      },
+      "proyecto4": {
+        "title": "Planu siha gi i lina’la’ yan +25K na Visiers",
+        "description": "Plahu yan 25% na bisita yan 95% na retension gi tiempon kuttura.",
+        "detailedDescription": "<p klase-ña\" > Todu i tiempo ha na'guaha un website ni' takhilo' i hinasso-ña para este na gupot, i inayek un dihitåt na eksperensia ni' digno para i hinanao-ña.<p-4\" na ineppe siha:</p><l na klase\" na lista ni' manma'gås-ña-gi-ma'pos-ma'pos na 3000\"><000”> ki 25,000 na bisita siha gi duranten i festibal. i numeron i manma'pos na tiempo gi i tiempon i hinanao giya</li><li>85% na inañadi gi i setbision i tiket siha gi i internet gi i ma'pos na sakkan</li><li>60% na inañadi gi i konsultasion setbisio para i kustombren i taotao siha, mas takhilo' ki 70% na si Yu'os ma'åse' para i prisente na salåpe' digital</ul></ul></ul>"
+      },
+      "proyecto5": {
+        "title": "I manma'gås-ta gi i website ni' 140% na inañadi gi i manma'gås-ta",
+        "description": "Platform ni’ mas takhilo’ na lina’la’ gi 140% para un ahensia ni’ publisidat.",
+        "detailedDescription": "<p na klase\">>Ma na'lå'la' ta'lo i presisu na ahensian advertising gi este na ahensia, ha na'fanhuyong i website-ña para un gof takhilo' na åmot bisnis.</si>p><p clas=\"mb-4\"><ul><l na klase\" na lista siha ni' manma'a'a'ñao nu i taotao siha ni' manma'a'a'ñao i taotao siha.<li>140% na inañadi gi i fina'tinas i manma'a'a'ñao: i lina'la'-ña yan i tiempon i website-ña i taotao gi i website.<li>50% na inañadi gi i bounce rate-ña, mas meggai na prohektos manma'a'ñao ginen i website:"
+      },
+      "proyecto6": {
+        "title": "I Website gi i Website (280% na Bisibility)",
+        "description": "Website ni’ muna’dokko’ i lina’la’ gi i enteru mundo gi 180%.",
+        "detailedDescription": "<p na klase\"> I web</li><li><li% ha na’menos i portfolio ni’ ha na’guaha tiempo</li><li>70% na inañadi gi i fina’tinas i prohektos</li><li>110% na inadelanta siha gi i inetnon siha ni’ manma’ayek para u ma na’setbe</li></ul></ul>"
+      },
+      "proyecto7": {
+        "title": "I Manma'gas gi i lina'la' kada taotao +85% na inafekta.",
+        "description": "I identidat ni' muna'metgot i rinikohin i båndan i taotao ni' 85%.",
+        "detailedDescription": "<p na klase\" yan ha na'guaha un kompletu na idåt ni' ha na'lå'la' ta'lo i hinasso yan i posision Ispharus gi i merkadon-ña.<p na klas =4\" M><p><p><p><p>ka klasen-ta-ta na lista ni' ti siña un li'e' gi halom-300\"><li>ROI ni' 2000% gi i fine'nina na inestudia gi i fine'nina na sakkan. (pons-lauchch)</li>70% na inañadi gi i hinasso put i prufesiunåt na prufesiunåt yan i fiet</ili na taotao siha ni' manma'a'atan i sisteman idåt ni' ma'a'aplika gi +25 na punton kontakto</li><li>45% na inañadi gi i ma'a'atan i balotu-ña</i></li>"
+      },
+      "proyecto8": {
+        "title": "Mafa’tinas para i Fashion Fashion (+120% Sales)",
+        "description": "Identidat ni’ ha na’fanmetgot i bentan online gi 120% para un’ moda.",
+        "detailedDescription": "<p i lina'la' gi i lina'la'-hu ni' ha ayuda yu' gi un kompanihan moda ni' ha na'fanhuyong gi un merkadon fashion. Todu i klasen-hu ni' manma'gås-ta\">Natable na risulta siha: Notable na risulta siha: <p><ul klase\" na lista ni' manma'gås-ta-sinsi gi 2 na tinige'-ña><li>120% na inañadi gi i bentan-ñiha despues di i relanch Ly gi i relachat gi i lina'la'-ta. sosiat</li><li><li>5% na inadelanta gi i rinikohin</i>Packaging gi i kompaniha ni' ha na'menos i gasto siha ni' 30% mientras ma'a'atan i premium na kualidåt</i><li>45% na inañadi gi i numeron taotao ni' manma'a'a'ñao i taotao</li></ul>"
+      },
+      "proyecto9": {
+        "title": "E-commerce yan +90% gi i fina'tinas",
+        "description": "I online na tenda ni' ma'doble i rinikohen salåppe' gi i fine'nina na 6 na mes.",
+        "detailedDescription": "<p na klase\" >I taotao siha ma disidi yan ma na'guaha un maolek na eksperensian cho'cho' ni' ha na'lå'la' ta'lo i risultan este na båndan i lina'la' gi este na båndan i magagu><p na klas =4\">Irmpact gi i bentan-ñiha:</ul klasen-ñiha\" na lista siha ni' para u ma cho'gue gi i lina'la'-ñiha, lao\" <li>900% na inañadi gi i numeron taotao ni' manma'ayek para u fanma konbetsa <i>90% gi i numeron konvertition rate <li><li>105 na inañadi gi i mas takhilo' na rinikohen salåppe'. meggai na mes</li><li><li>00% na numeron taotao</li><li>40% manma'a'ñao gi i lina'la' i balotu</i>75% na inadelanta gi i numeron taotao ni' manma'a'ñao nu i manma'a'ñao na taotao</li>."
+      },
+      "proyecto10": {
+        "title": "Management App (-78% na tiempo )",
+        "description": "Aplikasion ni’ ha na’menos i tiempon manehanten taotao gi 70%.",
+        "detailedDescription": "I <p klase-4-4 ham ha na'guaha un aplikasion ni' siña ha na'guaha rekurson taotao ni' ha na'guaha tiempo, ya ha na'guaha tiempo yan gaston-ña, ya ha na'lå'la' i lina'la'-ña:</p><p><p><p” na lista ni' ti siña un li'e' gi i lugåt-mu gi i 2000 na tiempo, i mana'dokko' i mana'dokko' i taotao ni' manma'ayek para i taotao ni' manma'ayek para i taotao ni' manma'ayek para i taotao ni' manma'ayek para i taotao ni' manma'ayek para i taotao ni' manma'ayek para i taotao ni' manma'ayek para i taotao ni' manma'ayek para i taotao ni' manma'ayek para i taotao ni' manma'ayek para i taotao ni' manma'ayek para i taotao ni' manma'ayek para u fanma'ayek i mana'dokko'</i>EEstamated ni' ma na'i 35 na simana na cho'cho' gi i che'cho'-ñiha gi un lugåt. un inadministratibo na inañadi gi i lina'la' i emplehao siha ni' HR na prugråma siha giya guåhu giya</li>95% na inadotna gi i fine'nina na 2 simana</li>Pli>Positive ROI ni' ma na'guaha gi 3 ha' na mes despues di 3 años despues di ma implementa</li></ul>"
+      }
+    },
+    "categories": {
+      "all": "Todu",
+      "web": "Hekkna",
+      "mobile": "Movil",
+      "design": "Disehu"
+    },
+    "modal": {
+      "description": "Ketsura",
+      "projectDetails": "Des maolek",
+      "client": "Kustomer:",
+      "date": "Fetcha:",
+      "category": "Kategoria:",
+      "tools": "Ramenta siha:",
+      "viewFullProject": "Li'e'",
+      "categories": {
+        "web": "Hekkna",
+        "mobile": "Movil",
+        "design": "Disehu"
+      }
+    },
+    "centralComunicacion": {
+      "title": "Komplesiasion",
+      "description": "Manma'a'ñao i website siha ni' manma'a'ñao i taotao siha."
+    },
+    "doradoStudio": {
+      "title": "Ha cho’gue este na Estudiu .",
+      "description": "Digital na plataforma para i sisteman studio ni’ para u na’guaha ."
+    }
+  },
+  "legal": {
+    "terms": {
+      "title": "Temm yan Kondision siha",
+      "subtitle": "I infotmasion ni’ para u ma’usa gi i setbisio-ta?",
+      "pageTitle": "I taotao siha yan i taotao siha | Inagna",
+      "pageDescription": "Legal terms yan kondision para i uson Izignate na setbisio yan website.",
+      "acceptance": {
+        "title": "1. Eksepsion i Tåno’",
+        "content": "Gi i ma accede yan i uson i IrgnaMX (\"na, \"i\" pat \"i Kompånia\") na website) na website, un ayek para un kumpli yan ma'a'atan este na Tåno' yan i Kondision siha. Yanggen ti un ayek ni hafa na patte gi este na terms, ti siña un aksesepta i setbisio-ta."
+      },
+      "privacy": {
+        "title": "4. Manmama'",
+        "content": "I privacy-mu impottante para hamyo. I Privacy Policy-ta ha esplika taimanu para ta kolek, u ma usa yan u prutehi i infotmasion ni’ para u na’guaha.",
+        "linkText": "Posipble na Polika para i primet lugat ."
+      }
+    }
+  },
+  "about": {
+    "pageTitle": "Gi inagnaMx | Agen",
+    "pageDescription": "Fanå'gue mas put IzignaMx, i mision-måmi, i balotu-måmi yan i gurupu ni' muna'lå'la' i digital na inadelanta gi i bisnis-mu.",
+    "badge": "GET ESTE NA KUTÅTU",
+    "title": "Kalang",
+    "subtitle": "I ahensia siha ni’ manma’ayek para u fanma’ayek, manma’espisialisa gi i transpottasion ideha siha gi i effektibo yan memorable na solusion siha gi i digital.",
+    "mission": {
+      "title": "Misa-ta",
+      "content1": "Gi IzignaMx guaha mision-ta para ta na’fanmetgot i kompanian-ñiha ni’ todu i dimension-ñiha gi nuebu na solusion digital ni’ muna’fanmetgot i lina’la’-ñiha yan i visibilidåt-ñiha gi i digital na ambiente.",
+      "content2": "Manma’a’ñao ham na i digital na transformasion digital, un sigiente yan petsonat na prosesu, ya put este na rason na manmachocho’cho’ ham yan i kliente-ta siha para u ma komprende i profundo na nisisidåt-ñiha yan i obhetibu-ñiha."
+    },
+    "vision": {
+      "title": "Visision",
+      "content": "Manma’a’ñao ham para in na’tungo’ hamyo komo benchmark gi i innovation digital gi iya Mexico, in na’fanhuyong eksepsion na eksperensian digital ni’ in na’daña’ i manma’gås-ta gi i taotao siha gi un manera ni’ sensen-ñiha yan dura."
+    },
+    "values": {
+      "badge": "GUAHO NA PRINCISIO",
+      "title": "I balotu siha ni' ma difina.",
+      "subtitle": "Este siha na fundamental na prinsipat guiya guiya kada disision ni ta disidi yan kada prohektos ni ta chogue.",
+      "innovation": {
+        "title": "Inobasion",
+        "description": "Siempre ta na’siguru na guaha nuebu na manera para ta na’suha i chinathinasson-ñiha, ya ta na’fanhuyong i nuebu na teknolohiha yan metgot na prohektos gi i prohektos-ta siha."
+      },
+      "quality": {
+        "title": "Kualidat",
+        "description": "Manma'a'ñao ham para in na'siguru gi kada na detalle, ya guaha na'siguru na inafekta siha ni' mas takhilo' ki i kliente-ta siha."
+      },
+      "collaboration": {
+        "title": "Kolepbla",
+        "description": "Manhongge ham gi i fuetsan i para in cho'gue i che'cho'-måmi, in na'guaha estrañhes na cho'cho' yan i kliente-måmi para in na'guaha i minaolek-måmi."
+      },
+      "adaptability": {
+        "title": "Manå'aiya",
+        "description": "I mundon digital sigi ha’ manma’e’e’eppok, ya manma’evolve ham yan guiya, manma’a’ñao ham gi i sanhiyong i tendensia yan teknolohiha siha."
+      }
+    },
+    "metrics": {
+      "experience": "Abesas Experie?",
+      "projects": "Komplidu",
+      "clients": "Komplefiku siha na taotao"
+    },
+    "cta": {
+      "title": "Listo para un cho'gue i che'cho'-mu.",
+      "subtitle": "Kada prohektos un opottunidåt para u na’guaha håfa na ekstraordinariu. Kontaktu hit pa`gu ya ta tutuhon muna` fan daña` i man-ma`gas digital.",
+      "button": "tutuhon i Proseta"
+    }
+  },
+  "aiProjectHelp": {
+    "pageTitle": "Kao guaha gi i Siette na Proseta-mu? fumumu I Professional - IzignaMx",
+    "pageDescription": "Kao guaha un prohekton web AI lao nisisita ayudon prufesiunåt? Manma ayuda ham para in na'maolek, in na'setbe i prohekton AI. I manma'eksperimenta na solusion siha para i prohektos siha ni' ma na'huyong gi ChatGPPT, Claude, Cåsor yan otro siha.",
+    "keywords": "I prohektos web, i AI para u ma'adelanta i AI na prohektos, para u na'maolek i prugråman AI, i prohekton ChatGPT gi i web, i web development, para u ayuda muna'lå'la'",
+    "hero": {
+      "urgencyBadge": "I Project AI .",
+      "title": {
+        "part1": "konversion",
+        "part2": "Abista",
+        "part3": "Gi Websi",
+        "part4": "Profesionat",
+        "part5": "Websi"
+      },
+      "subtitle": "Kao un na'huyong un prohekton web AI lao <strong>inkompletu</strong>, <strong>do siha ti ma cho'gue</strong> pat debi di un nisisita na i inadelanta siha ni' siña ma cho'gue. Manma'pos ham ya in na'huyong este gi <rongles na luñu' ki 48 ora</strong>.",
+      "socialProof": {
+        "projectsCompleted": "+150 na Manma'a'ñao gi i Manma'a'ñao",
+        "rating": "4.9/5 Rabo",
+        "delivery": "Guaha gi 24-48 ora"
+      },
+      "ctaPrimary": "Analy M Projetia para i FREE",
+      "ctaSecondary": "Guaha Atpotsiu gi AI Tools .",
+      "guarantee": "🛡️ 30-dihas | 💰 Full ha na'fanmanman hit yanggen ti ta entrega"
+    },
+    "problems": {
+      "title": "Kao siña ha’ <ispan>Fpaniar</plata</verse> <verse osisID=' todu.",
+      "problem1": {
+        "title": "I kode’ ti machocho’gue maolek .",
+        "description": "ChatGPT, Claude pat Curs ha na’fanhuyong i kode’ lao guaha error, inkompletu na siña maayek pat asunto siha ni’ manma’a’ñao."
+      },
+      "problem2": {
+        "title": "Ti un tungo' taimanu para un na'lå'la'?",
+        "description": "Ti hu tungo’ kao guaha prohektos lao ti hu tungo’ kao siña hu upload gi un dominion pat konfigurasion."
+      },
+      "problem3": {
+        "title": "nisisåriu na un na'i i manma'estra yan manma'estro gi i che'cho'-mu",
+        "description": "I disision-mu, debi di un na'i i taotao-mu todu i tiempo, mas maolek na animasion siha pat espesiåt na fungsion siha."
+      },
+      "solutionTitle": "Hafa na siña un cho'gue.",
+      "solutionSubtitle": "Espesialista siha gi reseku yan perfektu na prohektos siha ni’ manmafa’tinas gi AI .",
+      "solutions": {
+        "analysis": "I inanalisa gi prohektos gi 2 .",
+        "correction": "Bug fire yan optimis",
+        "deployment": "I Depsissionåt na Deployment yan SSL",
+        "customization": "Kosto siha yan man-ma-adelanta gi disision?",
+        "support": "I inayudan i taotao gi i hinasso-ku gi 30 dihas ."
+      }
+    },
+    "aiTools": {
+      "title": "Guaha na cho'cho' Gi i AI Tool</spa>",
+      "subtitle": "Ti ma tungo’ hafa na AI herramientas ni’ ma usa para u na’guaha i prohektos-mu, siña ta cho’gue yan i kode’.",
+      "example": "Pot ehemplu:",
+      "formats": "Guåhu i taotao ni' manma'å'ñao nu i lina'la'-ta, i HTML/CML/CMS/CSS, Node.js, Python, PHP yan mas",
+      "cta": "Fanhånao gi i Måiya-hu Guåhu ."
+    },
+    "process": {
+      "title": "I Prosesu-ta gi <ssingko gi Steps</s>",
+      "step1": {
+        "title": "Analisan Anali",
+        "description": "In ribisa i AI na prohekto, in na'siguru na guaha prublema siha yan in difina i nisisåriu na inadelanta siha. <strong>100% libre</strong> yan sin obligasion."
+      },
+      "step2": {
+        "title": "I Develops Develop",
+        "description": "In arekla i bug, mas maolek para i kodu, ha na'maolek i disision yan ha addåpta i che'cho'-ña. <trong>Dlivery gi 24-48h</strong>."
+      },
+      "step3": {
+        "title": "Esta",
+        "description": "Ma na’setbe i website-mu gi i domain-mu gi SSL, optimizations yan supotte gi 30 dihas. <trong>Prongs para un usa!</strong>"
+      }
+    },
+    "pricing": {
+      "title": "<pan>Transparn na Prinsikon Prinseda>",
+      "subtitle": "Ni uno gi man-ma`gas. I numeron taotao ni’ manma’ayek para u fanma’ayek gi i nivel ni’ komplikao i prohektos-mu.",
+      "basic": {
+        "title": "Basika gi Basiku",
+        "price": "$299 US",
+        "description": "Perfektu para i sempli",
+        "features": ["Bug fihu", "Basika na optimi", "Deployment", "Suponi 15"],
+        "cta": "Espisia"
+      },
+      "professional": {
+        "badge": "TISI POT POPULO",
+        "title": "Proklåma",
+        "price": "$599 US.",
+        "description": "I mas meggai",
+        "features": [
+          "Todu ginen i basic",
+          "Professionat",
+          "Ehesis Ekstra",
+          "SEO na optimi",
+          "30 na diha"
+        ],
+        "cta": "Espisia"
+      },
+      "enterprise": {
+        "title": "Todu i Premio",
+        "price": "$999 US.",
+        "description": "Para i komplikao",
+        "features": [
+          "Todu ginen i Pro .",
+          "Counter",
+          "Advanced i integrage",
+          "Premium hosting .",
+          "Supotta 60"
+        ],
+        "cta": "Espisia"
+      },
+      "help": "ster <strotur> Ti siguru hao hafa na planu ha nisisita?</strong>I analisis libre para u ayuda hao dumisidi.",
+      "guarantees": ["30 na diha", "Seske", "Suponi"]
+    },
+    "contact": {
+      "title": "Listo para <icho</panta</verse> <verse osisID='Ps.",
+      "subtitle": "Manmagof ham ni’ detalle siha gi i prohekton A A ya in na’i hamyo ni’ libre na inanalisa gi halom i mamamaila’ na 2 oras.",
+      "urgency": "Solu 5 na puesto siha gi este na ."
+    },
+    "form": {
+      "title": "Na'i i Libre na Lihesåt-mu",
+      "name": "Na'an *",
+      "namePlaceholder": "Todu i taotao-mu",
+      "email": "Emat",
+      "emailPlaceholder": "ya jamyo.",
+      "aiTool": "Kao guaha AI na åmot para un usa? 1",
+      "aiToolPlaceholder": "Seleha un silette",
+      "aiToolOptions": {
+        "chatgpt": "Si ChatGPT (OrasAI)",
+        "claude": "Claude (Un throme;",
+        "cursor": "Kulor (AI Code E Editor)",
+        "bolt": "Si Bolt (StackBiB)",
+        "replit": "Replit A",
+        "copilot": "GitHan IHub I Manma'a'ñao .",
+        "codeium": "Kodias",
+        "other": "Otro"
+      },
+      "projectType": "Kao guaha klasen prohektos para un cho’gue? 1",
+      "projectTypePlaceholder": "Magof yu' sa' hu tungo'",
+      "projectTypeOptions": {
+        "landing": "Lap",
+        "corporate": "Komple i Websiate gi i Website gi i Webs.",
+        "ecommerce": "E-commer",
+        "webapp": ", sumaga",
+        "blog": "Blog/CIT",
+        "dashboard": "Dash",
+        "portfolio": "Portfolio",
+        "other": "Otro"
+      },
+      "currentStatus": "Kao guaha estao-ta på’go? 1",
+      "currentStatusOptions": {
+        "notWorking": "Ma na'huyong si Code lao ti",
+        "needsImprovements": "Ha cho'cho'gue lao nisisita",
+        "dontKnowDeploy": "Ti hu tungo' kao para bai hu deploy",
+        "needsHosting": "Para u ma'pos, debi di bai hu na'guaha",
+        "other": "Otro"
+      },
+      "budget": "Guaha siha na salåpe' para",
+      "budgetPlaceholder": "Seleha un li'e' na guaha",
+      "budgetOptions": {
+        "200-400": "$200-40 USD .",
+        "400-600": "$400-60-60 na USD .",
+        "600-1000": "$600-1000 USD",
+        "1000+": "$1000+",
+        "needQuote": "Hu nisisita un"
+      },
+      "timeline": "Yanggen un nisisita i prohektos listo.” 1",
+      "timelinePlaceholder": "Parehu",
+      "timelineOptions": {
+        "asap": "En seguidas ensigidas",
+        "thisWeek": "Este na tinakpak",
+        "twoWeeks": "Gi 2",
+        "oneMonth": "Gi 1 huyong",
+        "noRush": "Lisa"
+      },
+      "description": "Deskribi i prohektos-mu yan espesiat na prohektos?",
+      "descriptionPlaceholder": "Ha sangani yu’ hafa na cho’cho’, hafa ti ha cho’gue, hafa na mejoras ni’ para un nisisita, etc. I mas detalle, mas maolek siña ta ayuda hao.",
+      "projectUrl": "Link gi i prohekto (GiHub, Replit, yan otro siha.)",
+      "projectUrlPlaceholder": "yttps:///ma'pos na tiempo.",
+      "projectUrlHelp": "Opsion: Fa'nu'i i lina'la' mas presisu na inanalisa .",
+      "submit": "Analisis Analisis .",
+      "privacyNotice": "Gi este na manera, un ayek para un prusesesu i infotmasion-mu para un na'i hao i analisis libre. Ti in na'i i infotmasion-mu gi i mina'tres na taotao siha.",
+      "successTitle": "Sa' put i manma'gås-ñiha manma'gås-ñiha?",
+      "successMessage": "Ma kontak hao gi halom i sigiente 2 oras yan i analisis-mu libre.",
+      "errorTitle": "Error ha na'hanao hao",
+      "errorMessage": "Un` error mientras un` sumetbe. Fa’tinas ta’lo."
+    },
+    "benefits": {
+      "title": "Kao guaha libre na inanalisa?",
+      "codeReview": "I AI AI ni' manma'gås-ña i manma'gås-ña",
+      "errorIdentification": "Identifikasion i error siha yan i problema siha.",
+      "improvementPlan": "Improbasion yan i mas maolek na planu .",
+      "detailedQuote": "Demattu yan quíot yan tiempo?",
+      "deploymentRecommendations": "Rekomendasion siha para u fan ma-adelanta?"
+    },
+    "specialists": {
+      "title": "🎯 Un espesiat na espesiat na taotao",
+      "description": "Estague' i eksperto siha gi i che'cho'-måmi gi i kode ni' ma na'huyong ni' AI na åmot siha. Ta komprende na i limitasion yan fuetsa kada herramienta.",
+      "responseTime": "Response gi menos di 2 oras ."
+    },
+    "testimonials": {
+      "title": "💒 I Testilon siha .",
+      "testimonial1": {
+        "text": "Guaha un prohekto gi ChaGPT ni' ti ma cho'gue. Gi 24 oras guaha cho’cho’-ña gi che’cho’-ña perfekto yan ma-esplora.",
+        "author": "- Carlos M., Entrepreneur ."
+      },
+      "testimonial2": {
+        "text": "Si Curtor ha na'huyong i app-hu lao bula isao. IzignaMx ha transfoma este gi un` banda.",
+        "author": "- L., Star."
+      }
+    }
+  },
+  "pwa": {
+    "installButton": "Inesta",
+    "offlineIndicator": "Offline",
+    "newVersionAvailable": "Nuebu na version gaige. Usa pa'go?",
+    "updateAvailable": "Utida",
+    "updateNow": "Update",
+    "installedSuccessfully": "I ma'ayek na inestudia siha"
+  },
+  "analytics": {
+    "consentBanner": {
+      "message": "Use cookies yan analista para un na’maolek i eksperensia-mu.",
+      "moreInfo": "Mas ki un",
+      "accept": "Aksepta",
+      "reject": "Reusa"
+    },
+    "consentGranted": "Konsensia para i analitiku siha ni’ manma’ayek .",
+    "consentRevoked": "Analitiku konsentimiento",
+    "doNotTrackDetected": "Ti ha detekta si Don Track, ha tratrata",
+    "waitingForConsent": "Guaha para i taotao",
+    "initialized": "I Google Analytics 4 gi ​​tutuhon",
+    "debugMode": "I modun lina'la' siña ha na'i siha;"
+  },
+  "ui": {
+    "skeleton": {
+      "loading": "Balanja"
+    },
+    "datepicker": {
+      "selectDate": "Seleha",
+      "months": [
+        "Eneru",
+        "Feburariu",
+        "March",
+        "Abrit",
+        "Kasi sina",
+        "Juniu",
+        "Julio",
+        "Agusto",
+        "Septembri",
+        "Oktubri",
+        "Nobembri",
+        "Disiembri"
+      ],
+      "weekdays": [
+        "Cho'gue",
+        "taiguihe",
+        "mo",
+        "Iyo-hu",
+        "tutuhon",
+        "Ya hu",
+        "Taiguini"
+      ]
+    },
+    "multiselect": {
+      "selectOptions": "Seleha"
+    }
+  }
+}

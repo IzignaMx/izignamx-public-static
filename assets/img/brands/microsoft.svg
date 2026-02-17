@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40">
+  <!-- Simplified Microsoft Logo -->
+  <rect x="10" y="10" width="20" height="20" fill="#f25022"/>
+  <rect x="32" y="10" width="20" height="20" fill="#7fba00"/>
+  <rect x="10" y="32" width="20" height="20" fill="#00a4ef"/>
+  <rect x="32" y="32" width="20" height="20" fill="#ffb900"/>
+  <path fill="#737373" d="M67.5,25.8v-8.1h2.2l4.5,5.9V17.7h2.1v8.1h-2.2l-4.5-5.9v5.9H67.5z"/>
+  <path fill="#737373" d="M77.8,25.8v-8.1h2.1v8.1H77.8z"/>
+  <path fill="#737373" d="M82.1,25.8v-6.4h-2.3v-1.7h6.8v1.7h-2.3v6.4H82.1z"/>
+  <path fill="#737373" d="M87.1,25.8v-8.1h6v1.7h-3.9v1.5h3.6v1.7h-3.6v1.7h3.9v1.7H87.1z"/>
+  <path fill="#737373" d="M94.4,25.8v-8.1h2.1v6.4h3.5v1.7H94.4z"/>
+  <path fill="#737373" d="M101,25.8v-8.1h2.1v8.1H101z"/>
+  <path fill="#737373" d="M104.2,25.8l3.5-8.1h2.3l3.5,8.1h-2.3l-0.6-1.5h-3.6l-0.6,1.5H104.2z M107.8,22.6h2.5l-1.2-3L107.8,22.6z"/>
+</svg> 

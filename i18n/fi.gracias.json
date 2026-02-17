@@ -1,0 +1,32 @@
+{
+  "gracias": {
+    "seo": {
+      "title": "Kiitos yhteydenotosta! - IzignaMx",
+      "description": "Olemme vastaanottaneet viestisi ja palaamme pian."
+    },
+    "titleHtml": "Viesti <span class=\"text-gradient bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent\">lähetetty</span> onnistuneesti!",
+    "successHtml": "Kiitos yhteydenotostasi. Olemme vastaanottaneet pyyntösi ja asiantuntija ottaa sinuun yhteyttä seuraavien <strong class=\"text-green-400\">24 tunnin</strong> aikana.",
+    "sectionNextStepsTitle": "Mitä seuraavaksi?",
+    "nextSteps": {
+      "reviewTitle": "Pyyntösi tarkistus",
+      "reviewDesc": "Analysoimme projektisi ja erityistarpeesi",
+      "contactTitle": "Henkilökohtainen yhteydenotto",
+      "contactDesc": "Otamme yhteyttä sopiaksemme maksuttoman konsultoinnin",
+      "proposalTitle": "Räätälöity ehdotus",
+      "proposalDesc": "Saat yksityiskohtaisen ehdotuksen ja projektiaikataulun",
+      "startTitle": "Projektin aloitus",
+      "startDesc": "Hyväksynnän jälkeen aloitamme projektisi"
+    },
+    "urgentContactTitle": "Tarvitsetko kiireellisesti yhteyden meihin?",
+    "actions": {
+      "backHome": "Takaisin etusivulle",
+      "viewServices": "Katso palvelumme"
+    },
+    "social": {
+      "joinText": "Liity yli 500 yrityksen joukkoon, jotka luottavat meihin",
+      "ratingText": "4,9/5 perustuu 200+ arvosteluun",
+      "whatsapp": "WhatsApp",
+      "whatsappText": "Hei IzignaMx, lähetin juuri lomakkeen"
+    }
+  }
+}

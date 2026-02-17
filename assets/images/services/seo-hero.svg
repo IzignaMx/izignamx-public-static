@@ -1,0 +1,49 @@
+ <svg width="1200" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo con gradiente -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121a2b" />
+      <stop offset="100%" stop-color="#2a3a5f" />
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Fondo con gradiente -->
+  <rect width="100%" height="100%" fill="url(#grad1)" />
+  
+  <!-- Patrón de fondo -->
+  <rect width="100%" height="100%" fill="url(#grid)" />
+  
+  <!-- Gráficos de SEO -->
+  <g transform="translate(100,100)" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.7">
+    <polyline points="0,300 100,250 200,280 300,150 400,200 500,100 600,50 700,70 800,30 900,0" />
+  </g>
+  
+  <!-- Círculos decorativos -->
+  <circle cx="200" cy="150" r="50" fill="#1a83e4" opacity="0.2" />
+  <circle cx="800" cy="400" r="80" fill="#29b6e6" opacity="0.2" />
+  <circle cx="500" cy="300" r="120" fill="#29b6e6" opacity="0.1" />
+  
+  <!-- Elementos gráficos SEO -->
+  <g transform="translate(900,150)">
+    <circle cx="0" cy="0" r="60" fill="#1a83e4" opacity="0.8" />
+    <text x="0" y="10" font-family="Arial" font-size="48" fill="white" text-anchor="middle">SEO</text>
+  </g>
+  
+  <g transform="translate(300,400)">
+    <rect x="-40" y="-40" width="80" height="80" rx="10" fill="#29b6e6" opacity="0.8" />
+    <text x="0" y="10" font-family="Arial" font-size="24" fill="white" text-anchor="middle">#1</text>
+  </g>
+  
+  <!-- Elementos decorativos -->
+  <g transform="translate(600,300)">
+    <path d="M-30,-30 L30,-30 L30,30 L-30,30 Z" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5" />
+    <circle cx="0" cy="0" r="15" fill="#1a83e4" opacity="0.8" />
+  </g>
+  
+  <!-- Texto -->
+  <text x="600" y="100" font-family="Arial" font-size="64" font-weight="bold" fill="white" text-anchor="middle">POSICIONAMIENTO SEO</text>
+  <text x="600" y="170" font-family="Arial" font-size="24" fill="white" opacity="0.8" text-anchor="middle">Mejora tu visibilidad en buscadores</text>
+</svg>

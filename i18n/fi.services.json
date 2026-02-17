@@ -1,0 +1,10 @@
+{
+  "services": {
+    "seo": {
+      "title": "Palvelut | IzignaMx",
+      "description": "Täydelliset ja räätälöidyt digiratkaisut, jotka vahvistavat verkko‑näkyvyyttäsi.",
+      "keywords": "digitaaliset palvelut, web‑kehitys, sovellukset, graafinen suunnittelu, digitaalinen markkinointi, SEO, brändäys",
+      "image": "/assets/images/og-image.jpg"
+    }
+  }
+}

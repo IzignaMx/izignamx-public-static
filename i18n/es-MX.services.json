@@ -1,0 +1,10 @@
+{
+  "services": {
+    "seo": {
+      "title": "Servicios | IzignaMx",
+      "description": "Soluciones digitales completas y personalizadas para impulsar tu presencia online.",
+      "keywords": "servicios digitales, desarrollo web, aplicaciones, diseño gráfico, marketing digital, SEO, branding",
+      "image": "/assets/images/og-image.jpg"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "gracias": {
+    "seo": {
+      "title": "Obrigado pelo contato! - IzignaMx",
+      "description": "Recebemos sua mensagem e entraremos em contato em breve."
+    },
+    "titleHtml": "Mensagem <span class=\"text-gradient bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent\">enviada</span> com sucesso!",
+    "successHtml": "Obrigado por entrar em contato. Recebemos sua solicitação e um especialista falará com você nas próximas <strong class=\"text-green-400\">24 horas</strong>.",
+    "sectionNextStepsTitle": "O que acontece agora?",
+    "nextSteps": {
+      "reviewTitle": "Revisão da sua solicitação",
+      "reviewDesc": "Analisaremos seu projeto e necessidades específicas",
+      "contactTitle": "Contato personalizado",
+      "contactDesc": "Entraremos em contato para agendar uma consulta gratuita",
+      "proposalTitle": "Proposta personalizada",
+      "proposalDesc": "Você receberá uma proposta detalhada e cronograma do projeto",
+      "startTitle": "Início do projeto",
+      "startDesc": "Após aprovação, começamos a trabalhar no seu projeto"
+    },
+    "urgentContactTitle": "Precisa falar conosco com urgência?",
+    "actions": {
+      "backHome": "Voltar para o Início",
+      "viewServices": "Ver Nossos Serviços"
+    },
+    "social": {
+      "joinText": "Junte-se a mais de 500 empresas que confiam em nós",
+      "ratingText": "4,9/5 baseado em 200+ avaliações",
+      "whatsapp": "WhatsApp",
+      "whatsappText": "Olá IzignaMx, acabei de enviar um formulário"
+    }
+  }
+}

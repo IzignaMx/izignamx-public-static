@@ -1,0 +1,14 @@
+{
+  "aiProjectBanner": {
+    "newService": "नई सेवा",
+    "titlePrefix": "क्या आपका AI प्रोजेक्ट ",
+    "stuck": "अटका हुआ",
+    "titleSuffix": "?",
+    "description": "यदि आपने <strong class=\"text-blue-400\">ChatGPT</strong>, <strong class=\"text-orange-400\">Claude</strong> या <strong class=\"text-purple-400\">Cursor</strong> से वेब प्रोजेक्ट जनरेट किया है लेकिन वह काम नहीं कर रहा या आपको प्रोफेशनल सुधार चाहिए, <strong class=\"text-green-400\">हम उसे पूरा कर देते हैं</strong>.",
+    "freeAnalysis": "2 घंटे में मुफ्त विश्लेषण",
+    "rescuedProjects": "+150 AI प्रोजेक्ट्स रेस्क्यू",
+    "rating": "4.9/5 रेटिंग",
+    "delivery": "24–48 घंटे में डिलीवरी",
+    "guarantee": "30-दिन की गारंटी"
+  }
+}

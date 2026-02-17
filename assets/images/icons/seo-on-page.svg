@@ -1,0 +1,19 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo del icono -->
+  <circle cx="32" cy="32" r="30" fill="#1a83e4" opacity="0.1"/>
+  
+  <!-- Documento/Página -->
+  <rect x="16" y="10" width="32" height="44" rx="2" fill="none" stroke="#1a83e4" stroke-width="2"/>
+  
+  <!-- Líneas de texto en la página -->
+  <line x1="22" y1="20" x2="42" y2="20" stroke="#1a83e4" stroke-width="2" stroke-linecap="round"/>
+  <line x1="22" y1="26" x2="42" y2="26" stroke="#1a83e4" stroke-width="2" stroke-linecap="round"/>
+  <line x1="22" y1="32" x2="32" y2="32" stroke="#1a83e4" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Lupa SEO -->
+  <circle cx="35" cy="42" r="8" fill="none" stroke="#1a83e4" stroke-width="2"/>
+  <line x1="40.5" y1="47.5" x2="46" y2="53" stroke="#1a83e4" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Etiqueta H1 -->
+  <text x="33" y="44" font-family="Arial" font-size="6" font-weight="bold" fill="#1a83e4" text-anchor="middle">H1</text>
+</svg> 

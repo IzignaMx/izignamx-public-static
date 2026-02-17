@@ -1,0 +1,32 @@
+{
+  "gracias": {
+    "seo": {
+      "title": "हमसे संपर्क करने के लिए धन्यवाद! - IzignaMx",
+      "description": "हमने आपका संदेश प्राप्त कर लिया है और जल्द ही आपसे संपर्क करेंगे।"
+    },
+    "titleHtml": "संदेश <span class=\"text-gradient bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent\">सफलतापूर्वक</span> भेजा गया!",
+    "successHtml": "हमसे संपर्क करने के लिए धन्यवाद। हमने आपका अनुरोध प्राप्त कर लिया है और एक विशेषज्ञ अगले <strong class=\"text-green-400\">24 घंटे</strong> के भीतर आपसे संपर्क करेगा।",
+    "sectionNextStepsTitle": "अब आगे क्या?",
+    "nextSteps": {
+      "reviewTitle": "आपके अनुरोध की समीक्षा",
+      "reviewDesc": "हम आपके प्रोजेक्ट और विशेष आवश्यकताओं का विश्लेषण करेंगे",
+      "contactTitle": "व्यक्तिगत संपर्क",
+      "contactDesc": "हम मुफ्त परामर्श शेड्यूल करने के लिए आपसे संपर्क करेंगे",
+      "proposalTitle": "व्यक्तिगत प्रस्ताव",
+      "proposalDesc": "आपको विस्तृत प्रस्ताव और परियोजना समयरेखा मिलेगी",
+      "startTitle": "प्रोजेक्ट की शुरुआत",
+      "startDesc": "स्वीकृति के बाद हम आपके प्रोजेक्ट पर काम शुरू करते हैं"
+    },
+    "urgentContactTitle": "क्या आपको तुरंत हमसे संपर्क करना है?",
+    "actions": {
+      "backHome": "होम पर वापस जाएँ",
+      "viewServices": "हमारी सेवाएँ देखें"
+    },
+    "social": {
+      "joinText": "500+ कंपनियों में शामिल हों जो हम पर भरोसा करती हैं",
+      "ratingText": "200+ समीक्षाओं के आधार पर 4.9/5",
+      "whatsapp": "व्हाट्सएप",
+      "whatsappText": "नमस्ते IzignaMx, मैंने अभी एक फ़ॉर्म भेजा है"
+    }
+  }
+}

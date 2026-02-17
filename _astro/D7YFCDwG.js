@@ -1,0 +1,33 @@
+import { createAstro, createComponent, renderTemplate, renderSlot, addAttribute, maybeRenderHead } from "./CfGiqa0J.js";
+import "kleur/colors";
+import "clsx";
+var __freeze = Object.freeze;
+var __defProp = Object.defineProperty;
+var __template = (cooked, raw) => __freeze(__defProp(cooked, "raw", { value: __freeze(raw || cooked.slice()) }));
+var _a;
+const $$Astro = createAstro("https://izignamx.com");
+const $$HeroScene = createComponent(($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
+  Astro2.self = $$HeroScene;
+  const {
+    id = "hero",
+    backgroundImage = "/assets/img/city-background-main.jpg",
+    class: className = "",
+    contentClass = "",
+    contentPadding = "pt-16 pb-[6rem]",
+    allowMotion = true
+  } = Astro2.props;
+  const sectionClasses = [
+    "hero-section relative min-h-screen flex items-center justify-center overflow-hidden",
+    className
+  ].filter(Boolean).join(" ");
+  const contentClasses = [
+    "hero-content relative z-20 w-full",
+    contentPadding,
+    contentClass
+  ].filter(Boolean).join(" ");
+  return renderTemplate(_a || (_a = __template(["", "<section", "", ' data-hero-scene data-astro-cid-pdojza7r> <div class="hero-background absolute inset-0 bg-cover bg-center z-0 transition-all duration-1000 ease-out"', ' data-hero-bg data-astro-cid-pdojza7r></div> <div class="hero-overlay absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-black/60 z-10" data-astro-cid-pdojza7r></div> <div class="absolute inset-0 bg-grid-dots opacity-20 z-10" data-astro-cid-pdojza7r></div> <div class="digital-particles absolute inset-0 z-10" data-astro-cid-pdojza7r></div> <canvas class="hero-dither-layer" aria-hidden="true" data-hero-dither', " data-astro-cid-pdojza7r></canvas> <div", " data-astro-cid-pdojza7r> ", " </div> ", ' </section>  <script type="module" src="/js/hero-webgl-dither.js"><\/script> <script>\n  if (typeof window !== "undefined") {\n    const setupHeroScenes = () => {\n      if (window.__heroSceneScrollAttached) {\n        return;\n      }\n\n      window.__heroSceneScrollAttached = true;\n      let lastScrollY = window.scrollY;\n\n      const handleScroll = () => {\n        const scrollY = window.scrollY;\n        const scrollDiff = scrollY - lastScrollY;\n        document.querySelectorAll("[data-hero-bg]").forEach((heroBg) => {\n          const rect = heroBg.getBoundingClientRect();\n          if (rect.bottom <= 0 || rect.top >= window.innerHeight) {\n            return;\n          }\n\n          const transform = getComputedStyle(heroBg).transform;\n          let currentScale = 1.05;\n          if (transform && transform !== "none") {\n            try {\n              currentScale = new DOMMatrix(transform).a || currentScale;\n            } catch (error) {\n              currentScale = 1.05;\n            }\n          }\n\n          heroBg.style.transform = `scale(${currentScale}) translateY(${scrollDiff * 0.5}px)`;\n        });\n\n        lastScrollY = scrollY;\n      };\n\n      window.addEventListener("scroll", handleScroll, { passive: true });\n\n      document\n        .querySelectorAll(\n          "[data-hero-scene] .animate-fadeIn, [data-hero-scene] .animate-char-in",\n        )\n        .forEach((element) => {\n          if (element instanceof HTMLElement) {\n            element.style.opacity = "1";\n            element.style.transform = "translateY(0)";\n          }\n        });\n    };\n\n    const initHeroScenes = () => {\n      setupHeroScenes();\n    };\n\n    document.addEventListener("astro:page-load", initHeroScenes);\n\n    if (document.readyState !== "loading") {\n      setupHeroScenes();\n    }\n  }\n<\/script>'], ["", "<section", "", ' data-hero-scene data-astro-cid-pdojza7r> <div class="hero-background absolute inset-0 bg-cover bg-center z-0 transition-all duration-1000 ease-out"', ' data-hero-bg data-astro-cid-pdojza7r></div> <div class="hero-overlay absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-black/60 z-10" data-astro-cid-pdojza7r></div> <div class="absolute inset-0 bg-grid-dots opacity-20 z-10" data-astro-cid-pdojza7r></div> <div class="digital-particles absolute inset-0 z-10" data-astro-cid-pdojza7r></div> <canvas class="hero-dither-layer" aria-hidden="true" data-hero-dither', " data-astro-cid-pdojza7r></canvas> <div", " data-astro-cid-pdojza7r> ", " </div> ", ' </section>  <script type="module" src="/js/hero-webgl-dither.js"><\/script> <script>\n  if (typeof window !== "undefined") {\n    const setupHeroScenes = () => {\n      if (window.__heroSceneScrollAttached) {\n        return;\n      }\n\n      window.__heroSceneScrollAttached = true;\n      let lastScrollY = window.scrollY;\n\n      const handleScroll = () => {\n        const scrollY = window.scrollY;\n        const scrollDiff = scrollY - lastScrollY;\n        document.querySelectorAll("[data-hero-bg]").forEach((heroBg) => {\n          const rect = heroBg.getBoundingClientRect();\n          if (rect.bottom <= 0 || rect.top >= window.innerHeight) {\n            return;\n          }\n\n          const transform = getComputedStyle(heroBg).transform;\n          let currentScale = 1.05;\n          if (transform && transform !== "none") {\n            try {\n              currentScale = new DOMMatrix(transform).a || currentScale;\n            } catch (error) {\n              currentScale = 1.05;\n            }\n          }\n\n          heroBg.style.transform = \\`scale(\\${currentScale}) translateY(\\${scrollDiff * 0.5}px)\\`;\n        });\n\n        lastScrollY = scrollY;\n      };\n\n      window.addEventListener("scroll", handleScroll, { passive: true });\n\n      document\n        .querySelectorAll(\n          "[data-hero-scene] .animate-fadeIn, [data-hero-scene] .animate-char-in",\n        )\n        .forEach((element) => {\n          if (element instanceof HTMLElement) {\n            element.style.opacity = "1";\n            element.style.transform = "translateY(0)";\n          }\n        });\n    };\n\n    const initHeroScenes = () => {\n      setupHeroScenes();\n    };\n\n    document.addEventListener("astro:page-load", initHeroScenes);\n\n    if (document.readyState !== "loading") {\n      setupHeroScenes();\n    }\n  }\n<\/script>'])), maybeRenderHead(), addAttribute(id, "id"), addAttribute(sectionClasses, "class"), addAttribute(`background-image: url('${backgroundImage}');`, "style"), addAttribute(allowMotion ? "true" : "false", "data-allow-motion"), addAttribute(contentClasses, "class"), renderSlot($$result, $$slots["default"]), renderSlot($$result, $$slots["after"]));
+}, "D:/MEGA/IzignaMx/izignamx/src/components/HeroScene.astro", void 0);
+export {
+  $$HeroScene
+};

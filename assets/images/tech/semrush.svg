@@ -1,0 +1,25 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo del icono -->
+  <circle cx="32" cy="32" r="30" fill="#FF642D" opacity="0.1"/>
+  
+  <!-- Estilización del logo de SEMrush -->
+  <g transform="translate(12, 12)">
+    <!-- S -->
+    <path d="M0,20 C0,16 4,16 6,16 C8,16 12,16 12,13 C12,10 8,10 6,10 C4,10 0,10 0,6 C0,2 4,2 6,2 C8,2 12,2 12,5" 
+          fill="none" stroke="#FF642D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- E -->
+    <path d="M16,2 L28,2 M16,10 L24,10 M16,2 L16,20 L28,20" 
+          fill="none" stroke="#FF642D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- M -->
+    <path d="M32,20 L32,2 L40,12 L48,2 L48,20" 
+          fill="none" stroke="#FF642D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Gráfico de barras ascendente -->
+  <rect x="17" y="42" width="6" height="8" fill="#FF642D" rx="1"/>
+  <rect x="25" y="38" width="6" height="12" fill="#FF642D" rx="1"/>
+  <rect x="33" y="34" width="6" height="16" fill="#FF642D" rx="1"/>
+  <rect x="41" y="30" width="6" height="20" fill="#FF642D" rx="1"/>
+</svg> 

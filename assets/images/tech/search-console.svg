@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo del icono -->
+  <circle cx="32" cy="32" r="30" fill="#458CF5" opacity="0.1"/>
+  
+  <!-- Forma del logotipo de Search Console (versión simplificada) -->
+  <path d="M32,14 L17,22 L17,40 L32,48 L47,40 L47,22 Z" fill="none" stroke="#458CF5" stroke-width="2"/>
+  
+  <!-- Círculo interior -->
+  <circle cx="32" cy="31" r="9" fill="none" stroke="#458CF5" stroke-width="2"/>
+  
+  <!-- Línea de búsqueda -->
+  <line x1="38" y1="37" x2="42" y2="41" stroke="#458CF5" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Líneas horizontales que representan resultados de búsqueda -->
+  <line x1="22" y1="24" x2="42" y2="24" stroke="#458CF5" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  <line x1="22" y1="28" x2="38" y2="28" stroke="#458CF5" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  <line x1="22" y1="32" x2="36" y2="32" stroke="#458CF5" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+</svg> 

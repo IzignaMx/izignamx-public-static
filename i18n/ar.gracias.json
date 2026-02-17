@@ -1,0 +1,32 @@
+{
+  "gracias": {
+    "seo": {
+      "title": "شكرًا لتواصلك معنا! - IzignaMx",
+      "description": "لقد استلمنا رسالتك وسنعاود الاتصال بك قريبًا."
+    },
+    "titleHtml": "تم إرسال الرسالة <span class=\"text-gradient bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent\">بنجاح</span>!",
+    "successHtml": "شكرًا لتواصلك معنا. لقد استلمنا طلبك، وسيتواصل معك مختص خلال <strong class=\"text-green-400\">24 ساعة</strong> القادمة.",
+    "sectionNextStepsTitle": "ما الذي يحدث الآن؟",
+    "nextSteps": {
+      "reviewTitle": "مراجعة طلبك",
+      "reviewDesc": "سنقوم بتحليل مشروعك واحتياجاتك الخاصة",
+      "contactTitle": "تواصل شخصي",
+      "contactDesc": "سنتواصل معك لتحديد استشارة مجانية",
+      "proposalTitle": "عرض مخصص",
+      "proposalDesc": "ستتلقى عرضًا مفصلًا وخطة زمنية للمشروع",
+      "startTitle": "بدء المشروع",
+      "startDesc": "بعد الموافقة نبدأ العمل على مشروعك"
+    },
+    "urgentContactTitle": "هل تحتاج إلى التواصل معنا بشكل عاجل؟",
+    "actions": {
+      "backHome": "العودة إلى الرئيسية",
+      "viewServices": "عرض خدماتنا"
+    },
+    "social": {
+      "joinText": "انضم إلى أكثر من 500 شركة تثق بنا",
+      "ratingText": "تقييم 4.9/5 بناءً على أكثر من 200 مراجعة",
+      "whatsapp": "واتساب",
+      "whatsappText": "مرحبًا IzignaMx، لقد أرسلت للتو نموذجًا"
+    }
+  }
+}

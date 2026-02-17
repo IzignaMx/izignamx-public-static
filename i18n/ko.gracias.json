@@ -1,0 +1,32 @@
+{
+  "gracias": {
+    "seo": {
+      "title": "문의해 주셔서 감사합니다! - IzignaMx",
+      "description": "메시지를 받았으며 곧 연락드리겠습니다."
+    },
+    "titleHtml": "메시지가 <span class=\"text-gradient bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent\">성공적으로</span> 전송되었습니다!",
+    "successHtml": "문의해 주셔서 감사합니다. 요청을 접수했으며 전문가가 향후 <strong class=\"text-green-400\">24시간</strong> 내에 연락드리겠습니다.",
+    "sectionNextStepsTitle": "다음 단계는?",
+    "nextSteps": {
+      "reviewTitle": "요청 검토",
+      "reviewDesc": "프로젝트와 구체적인 요구사항을 분석합니다",
+      "contactTitle": "맞춤 연락",
+      "contactDesc": "무료 상담 일정을 잡기 위해 연락드리겠습니다",
+      "proposalTitle": "맞춤 제안",
+      "proposalDesc": "자세한 제안서와 프로젝트 일정표를 받아보시게 됩니다",
+      "startTitle": "프로젝트 시작",
+      "startDesc": "승인 후 프로젝트 작업을 시작합니다"
+    },
+    "urgentContactTitle": "긴급히 연락이 필요하신가요?",
+    "actions": {
+      "backHome": "홈으로 돌아가기",
+      "viewServices": "서비스 보기"
+    },
+    "social": {
+      "joinText": "우리를 신뢰하는 500+ 기업에 합류하세요",
+      "ratingText": "200+ 리뷰 기반 4.9/5",
+      "whatsapp": "WhatsApp",
+      "whatsappText": "안녕하세요 IzignaMx, 방금 양식을 제출했습니다"
+    }
+  }
+}

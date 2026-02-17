@@ -1,0 +1,14 @@
+{
+  "aiProjectBanner": {
+    "newService": "خدمة جديدة",
+    "titlePrefix": "هل مشروع الذكاء الاصطناعي الخاص بك ",
+    "stuck": "عالق",
+    "titleSuffix": "؟",
+    "description": "إذا قمت بإنشاء مشروع ويب باستخدام <strong class=\"text-blue-400\">ChatGPT</strong> أو <strong class=\"text-orange-400\">Claude</strong> أو <strong class=\"text-purple-400\">Cursor</strong> ولكنه لا يعمل أو تحتاج إلى تحسينات احترافية، <strong class=\"text-green-400\">نحن نكمله لك</strong>.",
+    "freeAnalysis": "تحليل مجاني في ساعتين",
+    "rescuedProjects": "+150 مشروع ذكاء اصطناعي تم إنقاذه",
+    "rating": "تقييم 4.9/5",
+    "delivery": "تسليم خلال 24-48 ساعة",
+    "guarantee": "ضمان 30 يومًا"
+  }
+}

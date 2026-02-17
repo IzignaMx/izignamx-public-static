@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Default Avatar Generator</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        background-color: #f5f5f5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        max-width: 600px;
+        width: 100%;
+        text-align: center;
+      }
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .preview {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+      }
+      canvas {
+        border-radius: 50%;
+        border: 2px solid #ccc;
+        margin: 20px 0;
+      }
+      button {
+        background-color: #1a83e4;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin: 10px;
+      }
+      button:hover {
+        background-color: #1472c9;
+      }
+      .instructions {
+        background-color: #f9f9f9;
+        border-left: 4px solid #1a83e4;
+        padding: 15px;
+        margin: 20px 0;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Default Avatar Generator</h1>
+
+      <div class="preview">
+        <h3>SVG Original</h3>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="200"
+          height="200"
+          viewBox="0 0 200 200"
+          id="avatarSvg"
+        >
+          <rect width="200" height="200" fill="#222222" />
+          <circle cx="100" cy="80" r="40" fill="#444444" />
+          <rect
+            x="40"
+            y="130"
+            width="120"
+            height="70"
+            rx="35"
+            ry="35"
+            fill="#444444"
+          />
+        </svg>
+
+        <h3>JPG Preview</h3>
+        <canvas id="canvas" width="200" height="200"></canvas>
+
+        <button id="downloadBtn">Descargar como JPG</button>
+      </div>
+
+      <div class="instructions">
+        <h3>Instrucciones:</h3>
+        <ol>
+          <li>Haz clic en el botón "Descargar como JPG"</li>
+          <li>Guarda el archivo como "default-avatar.jpg"</li>
+          <li>
+            Coloca el archivo en la carpeta /public/assets/img/testimonials/
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const canvas = document.getElementById("canvas");
+        const ctx = canvas.getContext("2d");
+        const svg = document.getElementById("avatarSvg");
+        const downloadBtn = document.getElementById("downloadBtn");
+
+        // Convert SVG to image and draw on canvas
+        const svgData = new XMLSerializer().serializeToString(svg);
+        const img = new Image();
+        img.onload = function () {
+          ctx.drawImage(img, 0, 0);
+        };
+        img.src = "data:image/svg+xml;base64," + btoa(svgData);
+
+        // Download functionality
+        downloadBtn.addEventListener("click", function () {
+          const link = document.createElement("a");
+          link.download = "default-avatar.jpg";
+          link.href = canvas.toDataURL("image/jpeg", 1.0);
+          link.click();
+        });
+      });
+    </script>
+  </body>
+</html>

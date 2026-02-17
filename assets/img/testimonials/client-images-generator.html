@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client Testimonial Images Generator</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        background-color: #f5f5f5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        max-width: 800px;
+        width: 100%;
+        text-align: center;
+      }
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .clients-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 30px 0;
+      }
+      .client {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+      }
+      .client-img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        background-size: cover;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border: 3px solid white;
+      }
+      canvas {
+        display: none;
+      }
+      button {
+        background-color: #1a83e4;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin: 10px;
+      }
+      button:hover {
+        background-color: #1472c9;
+      }
+      .instructions {
+        background-color: #f9f9f9;
+        border-left: 4px solid #1a83e4;
+        padding: 15px;
+        margin: 20px 0;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Client Testimonial Images Generator</h1>
+
+      <div class="clients-container">
+        <div class="client">
+          <div
+            class="client-img"
+            id="client1"
+            style="
+              background-color: #3498db;
+              background-image: url('data:image/svg+xml;utf8,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;200&quot; height=&quot;200&quot; viewBox=&quot;0 0 200 200&quot;><rect width=&quot;200&quot; height=&quot;200&quot; fill=&quot;%233498db&quot;/><text x=&quot;50%&quot; y=&quot;50%&quot; fill=&quot;white&quot; font-family=&quot;Arial&quot; font-size=&quot;80&quot; font-weight=&quot;bold&quot; text-anchor=&quot;middle&quot; dominant-baseline=&quot;middle&quot;>CM</text></svg>');
+            "
+          ></div>
+          <h3>Carlos Mendoza</h3>
+          <button id="download-client1">Descargar client1.jpg</button>
+          <canvas id="canvas1" width="200" height="200"></canvas>
+        </div>
+
+        <div class="client">
+          <div
+            class="client-img"
+            id="client2"
+            style="
+              background-color: #9b59b6;
+              background-image: url('data:image/svg+xml;utf8,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;200&quot; height=&quot;200&quot; viewBox=&quot;0 0 200 200&quot;><rect width=&quot;200&quot; height=&quot;200&quot; fill=&quot;%239b59b6&quot;/><text x=&quot;50%&quot; y=&quot;50%&quot; fill=&quot;white&quot; font-family=&quot;Arial&quot; font-size=&quot;80&quot; font-weight=&quot;bold&quot; text-anchor=&quot;middle&quot; dominant-baseline=&quot;middle&quot;>LS</text></svg>');
+            "
+          ></div>
+          <h3>Laura Sánchez</h3>
+          <button id="download-client2">Descargar client2.jpg</button>
+          <canvas id="canvas2" width="200" height="200"></canvas>
+        </div>
+
+        <div class="client">
+          <div
+            class="client-img"
+            id="client3"
+            style="
+              background-color: #2ecc71;
+              background-image: url('data:image/svg+xml;utf8,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;200&quot; height=&quot;200&quot; viewBox=&quot;0 0 200 200&quot;><rect width=&quot;200&quot; height=&quot;200&quot; fill=&quot;%232ecc71&quot;/><text x=&quot;50%&quot; y=&quot;50%&quot; fill=&quot;white&quot; font-family=&quot;Arial&quot; font-size=&quot;80&quot; font-weight=&quot;bold&quot; text-anchor=&quot;middle&quot; dominant-baseline=&quot;middle&quot;>MA</text></svg>');
+            "
+          ></div>
+          <h3>Miguel Álvarez</h3>
+          <button id="download-client3">Descargar client3.jpg</button>
+          <canvas id="canvas3" width="200" height="200"></canvas>
+        </div>
+      </div>
+
+      <button id="download-all">Descargar todas las imágenes</button>
+
+      <div class="instructions">
+        <h3>Instrucciones:</h3>
+        <ol>
+          <li>
+            Para cada imagen, haz clic en el botón correspondiente para
+            descargar el archivo JPG
+          </li>
+          <li>
+            Alternativamente, puedes descargar todas las imágenes a la vez con
+            el botón de abajo
+          </li>
+          <li>
+            Coloca los archivos descargados en la carpeta
+            /public/assets/img/testimonials/
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <script>
+      // Security fix: moved inline event handlers to JS
+      function downloadImage(clientId, filename) {
+        const clientNumber = clientId.substring(6);
+        const canvas = document.getElementById("canvas" + clientNumber);
+        const ctx = canvas.getContext("2d");
+        const clientDiv = document.getElementById(clientId);
+
+        // Get the background color from the style
+        const bgColor = clientDiv.style.backgroundColor;
+
+        // Draw colored background
+        ctx.fillStyle = bgColor;
+        ctx.fillRect(0, 0, 200, 200);
+
+        // Draw initials
+        ctx.fillStyle = "white";
+        ctx.font = "bold 80px Arial";
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+
+        let initials;
+        if (clientId === "client1") initials = "CM";
+        else if (clientId === "client2") initials = "LS";
+        else initials = "MA";
+
+        ctx.fillText(initials, 100, 100);
+
+        // Create download link
+        const link = document.createElement("a");
+        link.download = filename;
+        link.href = canvas.toDataURL("image/jpeg", 1.0);
+        link.click();
+      }
+
+      function downloadAll() {
+        downloadImage("client1", "client1.jpg");
+        setTimeout(function () {
+          downloadImage("client2", "client2.jpg");
+          setTimeout(function () {
+            downloadImage("client3", "client3.jpg");
+          }, 500);
+        }, 500);
+      }
+      document
+        .getElementById("download-client1")
+        .addEventListener("click", function () {
+          downloadImage("client1", "client1.jpg");
+        });
+      document
+        .getElementById("download-client2")
+        .addEventListener("click", function () {
+          downloadImage("client2", "client2.jpg");
+        });
+      document
+        .getElementById("download-client3")
+        .addEventListener("click", function () {
+          downloadImage("client3", "client3.jpg");
+        });
+      document
+        .getElementById("download-all")
+        .addEventListener("click", function () {
+          downloadAll();
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+Contact: mailto:security@izignamx.com
+Expires: 2027-12-31T23:59:59.000Z
+Encryption: https://izignamx.com/pgp-key.txt
+Preferred-Languages: es, en
+Canonical: https://izignamx.com/.well-known/security.txt
+Policy: https://izignamx.com/security-policy
+Acknowledgments: https://izignamx.com/security-acknowledgments

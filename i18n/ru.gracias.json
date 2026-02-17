@@ -1,0 +1,32 @@
+{
+  "gracias": {
+    "seo": {
+      "title": "Спасибо за обращение! - IzignaMx",
+      "description": "Мы получили ваше сообщение и скоро свяжемся с вами."
+    },
+    "titleHtml": "Сообщение <span class=\"text-gradient bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent\">успешно</span> отправлено!",
+    "successHtml": "Спасибо за обращение. Мы получили ваш запрос, и специалист свяжется с вами в течение ближайших <strong class=\"text-green-400\">24 часов</strong>.",
+    "sectionNextStepsTitle": "Что дальше?",
+    "nextSteps": {
+      "reviewTitle": "Проверка вашего запроса",
+      "reviewDesc": "Мы проанализируем ваш проект и конкретные потребности",
+      "contactTitle": "Персональный контакт",
+      "contactDesc": "Мы свяжемся с вами, чтобы назначить бесплатную консультацию",
+      "proposalTitle": "Персонализированное предложение",
+      "proposalDesc": "Вы получите подробное предложение и график проекта",
+      "startTitle": "Начало проекта",
+      "startDesc": "После утверждения мы приступаем к работе над вашим проектом"
+    },
+    "urgentContactTitle": "Нужно срочно связаться с нами?",
+    "actions": {
+      "backHome": "Вернуться на главную",
+      "viewServices": "Посмотреть наши услуги"
+    },
+    "social": {
+      "joinText": "Присоединяйтесь к более чем 500 компаниям, которые нам доверяют",
+      "ratingText": "4,9/5 на основе 200+ отзывов",
+      "whatsapp": "WhatsApp",
+      "whatsappText": "Здравствуйте, IzignaMx, я только что отправил форму"
+    }
+  }
+}

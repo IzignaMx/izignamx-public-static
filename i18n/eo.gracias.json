@@ -1,0 +1,32 @@
+{
+  "gracias": {
+    "seo": {
+      "title": "Dankon pro via kontakto! - IzignaMx",
+      "description": "Ni ricevis vian mesaĝon kaj baldaŭ respondos."
+    },
+    "titleHtml": "Mesaĝo <span class=\"text-gradient bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent\">sukcese</span> sendita!",
+    "successHtml": "Dankon pro kontakti nin. Ni ricevis vian peton kaj specialisto kontaktos vin ene de la sekvaj <strong class=\"text-green-400\">24 horoj</strong>.",
+    "sectionNextStepsTitle": "Kio sekvas?",
+    "nextSteps": {
+      "reviewTitle": "Revizio de via peto",
+      "reviewDesc": "Ni analizos vian projekton kaj specifajn bezonojn",
+      "contactTitle": "Persona kontaktiĝo",
+      "contactDesc": "Ni kontaktos vin por plani senpagan konsulton",
+      "proposalTitle": "Personigita propono",
+      "proposalDesc": "Vi ricevos detalan proponon kaj projektan templinion",
+      "startTitle": "Projekto-komenco",
+      "startDesc": "Post aprobo ni ekkomencas labori pri via projekto"
+    },
+    "urgentContactTitle": "Ĉu bezonas urĝe kontakti nin?",
+    "actions": {
+      "backHome": "Reiri al Hejmpaĝo",
+      "viewServices": "Vidi Niajn Servojn"
+    },
+    "social": {
+      "joinText": "Aliĝu al pli ol 500 entreprenoj kiuj fidas nin",
+      "ratingText": "4.9/5 bazite sur 200+ recenzoj",
+      "whatsapp": "WhatsApp",
+      "whatsappText": "Saluton IzignaMx, mi ĵus sendis formularon"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "aiProjectBanner": {
+    "newService": "YENİ HİZMET",
+    "titlePrefix": "AI projeniz ",
+    "stuck": "takıldı mı",
+    "titleSuffix": "?",
+    "description": "Eğer <strong class=\"text-blue-400\">ChatGPT</strong>, <strong class=\"text-orange-400\">Claude</strong> veya <strong class=\"text-purple-400\">Cursor</strong> ile bir web projesi oluşturdunuz ancak çalışmıyor ya da profesyonel iyileştirmelere ihtiyacınız varsa, <strong class=\"text-green-400\">biz tamamlarız</strong>.",
+    "freeAnalysis": "2 saatte ÜCRETSİZ analiz",
+    "rescuedProjects": "+150 AI projesi kurtarıldı",
+    "rating": "4.9/5 Puan",
+    "delivery": "24–48 saat teslim",
+    "guarantee": "30 gün garanti"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "gracias": {
+    "seo": {
+      "title": "お問い合わせありがとうございます！ - IzignaMx",
+      "description": "メッセージを受け取りました。近日中にご連絡いたします。"
+    },
+    "titleHtml": "メッセージは<span class=\"text-gradient bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent\">正常に</span>送信されました！",
+    "successHtml": "お問い合わせありがとうございます。ご依頼を受け付けました。担当者が今後<strong class=\"text-green-400\">24時間</strong>以内にご連絡いたします。",
+    "sectionNextStepsTitle": "次のステップは？",
+    "nextSteps": {
+      "reviewTitle": "ご依頼内容の確認",
+      "reviewDesc": "プロジェクトと具体的なニーズを分析します",
+      "contactTitle": "個別のご連絡",
+      "contactDesc": "無料相談の予約のためにご連絡いたします",
+      "proposalTitle": "個別提案",
+      "proposalDesc": "詳細な提案書とプロジェクトのタイムラインをお送りします",
+      "startTitle": "プロジェクト開始",
+      "startDesc": "承認後、プロジェクトの作業を開始します"
+    },
+    "urgentContactTitle": "お急ぎでご連絡が必要ですか？",
+    "actions": {
+      "backHome": "ホームに戻る",
+      "viewServices": "サービスを見る"
+    },
+    "social": {
+      "joinText": "私たちを信頼する500社以上に加わりましょう",
+      "ratingText": "200件以上のレビューに基づく4.9/5",
+      "whatsapp": "WhatsApp",
+      "whatsappText": "こんにちは IzignaMx、フォームを送信しました"
+    }
+  }
+}

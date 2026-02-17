@@ -1,0 +1,24 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo del icono -->
+  <circle cx="32" cy="32" r="30" fill="#1a83e4" opacity="0.1"/>
+  
+  <!-- Página web principal -->
+  <rect x="12" y="18" width="24" height="30" rx="2" fill="none" stroke="#1a83e4" stroke-width="2"/>
+  
+  <!-- Enlaces externos representados como flechas -->
+  <line x1="36" y1="24" x2="48" y2="14" stroke="#1a83e4" stroke-width="2" stroke-linecap="round"/>
+  <line x1="36" y1="32" x2="50" y2="32" stroke="#1a83e4" stroke-width="2" stroke-linecap="round"/>
+  <line x1="36" y1="40" x2="48" y2="50" stroke="#1a83e4" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Páginas destino de los enlaces -->
+  <rect x="48" y="8" width="10" height="12" rx="1" fill="none" stroke="#1a83e4" stroke-width="2"/>
+  <rect x="50" y="26" width="10" height="12" rx="1" fill="none" stroke="#1a83e4" stroke-width="2"/>
+  <rect x="48" y="46" width="10" height="12" rx="1" fill="none" stroke="#1a83e4" stroke-width="2"/>
+  
+  <!-- Líneas de texto en la página principal -->
+  <line x1="16" y1="24" x2="32" y2="24" stroke="#1a83e4" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="16" y1="28" x2="28" y2="28" stroke="#1a83e4" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="16" y1="32" x2="32" y2="32" stroke="#1a83e4" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="16" y1="36" x2="28" y2="36" stroke="#1a83e4" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="16" y1="40" x2="32" y2="40" stroke="#1a83e4" stroke-width="1.5" stroke-linecap="round"/>
+</svg> 

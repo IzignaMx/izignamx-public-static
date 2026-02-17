@@ -1,0 +1,2409 @@
+<!DOCTYPE html><html lang="es-MX" class="scroll-smooth" dir="ltr"> <head><!-- Charset y viewport básicos --><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, shrink-to-fit=no"><meta http-equiv="X-UA-Compatible" content="ie=edge"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><!-- Security Headers (condicional) --><!-- SEO Optimizer básico para compatibilidad --><meta name="seo-optimizer" content="static"><script>(function(){const isStatic = true;
+const shouldRenderAdvancedServerOptimizer = true;
+
+      (function(){
+        var flags = {
+          advancedServerOptimizer: shouldRenderAdvancedServerOptimizer,
+          cacheStrategies: shouldRenderAdvancedServerOptimizer,
+          neuroMarketing: shouldRenderAdvancedServerOptimizer,
+          securityHeaders: true,
+          performanceBudgets: shouldRenderAdvancedServerOptimizer
+        };
+        if (!('__IZIGNA_OPTIMIZATIONS__' in window)) {
+          window.__IZIGNA_OPTIMIZATIONS__ = flags;
+        } else {
+          try {
+            Object.assign(window.__IZIGNA_OPTIMIZATIONS__, flags);
+          } catch (e) {
+            window.__IZIGNA_OPTIMIZATIONS__ = flags;
+          }
+        }
+      })();
+    })();</script><meta name="optimizer-flag" content="AdvancedServerOptimizer"><meta name="cacheStrategy" content="enabled"><script>
+      try {
+        var hasPO = ('PerformanceObserver' in window);
+        window.__po_flag__ = hasPO ? 1 : 0;
+      } catch (e) {
+        window.__po_flag__ = 0;
+      }
+    </script><!-- Optimizaciones avanzadas (solo desarrollo) --><!-- Core Web Vitals Optimizer --><script>(function(){const performanceBudget = {"lcp":3000,"fid":150,"cls":0.15,"fcp":2000,"inp":250};
+const enablePerformanceMonitoring = true;
+
+  (function() {
+    'use strict';
+    
+    if (!enablePerformanceMonitoring || typeof window === 'undefined') return;
+    
+    // Advanced Core Web Vitals Monitoring
+    const CoreWebVitalsOptimizer = {
+      metrics: {},
+      budgets: performanceBudget,
+      
+      // Optimized LCP (Largest Contentful Paint)
+      optimizeLCP() {
+        // Preload critical resources
+        const criticalResources = [
+          '/fonts/ADAM.CG PRO-webfont.woff2'
+        ];
+        
+        criticalResources.forEach(resource => {
+          if (!document.querySelector(`link[href="${resource}"]`)) {
+            const link = document.createElement('link');
+            link.rel = 'preload';
+            link.href = resource;
+            link.as = resource.includes('font') ? 'font' : 'image';
+            if (resource.includes('font')) link.crossOrigin = 'anonymous';
+            document.head.appendChild(link);
+          }
+        });
+        
+        // Optimize images for LCP
+        const heroImages = document.querySelectorAll('img[data-lcp-candidate="true"], .hero img, .banner img');
+        heroImages.forEach(img => {
+          img.loading = 'eager';
+          img.fetchPriority = 'high';
+        });
+      },
+      
+      // Optimized FID/INP (First Input Delay / Interaction to Next Paint)
+      optimizeInteractivity() {
+        // Defer non-critical JavaScript
+        const nonCriticalScripts = document.querySelectorAll('script[data-defer="true"]');
+        nonCriticalScripts.forEach(script => {
+          if (script.src) {
+            const newScript = document.createElement('script');
+            newScript.src = script.src;
+            newScript.defer = true;
+            script.parentNode.replaceChild(newScript, script);
+          }
+        });
+        
+        // Optimize event listeners with passive handlers
+        const optimizeEventListeners = () => {
+          ['touchstart', 'touchmove', 'wheel', 'scroll'].forEach(eventType => {
+            document.addEventListener(eventType, () => {}, { passive: true });
+          });
+        };
+        
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', optimizeEventListeners);
+        } else {
+          optimizeEventListeners();
+        }
+      },
+      
+      // Optimized CLS (Cumulative Layout Shift)
+      optimizeCLS() {
+        const images = document.querySelectorAll('img:not([width]):not([height])');
+        images.forEach(img => {
+          const w = img.naturalWidth;
+          const h = img.naturalHeight;
+          if (w > 0 && h > 0) {
+            img.setAttribute('width', String(w));
+            img.setAttribute('height', String(h));
+            if (!img.hasAttribute('decoding')) {
+              img.setAttribute('decoding', 'async');
+            }
+          } else {
+            img.addEventListener('load', () => {
+              if (!img.hasAttribute('width') && !img.hasAttribute('height')) {
+                const nw = img.naturalWidth;
+                const nh = img.naturalHeight;
+                if (nw > 0 && nh > 0) {
+                  img.setAttribute('width', String(nw));
+                  img.setAttribute('height', String(nh));
+                  if (!img.hasAttribute('decoding')) {
+                    img.setAttribute('decoding', 'async');
+                  }
+                }
+              }
+            }, { once: true });
+            img.style.aspectRatio = '16/9';
+            img.style.width = '100%';
+            img.style.height = 'auto';
+          }
+        });
+        
+        // Reserve space for dynamic content
+        const dynamicElements = document.querySelectorAll('[data-dynamic-content]');
+        dynamicElements.forEach(el => {
+          if (!el.style.minHeight) {
+            el.style.minHeight = el.dataset.dynamicContentHeight || '200px';
+          }
+          if (!el.style.contentVisibility) {
+            el.style.contentVisibility = 'auto';
+          }
+          el.style.setProperty('contain-intrinsic-size', el.dataset.dynamicContentHeight || '0 200px');
+        });
+        
+        // Optimize font loading to prevent FOIT/FOUT
+        if ('fontDisplay' in document.documentElement.style) {
+          const style = document.createElement('style');
+          style.textContent = `
+            @font-face {
+              font-family: system;
+              font-display: swap;
+            }
+          `;
+          document.head.appendChild(style);
+        }
+      },
+      
+      // Performance monitoring and alerting
+      monitorMetrics() {
+        if (!('PerformanceObserver' in window)) return;
+        
+        // Monitor LCP
+        new PerformanceObserver((entryList) => {
+          const entries = entryList.getEntries();
+          const lastEntry = entries[entries.length - 1];
+          this.metrics.lcp = lastEntry.startTime;
+          
+          if (this.metrics.lcp > this.budgets.lcp) {
+            console.warn(`⚠️ LCP budget exceeded: ${this.metrics.lcp}ms (budget: ${this.budgets.lcp}ms)`);
+            this.triggerPerformanceAlert('lcp', this.metrics.lcp);
+          }
+        }).observe({ type: 'largest-contentful-paint', buffered: true });
+        
+        // Monitor FID
+        new PerformanceObserver((entryList) => {
+          entryList.getEntries().forEach(entry => {
+            this.metrics.fid = entry.processingStart - entry.startTime;
+            
+            if (this.metrics.fid > this.budgets.fid) {
+              console.warn(`⚠️ FID budget exceeded: ${this.metrics.fid}ms (budget: ${this.budgets.fid}ms)`);
+              this.triggerPerformanceAlert('fid', this.metrics.fid);
+            }
+          });
+        }).observe({ type: 'first-input', buffered: true });
+        
+        // Monitor CLS
+        let clsValue = 0;
+        new PerformanceObserver((entryList) => {
+          entryList.getEntries().forEach(entry => {
+            if (!entry.hadRecentInput) {
+              clsValue += entry.value;
+            }
+          });
+          
+          this.metrics.cls = clsValue;
+          
+          if (this.metrics.cls > this.budgets.cls) {
+            console.warn(`⚠️ CLS budget exceeded: ${this.metrics.cls} (budget: ${this.budgets.cls})`);
+            this.triggerPerformanceAlert('cls', this.metrics.cls);
+          }
+        }).observe({ type: 'layout-shift', buffered: true });
+      },
+      
+      triggerPerformanceAlert(metric, value) {
+        // Send to analytics or monitoring service
+        if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+          window.gtag('event', 'performance_budget_exceeded', {
+            custom_parameter_1: metric,
+            custom_parameter_2: value,
+            value: value
+          });
+        }
+        
+        // Send to console in development
+        if (window.location.hostname === 'localhost') {
+          console.group('🚨 Performance Budget Alert');
+          // Performance budget exceeded
+          console.groupEnd();
+        }
+      },
+      
+      init() {
+        // Run optimizations
+        this.optimizeLCP();
+        this.optimizeInteractivity();
+        this.optimizeCLS();
+        
+        // Start monitoring
+        if (enablePerformanceMonitoring) {
+          this.monitorMetrics();
+        }
+        
+        // Advanced Core Web Vitals Optimizer initialized
+      }
+    };
+    
+    // Initialize when DOM is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => CoreWebVitalsOptimizer.init());
+    } else {
+      CoreWebVitalsOptimizer.init();
+    }
+  })();
+})();</script> <!-- Advanced Caching Strategy --><script>(function(){const currentCacheStrategy = {"static":"max-age=31536000, immutable","dynamic":"max-age=3600, stale-while-revalidate=86400","api":"max-age=300, stale-while-revalidate=600"};
+const cacheStrategy = "aggressive";
+const isProd = true;
+
+    (function() {
+      'use strict';
+      
+      if (typeof window === 'undefined' || !('caches' in window)) return;
+      
+      const AdvancedCacheManager = {
+        strategy: cacheStrategy,
+        config: currentCacheStrategy,
+        
+        // Intelligent cache warming
+        warmCriticalCache() {
+          const criticalResources = [
+            '/',
+            '/about',
+            '/services/web-development'
+          ];
+          
+          if ('requestIdleCallback' in window) {
+            requestIdleCallback(() => {
+              criticalResources.forEach(url => {
+                fetch(url, { 
+                  cache: 'force-cache',
+                  mode: 'no-cors' 
+                }).catch(() => {
+                  // Silent fail for cross-origin resources
+                });
+              });
+            });
+          }
+        },
+        
+        // Smart prefetching based on user behavior
+        smartPrefetch() {
+          // Evitar en desarrollo o conexiones lentas/ahorro de datos
+          try {
+            if (!isProd) return;
+            if (navigator.connection && (navigator.connection.saveData || (navigator.connection.effectiveType && navigator.connection.effectiveType.includes('2g')))) {
+              return;
+            }
+          } catch (_) { /* no-op */ }
+          let prefetchedUrls = new Set();
+          let mouseTimer;
+          
+          const prefetchUrl = (url) => {
+            if (prefetchedUrls.has(url)) return;
+            
+            const link = document.createElement('link');
+            link.rel = 'prefetch';
+            link.href = url;
+            document.head.appendChild(link);
+            prefetchedUrls.add(url);
+          };
+          
+          // Prefetch on mouse hover with delay
+          document.addEventListener('mouseover', (e) => {
+            const link = e.target.closest('a[href]');
+            if (link && link.hostname === location.hostname) {
+              clearTimeout(mouseTimer);
+              mouseTimer = setTimeout(() => {
+                prefetchUrl(link.href);
+              }, 200); // 200ms delay to avoid over-prefetching
+            }
+          });
+          
+          // Prefetch visible links in viewport
+          if ('IntersectionObserver' in window) {
+            const linkObserver = new IntersectionObserver((entries) => {
+              entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                  const link = entry.target;
+                  setTimeout(() => prefetchUrl(link.href), 1000);
+                  linkObserver.unobserve(link);
+                }
+              });
+            }, { rootMargin: '0px 0px 200px 0px' });
+            
+            // Observe internal links
+            setTimeout(() => {
+              document.querySelectorAll('a[href^="/"], a[href^="./"], a[href^="../"]').forEach(link => {
+                linkObserver.observe(link);
+              });
+            }, 1200);
+          }
+        },
+        
+        // Memory-aware caching
+        manageCacheMemory() {
+          if ('storage' in navigator && 'estimate' in navigator.storage) {
+            navigator.storage.estimate().then(estimate => {
+              const usagePercentage = (estimate.usage / estimate.quota) * 100;
+              
+              if (usagePercentage > 80) {
+                console.warn('🗂️ Storage usage high, cleaning old cache entries');
+                // Trigger cache cleanup
+                this.cleanOldCacheEntries();
+              }
+            });
+          }
+        },
+        
+        async cleanOldCacheEntries() {
+          try {
+            const cacheNames = await caches.keys();
+            const oldCaches = cacheNames.filter(name => 
+              name.includes('izigna-cache') && !name.includes('v1')
+            );
+            
+            await Promise.all(oldCaches.map(name => caches.delete(name)));
+            // Cleaned old cache entries
+          } catch (error) {
+            console.warn('Cache cleanup failed:', error);
+          }
+        },
+        
+        init() {
+          this.warmCriticalCache();
+          this.smartPrefetch();
+          this.manageCacheMemory();
+          
+          // Advanced Cache Manager initialized
+        }
+      };
+      
+      // Initialize after page load
+      window.addEventListener('load', () => {
+        setTimeout(() => AdvancedCacheManager.init(), 1000);
+      });
+    })();
+  })();</script><!-- Neuro-Marketing Optimizer --><script>
+    (function() {
+      'use strict';
+      
+      if (typeof window === 'undefined') return;
+      
+      const NeuroMarketingOptimizer = {
+        // Scarcity and urgency psychology
+        createUrgency() {
+          const urgencyTriggers = document.querySelectorAll('[data-urgency]');
+          urgencyTriggers.forEach(element => {
+            const urgencyType = element.dataset.urgency;
+            
+            switch (urgencyType) {
+              case 'time':
+                this.addTimeCountdown(element);
+                break;
+              case 'quantity':
+                this.addQuantityScarcity(element);
+                break;
+              case 'social':
+                this.addSocialProof(element);
+                break;
+            }
+          });
+        },
+        
+        addTimeCountdown(element) {
+          const endTime = element.dataset.endTime || (Date.now() + 24 * 60 * 60 * 1000);
+          const updateCountdown = () => {
+            const timeLeft = new Date(endTime) - new Date();
+            if (timeLeft > 0) {
+              const hours = Math.floor(timeLeft / (1000 * 60 * 60));
+              const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+              element.textContent = `⏰ ${hours}h ${minutes}m restantes`;
+            }
+          };
+          
+          updateCountdown();
+          setInterval(updateCountdown, 60000); // Update every minute
+        },
+        
+        addQuantityScarcity(element) {
+          const remaining = element.dataset.remaining || Math.floor(Math.random() * 10) + 5;
+          element.innerHTML = `🔥 Solo quedan <strong>${remaining}</strong> disponibles`;
+        },
+        
+        addSocialProof(element) {
+          const views = element.dataset.views || (Math.floor(Math.random() * 50) + 20);
+          element.innerHTML = `👥 <strong>${views}</strong> personas están viendo esto`;
+        },
+        
+        // Simplified interactions
+        simplifyInteractions() {
+          // Don't simplify forms that should remain as single-step
+          const excludedFormIds = ['contactForm', 'contact-form', 'formulario-contacto', 'aiProjectForm', 'exit-popup-form'];
+          const excludedSelectors = ['#contact form', '[data-single-step]', '.contact-form'];
+          const forms = document.querySelectorAll('form');
+          
+          forms.forEach(form => {
+            // Skip excluded forms (main contact form should stay single-step)
+            if (excludedFormIds.includes(form.id) || form.hasAttribute('data-single-step')) {
+              return;
+            }
+            
+            // Check if form matches any excluded selector
+            const isExcluded = excludedSelectors.some(selector => {
+              try {
+                return form.matches(selector) || form.closest(selector);
+              } catch {
+                return false;
+              }
+            });
+            
+            if (isExcluded) {
+              return;
+            }
+            
+            const formGroups = form.querySelectorAll('.form-group, .field-group, .input-group');
+            if (formGroups.length <= 3) return; // Don't split small forms
+            
+            this.splitIntoGroups(formGroups);
+          });
+          
+          this.addSmartDefaults();
+        },
+        
+        splitIntoGroups(formGroups) {
+          const groupsArray = Array.from(formGroups);
+          const groupSize = 3;
+          let currentGroup = 0;
+          
+          // Hide all but first group
+          groupsArray.forEach((group, index) => {
+            if (index >= groupSize) {
+              group.style.display = 'none';
+            }
+          });
+          
+          // Add "Continue" buttons - only for forms that need multistep
+          for (let i = groupSize - 1; i < groupsArray.length; i += groupSize) {
+            if (i < groupsArray.length - 1) {
+              const continueBtn = document.createElement('button');
+              continueBtn.type = 'button';
+              continueBtn.textContent = 'Continuar →';
+              continueBtn.className = 'btn btn-secondary mt-4';
+              continueBtn.setAttribute('aria-label', 'Continuar al siguiente paso del formulario');
+              
+              continueBtn.addEventListener('click', () => {
+                currentGroup++;
+                const startIndex = currentGroup * groupSize;
+                const endIndex = startIndex + groupSize;
+                
+                for (let j = startIndex; j < endIndex && j < groupsArray.length; j++) {
+                  groupsArray[j].style.display = 'block';
+                }
+                
+                continueBtn.style.display = 'none';
+                
+                // Focus on first field of newly shown group for accessibility
+                const firstNewField = groupsArray[startIndex]?.querySelector('input, select, textarea');
+                if (firstNewField) {
+                  firstNewField.focus();
+                }
+              });
+              
+              groupsArray[i].after(continueBtn);
+            }
+          }
+        },
+        
+        addSmartDefaults() {
+          // Auto-fill country based on locale
+          const countrySelects = document.querySelectorAll('select[name*="country"], select[name*="pais"]');
+          countrySelects.forEach(select => {
+            const mexicoOption = select.querySelector('option[value="MX"], option[value="Mexico"]');
+            if (mexicoOption) {
+              mexicoOption.selected = true;
+            }
+          });
+        },
+        
+        // Emotional engagement
+        enhanceEmotionalConnection() {
+          // Add micro-interactions
+          const buttons = document.querySelectorAll('button, .btn, [role="button"]');
+          buttons.forEach(btn => {
+            btn.addEventListener('mouseenter', () => {
+              btn.style.transform = 'translateY(-2px)';
+              btn.style.transition = 'transform 0.2s ease';
+            });
+            
+            btn.addEventListener('mouseleave', () => {
+              btn.style.transform = 'translateY(0)';
+            });
+            
+            btn.addEventListener('click', () => {
+              btn.style.transform = 'scale(0.95)';
+              setTimeout(() => {
+                btn.style.transform = 'translateY(-2px)';
+              }, 150);
+            });
+          });
+          
+          // Add success celebrations
+          this.addSuccessCelebrations();
+        },
+        
+        addSuccessCelebrations() {
+          const forms = document.querySelectorAll('form');
+          forms.forEach(form => {
+            form.addEventListener('submit', () => {
+              if (form.checkValidity()) {
+                this.triggerSuccessAnimation(form);
+              }
+            });
+          });
+        },
+        
+        triggerSuccessAnimation(element) {
+        // Create confetti effect
+        if (typeof window !== 'undefined' && typeof window.confetti === 'function') {
+          window.confetti({
+            particleCount: 100,
+            spread: 70,
+            origin: { y: 0.6 }
+          });
+        } else {
+            // Simple CSS animation fallback
+            element.style.animation = 'pulse 0.6s ease-in-out';
+          }
+        },
+        
+        // Personalization
+        implementPersonalization() {
+          // Detect returning visitor
+          const isReturning = localStorage.getItem('izigna_returning_visitor');
+          if (isReturning) {
+            document.body.classList.add('returning-visitor');
+            this.personalizeForReturningVisitor();
+          } else {
+            localStorage.setItem('izigna_returning_visitor', 'true');
+            document.body.classList.add('first-time-visitor');
+          }
+          
+          // Detect user preferences
+          this.detectUserPreferences();
+        },
+        
+        personalizeForReturningVisitor() {
+          // Show different messaging for returning visitors
+          const welcomeTexts = document.querySelectorAll('[data-welcome-text]');
+          welcomeTexts.forEach(text => {
+            text.textContent = '¡Bienvenido de vuelta! 👋';
+          });
+          
+          // Pre-fill previous form data
+          this.restorePreviousFormData();
+        },
+        
+        restorePreviousFormData() {
+          const savedData = JSON.parse(localStorage.getItem('izigna_form_data') || '{}');
+          Object.keys(savedData).forEach(fieldName => {
+            const field = document.querySelector(`[name="${fieldName}"]`);
+            if (field && field.type !== 'password') {
+              field.value = savedData[fieldName];
+            }
+          });
+        },
+        
+        detectUserPreferences() {
+          // Detect device type and optimize accordingly
+          const isMobile = window.innerWidth < 768;
+          const isTablet = window.innerWidth >= 768 && window.innerWidth < 1024;
+          
+          if (isMobile) {
+            document.body.classList.add('mobile-optimized');
+            this.optimizeForMobile();
+          } else if (isTablet) {
+            document.body.classList.add('tablet-optimized');
+          }
+          
+          // Detect connection speed
+          if ('connection' in navigator) {
+            const connection = navigator.connection;
+            if (connection.effectiveType === 'slow-2g' || connection.effectiveType === '2g') {
+              document.body.classList.add('slow-connection');
+              this.optimizeForSlowConnection();
+            }
+          }
+        },
+        
+        optimizeForMobile() {
+          // Increase touch targets
+          const buttons = document.querySelectorAll('button, .btn, a');
+          buttons.forEach(btn => {
+            const rect = btn.getBoundingClientRect();
+            if (rect.height < 44) {
+              btn.style.minHeight = '44px';
+              btn.style.padding = '12px 16px';
+            }
+          });
+        },
+        
+        optimizeForSlowConnection() {
+          // Reduce animations
+          document.body.classList.add('reduced-motion');
+          
+          // Lazy load more aggressively
+          const images = document.querySelectorAll('img[loading="lazy"]');
+          images.forEach(img => {
+            img.loading = 'lazy';
+          });
+        },
+        
+        init() {
+          this.createUrgency();
+          this.simplifyInteractions();
+          this.enhanceEmotionalConnection();
+          this.implementPersonalization();
+          
+          // Neuro-Marketing Optimizer initialized
+        }
+      };
+      
+      // Initialize when DOM is ready
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => NeuroMarketingOptimizer.createUrgency());
+      } else {
+        NeuroMarketingOptimizer.createUrgency();
+      }
+    })();
+  </script><!-- Enhanced Accessibility Features --><script>
+    (function() {
+      'use strict';
+      
+      if (typeof window === 'undefined') return;
+      
+      const AccessibilityEnhancer = {
+        // WCAG 2.1 AAA Compliance
+        enhanceWCAGCompliance() {
+          // Ensure all images have alt text
+          const images = document.querySelectorAll('img:not([alt])');
+          images.forEach(img => {
+            img.alt = img.title || 'Imagen decorativa';
+            img.setAttribute('role', 'presentation');
+          });
+          
+          // Ensure proper heading hierarchy
+          this.validateHeadingHierarchy();
+          
+          // Add focus indicators for custom elements
+          this.enhanceFocusIndicators();
+          
+          // Add ARIA labels for interactive elements
+          this.addMissingAriaLabels();
+        },
+        
+        validateHeadingHierarchy() {
+          const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+          let previousLevel = 0;
+          
+          headings.forEach(heading => {
+            const currentLevel = parseInt(heading.tagName.charAt(1));
+            
+            if (currentLevel - previousLevel > 1) {
+              console.warn(`⚠️ Heading hierarchy violation: ${heading.tagName} follows h${previousLevel}`);
+              
+              // Fix automatically if possible
+              if (previousLevel > 0) {
+                const correctedLevel = Math.min(previousLevel + 1, 6);
+                const correctedTag = `h${correctedLevel}`;
+                const newHeading = document.createElement(correctedTag);
+                newHeading.innerHTML = heading.innerHTML;
+                newHeading.className = heading.className;
+                heading.parentNode.replaceChild(newHeading, heading);
+              }
+            }
+            
+            previousLevel = currentLevel;
+          });
+        },
+        
+        enhanceFocusIndicators() {
+          const focusableElements = document.querySelectorAll(
+            'a, button, input, textarea, select, [tabindex]:not([tabindex="-1"]), [role="button"]'
+          );
+          
+          focusableElements.forEach(element => {
+            element.addEventListener('focus', () => {
+              element.style.outline = '3px solid rgba(59, 130, 246, 0.8)';
+              element.style.outlineOffset = '2px';
+              element.style.borderRadius = '4px';
+            });
+            
+            element.addEventListener('blur', () => {
+              element.style.outline = '';
+              element.style.outlineOffset = '';
+            });
+          });
+        },
+        
+        addMissingAriaLabels() {
+          // Add aria-label to buttons without accessible text
+          const buttons = document.querySelectorAll('button:not([aria-label])');
+          buttons.forEach(button => {
+            if (!button.textContent.trim() && !button.querySelector('span:not([aria-hidden="true"])')) {
+              const action = button.className.includes('close') ? 'Cerrar' :
+                           button.className.includes('menu') ? 'Menú' :
+                           button.className.includes('search') ? 'Buscar' :
+                           'Botón';
+              button.setAttribute('aria-label', action);
+            }
+          });
+          
+          // Add aria-hidden to decorative icons
+          const decorativeIcons = document.querySelectorAll('i[class*="fa-"], svg:not([aria-label]):not([role])');
+          decorativeIcons.forEach(icon => {
+            if (!icon.hasAttribute('aria-hidden')) {
+              icon.setAttribute('aria-hidden', 'true');
+            }
+          });
+        },
+        
+        // Enhanced keyboard navigation
+        enhanceKeyboardNavigation() {
+          // Skip links
+          if (!document.querySelector('.skip-to-content')) {
+            const skipLink = document.createElement('a');
+            skipLink.href = '#main-content';
+            skipLink.className = 'skip-to-content';
+            skipLink.textContent = 'Saltar al contenido principal';
+            skipLink.style.cssText = `
+              position: absolute;
+              top: -40px;
+              left: 0;
+              background: #000;
+              color: #fff;
+              padding: 8px 16px;
+              text-decoration: none;
+              z-index: 9999;
+              transition: top 0.3s ease;
+            `;
+            
+            skipLink.addEventListener('focus', () => {
+              skipLink.style.top = '0';
+            });
+            
+            skipLink.addEventListener('blur', () => {
+              skipLink.style.top = '-40px';
+            });
+            
+            document.body.insertBefore(skipLink, document.body.firstChild);
+          }
+          
+          // Enhanced tab navigation
+          this.enhanceTabNavigation();
+        },
+        
+        enhanceTabNavigation() {
+          document.addEventListener('keydown', (e) => {
+            if (e.key === 'Tab') {
+              document.body.classList.add('keyboard-navigation');
+              // track active element if needed
+            }
+            
+            // Escape key handling for modals/dropdowns
+            if (e.key === 'Escape') {
+              const openModal = document.querySelector('[role="dialog"][aria-hidden="false"]');
+              if (openModal) {
+                this.closeModal(openModal);
+              }
+              
+              const openDropdown = document.querySelector('[aria-expanded="true"]');
+              if (openDropdown) {
+                openDropdown.setAttribute('aria-expanded', 'false');
+                openDropdown.focus();
+              }
+            }
+          });
+          
+          document.addEventListener('click', () => {
+            document.body.classList.remove('keyboard-navigation');
+          });
+        },
+        
+        closeModal(modal) {
+          modal.setAttribute('aria-hidden', 'true');
+          modal.style.display = 'none';
+          
+          // Return focus to trigger element
+          const triggerId = modal.dataset.triggeredBy;
+          if (triggerId) {
+            const trigger = document.getElementById(triggerId);
+            if (trigger) trigger.focus();
+          }
+        },
+        
+        // Screen reader enhancements
+        enhanceScreenReaderExperience() {
+          // Add live regions for dynamic content
+          if (!document.querySelector('[aria-live]')) {
+            const liveRegion = document.createElement('div');
+            liveRegion.setAttribute('aria-live', 'polite');
+            liveRegion.setAttribute('aria-atomic', 'true');
+            liveRegion.className = 'sr-only';
+            liveRegion.id = 'live-region';
+            document.body.appendChild(liveRegion);
+          }
+          
+          // Announce page changes
+          this.announcePageChanges();
+          
+          // Add landmarks if missing
+          this.addLandmarks();
+        },
+        
+        announcePageChanges() {
+          const liveRegion = document.getElementById('live-region');
+          if (!liveRegion) return;
+          
+          // Announce navigation changes
+          let previousUrl = window.location.href;
+          
+          const observer = new MutationObserver(() => {
+            if (window.location.href !== previousUrl) {
+              previousUrl = window.location.href;
+              const pageTitle = document.title.split(' | ')[0];
+              liveRegion.textContent = `Página cargada: ${pageTitle}`;
+            }
+          });
+          
+          observer.observe(document.body, { childList: true, subtree: true });
+        },
+        
+        addLandmarks() {
+          // Add main landmark if missing
+          if (!document.querySelector('main, [role="main"]')) {
+            const mainContent = document.querySelector('#main-content, .main-content, .container:first-of-type');
+            if (mainContent && !mainContent.tagName === 'MAIN') {
+              mainContent.setAttribute('role', 'main');
+              mainContent.id = 'main-content';
+            }
+          }
+          
+          // Add navigation landmarks
+          const navElements = document.querySelectorAll('nav:not([role]), .navigation:not([role])');
+          navElements.forEach((nav, index) => {
+            if (!nav.hasAttribute('role')) {
+              nav.setAttribute('role', 'navigation');
+              if (!nav.hasAttribute('aria-label')) {
+                nav.setAttribute('aria-label', `Navegación ${index + 1}`);
+              }
+            }
+          });
+        },
+        
+        init() {
+          this.enhanceWCAGCompliance();
+          this.enhanceKeyboardNavigation();
+          this.enhanceScreenReaderExperience();
+          
+          // Enhanced Accessibility features initialized
+        }
+      };
+      
+      // Initialize when DOM is ready
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => AccessibilityEnhancer.init());
+      } else {
+        AccessibilityEnhancer.init();
+      }
+    })();
+  </script><!-- Development-only performance insights --><!-- CSS for neuro-marketing and accessibility enhancements --><!-- Gestión avanzada de almacenamiento (solo desarrollo) --><!-- Meta SEO básicos unificados --><!-- SEO Optimizado --><title>¡Gracias!</title><meta name="description" content="Solicitud recibida con éxito."><meta name="keywords" content="gracias, contacto, izignamx"><meta name="robots" content="index, follow"><link rel="canonical" href="https://izignamx.com/gracias"><link rel="alternate" hreflang="es-mx" href="https://izignamx.com/gracias"><link rel="alternate" hreflang="en" href="https://izignamx.com/gracias?lang=en"><link rel="alternate" hreflang="fr" href="https://izignamx.com/gracias?lang=fr"><link rel="alternate" hreflang="de" href="https://izignamx.com/gracias?lang=de"><link rel="alternate" hreflang="nl" href="https://izignamx.com/gracias?lang=nl"><link rel="alternate" hreflang="ja" href="https://izignamx.com/gracias?lang=ja"><link rel="alternate" hreflang="zh" href="https://izignamx.com/gracias?lang=zh"><link rel="alternate" hreflang="hi" href="https://izignamx.com/gracias?lang=hi"><link rel="alternate" hreflang="ar" href="https://izignamx.com/gracias?lang=ar"><link rel="alternate" hreflang="pt" href="https://izignamx.com/gracias?lang=pt"><link rel="alternate" hreflang="fi" href="https://izignamx.com/gracias?lang=fi"><link rel="alternate" hreflang="ru" href="https://izignamx.com/gracias?lang=ru"><link rel="alternate" hreflang="tr" href="https://izignamx.com/gracias?lang=tr"><link rel="alternate" hreflang="it" href="https://izignamx.com/gracias?lang=it"><link rel="alternate" hreflang="ko" href="https://izignamx.com/gracias?lang=ko"><link rel="alternate" hreflang="pl" href="https://izignamx.com/gracias?lang=pl"><link rel="alternate" hreflang="eo" href="https://izignamx.com/gracias?lang=eo"><link rel="alternate" hreflang="la" href="https://izignamx.com/gracias?lang=la"><link rel="alternate" hreflang="es" href="https://izignamx.com/gracias"><link rel="alternate" hreflang="x-default" href="https://izignamx.com/gracias"><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="https://izignamx.com/gracias"><meta property="og:title" content="¡Gracias!"><meta property="og:description" content="Solicitud recibida con éxito."><meta property="og:image" content="https://izignamx.com/assets/images/og-image.jpg"><meta property="og:locale" content="es_MX"><meta property="og:site_name" content="IzignaMx"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@izignamx"><meta name="twitter:creator" content="@izignamx"><meta name="twitter:title" content="¡Gracias!"><meta name="twitter:description" content="Solicitud recibida con éxito."><meta name="twitter:image" content="https://izignamx.com/assets/images/og-image.jpg"><meta name="twitter:image:alt" content="Imagen destacada para ¡Gracias!"><!-- Schema.org / JSON-LD --><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","mainEntityOfPage":{"@type":"WebPage","@id":"https://izignamx.com/gracias"},"headline":"¡Gracias!","description":"Solicitud recibida con éxito.","image":"https://izignamx.com/assets/images/og-image.jpg"}</script><!-- Metadatos adicionales para mejorar SEO --><meta name="author" content="IzignaMx"><!-- Precargar fuentes críticas --><!-- Permitir espacio para metadatos adicionales --><!-- PWA Setup --><!-- Metaetiquetas para PWA --><meta name="application-name" content="IzignaMx"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="IzignaMx"><meta name="mobile-web-app-capable" content="yes"><!-- Enlace al Manifest --><link rel="manifest" href="/site.webmanifest"><!-- Script para registrar el Service Worker (solo en producción) --><script>(function(){const enableOffline = true;
+const fullCacheName = "izigna-cache-v1";
+const cacheDuration = 30;
+const resourcesToPrecache = ["/","/offline.html","/assets/img/logo.png","/assets/img/city-background-main.jpg"];
+const isDevelopment = false;
+const newVersionMsg = "Nueva versión disponible. ¿Actualizar ahora?";
+
+    // Registrar Service Worker cuando la página haya cargado
+    if ('serviceWorker' in navigator) {
+      if (!window.isSecureContext) { return; }
+      window.addEventListener('load', async function() {
+        try {
+          // Verificar si estamos en desarrollo
+          if (isDevelopment) {
+            // ServiceWorker deshabilitado en modo desarrollo
+            return;
+          }
+          
+          // Registramos el service worker
+          const registration = await navigator.serviceWorker.register('/service-worker.js');
+          // Service Worker registrado con éxito
+          
+          // Manejar actualizaciones
+          registration.addEventListener('updatefound', () => {
+            const newWorker = registration.installing;
+            if (newWorker) {
+              newWorker.addEventListener('statechange', () => {
+                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                  // Notificar al usuario sobre una actualización disponible
+                  if (confirm(newVersionMsg)) {
+                    window.location.reload();
+                  }
+                }
+              });
+            }
+          });
+        } catch (error) {
+          if (error && (error).name === 'InvalidStateError') { return; }
+          // No mostrar el error al usuario en producción
+        }
+      });
+      
+      // Gestionar mensajes del Service Worker
+      navigator.serviceWorker.addEventListener('message', (event) => {
+        if (event.data && event.data.type === 'CACHE_UPDATED') {
+          // Contenido actualizado en caché
+        }
+      });
+      
+      
+      // Comprobar si hay una nueva versión del service worker (solo en producción)
+      const checkForUpdates = async () => {
+        if (isDevelopment) return;
+        
+        try {
+          const registration = await navigator.serviceWorker.getRegistration();
+          if (registration) {
+            await registration.update();
+          }
+        } catch (error) {
+          console.error('Error al buscar actualizaciones:', error);
+          // Silenciar errores de actualización para evitar spam en consola
+        }
+      };
+      
+      // Comprobar actualizaciones periódicamente (cada 4 horas) - solo en producción
+      if (!isDevelopment) {
+        setInterval(checkForUpdates, 4 * 60 * 60 * 1000);
+        
+        // Si la página se vuelve visible, comprobar actualizaciones
+        document.addEventListener('visibilitychange', () => {
+          if (document.visibilityState === 'visible') {
+            checkForUpdates();
+          }
+        });
+      }
+      
+      // Manejar conexión offline/online
+      window.addEventListener('online', () => {
+        document.documentElement.classList.remove('offline');
+        if (!isDevelopment) {
+          checkForUpdates();
+        }
+      });
+      
+      window.addEventListener('offline', () => {
+        document.documentElement.classList.add('offline');
+      });
+      
+      // Añadir clase si está offline al cargar
+      if (!navigator.onLine) {
+        document.documentElement.classList.add('offline');
+      }
+    }
+  })();</script><!-- Mensaje de desarrollo para informar sobre ServiceWorker --><!-- Script para facilitar la instalación en dispositivos móviles --><script>
+  // Prevent multiple initializations
+  if (typeof window.__PWA_SETUP_INITIALIZED__ === 'undefined') {
+    window.__PWA_SETUP_INITIALIZED__ = true;
+    
+    // Variable para controlar si ya se mostró un prompt de instalación
+    let deferredPrompt;
+  
+  // Capturar el evento beforeinstallprompt para mostrar un botón de instalación personalizado
+  window.addEventListener('beforeinstallprompt', (e) => {
+    // Prevenir que Chrome muestre el prompt automáticamente
+    e.preventDefault();
+    // Guardar el evento para usarlo más tarde
+    deferredPrompt = e;
+    
+    // Opcional: mostrar botón de instalación personalizado
+    const installButton = document.getElementById('install-button');
+    if (installButton) {
+      installButton.style.display = 'flex';
+      
+      installButton.addEventListener('click', () => {
+        // Mostrar el prompt de instalación
+        deferredPrompt.prompt();
+        
+        // Esperar a que el usuario responda al prompt
+        deferredPrompt.userChoice.then((choiceResult) => {
+          if (choiceResult.outcome === 'accepted') {
+            // Usuario aceptó la instalación
+            installButton.style.display = 'none';
+          }
+          deferredPrompt = null;
+        });
+      });
+    }
+  });
+  
+  // Detectar cuando la PWA se ha instalado con éxito
+  window.addEventListener('appinstalled', () => {
+    // Ocultar botón de instalación
+    const installButton = document.getElementById('install-button');
+    if (installButton) {
+      installButton.style.display = 'none';
+    }
+    
+    // Limpiar el prompt diferido
+    deferredPrompt = null;
+    
+    // Opcional: enviar evento de analytics
+    if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+      window.gtag('event', 'pwa_install', {
+        'event_category': 'PWA',
+        'event_label': 'Installed PWA'
+      });
+    }
+    
+    // PWA instalada con éxito
+  });
+
+  // Close the initialization guard
+  }
+</script><!-- Estilos específicos para estado offline --><!-- Indicador de estado offline (opcional) --><div class="offline-indicator"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <path d="M1 1l22 22M16.72 11.06A10.94 10.94 0 0 1 19 12.55M5 12.55a10.94 10.94 0 0 1 5.17-2.39M10.71 5.05A16 16 0 0 1 22.58 9M1.42 9a15.91 15.91 0 0 1 4.7-2.88M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01"></path> </svg> <span data-i18n="pwa.offlineIndicator">Modo sin conexión</span> </div> <!-- Botón de instalación (opcional - se mostrará automáticamente cuando la PWA sea instalable) --> <button id="install-button"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <path d="M19 9l-7 7-7-7M12 16V4"></path> </svg> <span data-i18n="pwa.installButton">Instalar aplicación</span> </button><!-- Resource Hints --><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preconnect" href="https://www.googletagmanager.com" crossorigin><link rel="preconnect" href="https://www.google-analytics.com" crossorigin><!-- Favicon adicional para compatibilidad --><link rel="icon" href="/favicon.ico" sizes="any"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- Precargar fuentes críticas --><link rel="preload" href="/fonts/ADAM.CG PRO-webfont.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/fonts/Adamas-Regular.woff" as="font" type="font/woff" crossorigin><!-- Optimizaciones LCP para homepage --><!-- Estilos específicos para layout estático --><link rel="stylesheet" href="/css/static-layout.css"><!-- Shim temprana para detección de idioma en builds estáticos --><script>
+      (function () {
+        if (typeof window === 'undefined' || typeof navigator === 'undefined') {
+          return;
+        }
+
+        const supportedLanguages = ['es-MX','en','fr','de','nl','ja','zh','hi','ar','pt','fi','ru','tr','it','ko','pl','eo','la'];
+
+        function fallbackDetect() {
+          const navLangs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'es-MX'];
+          for (const lang of navLangs) {
+            const base = (lang || '').toLowerCase();
+            const match = supportedLanguages.find((code) => code.toLowerCase() === base || code.toLowerCase().startsWith(base.split('-')[0]));
+            if (match) {
+              return match;
+            }
+          }
+          return 'es-MX';
+        }
+
+        if (typeof window.detectUserLanguage !== 'function') {
+          window.detectUserLanguage = function () {
+            const lang = fallbackDetect();
+            window.__detectedLanguage = lang;
+            return lang;
+          };
+        }
+
+        if (typeof window.getPreferredLanguage !== 'function') {
+          window.getPreferredLanguage = function () {
+            return window.detectUserLanguage();
+          };
+        }
+      })();
+    </script><!-- SEO Avanzado Unificado (condicional por entorno) --><!-- Meta tags adicionales para SEO --><meta name="keywords" content="gracias, contacto, izignamx"><!-- Meta tags específicos para México --><meta name="geo.region" content="MX"><meta name="geo.country" content="Mexico"><meta name="geo.placename" content="Ciudad de México"><meta name="language" content="es-MX"><!-- Meta tags para redes sociales locales --><meta property="og:locale" content="es_MX"><meta property="og:locale:alternate" content="en_US"><!-- Schema.org JSON-LD --><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"IzignaMx","legalName":"IzignaMx","url":"https://izignamx.com","logo":"https://izignamx.com/assets/img/logo.png","description":"Agencia digital especializada en desarrollo web, diseño gráfico y soluciones tecnológicas innovadoras en México.","address":{"@type":"PostalAddress","streetAddress":"Av. Revolución 123","addressLocality":"Ciudad de México","addressRegion":"CDMX","postalCode":"06000","addressCountry":"MX"},"contactPoint":{"@type":"ContactPoint","telephone":"+52-55-1234-5678","contactType":"customer service","availableLanguage":["Spanish","English"]},"sameAs":["https://www.facebook.com/izignamx","https://www.instagram.com/izignamx","https://www.linkedin.com/company/izignamx","https://twitter.com/izignamx"]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"¡Gracias!","description":"Solicitud recibida con éxito.","url":"https://izignamx.com/gracias","isPartOf":{"@type":"WebSite","name":"IzignaMx","url":"https://izignamx.com"},"about":{"@type":"Organization","name":"IzignaMx"},"publisher":{"@type":"Organization","name":"IzignaMx","logo":"https://izignamx.com/assets/img/logo.png"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"AggregateRating","ratingValue":4.8,"reviewCount":127,"bestRating":5,"worstRating":1}</script><!-- Breadcrumbs microdata (fallback) --><!-- Local Business SEO (si está habilitado) --><script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"IzignaMx","description":"Agencia digital especializada en desarrollo web, diseño gráfico y soluciones tecnológicas innovadoras en México.","url":"https://izignamx.com","telephone":"+52-55-1234-5678","address":{"@type":"PostalAddress","streetAddress":"Av. Revolución 123","addressLocality":"Ciudad de México","addressRegion":"CDMX","postalCode":"06000","addressCountry":"MX"},"geo":{"@type":"GeoCoordinates","latitude":"19.4326","longitude":"-99.1332"},"openingHours":"Mo-Fr 09:00-18:00","priceRange":"$$","sameAs":["https://www.facebook.com/izignamx","https://www.instagram.com/izignamx","https://www.linkedin.com/company/izignamx","https://twitter.com/izignamx"]}</script><!-- Meta tags para performance --><meta name="format-detection" content="telephone=no"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><!-- DNS prefetch para recursos externos --><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="dns-prefetch" href="//fonts.gstatic.com"><link rel="dns-prefetch" href="//www.google-analytics.com"><!-- Preconnect para recursos críticos --><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><style>
+  /* Estilos críticos para SEO */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  
+  /* Optimización para Core Web Vitals */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Prevenir layout shift */
+  [loading="lazy"] {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  [loading="lazy"].loaded {
+    opacity: 1;
+  }
+</style><script>
+  // Optimizaciones SEO del lado del cliente
+  (function() {
+    'use strict';
+    
+    // Marcar imágenes lazy como cargadas
+    if ('IntersectionObserver' in window) {
+      const imageObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            img.classList.add('loaded');
+            imageObserver.unobserve(img);
+          }
+        });
+      });
+      
+      document.querySelectorAll('img[loading="lazy"]').forEach(img => {
+        imageObserver.observe(img);
+      });
+    }
+    
+    // Optimizar enlaces externos
+    document.querySelectorAll('a[href^="http"]').forEach(link => {
+      if (!link.href.includes(window.location.hostname)) {
+        link.setAttribute('rel', 'noopener noreferrer');
+        if (!link.hasAttribute('target')) {
+          link.setAttribute('target', '_blank');
+        }
+      }
+    });
+    
+    // Mejorar accesibilidad de enlaces
+    document.querySelectorAll('a').forEach(link => {
+      if (!link.getAttribute('aria-label') && !link.textContent.trim()) {
+        const img = link.querySelector('img');
+        if (img && img.alt) {
+          link.setAttribute('aria-label', img.alt);
+        }
+      }
+    });
+    
+    console.log('✅ SEO estático inicializado');
+  })();
+</script><!-- Estilos críticos unificados en línea --><style>
+      :root {
+        --color-primary: #2E96FF;
+        --color-secondary: #0f4c8a;
+        --color-text: #333333;
+        --color-background: #ffffff;
+        --izigna-primary: #2E96FF;
+      }
+      
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+        color: var(--color-text);
+        background-color: var(--color-background);
+        line-height: 1.6;
+      }
+      
+      /* Skip to content link unificado */
+      .skip-to-content {
+        position: absolute;
+        top: -100px;
+        left: 0;
+        background: #0f0f0f;
+        color: white;
+        padding: 0.75rem 1.5rem;
+        z-index: 10000;
+        text-decoration: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 0 0 0.5rem 0;
+        transition: top 0.2s ease;
+        font-weight: 500;
+      }
+      
+      .skip-to-content:focus,
+      .skip-to-content:focus-visible {
+        top: 0;
+      }
+      
+      /* Loading state unificado */
+      html:not(.loaded) {
+        overflow: hidden;
+      }
+      
+      html.loaded {
+        overflow: auto;
+      }
+      
+      /* Back to top button unificado */
+      #back-to-top {
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        width: 3rem;
+        height: 3rem;
+        background: var(--izigna-primary);
+        color: white;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 1.2rem;
+        z-index: 1000;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 12px rgba(46, 150, 255, 0.3);
+        transform: translateY(20px);
+        pointer-events: none;
+      }
+      
+      #back-to-top.visible {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        pointer-events: auto;
+      }
+      
+      #back-to-top:hover {
+        background: var(--color-secondary);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(46, 150, 255, 0.4);
+      }
+
+      /* Placeholder shimmer para evitar CLS */
+      .placeholder {
+        background-color: #f5f5f5;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .placeholder::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+        animation: placeholder-shimmer 1.5s infinite;
+      }
+      
+      @keyframes placeholder-shimmer {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(100%); }
+      }
+
+      /* Evitar FOUC */
+      html.js .no-js-only { display: none; }
+      html:not(.js) .js-only { display: none; }
+
+      /* Custom cursor styles cuando esté habilitado */
+      .custom-cursor-active,
+      .custom-cursor-active * {
+        cursor: none !important;
+      }
+      
+      /* Solo en dispositivos con pointer preciso */
+      @media (pointer: coarse) {
+        .custom-cursor-active,
+        .custom-cursor-active * {
+          cursor: auto !important;
+        }
+      }
+    </style><!-- Scripts críticos inline --><script>(function(){const translations = {"skipToContent":"Saltar al contenido principal","backToTop":"Volver arriba","darkModeActivated":"Modo oscuro activado","lightModeActivated":"Modo claro activado","returningToTop":"Volviendo arriba"};
+const isDev = false;
+const isStatic = true;
+
+      // Marcar JavaScript disponible
+      document.documentElement.classList.add('js');
+      
+      // Hacer traducciones disponibles globalmente
+      window.__TRANSLATIONS__ = translations;
+      
+      // Metadata de optimizaciones para testing
+      if (typeof window !== 'undefined') {
+        window.__IZIGNA_UNIFIED_LAYOUT__ = {
+          version: '1.0.0',
+          environment: isDev ? 'development' : 'production',
+          isStatic: isStatic,
+          optimizations: {
+            unifiedLayout: true,
+            conditionalSEO: true,
+            performanceBudgets: !isStatic,
+            securityHeaders: !isStatic,
+            advancedOptimizations: !isStatic
+          },
+          timestamp: Date.now()
+        };
+      }
+    })();</script><!-- Debug helpers en desarrollo --><link rel="stylesheet" href="/_astro/F-vU5pif.css">
+<link rel="stylesheet" href="/_astro/BYi11AJr.css"><script type="module" src="/_astro/AVOqqsqe.js"></script></head> <body class="dark bg-background text-foreground"> <!-- Skip to content link for accessibility --> <a href="#main-content" class="skip-to-content" data-anchor-link tabindex="1">Saltar al contenido principal</a> <!-- Accessibility announcement area for screen readers --> <div id="accessibility-announcer" class="sr-only" aria-live="polite"></div> <!-- Custom cursor (temporalmente deshabilitado por error de build) --> <div id="custom-cursor" aria-hidden="true" data-astro-cid-ofxtmv4x> <div class="cursor-dot" data-astro-cid-ofxtmv4x></div> <div class="cursor-ring" data-astro-cid-ofxtmv4x></div>  </div>   <!-- Accessibility features --> <!-- Accessibility features container --><div id="a11y-features" data-astro-cid-tt7q676p> <!-- Skip link handled in Layout.astro for consistency --> </div> <!-- Inject accessibility scripts --> <script>
+  // Function to handle keyboard navigation for better focus management
+  function handleFirstTab(e) {
+    if (e.key === 'Tab') {
+      document.body.classList.add('user-is-tabbing');
+      window.removeEventListener('keydown', handleFirstTab);
+      window.addEventListener('mousedown', handleMouseDownOnce);
+    }
+  }
+
+  // Function to remove tabbing indication when mouse is used
+  function handleMouseDownOnce() {
+    document.body.classList.remove('user-is-tabbing');
+    window.removeEventListener('mousedown', handleMouseDownOnce);
+    window.addEventListener('keydown', handleFirstTab);
+  }
+
+  // Initialize keyboard navigation detection
+  window.addEventListener('keydown', handleFirstTab);
+
+  // Ensure proper focus management when modals/dialogs open & close
+  document.addEventListener('DOMContentLoaded', () => {
+    // Store last focused element before modal opens
+    let lastFocusedElement;
+
+    // Handle modal open
+    const modalTriggers = document.querySelectorAll('[data-modal-trigger]');
+    modalTriggers.forEach(trigger => {
+      trigger.addEventListener('click', () => {
+        lastFocusedElement = document.activeElement;
+        
+        // Find and focus the modal
+        const modalId = trigger.getAttribute('data-modal-trigger');
+        const modal = document.getElementById(modalId);
+        if (modal) {
+          setTimeout(() => {
+            const focusTarget = modal.querySelector('[data-focus-first], button, [tabindex="0"], a') || modal;
+            if (focusTarget) {
+              focusTarget.focus();
+            }
+          }, 50);
+        }
+      });
+    });
+    
+    // Handle modal close - return focus to previous element
+    const modalCloseButtons = document.querySelectorAll('[data-modal-close]');
+    modalCloseButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        if (lastFocusedElement) {
+          setTimeout(() => {
+            lastFocusedElement.focus();
+          }, 50);
+        }
+      });
+    });
+
+    // Handle ESC key for modals
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        const openModals = document.querySelectorAll('.modal[aria-modal="true"]');
+        if (openModals.length) {
+          const closeBtn = openModals[0].querySelector('[data-modal-close]');
+          if (closeBtn) {
+            closeBtn.click();
+          }
+        }
+      }
+    });
+
+    const markDecorativeIcons = () => {
+      const svgIcons = document.querySelectorAll('svg:not([aria-label]):not([role="img"]):not([aria-hidden="false"])');
+      svgIcons.forEach((icon) => {
+        if (!icon.hasAttribute('aria-hidden')) {
+          icon.setAttribute('aria-hidden', 'true');
+        }
+        icon.setAttribute('focusable', 'false');
+      });
+
+      const iIcons = document.querySelectorAll('i:not([aria-label]):not([role="img"]):not([aria-hidden="false"])');
+      iIcons.forEach((icon) => {
+        if (!icon.hasAttribute('aria-hidden')) {
+          icon.setAttribute('aria-hidden', 'true');
+        }
+      });
+    };
+
+    markDecorativeIcons();
+    const iconObserver = new MutationObserver(markDecorativeIcons);
+    iconObserver.observe(document.body, { childList: true, subtree: true });
+  });
+</script>  <div id="accessibility-tools" class="fixed top-20 right-4 z-50 flex flex-col gap-2 opacity-70 hover:opacity-100 transition-opacity" data-astro-cid-tt7q676p> <!-- High contrast mode toggle --> <button id="high-contrast-toggle" class="accessibility-button bg-gray-900 text-white p-2 rounded-full shadow-lg" aria-label="Toggle high contrast mode" title="Toggle high contrast mode" data-astro-cid-tt7q676p> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-tt7q676p> <circle cx="12" cy="12" r="10" data-astro-cid-tt7q676p></circle> <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" data-astro-cid-tt7q676p></path> <path d="M12 6v12" data-astro-cid-tt7q676p></path> </svg> </button> <!-- Font size increase --> <button id="increase-font" class="accessibility-button bg-gray-900 text-white p-2 rounded-full shadow-lg" aria-label="Increase font size" title="Increase font size" data-astro-cid-tt7q676p> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-tt7q676p> <polyline points="4 14 10 14 10 20" data-astro-cid-tt7q676p></polyline> <polyline points="14 10 14 4 20 4" data-astro-cid-tt7q676p></polyline> <line x1="14" y1="10" x2="21" y2="3" data-astro-cid-tt7q676p></line> <line x1="3" y1="21" x2="10" y2="14" data-astro-cid-tt7q676p></line> </svg> </button> <!-- Font size decrease --> <button id="decrease-font" class="accessibility-button bg-gray-900 text-white p-2 rounded-full shadow-lg" aria-label="Decrease font size" title="Decrease font size" data-astro-cid-tt7q676p> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-tt7q676p> <polyline points="4 14 10 14 10 20" data-astro-cid-tt7q676p></polyline> <polyline points="14 10 14 4 20 4" data-astro-cid-tt7q676p></polyline> <line x1="14" y1="10" x2="21" y2="3" data-astro-cid-tt7q676p></line> <line x1="3" y1="21" x2="10" y2="14" data-astro-cid-tt7q676p></line> </svg> </button> <!-- Reduced motion toggle --> <button id="reduced-motion-toggle" class="accessibility-button bg-gray-900 text-white p-2 rounded-full shadow-lg" aria-label="Toggle reduced motion" title="Toggle reduced motion" data-astro-cid-tt7q676p> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-tt7q676p> <path d="M5 12h14" data-astro-cid-tt7q676p></path> <path d="M12 5v14" data-astro-cid-tt7q676p></path> </svg> </button> </div> <div id="accessibility-announcement" role="status" aria-live="polite" class="sr-only" data-astro-cid-tt7q676p></div>  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Initialize accessibility state from localStorage
+    const highContrast = localStorage.getItem('highContrast') === 'true';
+    const reducedMotion = localStorage.getItem('reducedMotion') === 'true';
+    const fontSize = localStorage.getItem('fontSize') || '100';
+    
+    // Apply saved settings
+    if (highContrast) {
+      document.body.classList.add('high-contrast');
+    }
+    
+    if (reducedMotion) {
+      document.body.classList.add('reduced-motion');
+    }
+    
+    document.documentElement.style.fontSize = `${fontSize}%`;
+    
+    // Set up event listeners
+    const highContrastToggle = document.getElementById('high-contrast-toggle');
+    const increaseFontBtn = document.getElementById('increase-font');
+    const decreaseFontBtn = document.getElementById('decrease-font');
+    const reducedMotionToggle = document.getElementById('reduced-motion-toggle');
+    const announcement = document.getElementById('accessibility-announcement');
+    
+    if (highContrastToggle) {
+      highContrastToggle.addEventListener('click', () => {
+        const isHighContrast = document.body.classList.toggle('high-contrast');
+        localStorage.setItem('highContrast', isHighContrast.toString());
+        
+        // Announce change
+        if (announcement) {
+          announcement.textContent = isHighContrast ? 
+            'Alto contraste activado' : 
+            'Alto contraste desactivado';
+        }
+      });
+    }
+    
+    if (increaseFontBtn) {
+      increaseFontBtn.addEventListener('click', () => {
+        const currentSize = parseFloat(localStorage.getItem('fontSize') || '100');
+        const newSize = Math.min(currentSize + 10, 150); // Max 150%
+        document.documentElement.style.fontSize = `${newSize}%`;
+        localStorage.setItem('fontSize', newSize.toString());
+        
+        // Announce change
+        if (announcement) {
+          announcement.textContent = `Tamaño de texto aumentado a ${newSize}%`;
+        }
+      });
+    }
+    
+    if (decreaseFontBtn) {
+      decreaseFontBtn.addEventListener('click', () => {
+        const currentSize = parseFloat(localStorage.getItem('fontSize') || '100');
+        const newSize = Math.max(currentSize - 10, 80); // Min 80%
+        document.documentElement.style.fontSize = `${newSize}%`;
+        localStorage.setItem('fontSize', newSize.toString());
+        
+        // Announce change
+        if (announcement) {
+          announcement.textContent = `Tamaño de texto reducido a ${newSize}%`;
+        }
+      });
+    }
+    
+    if (reducedMotionToggle) {
+      reducedMotionToggle.addEventListener('click', () => {
+        const isReducedMotion = document.body.classList.toggle('reduced-motion');
+        localStorage.setItem('reducedMotion', isReducedMotion.toString());
+        
+        // Announce change
+        if (announcement) {
+          announcement.textContent = isReducedMotion ? 
+            'Movimiento reducido activado' : 
+            'Movimiento reducido desactivado';
+        }
+      });
+    }
+    
+    // Add keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+      // Alt + H: Toggle high contrast
+      if (e.altKey && e.key === 'h') {
+        highContrastToggle?.click();
+      }
+      
+      // Alt + Plus: Increase font size
+      if (e.altKey && e.key === '+') {
+        increaseFontBtn?.click();
+      }
+      
+      // Alt + Minus: Decrease font size
+      if (e.altKey && e.key === '-') {
+        decreaseFontBtn?.click();
+      }
+      
+      // Alt + M: Toggle reduced motion
+      if (e.altKey && e.key === 'm') {
+        reducedMotionToggle?.click();
+      }
+    });
+    
+    // Check for system preference for reduced motion
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion && localStorage.getItem('reducedMotion') === null) {
+      document.body.classList.add('reduced-motion');
+      localStorage.setItem('reducedMotion', 'true');
+    }
+  });
+</script> <!-- Main content with ID for skip link --> <main id="main-content">  <main class="min-h-screen bg-[#0f0f0f] flex items-center justify-center" data-section-seo="gracias" data-astro-cid-27lbuprk> <div class="container mx-auto px-4 md:px-6 lg:px-8 ">  <div class="max-w-2xl mx-auto text-center py-20" data-astro-cid-27lbuprk> <!-- Success Icon --> <div class="mx-auto w-24 h-24 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center mb-8 animate-bounce" data-astro-cid-27lbuprk> <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-12 h-12 text-white" focusable="false" role="img" aria-hidden="true" data-astro-cid-patnjmll>  <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /> </svg>  </div> <h1 class="text-4xl md:text-5xl font-bold text-white mb-6" data-i18n-html="gracias.titleHtml" data-astro-cid-27lbuprk> ¡Solicitud &lt;span class=&quot;text-primary&quot;&gt;Recibida!&lt;/span&gt; </h1> <p class="text-xl text-gray-300 mb-8" data-i18n-html="gracias.successHtml" data-astro-cid-27lbuprk> Hemos recibido tu información correctamente. </p> <!-- Next Steps --> <div class="bg-white/5 backdrop-blur-sm rounded-xl p-6 mb-8 border border-white/10" data-astro-cid-27lbuprk> <h2 class="text-xl font-semibold text-white mb-4" data-i18n="gracias.sectionNextStepsTitle" data-astro-cid-27lbuprk> Siguientes Pasos </h2> <div class="grid md:grid-cols-2 gap-4 text-left" data-astro-cid-27lbuprk> <div class="flex items-start gap-3" data-astro-cid-27lbuprk> <div class="w-8 h-8 bg-blue-500/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1" data-astro-cid-27lbuprk> <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-blue-400" focusable="false" role="img" aria-hidden="true" data-astro-cid-patnjmll>  <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /> </svg>  </div> <div data-astro-cid-27lbuprk> <h3 class="font-semibold text-white" data-i18n="gracias.nextSteps.reviewTitle" data-astro-cid-27lbuprk> Revisión </h3> <p class="text-gray-300 text-sm" data-i18n="gracias.nextSteps.reviewDesc" data-astro-cid-27lbuprk> Nuestro equipo revisará tu solicitud en las próximas 24 horas. </p> </div> </div> <div class="flex items-start gap-3" data-astro-cid-27lbuprk> <div class="w-8 h-8 bg-green-500/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1" data-astro-cid-27lbuprk> <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-green-400" focusable="false" role="img" aria-hidden="true" data-astro-cid-patnjmll>  <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /> </svg>  </div> <div data-astro-cid-27lbuprk> <h3 class="font-semibold text-white" data-i18n="gracias.nextSteps.contactTitle" data-astro-cid-27lbuprk> Contacto </h3> <p class="text-gray-300 text-sm" data-i18n="gracias.nextSteps.contactDesc" data-astro-cid-27lbuprk> Te contactaremos para agendar una llamada de descubrimiento. </p> </div> </div> <div class="flex items-start gap-3" data-astro-cid-27lbuprk> <div class="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1" data-astro-cid-27lbuprk> <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-purple-400" focusable="false" role="img" aria-hidden="true" data-astro-cid-patnjmll>  <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /> </svg>  </div> <div data-astro-cid-27lbuprk> <h3 class="font-semibold text-white" data-i18n="gracias.nextSteps.proposalTitle" data-astro-cid-27lbuprk> Propuesta </h3> <p class="text-gray-300 text-sm" data-i18n="gracias.nextSteps.proposalDesc" data-astro-cid-27lbuprk> Recibirás una propuesta detallada ajustada a tus necesidades. </p> </div> </div> <div class="flex items-start gap-3" data-astro-cid-27lbuprk> <div class="w-8 h-8 bg-yellow-500/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1" data-astro-cid-27lbuprk> <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-yellow-400" focusable="false" role="img" aria-hidden="true" data-astro-cid-patnjmll>  <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /> </svg>  </div> <div data-astro-cid-27lbuprk> <h3 class="font-semibold text-white" data-i18n="gracias.nextSteps.startTitle" data-astro-cid-27lbuprk> Inicio </h3> <p class="text-gray-300 text-sm" data-i18n="gracias.nextSteps.startDesc" data-astro-cid-27lbuprk> Comenzamos a trabajar en tu proyecto inmediatamente. </p> </div> </div> </div> </div> <!-- Contact Info --> <div class="bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-xl p-6 mb-8 border border-blue-500/20" data-astro-cid-27lbuprk> <h2 class="text-lg font-semibold text-white mb-4" data-i18n="gracias.urgentContactTitle" data-astro-cid-27lbuprk> ¿Necesitas respuesta urgente? </h2> <div class="flex flex-col sm:flex-row gap-4 justify-center items-center" data-astro-cid-27lbuprk> <a href="mailto:edgar@izignamx.com" class="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors" data-astro-cid-27lbuprk> <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4" focusable="false" role="img" aria-hidden="true" data-astro-cid-patnjmll>  <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /> </svg> 
+edgar@izignamx.com
+</a> <a href="tel:+525533760889" class="flex items-center gap-2 text-green-400 hover:text-green-300 transition-colors" data-astro-cid-27lbuprk> <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4" focusable="false" role="img" aria-hidden="true" data-astro-cid-patnjmll>  <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /> </svg> 
++52 55 3376 0889
+</a> <a href="https://wa.me/525533760889" target="_blank" rel="noopener" class="flex items-center gap-2 text-green-500 hover:text-green-400 transition-colors" data-i18n-whatsapp="gracias.social.whatsappText" data-astro-cid-27lbuprk> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" data-astro-cid-27lbuprk> <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" data-astro-cid-27lbuprk></path> </svg> <span data-i18n="gracias.social.whatsapp" data-astro-cid-27lbuprk>Contactar por WhatsApp</span> </a> </div> </div> <!-- Action Buttons --> <div class="flex flex-col sm:flex-row gap-4 justify-center" data-astro-cid-27lbuprk> <a href="/" class="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg" data-astro-cid-27lbuprk> <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-2 rotate-180" focusable="false" role="img" aria-hidden="true" data-astro-cid-patnjmll>  <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /> </svg>  <span data-i18n="gracias.actions.backHome" data-astro-cid-27lbuprk>Volver al Inicio</span> </a> <a href="/services" class="inline-flex items-center justify-center px-6 py-3 bg-white/10 text-white border border-white/20 rounded-lg hover:bg-white/20 transition-all duration-300" data-astro-cid-27lbuprk> <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-2" focusable="false" role="img" aria-hidden="true" data-astro-cid-patnjmll>  <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /> </svg>  <span data-i18n="gracias.actions.viewServices" data-astro-cid-27lbuprk>Ver Servicios</span> </a> </div> <!-- Social Proof --> <div class="mt-12 text-center" data-astro-cid-27lbuprk> <p class="text-gray-400 text-sm mb-4" data-i18n="gracias.social.joinText" data-astro-cid-27lbuprk> Únete a nuestra comunidad </p> <div class="flex justify-center items-center gap-2" data-astro-cid-27lbuprk> <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-yellow-500" focusable="false" role="img" aria-hidden="true" data-astro-cid-patnjmll>  <path fill="currentColor" stroke="none" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-yellow-500" focusable="false" role="img" aria-hidden="true" data-astro-cid-patnjmll>  <path fill="currentColor" stroke="none" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-yellow-500" focusable="false" role="img" aria-hidden="true" data-astro-cid-patnjmll>  <path fill="currentColor" stroke="none" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-yellow-500" focusable="false" role="img" aria-hidden="true" data-astro-cid-patnjmll>  <path fill="currentColor" stroke="none" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-yellow-500" focusable="false" role="img" aria-hidden="true" data-astro-cid-patnjmll>  <path fill="currentColor" stroke="none" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /> </svg>  <span class="text-gray-300 text-sm ml-2" data-i18n="gracias.social.ratingText" data-astro-cid-27lbuprk>Califícanos</span> </div> </div> </div>  </div> </main>  </main> <!-- Back to top button unificado --> <button id="back-to-top" aria-label="Volver arriba"> <span class="sr-only">Volver arriba</span>
+↑
+</button>  <!-- Development tools (solo en dev mode) -->  <!-- Sistema de Animaciones Unificado --> <script src="/js/animations.js"></script> <!-- Detector de Idioma del Cliente --> <script src="/js/language-detector.js"></script> <!-- Analytics condicional por entorno --> <!-- Google Analytics 4 - Carga condicional --><script>(function(){const measurementId = "G-VK8WB5LG4E";
+const debug = false;
+const consentNeeded = true;
+const respectDoNotTrack = true;
+const anonymizeIP = true;
+const disableAds = false;
+
+  (function () {
+    "use strict";
+
+    // Función para verificar Do Not Track del lado del cliente
+    function checkDoNotTrack() {
+      if (!respectDoNotTrack) return false;
+
+      return (
+        navigator.doNotTrack === "1" ||
+        navigator.doNotTrack === "yes" ||
+        navigator.msDoNotTrack === "1" ||
+        window.doNotTrack === "1"
+      );
+    }
+
+    // Función para verificar consentimiento
+    function hasConsent() {
+      if (!consentNeeded) return true;
+      const consent = document.cookie
+        .split("; ")
+        .find((row) => row.startsWith("analytics-consent="))
+        ?.split("=")[1];
+      const ls = (() => {
+        try {
+          return localStorage.getItem("cookie-consent");
+        } catch (_) {
+          return null;
+        }
+      })();
+      return consent === "true" || consent === "granted" || ls === "full";
+    }
+
+    // Función para inicializar Analytics
+    function initializeAnalytics() {
+      if (checkDoNotTrack()) {
+        if (debug) {
+          console.log(
+            "🚫 Analytics: Do Not Track detectado, omitiendo tracking",
+          );
+        }
+        return;
+      }
+
+      // Cargar Google Analytics
+      const script = document.createElement("script");
+      script.async = true;
+      script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
+      document.head.appendChild(script);
+
+      // Configurar gtag
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      window.gtag = gtag;
+      gtag("consent", "default", {
+        ad_storage: consentNeeded ? "denied" : "granted",
+        analytics_storage: consentNeeded ? "denied" : "granted",
+        functionality_storage: "granted",
+        personalization_storage: consentNeeded ? "denied" : "granted",
+        security_storage: "granted",
+      });
+
+      gtag("js", new Date());
+
+      // Configuración de GA4
+      const config = {
+        anonymize_ip: anonymizeIP,
+        allow_google_signals: !disableAds,
+        allow_ad_personalization_signals: !disableAds,
+        cookie_flags: "SameSite=Lax;Secure",
+        cookie_expires: 63072000, // 2 años
+        send_page_view: true,
+      };
+
+      if (debug) {
+        config.debug_mode = true;
+        console.log("🔍 Analytics: Modo debug habilitado");
+      }
+
+      gtag("config", measurementId, config);
+
+      if (debug) {
+        console.log("✅ Analytics: Google Analytics 4 inicializado");
+      }
+
+      // Inicializar Web Vitals
+      initializeWebVitals();
+    }
+
+    // Función para Web Vitals
+    function initializeWebVitals() {
+      // Implementación básica de Web Vitals sin dependencias externas
+      function sendWebVital(name, value, id) {
+        if (
+          typeof window !== "undefined" &&
+          typeof window.gtag === "function"
+        ) {
+          window.gtag("event", name, {
+            event_category: "Web Vitals",
+            event_label: id,
+            value: Math.round(name === "CLS" ? value * 1000 : value),
+            non_interaction: true,
+          });
+
+          if (debug) {
+            console.log(`📊 Web Vital: ${name} = ${value} (${id})`);
+          }
+        }
+      }
+
+      // Largest Contentful Paint (LCP)
+      if ("PerformanceObserver" in window) {
+        try {
+          const lcpObserver = new PerformanceObserver((list) => {
+            const entries = list.getEntries();
+            const lastEntry = entries[entries.length - 1];
+            sendWebVital("LCP", lastEntry.startTime, lastEntry.id || "unknown");
+          });
+          lcpObserver.observe({ entryTypes: ["largest-contentful-paint"] });
+        } catch (e) {
+          if (debug) console.warn("⚠️ LCP observer error:", e);
+        }
+
+        // First Input Delay (FID)
+        try {
+          const fidObserver = new PerformanceObserver((list) => {
+            const entries = list.getEntries();
+            entries.forEach((entry) => {
+              sendWebVital(
+                "FID",
+                entry.processingStart - entry.startTime,
+                entry.name,
+              );
+            });
+          });
+          fidObserver.observe({ entryTypes: ["first-input"] });
+        } catch (e) {
+          if (debug) console.warn("⚠️ FID observer error:", e);
+        }
+
+        // Cumulative Layout Shift (CLS)
+        try {
+          let clsValue = 0;
+          const clsObserver = new PerformanceObserver((list) => {
+            const entries = list.getEntries();
+            entries.forEach((entry) => {
+              if (!entry.hadRecentInput) {
+                clsValue += entry.value;
+              }
+            });
+          });
+          clsObserver.observe({ entryTypes: ["layout-shift"] });
+
+          // Enviar CLS al salir de la página
+          window.addEventListener("beforeunload", () => {
+            sendWebVital("CLS", clsValue, "page-unload");
+          });
+        } catch (e) {
+          if (debug) console.warn("⚠️ CLS observer error:", e);
+        }
+      }
+
+      // First Contentful Paint (FCP)
+      if ("performance" in window && "getEntriesByType" in performance) {
+        window.addEventListener("load", () => {
+          setTimeout(() => {
+            const paintEntries = performance.getEntriesByType("paint");
+            const fcpEntry = paintEntries.find(
+              (entry) => entry.name === "first-contentful-paint",
+            );
+            if (fcpEntry) {
+              sendWebVital("FCP", fcpEntry.startTime, "page-load");
+            }
+          }, 0);
+        });
+      }
+    }
+
+    // Función para otorgar consentimiento
+    function grantConsent() {
+      try {
+        localStorage.setItem("cookie-consent", "full");
+      } catch (_) {
+        void 0;
+      }
+      document.cookie =
+        "analytics-consent=true; path=/; max-age=31536000; SameSite=Lax";
+      if (typeof window.gtag === "function") {
+        window.gtag("consent", "update", {
+          ad_storage: "granted",
+          analytics_storage: "granted",
+          personalization_storage: "granted",
+        });
+      }
+      if (debug) {
+        console.log("✅ Analytics: Consentimiento otorgado");
+      }
+    }
+
+    // Función para revocar consentimiento
+    function revokeConsent() {
+      try {
+        localStorage.setItem("cookie-consent", "necessary");
+      } catch (_) {
+        void 0;
+      }
+      document.cookie =
+        "analytics-consent=false; path=/; max-age=31536000; SameSite=Lax";
+      const gaCookies = document.cookie
+        .split(";")
+        .filter(
+          (cookie) =>
+            cookie.trim().startsWith("_ga") || cookie.trim().startsWith("_gid"),
+        );
+      gaCookies.forEach((cookie) => {
+        const cookieName = cookie.split("=")[0].trim();
+        document.cookie = `${cookieName}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+      });
+      if (typeof window.gtag === "function") {
+        window.gtag("consent", "update", {
+          ad_storage: "denied",
+          analytics_storage: "denied",
+          personalization_storage: "denied",
+        });
+      }
+      if (debug) {
+        console.log("🚫 Analytics: Consentimiento revocado");
+      }
+    }
+
+    // Exponer funciones globalmente
+    window.AnalyticsService = {
+      grantConsent,
+      revokeConsent,
+      hasConsent,
+      checkDoNotTrack,
+    };
+
+    // Auto-inicialización
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initializeAnalytics);
+    } else {
+      initializeAnalytics();
+    }
+
+    // Re-inicializar en navegación SPA
+    document.addEventListener("astro:page-load", initializeAnalytics);
+  })();
+})();</script> <!-- Noscript fallback para tracking básico --><noscript><img src="https://www.google-analytics.com/collect?v=1&tid=G-VK8WB5LG4E&cid=555&t=pageview&dp=%2Fgracias" width="1" height="1" style="display:none" alt="" role="presentation"></noscript><!-- Estilos para banner de consentimiento (opcional) --><style>
+  .analytics-consent-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 1rem;
+    z-index: 10000;
+    display: none;
+  }
+
+  .analytics-consent-banner.show {
+    display: block;
+  }
+
+  .analytics-consent-banner button {
+    background: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .analytics-consent-banner button:hover {
+    background: #1e40af;
+  }
+</style><!-- Banner de consentimiento (si está habilitado) --><div id="analytics-consent-banner" class="analytics-consent-banner"><div class="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-4"><p class="text-sm"><span data-i18n="cookies.message">
+Utilizamos cookies y analíticas para mejorar tu experiencia.
+</span>
+&nbsp;
+<a href="/privacy" class="underline" data-i18n="cookies.privacyPolicy">
+Política de Privacidad
+</a></p><div class="flex gap-2"><button type="button" onclick="window.AnalyticsService?.grantConsent(); this.parentElement.parentElement.parentElement.style.display='none'" data-i18n="cookies.acceptAll">
+Aceptar
+</button><button type="button" onclick="window.AnalyticsService?.revokeConsent(); this.parentElement.parentElement.parentElement.style.display='none'" data-i18n="cookies.necessaryOnly">
+Rechazar
+</button></div></div></div><script>(function(){const consentNeeded = true;
+
+  // Mostrar banner de consentimiento si es necesario
+  if (consentNeeded && typeof window !== "undefined") {
+    document.addEventListener("DOMContentLoaded", function () {
+      const banner = document.getElementById("analytics-consent-banner");
+      const hasConsent = document.cookie.includes("analytics-consent=");
+
+      if (!hasConsent && banner) {
+        setTimeout(() => {
+          banner.classList.add("show");
+        }, 2000); // Mostrar después de 2 segundos
+      }
+    });
+  }
+})();</script>  <script>
+      (function(){
+        if (typeof window !== 'undefined') {
+          window.dataLayer = window.dataLayer || [];
+          window.trackEvent = function(name, params){
+            let allowGA = true;
+            try {
+              if (window.AnalyticsService && typeof window.AnalyticsService.hasConsent === 'function') {
+                allowGA = !!window.AnalyticsService.hasConsent();
+              } else {
+                allowGA = document.cookie.includes('analytics-consent=true') || document.cookie.includes('analytics-consent=granted');
+              }
+            } catch(_) { allowGA = true; }
+            try { if (allowGA && window.gtag) { window.gtag('event', name, params || {}); } } catch(_) { void 0; }
+            try { window.dataLayer.push(Object.assign({ event: name }, params || {})); } catch(_) { void 0; }
+          };
+        }
+      })();
+    </script> <!-- Web Vitals tracking --> <script>(function(){const reportTo = "";
+const debug = false;
+const sendBeacon = true;
+const includeParams = ["page","ua","size"];
+
+(function() {
+  // Verificar compatibilidad con Performance API
+  if (!('PerformanceObserver' in window)) return;
+
+  // Verificar si ya está inicializado
+  if (window.__WEB_VITALS_INITIALIZED__) return;
+  window.__WEB_VITALS_INITIALIZED__ = true;
+
+  // Valores para reportar
+  const metrics = {};
+  
+  // Función para enviar métricas
+  const sendMetrics = (metric) => {
+    // Actualizar objeto de métricas
+    metrics[metric.name] = metric.value;
+    
+    // Mostrar en consola si está en modo debug
+    if (debug) {
+      // Web Vital metric recorded
+    }
+    
+    // Preparar datos para enviar
+    const payload = {
+      name: metric.name,
+      value: metric.value,
+      rating: metric.rating,
+      delta: metric.delta,
+      id: metric.id,
+      timestamp: Date.now()
+    };
+    
+    // Añadir parámetros adicionales
+    if (includeParams.includes('page')) {
+      payload.page = window.location.href;
+    }
+    if (includeParams.includes('ua')) {
+      payload.ua = navigator.userAgent;
+    }
+    if (includeParams.includes('size')) {
+      payload.size = `${window.innerWidth}x${window.innerHeight}`;
+    }
+    
+    // Enviar datos si hay una URL configurada
+    if (reportTo) {
+      try {
+        if (sendBeacon && navigator.sendBeacon) {
+          const blob = new Blob([JSON.stringify(payload)], { type: 'application/json' });
+          navigator.sendBeacon(reportTo, blob);
+        } else {
+          fetch(reportTo, {
+            method: 'POST',
+            body: JSON.stringify(payload),
+            headers: { 'Content-Type': 'application/json' },
+            keepalive: true
+          });
+        }
+      } catch (e) {
+        console.error('Error al reportar métricas de Web Vitals:', e);
+      }
+    }
+  };
+  
+  // Función para determinar el rating de la métrica
+  const getRating = (name, value) => {
+    // Valores según https://web.dev/vitals/
+    if (name === 'CLS') {
+      return value <= 0.1 ? 'good' : value <= 0.25 ? 'needs-improvement' : 'poor';
+    } else if (name === 'FID') {
+      return value <= 100 ? 'good' : value <= 300 ? 'needs-improvement' : 'poor';
+    } else if (name === 'LCP') {
+      return value <= 2500 ? 'good' : value <= 4000 ? 'needs-improvement' : 'poor';
+    } else if (name === 'FCP') {
+      return value <= 1800 ? 'good' : value <= 3000 ? 'needs-improvement' : 'poor';
+    } else if (name === 'TTFB') {
+      return value <= 800 ? 'good' : value <= 1800 ? 'needs-improvement' : 'poor';
+    }
+    return 'unknown';
+  };
+  
+  // Función para procesar métricas
+  const processMetric = (metric, name) => {
+    const actualName = name || metric.name;
+    
+    // Ajustar FCP y LCP de milisegundos a segundos para Google Analytics
+    let value = metric.value;
+    if (actualName === 'FCP' || actualName === 'LCP') {
+      value = Math.round(value);
+    } else if (actualName === 'CLS') {
+      value = metric.value.toFixed(4);
+    } else {
+      value = Math.round(value);
+    }
+    
+    const processedMetric = {
+      name: actualName,
+      value: value,
+      delta: Math.round(metric.delta),
+      id: metric.id,
+      rating: getRating(actualName, value)
+    };
+    
+    sendMetrics(processedMetric);
+  };
+  
+  // Capturar LCP (Largest Contentful Paint)
+  try {
+    new PerformanceObserver((entryList) => {
+      const entries = entryList.getEntries();
+      const lastEntry = entries[entries.length - 1];
+      processMetric({
+        name: 'LCP',
+        value: lastEntry.startTime,
+        delta: lastEntry.startTime,
+        id: lastEntry.id
+      });
+    }).observe({ type: 'largest-contentful-paint', buffered: true });
+  } catch {
+    // LCP measurement not supported
+  }
+  
+  // Capturar FID (First Input Delay)
+  try {
+    new PerformanceObserver((entryList) => {
+      const entries = entryList.getEntries();
+      entries.forEach((entry) => {
+        processMetric({
+          name: 'FID',
+          value: entry.processingStart - entry.startTime,
+          delta: entry.processingStart - entry.startTime,
+          id: entry.id
+        });
+      });
+    }).observe({ type: 'first-input', buffered: true });
+  } catch {
+    // FID measurement not supported
+  }
+  
+  // Capturar CLS (Cumulative Layout Shift)
+  if (
+    'PerformanceObserver' in window &&
+    PerformanceObserver.supportedEntryTypes &&
+    PerformanceObserver.supportedEntryTypes.includes('layout-shift')
+  ) {
+    try {
+      let clsValue = 0;
+      let clsEntries = [];
+      const observer = new PerformanceObserver((entryList) => {
+        const entries = entryList.getEntries();
+        entries.forEach((entry) => {
+          // Solo ignorar si no es usuario-initiated
+          if (!entry.hadRecentInput) {
+            clsValue += entry.value;
+            clsEntries.push(entry);
+          }
+        });
+        processMetric({
+          name: 'CLS',
+          value: clsValue,
+          delta: clsValue,
+          id: clsEntries.length > 0 ? clsEntries[0].id : ''
+        });
+      });
+      observer.observe({ type: 'layout-shift', buffered: true });
+    } catch {
+      // CLS measurement not supported
+    }
+  } else {
+    // Silenciar advertencia si no es soportado
+    // console.info('CLS measurement not supported: layout-shift entryType not available');
+  }
+  
+  // Capturar FCP (First Contentful Paint)
+  try {
+    new PerformanceObserver((entryList) => {
+      const entries = entryList.getEntries();
+      entries.forEach((entry) => {
+        processMetric({
+          name: 'FCP',
+          value: entry.startTime,
+          delta: entry.startTime,
+          id: entry.id
+        });
+      });
+    }).observe({ type: 'paint', buffered: true });
+  } catch {
+    // FCP measurement not supported
+  }
+  
+  // Medir TTFB (Time to First Byte)
+  try {
+    window.addEventListener('load', () => {
+      const navigationEntries = performance.getEntriesByType('navigation');
+      if (navigationEntries && navigationEntries.length > 0) {
+        const navEntry = navigationEntries[0];
+        processMetric({
+          name: 'TTFB',
+          value: navEntry.responseStart,
+          delta: navEntry.responseStart,
+          id: 'navigation-' + Date.now()
+        });
+      }
+    });
+  } catch {
+    // TTFB measurement not supported
+  }
+  
+  // Reportar todas las métricas cuando la página se descarga 
+  // (para asegurar que CLS final se reporte)
+  window.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') {
+      // Forzar sincronización de métricas antes de que la página se cierre
+      if ('PerformanceObserver' in window && 
+          PerformanceObserver.supportedEntryTypes && 
+          PerformanceObserver.supportedEntryTypes.includes('layout-shift')) {
+        
+        // Forzar sincronización final de CLS
+        const clsValue = metrics.CLS || 0;
+        if (clsValue > 0) {
+          const finalCLS = {
+            name: 'CLS-final',
+            value: clsValue,
+            delta: 0,
+            id: 'page-visibility-' + Date.now(),
+            rating: getRating('CLS', clsValue)
+          };
+          sendMetrics(finalCLS);
+        }
+      }
+    }
+  });
+})();
+})();</script> <!-- Optimizaciones avanzadas ahora están correctamente ubicadas en el head --> <!-- Scripts de funcionalidad unificada --> <script>(function(){const isStatic = true;
+const isDev = false;
+const enableCustomCursor = true;
+
+      // Función de inicialización unificada
+      function initializeUnifiedLayout() {
+        console.log('🏗️ Inicializando UnifiedLayout...', {
+          environment: isDev ? 'development' : 'production', 
+          isStatic,
+          customCursor: enableCustomCursor
+        });
+        
+        // 1. Detección y aplicación de tema
+        function detectColorScheme() {
+          const savedTheme = localStorage.getItem('theme');
+          if (savedTheme === 'dark' || savedTheme === 'light') {
+            return savedTheme;
+          }
+          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+
+        function applyTheme(theme) {
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+          localStorage.setItem('theme', theme);
+
+          // Anunciar cambio de tema para lectores de pantalla
+          const announcer = document.getElementById('accessibility-announcer');
+          if (announcer && window.__TRANSLATIONS__) {
+            announcer.textContent = theme === 'dark' ? 
+              window.__TRANSLATIONS__.darkModeActivated : 
+              window.__TRANSLATIONS__.lightModeActivated;
+            setTimeout(() => announcer.textContent = '', 3000);
+          }
+        }
+
+        applyTheme(detectColorScheme());
+        
+        // 2. Back to top functionality unificada
+        const backToTop = document.getElementById('back-to-top');
+        if (backToTop) {
+          let scrollTimeout;
+          
+          window.addEventListener('scroll', function() {
+            clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(() => {
+              if (window.scrollY > 300) {
+                backToTop.classList.add('visible');
+              } else {
+                backToTop.classList.remove('visible');
+              }
+            }, 10);
+          }, { passive: true });
+          
+          backToTop.addEventListener('click', function() {
+            window.scrollTo({
+              top: 0,
+              behavior: 'smooth'
+            });
+            
+            // Anunciar para lectores de pantalla
+            const announcer = document.getElementById('accessibility-announcer');
+            if (announcer && window.__TRANSLATIONS__) {
+              announcer.textContent = window.__TRANSLATIONS__.returningToTop;
+              setTimeout(() => announcer.textContent = '', 3000);
+            }
+          });
+        }
+        
+        // 3. Anchor link handling mejorado
+        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+          anchor.addEventListener('click', function(e) {
+            if (this.classList.contains('skip-to-content')) return;
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+              targetElement.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+              });
+            }
+          });
+        });
+        
+        // 4. Skip link functionality mejorada
+        const skipLink = document.querySelector('.skip-to-content');
+        if (skipLink) {
+          if (skipLink.dataset.skipInit === '1') return;
+          skipLink.dataset.skipInit = '1';
+
+          const activateSkip = (e) => {
+            e.preventDefault();
+            const mainContent = document.getElementById('main-content');
+            if (!(mainContent instanceof HTMLElement)) return;
+
+            const hadTabIndex = mainContent.hasAttribute('tabindex');
+            if (!hadTabIndex) {
+              mainContent.setAttribute('tabindex', '-1');
+              const removeTabIndex = () => {
+                if (!hadTabIndex) {
+                  mainContent.removeAttribute('tabindex');
+                }
+                mainContent.removeEventListener('blur', removeTabIndex);
+              };
+              mainContent.addEventListener('blur', removeTabIndex);
+            }
+
+            try {
+              mainContent.focus({ preventScroll: true });
+            } catch {
+              mainContent.focus();
+            }
+            mainContent.scrollIntoView({ behavior: 'smooth' });
+          };
+
+          skipLink.addEventListener('click', activateSkip);
+          skipLink.addEventListener('keydown', (e) => {
+            if (e.key !== ' ') return;
+            activateSkip(e);
+          });
+        }
+        
+        // 5. ARIA attributes mejorados
+        document.querySelectorAll('button:not([type])').forEach(function(button) {
+          button.setAttribute('type', 'button');
+        });
+        
+        document.querySelectorAll('svg, img[src*="/icons/"]').forEach(icon => {
+          if (!icon.getAttribute('aria-hidden')) {
+            icon.setAttribute('aria-hidden', 'true');
+          }
+        });
+
+        // 6. Service cards keyboard navigation
+        document.querySelectorAll('.service-card').forEach(card => {
+          if (card instanceof HTMLElement && !card.getAttribute('tabindex')) {
+            card.setAttribute('tabindex', '0');
+            card.addEventListener('keydown', (e) => {
+              if (e.key === 'Enter') {
+                const link = card.querySelector('a');
+                if (link) link.click();
+              }
+            });
+          }
+        });
+
+        // 7. External links security
+        document.querySelectorAll('a[href^="http"]:not([href^="' + location.origin + '"])').forEach(link => {
+          if (!link.rel.includes('noopener')) {
+            link.rel += ' noopener noreferrer';
+          }
+        });
+
+        // 8. Optimizar imágenes lazy loading (solo para estático)
+        if (isStatic && 'IntersectionObserver' in window) {
+          const imageObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                const img = entry.target;
+                if (img.dataset.src) {
+                  img.src = img.dataset.src;
+                  img.removeAttribute('data-src');
+                }
+                img.classList.add('loaded');
+                imageObserver.unobserve(img);
+              }
+            });
+          });
+          
+          document.querySelectorAll('img[data-src], img[loading="lazy"]').forEach(img => {
+            imageObserver.observe(img);
+          });
+        }
+
+        // 9. Marcar como completamente cargado
+        document.documentElement.classList.add('loaded');
+        
+        // 10. Performance marking
+        if (window.performance && performance.mark) {
+          performance.mark('unified_layout_loaded');
+        }
+        
+        console.log('✅ UnifiedLayout inicializado correctamente');
+      }
+      
+      // Inicializar cuando el DOM esté listo
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initializeUnifiedLayout);
+      } else {
+        initializeUnifiedLayout();
+      }
+      
+      // Reinicializar en navegación SPA (solo si no es estático)
+      if (!isStatic) {
+        document.addEventListener('astro:page-load', initializeUnifiedLayout);
+      }
+    })();</script> <!-- Event bridge para navegación SPA (solo desarrollo) -->  <!-- Fix height restriction para scrolling --> <script>
+      function fixHeightRestriction() {
+        document.body.style.height = 'auto';
+        document.body.style.minHeight = 'auto';
+        document.documentElement.style.height = 'auto';
+        document.documentElement.style.minHeight = 'auto';
+        document.body.style.overflowY = 'auto';
+        document.documentElement.style.overflowY = 'auto';
+      }
+      
+      // Detectar si es build estático basado en la presencia del script de i18n
+      const isStatic = document.querySelector('script[src="/js/dynamic-i18n.js"]') !== null;
+      
+      fixHeightRestriction();
+      document.addEventListener('DOMContentLoaded', fixHeightRestriction);
+      if (!isStatic) {
+        document.addEventListener('astro:page-load', fixHeightRestriction);
+      }
+    </script> <!-- Slot para scripts adicionales -->  <!-- Script de i18n dinámico para builds estáticos --> <script src="/js/dynamic-i18n.js" defer></script>
+  <script>
+    // Configuración para el script de i18n dinámico
+    window.I18N_CONFIG = {
+      // Preferir la API de Astro en preview/producción; el script hará fallback a PHP si es necesario
+      apiBase: '/api/i18n',
+      fallbackLanguage: 'es-MX',
+      supportedLanguages: [
+        'es-MX', 'en', 'fr', 'de', 'nl', 'ja', 'zh', 'hi', 'ar', 'pt',
+        'fi', 'ru', 'tr', 'it', 'ko', 'pl', 'eo', 'la'
+      ],
+      debug: true
+    };
+    
+    // Event listener para cuando el idioma cambie
+    window.addEventListener('languageChanged', function(event) {
+      console.log('🌐 Language changed to:', event.detail.language);
+      
+      // Actualizar flag activa en selectores de idioma
+      document.querySelectorAll('[data-language]').forEach(element => {
+        const isActive = element.getAttribute('data-language') === event.detail.language;
+        element.classList.toggle('active', isActive);
+        element.classList.toggle('bg-izigna-primary', isActive);
+        element.classList.toggle('text-white', isActive);
+      });
+    });
+  </script><!-- Script adicional para modo desarrollo --><script>
+  if (!window.location.hostname.includes('localhost') && !window.location.hostname.includes('127.0.0.1')) {
+    console.log('🌐 I18n: Modo producción - dynamic-i18n.js habilitado');
+  } else {
+    console.log('🌐 I18n: Modo desarrollo - dynamic-i18n.js habilitado para traducciones dinámicas');
+  }
+</script> <!-- FormHub reCAPTCHA Helper centralizado (solo producción) --> <script>
+        if (!window.formHubRecaptchaLoaded) {
+          const script = document.createElement('script');
+          script.src = 'https://forms.izignamx.com/public/recaptcha-helper.js';
+          script.defer = true;
+          script.onload = () => { 
+            window.formHubRecaptchaLoaded = true;
+          };
+          script.onerror = () => {
+            console.warn('FormHub script failed to load - forms will still work via direct submission');
+          };
+          document.head.appendChild(script);
+        }
+      </script> </body> </html>   <script type="module">
+  document.addEventListener("DOMContentLoaded", () => {
+    const allowGA = (() => {
+      try {
+        if (
+          window.AnalyticsService &&
+          typeof window.AnalyticsService.hasConsent === "function"
+        ) {
+          return !!window.AnalyticsService.hasConsent();
+        }
+        return (
+          document.cookie.includes("analytics-consent=true") ||
+          document.cookie.includes("analytics-consent=granted")
+        );
+      } catch (_) {
+        return true;
+      }
+    })();
+
+    if (typeof window !== "undefined" && typeof window.gtag === "function") {
+      window.gtag("event", "page_view", {
+        page_title: "Gracias por contactarnos",
+        page_location: window.location.href,
+        custom_map: { page_type: "thank_you", conversion_completed: true },
+      });
+    }
+
+    try {
+      if (
+        typeof window !== "undefined" &&
+        typeof window.trackEvent === "function"
+      ) {
+        window.trackEvent("lead_conversion", {
+          page: "gracias",
+          value: 1,
+          currency: "USD",
+        });
+      }
+    } catch (_) {
+      void 0;
+    }
+
+    try {
+      const sendTo =
+        import.meta.env && import.meta.env.PUBLIC_GADS_SEND_TO
+          ? String(import.meta.env.PUBLIC_GADS_SEND_TO)
+          : "";
+      const isValidSendTo = /^AW-\d+\/[A-Za-z0-9_]+$/.test(sendTo);
+      if (allowGA && typeof window.gtag === "function" && isValidSendTo) {
+        window.gtag("event", "conversion", {
+          send_to: sendTo,
+          value: 1.0,
+          currency: "USD",
+        });
+      }
+    } catch (_) {
+      void 0;
+    }
+  });
+</script>

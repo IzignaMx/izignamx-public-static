@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-02-17T08:26:11.838Z",
+  "clientAddress": "not-available-in-static",
+  "systemInfo": {
+    "nodeVersion": "v25.2.1",
+    "platform": "win32",
+    "env": "production"
+  },
+  "environment": {
+    "formhubIntegration": "ACTIVE",
+    "legacySmtpRemoved": true,
+    "legacyRecaptchaRemoved": true,
+    "mailFrom": "MISSING",
+    "mailTo": "MISSING"
+  },
+  "tests": [
+    {
+      "name": "Native Node.js Modules",
+      "status": "PASS",
+      "message": "TLS and Buffer modules available (no external dependencies required)"
+    },
+    {
+      "name": "FormHub Integration",
+      "status": "WARN",
+      "message": "FormHub connectivity test failed - may be network related"
+    },
+    {
+      "name": "Legacy System Cleanup",
+      "status": "PASS",
+      "message": "All legacy SMTP/reCAPTCHA files removed"
+    },
+    {
+      "name": "Memory Usage",
+      "status": "INFO",
+      "message": "RSS: 653MB, Heap: 366MB"
+    },
+    {
+      "name": "JSON Response",
+      "status": "PASS",
+      "message": "JSON serialization working correctly"
+    },
+    {
+      "name": "Base64 Encoding",
+      "status": "PASS",
+      "message": "Base64 encoding/decoding working correctly"
+    }
+  ],
+  "summary": {
+    "totalTests": 6,
+    "passed": 4,
+    "failed": 0,
+    "skipped": 0,
+    "overallStatus": "HEALTHY",
+    "formSubmissionMethod": "FormHub Relay (no SMTP dependencies)"
+  }
+}

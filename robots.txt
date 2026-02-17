@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://izignamx.com/sitemap.xml
+
+# Security - Block access to admin/sensitive paths
+Disallow: /admin/
+Disallow: /_astro/*.map
+Disallow: /api/
+Disallow: /.env
+Disallow: /.git/
+
+# SEO
+Crawl-delay: 1

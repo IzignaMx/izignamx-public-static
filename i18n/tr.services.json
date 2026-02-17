@@ -1,0 +1,10 @@
+{
+  "services": {
+    "seo": {
+      "title": "Hizmetler | IzignaMx",
+      "description": "Çevrimiçi varlığınızı güçlendirmek için kapsamlı ve kişiselleştirilmiş dijital çözümler.",
+      "keywords": "dijital hizmetler, web geliştirme, uygulamalar, grafik tasarım, dijital pazarlama, SEO, markalaşma",
+      "image": "/assets/images/og-image.jpg"
+    }
+  }
+}

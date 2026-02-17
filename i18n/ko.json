@@ -1,0 +1,2627 @@
+{
+  "common": {
+    "dataAnalysis": "데이터 분석",
+    "processOptimization": "프로세스 최적화",
+    "welcome": "IzignaMx에 오신 것을 환영합니다",
+    "about": "회사 소개",
+    "services": "서비스",
+    "portfolio": "포트폴리오",
+    "contact": "문의하기",
+    "language": "언어",
+    "readMore": "더 보기",
+    "getStarted": "시작하기",
+    "learnMore": "자세히 알아보기",
+    "viewAll": "전체 보기",
+    "viewMore": "자세히 보기",
+    "viewMoreAbout": "{{service}}에 대해 자세히 알아보기",
+    "exploreService": "{{service}}탐색",
+    "backToHome": "홈으로 돌아가기",
+    "loading": "로딩 중...",
+    "error": "오류",
+    "success": "성공",
+    "warning": "경고",
+    "info": "정보",
+    "requestProposal": "제안요청",
+    "startProject": "프로젝트 시작",
+    "startProjectNow": "지금 프로젝트 시작하기",
+    "seeMore": "자세히 보기",
+    "exploreStack": "스택 탐색",
+    "premiumService": "프리미엄 서비스",
+    "quantifiableResults": "정량화 가능한 결과",
+    "cuttingEdgeTechnology": "최첨단 기술",
+    "lastUpdated": "마지막 업데이트",
+    "newService": "새로운 서비스",
+    "allRightsReserved": "모든 권리 보유",
+    "all": "모두",
+    "web": "편물",
+    "mobile": "이동하는",
+    "design": "설계",
+    "more": "더 나아가",
+    "moreInformation": "추가 정보",
+    "requestQuote": "견적요청",
+    "ourServices": "우리의 서비스",
+    "readyToBoost": "다음을 통해 프로젝트를 강화할 준비가 되었습니다.",
+    "readyToTransform": "조직을 변화시킬 준비가 되셨나요?",
+    "readyToImprove": "포지셔닝을 개선할 준비가 되셨나요?",
+    "readyToElevate": "귀하의 브랜드를 다음 단계로 끌어올릴 준비가 되셨나요?",
+    "readyToMultiply": "온라인 판매를 늘릴 준비가 되셨나요?",
+    "readyToBringToLife": "프로젝트를 3D로 생생하게 만들 준비가 되셨나요?",
+    "skipToContent": "주요 콘텐츠로 건너뛰기",
+    "backToTop": "맨 위로 돌아가기",
+    "darkModeActivated": "다크 모드 활성화됨",
+    "lightModeActivated": "조명 모드 활성화됨",
+    "returningToTop": "페이지 상단으로 돌아가기",
+    "benefits": "Beneficios",
+    "whatsappDirect": "WhatsApp Directo",
+    "faqTitle": "Preguntas Frecuentes",
+    "requestService": "Solicitar Servicio",
+    "exitPopup": {
+      "title": "온라인 독점 혜택!",
+      "description": "지금 $1,500 MXN 상당의 무료 디지털 진단을 받고 전환율을 최대 200% 높이는 방법을 알아보세요",
+      "limitedSpots": "다음 5명의 신청자에게만 제공",
+      "emailPlaceholder": "이메일 주소",
+      "namePlaceholder": "이름",
+      "submit": "지금 무료 진단 받기!",
+      "includesHtml": "<strong>포함 사항:</strong> 전환 분석, SEO 검토, 경쟁 분석 및 권장 전략",
+      "testimonial": "\"2개월 만에 매출이 85% 증가했습니다\" - Carlos M.",
+      "trust": "100% 기밀을 보장합니다. 약정이나 스팸은 없습니다.",
+      "redirectBannerHtml": "곧 리다이렉트됩니다. <span id=\"redirect-counter\">{{seconds}}</span>초 후 <strong>/gracias</strong>로 이동합니다.",
+      "sending": "전송 중...",
+      "success": "감사합니다! 곧 연락드리겠습니다.",
+      "error": "메시지를 보내지 못했습니다. 다시 시도해 주세요.",
+      "redirecting": "{{seconds}}초 후 리다이렉트...",
+      "unexpectedError": "예기치 않은 오류가 발생했습니다. 다시 시도해 주세요."
+    },
+    "connectingPhysicalDigital": "물리적 세계와 디지털 세계를 연결하다",
+    "iotDashboard": "IoT 대시보드",
+    "temperature": "온도",
+    "humidity": "습기",
+    "live": "살다",
+    "deviceStatus": "장치 상태",
+    "connected": "연결됨",
+    "battery": "배터리",
+    "signal": "징후",
+    "uptime": "가동 시간",
+    "update": "업데이트",
+    "configure": "설정",
+    "ourIotSolutions": "우리의 IoT 솔루션",
+    "industryApplications": "산업별 애플리케이션",
+    "ourDevelopmentProcess": "우리의 개발 과정",
+    "consultingAnalysis": "컨설팅 및 분석",
+    "prototyping": "프로토타이핑",
+    "developmentIntegration": "개발 및 통합",
+    "testingOptimization": "테스트 및 최적화",
+    "deploymentSupport": "배포 및 지원",
+    "iotDescription": "IzignaMx에서는 데이터를 귀하의 비즈니스를 위한 귀중한 정보로 변환하는 혁신적인 IoT 솔루션을 개발합니다. 당사의 연결된 장치는 스마트 기술을 통해 프로세스를 최적화하고 비용을 절감하며 새로운 비즈니스 기회를 창출하는 데 도움을 줍니다.",
+    "realTimeMonitoring": "실시간 모니터링",
+    "realTimeMonitoringDesc": "즉각적인 의사결정을 내릴 수 있도록 데이터와 중요 정보를 실시간으로 제공하는 시스템입니다.",
+    "intelligentAutomation": "지능형 자동화",
+    "intelligentAutomationDesc": "데이터와 사전 정의된 조건을 기반으로 한 자동화를 통한 프로세스 최적화.",
+    "scalability": "확장성",
+    "scalabilityDesc": "프로토타입부터 본격적인 구현까지 비즈니스와 함께 성장하도록 설계된 솔루션입니다.",
+    "energyEfficiency": "에너지 효율성",
+    "energyEfficiencyDesc": "다양한 환경에서 낮은 에너지 소비와 향상된 내구성에 최적화된 장치입니다.",
+    "smartSensors": "스마트 센서",
+    "smartSensorsDesc": "무선 연결을 통한 환경, 산업, 농업 및 건강 모니터링을 위한 맞춤형 센서 개발.",
+    "automationSystems": "자동화 시스템",
+    "automationSystemsDesc": "원격 제어를 통해 산업, 상업 및 주거 프로세스를 자동화하는 완벽한 솔루션입니다.",
+    "wearables": "웨어러블",
+    "wearablesDesc": "직관적인 인터페이스를 갖춘 건강 모니터링, 피트니스, 보안 및 산업용 애플리케이션을 위한 웨어러블 장치입니다.",
+    "smartHomeBuildings": "스마트 홈 및 건물",
+    "smartHomeBuildingsDesc": "에너지 소비를 최적화하고 편안함과 안전성을 향상시키는 주택 및 건물용 지능형 시스템입니다.",
+    "iotManagementPlatforms": "IoT 관리 플랫폼",
+    "iotManagementPlatformsDesc": "IoT 장치의 데이터 시각화, 제어 및 분석을 위한 대시보드 및 애플리케이션 개발.",
+    "edgeComputing": "엣지 컴퓨팅",
+    "edgeComputingDesc": "중요한 애플리케이션에서 대기 시간을 줄이고 대역폭을 최적화하기 위해 네트워크 에지에서 데이터를 처리합니다.",
+    "agriculture": "농업",
+    "agricultureApps": "작물 모니터링, 자동 관개, 온실 내 온도 조절",
+    "manufacturingApps": "예측 유지보수, 기계 모니터링, 생산 최적화",
+    "healthcare": "건강",
+    "healthcareApps": "원격 환자 모니터링, 병원 자산 관리, 스마트 디스펜서",
+    "logistics": "기호 논리학",
+    "logisticsApps": "자산 추적, 차량 관리, 경로 최적화, 콜드 체인 제어",
+    "smartCities": "스마트 시티",
+    "smartCitiesApps": "스마트 조명, 폐기물 관리, 교통 모니터링, 대기질",
+    "retail": "소매",
+    "retailApps": "재고관리, 개인화된 쇼핑 경험, 매장 트래픽 분석",
+    "iotSolutionsAdapt": "당사의 IoT 솔루션은 다양한 산업의 특정 요구 사항에 맞춰 다양한 상황에서 가치와 최적화를 제공합니다.",
+    "frequentQuestions": "에 대해 자주 묻는 질문",
+    "faqQuestion1": "IoT 프로젝트를 완료하는 데 얼마나 걸리나요?",
+    "faqAnswer1": "개발 시간은 프로젝트의 복잡성과 범위에 따라 다릅니다. 소규모 프로젝트는 2~4주 안에 완료될 수 있지만, 보다 복잡한 프로젝트는 2~6개월이 걸릴 수 있습니다. 우리는 항상 프로젝트 초기에 자세한 일정을 제공합니다.",
+    "faqQuestion2": "귀하의 서비스 비용은 대략 얼마입니까?",
+    "faqAnswer2": "우리의 가격은 각 프로젝트의 특정 요구 사항에 따라 다릅니다. 우리는 품질 저하 없이 다양한 예산에 대한 옵션을 제공합니다. 귀하의 정확한 요구 사항에 따른 맞춤형 견적을 받으려면 당사에 문의하십시오.",
+    "faqQuestion3": "프로젝트를 시작하려면 어떤 정보가 필요합니까?",
+    "faqAnswer3": "시작하려면 귀하의 목표, 대상 고객, 디자인 선호도 및 필요한 기능을 이해해야 합니다. 우리의 프로세스는 정확한 제안을 작성하는 데 필요한 모든 정보를 수집하는 상세한 상담으로 시작됩니다.",
+    "faqQuestion4": "프로젝트 완료 후 유지보수를 제공합니까?",
+    "faqAnswer4": "예, 당사는 귀하의 솔루션이 계속 최적으로 작동할 수 있도록 여러 가지 유지 관리 계획과 지속적인 지원을 제공합니다. 여기에는 귀하의 필요에 따른 보안 업데이트, 성능 최적화 및 기술 지원이 포함됩니다.",
+    "consultingAnalysisDesc": "우리는 귀하의 요구 사항을 평가하고 프로젝트의 기술적 요구 사항을 정의합니다.",
+    "prototypingDesc": "우리는 개념을 검증하고 초기 테스트를 수행하기 위해 기능적 프로토타입을 개발했습니다.",
+    "developmentIntegrationDesc": "우리는 모든 구성 요소를 통합하여 하드웨어, 펌웨어 및 소프트웨어를 구현합니다.",
+    "testingOptimizationDesc": "우리는 시스템 신뢰성과 효율성을 보장하기 위해 광범위한 테스트를 수행합니다.",
+    "deploymentSupportDesc": "우리는 솔루션을 구현하고 지속적인 기술 지원을 제공합니다.",
+    "expertTeamReady": "당사의 전문가 팀은 맞춤형 솔루션과 최첨단 기술을 통해 귀하의 목표 달성을 도울 준비가 되어 있습니다.",
+    "iotSubtitle": "디지털 세계를 위한 연결된 솔루션",
+    "iotServiceDescription": "우리는 물리적 세계와 디지털 세계를 연결하는 맞춤형 IoT 장치 및 시스템을 개발합니다. 스마트 센서부터 완전한 자동화 시스템까지, 우리는 프로세스를 최적화하고 귀중한 데이터를 수집하며 운영 효율성을 향상시키는 솔루션을 만듭니다.",
+    "analysis": "분석",
+    "development": "개발",
+    "testing": "증거",
+    "deployment": "전개",
+    "technologies": "기술",
+    "consultingSubtitle": "디지털 혁신을 위한 전략 컨설팅",
+    "consultingDescription": "우리는 기업과 조직이 프로세스를 최적화하고, 새로운 기술을 구현하고, 성장과 경쟁력을 높이는 효과적인 디지털 전략을 개발할 수 있도록 전문 컨설팅 서비스를 제공합니다.",
+    "powerOrganizationGrowth": "조직의 성장 촉진",
+    "consultingIntro": "IzignaMx에서는 변화하는 디지털 환경을 성공적으로 헤쳐 나갈 수 있도록 기술적 경험과 전략적 비전을 결합한 컨설팅 서비스를 제공합니다. 우리의 맞춤형 접근 방식은 가시적이고 지속적인 결과를 생성하기 위해 조직의 특정 요구 사항에 맞게 조정됩니다.",
+    "specializedExperience": "전문적인 경험",
+    "specializedExperienceDesc": "다양한 기술 및 비즈니스 분야의 전문가로부터 지식과 기술에 접근할 수 있습니다.",
+    "objectiveVision": "객관적인 비전",
+    "objectiveVisionDesc": "개선과 혁신적인 솔루션의 기회를 식별하기 위한 외부적이고 공정한 관점.",
+    "resourceOptimization": "자원 최적화",
+    "resourceOptimizationDesc": "기술과 인력의 효율적 배분을 통한 투자수익 극대화",
+    "riskReduction": "위험 감소",
+    "riskReductionDesc": "잠재적인 문제를 조기에 식별하고 효과적인 완화 전략을 개발합니다.",
+    "requestConsultation": "상담요청",
+    "ourConsultingServices": "우리의 컨설팅 서비스",
+    "digitalTransformation": "디지털 혁신",
+    "digitalTransformationDesc": "비즈니스의 모든 영역에 디지털 기술을 통합하기 위한 전략을 설계하고 구현합니다.",
+    "processAnalysisOptimization": "공정 분석 및 최적화",
+    "processAnalysisOptimizationDesc": "운영 효율성을 개선하고 비용을 절감하기 위한 프로세스 평가 및 재설계.",
+    "technologyStrategy": "기술 전략",
+    "technologyStrategyDesc": "비즈니스 목표와 시장 동향에 맞춰 기술 로드맵을 개발합니다.",
+    "technologyProjectManagement": "기술 프로젝트 관리",
+    "technologyProjectManagementDesc": "기술 구현 프로젝트의 기획, 실행 및 감독.",
+    "systemsAudit": "시스템 감사",
+    "systemsAuditDesc": "개선 및 최적화를 식별하기 위한 기존 기술 인프라 평가.",
+    "trainingKnowledgeTransfer": "교육 및 지식 이전",
+    "trainingKnowledgeTransferDesc": "기술팀과 최종 사용자를 위한 맞춤형 교육 프로그램입니다.",
+    "ourMethodology": "우리의 방법론",
+    "methodologyIntro": "우리는 각 컨설팅 프로젝트에서 성공적인 결과를 보장하기 위해 체계적이고 입증된 접근 방식을 적용합니다.",
+    "diagnosis": "진단",
+    "diagnosisDesc": "현재 상황에 대한 상세한 분석, 요구 사항 식별 및 목표 정의.",
+    "planning": "계획",
+    "planningDesc": "명확한 지표와 목표를 바탕으로 맞춤형 전략 및 실행 계획을 개발합니다.",
+    "implementation": "구현",
+    "implementationDesc": "필요에 따라 지속적인 지원 및 조정을 통해 제안된 솔루션을 실행합니다.",
+    "evaluation": "평가",
+    "evaluationDesc": "지속적인 최적화를 위한 결과 측정, 영향 분석 및 조정.",
+    "transfer": "옮기다",
+    "transferDesc": "연속성을 보장하기 위한 내부 팀 교육 및 세부 문서화.",
+    "industriesWeServe": "우리가 봉사하는 산업",
+    "financesBanking": "금융 및 은행",
+    "health": "건강",
+    "retailEcommerce": "소매 및 전자상거래",
+    "manufacturing": "제조",
+    "education": "교육",
+    "logisticsTransport": "물류 및 운송",
+    "professionalServices": "전문 서비스",
+    "publicSector": "공공 부문",
+    "scheduleFreeConsultation": "무료 상담 예약",
+    "cybersecurity": "사이버 보안",
+    "projectManagement": "프로젝트 관리",
+    "systemsArchitecture": "시스템 아키텍처",
+    "innovation": "혁신",
+    "innovationDesc": "혁신적인 솔루션 구현",
+    "efficiency": "능률",
+    "efficiencyDesc": "핵심 프로세스 최적화",
+    "collaboration": "협동",
+    "collaborationDesc": "내부 팀과의 공동 작업",
+    "growth": "성장",
+    "growthDesc": "확장 및 확장성 전략",
+    "security": "보안",
+    "securityDesc": "디지털 자산 보호",
+    "roi": "ROI",
+    "roiDesc": "투자 수익 극대화",
+    "expectedResults": "예상 결과",
+    "start": "시작",
+    "results": "결과",
+    "frequentQuestionsAbout": "에 대해 자주 묻는 질문",
+    "consultingFaqQuestion1": "컨설팅 프로젝트를 완료하는 데 얼마나 걸리나요?",
+    "consultingFaqAnswer1": "개발 시간은 프로젝트의 복잡성과 범위에 따라 다릅니다. 소규모 프로젝트는 2~4주 안에 완료될 수 있지만, 보다 복잡한 프로젝트는 2~6개월이 걸릴 수 있습니다. 우리는 항상 프로젝트 초기에 자세한 일정을 제공합니다.",
+    "consultingFaqQuestion2": "귀하의 서비스 비용은 대략 얼마입니까?",
+    "consultingFaqAnswer2": "우리의 가격은 각 프로젝트의 특정 요구 사항에 따라 다릅니다. 우리는 품질 저하 없이 다양한 예산에 대한 옵션을 제공합니다. 귀하의 정확한 요구 사항에 따른 맞춤형 견적을 받으려면 당사에 문의하십시오.",
+    "consultingFaqQuestion3": "프로젝트를 시작하려면 어떤 정보가 필요합니까?",
+    "consultingFaqAnswer3": "시작하려면 귀하의 목표, 대상 고객, 디자인 선호도 및 필요한 기능을 이해해야 합니다. 우리의 프로세스는 정확한 제안을 작성하는 데 필요한 모든 정보를 수집하는 상세한 상담으로 시작됩니다.",
+    "consultingFaqQuestion4": "프로젝트 완료 후 유지보수를 제공합니까?",
+    "consultingFaqAnswer4": "예, 당사는 귀하의 솔루션이 계속 최적으로 작동할 수 있도록 여러 가지 유지 관리 계획과 지속적인 지원을 제공합니다. 여기에는 귀하의 필요에 따른 보안 업데이트, 성능 최적화 및 기술 지원이 포함됩니다.",
+    "expertTeamReadyConsulting": "당사의 전문가 팀은 맞춤형 솔루션과 최첨단 기술을 통해 귀하의 목표 달성을 도울 준비가 되어 있습니다.",
+    "3dModelingSubtitle": "모든 프로젝트를 위한 전문적인 3D 모델 생성",
+    "3dModelingDescription": "우리는 건축 시각화, 제품 디자인, 애니메이션, 비디오 게임, 가상 및 증강 현실을 위한 고품질 3D 모델링 서비스를 제공합니다. 우리의 상세하고 사실적인 3D 모델은 아이디어를 전달하고 개념을 시각화하며 몰입형 경험을 만드는 데 도움이 됩니다.",
+    "bringingIdeasToLife3D": "3차원 아이디어에 생명을 불어넣다",
+    "3dModelingIntro": "IzignaMx에서는 개념과 아이디어를 프로젝트에 필요한 세부 수준과 사실성을 갖춘 인상적인 3D 모델로 변환합니다. 3D 아티스트와 모델러로 구성된 당사 팀은 창의성과 기술적 정확성을 결합하여 모든 응용 프로그램에 적합한 고품질 3D 자산을 만듭니다.",
+    "realisticVisualization": "사실적인 시각화",
+    "realisticVisualizationDesc": "제품과 공간을 제조 또는 시공하기 전에 시각화할 수 있는 사실적인 3D 모델입니다.",
+    "versatility": "다재",
+    "versatilityDesc": "정적 렌더링부터 대화형 경험까지 다양한 형식과 플랫폼에 적응합니다.",
+    "optimization": "최적화",
+    "optimizationDesc": "각 프로젝트 및 대상 플랫폼의 특정 요구에 따라 최적화된 모델입니다.",
+    "detailPrecision": "디테일과 정확성",
+    "detailPrecisionDesc": "각 모델의 기술적, 시각적 정확성을 보장하기 위해 세부 사항에 세심한 주의를 기울였습니다.",
+    "requestQuotation": "견적요청",
+    "our3dModelingServices": "3D 모델링 서비스",
+    "architecturalModeling": "건축 모델링",
+    "architecturalModelingDesc": "시각화 및 프리젠테이션을 위해 건물, 인테리어 및 도시 공간의 상세한 3D 모델을 생성합니다.",
+    "productDesign": "제품 디자인",
+    "productDesignDesc": "시각화, 마케팅 및 제조를 위한 제품, 프로토타입 및 컨셉 모델링.",
+    "charactersOrganics": "캐릭터와 유기체",
+    "charactersOrganicsDesc": "애니메이션, 비디오 게임 및 시각 효과를 위한 캐릭터, 생물 및 유기적 모델을 제작합니다.",
+    "virtualEnvironments": "가상 환경",
+    "virtualEnvironmentsDesc": "비디오 게임, 가상 현실 및 시뮬레이션을 위한 몰입형 시나리오 및 환경 개발.",
+    "scientificVisualization": "과학적 시각화",
+    "scientificVisualizationDesc": "이해와 학습을 촉진하기 위해 과학, 의학 및 교육 개념을 모델링합니다.",
+    "3dAnimation": "3D 애니메이션",
+    "3dAnimationDesc": "리깅 시스템과 고급 제어 기능을 통해 애니메이션에 최적화된 모델을 생성합니다.",
+    "our3dModelingProcess": "3D 모델링 프로세스",
+    "3dProcessIntro": "우리는 귀하의 기대에 부응하는 고품질 3D 모델을 보장하기 위해 구조화된 프로세스를 따릅니다.",
+    "conceptPlanning": "컨셉과 기획",
+    "conceptPlanningDesc": "우리는 모델의 요구 사항, 참조 및 기술 사양을 정의합니다.",
+    "baseModeling": "기본 모델링",
+    "baseModelingDesc": "우리는 모델의 기본 구조와 기본 기하학을 만듭니다.",
+    "detailingTexturing": "디테일하고 질감이 있는",
+    "detailingTexturingDesc": "모델에 사실감을 주기 위해 디테일, 재료, 질감을 추가합니다.",
+    "optimizationDelivery": "최적화 및 전달",
+    "optimizationDeliveryDesc": "우리는 최종 사용을 위해 모델을 최적화하고 필요한 형식으로 제공합니다.",
+    "examplesOurWork": "우리 작업의 예",
+    "architecturalModelingWork": "건축 모델링",
+    "architecturalModelingWorkDesc": "건축 프로젝트를 사실적으로 시각화합니다.",
+    "productDesignWork": "제품 디자인",
+    "productDesignWorkDesc": "제품 제조 및 마케팅을 위한 상세한 3D 프로토타입입니다.",
+    "characterCreationWork": "캐릭터 생성",
+    "characterCreationWorkDesc": "비디오 게임 및 애니메이션용 캐릭터 디자인 및 모델링.",
+    "scenariosEnvironmentsWork": "시나리오 및 환경",
+    "scenariosEnvironmentsWorkDesc": "디지털 제작을 위한 몰입적이고 상세한 세계를 창조합니다.",
+    "readyToBringProjectToLife3D": "프로젝트를 3D로 생생하게 만들 준비가 되셨나요?",
+    "contactTodayDiscuss3D": "귀하의 3D 모델링 요구 사항에 대해 논의하고 맞춤형 견적을 받으려면 지금 저희에게 연락하십시오.",
+    "start3dModelingProject": "3D 모델링 프로젝트 시작",
+    "frequentQuestions3dModeling": "3D 모델링에 대해 자주 묻는 질문",
+    "3dModelingFaqQuestion1": "3D 모델링 프로젝트를 완료하는 데 얼마나 걸리나요?",
+    "3dModelingFaqAnswer1": "개발 시간은 프로젝트의 복잡성과 범위에 따라 다릅니다. 소규모 프로젝트는 2~4주 안에 완료될 수 있지만, 보다 복잡한 프로젝트는 2~6개월이 걸릴 수 있습니다. 우리는 항상 프로젝트 초기에 자세한 일정을 제공합니다.",
+    "3dModelingFaqQuestion2": "귀하의 서비스 비용은 대략 얼마입니까?",
+    "3dModelingFaqAnswer2": "우리의 가격은 각 프로젝트의 특정 요구 사항에 따라 다릅니다. 우리는 품질 저하 없이 다양한 예산에 대한 옵션을 제공합니다. 귀하의 정확한 요구 사항에 따른 맞춤형 견적을 받으려면 당사에 문의하십시오.",
+    "3dModelingFaqQuestion3": "프로젝트를 시작하려면 어떤 정보가 필요합니까?",
+    "3dModelingFaqAnswer3": "시작하려면 귀하의 목표, 대상 고객, 디자인 선호도 및 필요한 기능을 이해해야 합니다. 우리의 프로세스는 정확한 제안을 작성하는 데 필요한 모든 정보를 수집하는 상세한 상담으로 시작됩니다.",
+    "3dModelingFaqQuestion4": "프로젝트 완료 후 유지보수를 제공합니까?",
+    "3dModelingFaqAnswer4": "예, 당사는 귀하의 솔루션이 계속 최적으로 작동할 수 있도록 여러 가지 유지 관리 계획과 지속적인 지원을 제공합니다. 여기에는 귀하의 필요에 따른 보안 업데이트, 성능 최적화 및 기술 지원이 포함됩니다.",
+    "expertTeamReady3dModeling": "당사의 전문가 팀은 맞춤형 솔루션과 최첨단 기술을 통해 귀하의 목표 달성을 도울 준비가 되어 있습니다."
+  },
+  "header": {
+    "home": "INICIO",
+    "aboutUs": "Nosotros",
+    "ourServices": "SERVICIOS",
+    "ourWork": "WORK",
+    "blog": "Blog",
+    "getInTouch": "CONTACTO",
+    "aiProjectsHelp": "Ayuda Proyectos AI",
+    "services": {
+      "blockchain": "Blockchain & Web3",
+      "iot": "IoT Development",
+      "printing3d": "3D Printing",
+      "consulting": "Consulting",
+      "modeling3d": "3D Modeling"
+    }
+  },
+  "home": {
+    "title": "IzignaMx - Soluciones Digitales y Desarrollo Web",
+    "description": "Agencia digital especializada en desarrollo web, apps y marketing."
+  },
+  "hero": {
+    "title": "아이디어를 탁월한 디지털 경험으로 전환합니다",
+    "tagline": "변화시키는 기술",
+    "description": "우리는 웹 개발, 모바일 애플리케이션, 그래픽 디자인 및 혁신적인 디지털 솔루션 분야의 전문가입니다. 우리는 아이디어를 탁월한 디지털 경험으로 전환합니다.",
+    "techBadge": "최첨단 기술",
+    "workButton": "직업 보기",
+    "contactButton": "연락하다",
+    "yearsExperience": "수년간의 경험",
+    "projectsCompleted": "완료된 프로젝트",
+    "happyClients": "만족한 고객",
+    "explore": "탐구하다",
+    "ctaPrimary": "서비스 보기",
+    "ctaSecondary": "포트폴리오 보기"
+  },
+  "aiProjectBanner": {
+    "badge": "새로운 서비스",
+    "title": "귀하의 AI 프로젝트가 중단되었습니까?",
+    "stuck": "갇힌",
+    "description": "ChatGPT, Claude 또는 Cursor를 사용하여 웹 프로젝트를 생성했지만 작동하지 않거나 전문적인 개선이 필요한 경우 완료해 드립니다.",
+    "ctaButton": "2시간 안에 무료 분석",
+    "projectsRescued": "150개 이상의 AI 프로젝트 구출",
+    "weCompleteIt": "우리는 그것을 완료",
+    "newService": "NUEVO SERVICIO",
+    "titlePrefix": "¿Tu Proyecto AI está",
+    "titleSuffix": "Atascado?",
+    "freeAnalysis": "Análisis Gratuito - $0 USD",
+    "rescuedProjects": "+50 Proyectos Rescatados",
+    "rating": "4.9/5 Calificación",
+    "delivery": "Resultados en < 2 Semanas",
+    "guarantee": "Diagnóstico en 24h"
+  },
+  "contact": {
+    "pageTitle": "Contacto | IzignaMx - Agencia Digital",
+    "pageDescription": "Contáctanos para discutir tu proyecto digital. Ofrecemos desarrollo web, diseño gráfico, marketing digital y más.",
+    "badge": "CONTÁCTANOS",
+    "title": "Conversemos Sobre Tu Proyecto",
+    "subtitle": "Nuestro equipo está listo para convertir tus ideas en soluciones digitales exitosas.",
+    "directContact": "Contacto Directo",
+    "mainOffice": "Oficina Central",
+    "location": "Ciudad de México, México",
+    "corporateEmail": "Email Corporativo",
+    "directLine": "Línea Directa (24/7)",
+    "followUs": "Síguenos",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Su nombre completo",
+      "email": "Email Corporativo",
+      "emailPlaceholder": "email@suempresa.com",
+      "emailHelp": "Utilizaremos este email para enviarle la propuesta",
+      "phone": "Teléfono Directo",
+      "phoneHelp": "Opcional: Para contacto más rápido",
+      "company": "Empresa",
+      "message": "Detalles del proyecto",
+      "messagePlaceholder": "Describa brevemente su proyecto y objetivos específicos...",
+      "messageHelp": "Mínimo 10 caracteres, máximo 2000",
+      "services": "Solución que necesita",
+      "servicesPlaceholder": "Seleccione la solución que necesita",
+      "budget": "Inversión estimada (MXN)",
+      "budgetHelp": "Opcional: Ayuda a personalizar nuestra propuesta",
+      "timeline": "Urgencia del proyecto",
+      "timelineHelp": "Opcional: Nos ayuda a priorizar su proyecto",
+      "howDidYouHear": "¿Cómo nos descubrió?",
+      "howDidYouHearPlaceholder": "Seleccione una opción",
+      "howDidYouHearHelp": "Opcional: Nos ayuda a mejorar nuestro alcance",
+      "send": "Solicitar Propuesta Personalizada",
+      "reset": "Reiniciar Formulario",
+      "sending": "Enviando...",
+      "success": "¡Su solicitud ha sido recibida! Un consultor especializado se pondrá en contacto en menos de 24 horas.",
+      "error": "Ha ocurrido un error al enviar su mensaje. Por favor, intente nuevamente o contáctenos directamente.",
+      "generalError": "Ha ocurrido un error. Por favor, intente nuevamente.",
+      "serviceOptions": {
+        "web": "Sitio Web Profesional",
+        "design": "Diseño Gráfico",
+        "app": "Aplicación Móvil/Web",
+        "ecommerce": "Tienda Online Rentable",
+        "marketing": "Marketing Digital & Publicidad",
+        "branding": "Branding & Identidad Corporativa",
+        "seo": "Optimización SEO",
+        "other": "Otro"
+      }
+    },
+    "benefits": {
+      "proposal24h": "Propuesta en 24 horas",
+      "freeDiagnosis": "Diagnóstico gratuito",
+      "confidentialityNDA": "NDA de confidencialidad",
+      "limitedSpots": "¡CUPO LIMITADO! - Solo 2 proyectos disponibles este mes"
+    },
+    "whatsapp": {
+      "immediateResponse": "Respuesta inmediata por WhatsApp"
+    },
+    "security": {
+      "formProtected": "Este formulario está protegido por medidas de seguridad avanzadas.",
+      "dataProtected": "Sus datos están protegidos por nuestra",
+      "privacyPolicy": "Política de Privacidad",
+      "noThirdParties": "Nunca compartimos su información con terceros."
+    },
+    "serviceOptions": {
+      "googleSearch": "Búsqueda en Google",
+      "colleagueRecommendation": "Recomendación de un colega",
+      "socialMedia": "Redes Sociales",
+      "eventConference": "Evento o Conferencia",
+      "otherMedium": "Otro medio"
+    },
+    "urgencyOptions": {
+      "urgent": "Urgente (1-2 semanas)",
+      "priority": "Prioritario (1-2 meses)",
+      "strategic": "Estratégico (+3 meses)"
+    },
+    "budget": {
+      "less5k": "Menos de $5,000",
+      "5k15k": "$5,000 - $15,000",
+      "15k30k": "$15,000 - $30,000",
+      "30k50k": "$30,000 - $50,000",
+      "more50k": "Más de $50,000"
+    },
+    "timeline": {
+      "urgent": "Urgente (menos de 1 semana)",
+      "fast": "Rápido (1-2 semanas)",
+      "normal": "Normal (2-4 semanas)",
+      "extended": "Proyecto extenso (1-3 meses)",
+      "ongoing": "Colaboración continua"
+    },
+    "howDidYouHear": {
+      "google": "Búsqueda en Google",
+      "social": "Redes Sociales",
+      "referral": "Recomendación",
+      "event": "Evento o Conferencia",
+      "other": "Otro"
+    },
+    "budgetOptions": {
+      "small": "$5K - $15K",
+      "medium": "$15K - $30K",
+      "large": "$30K - $50K",
+      "enterprise": "$50K+"
+    }
+  },
+  "footer": {
+    "description": "우리는 아이디어를 측정 가능한 ROI와 비즈니스의 실질적인 성장을 창출하는 고성능 디지털 솔루션으로 전환합니다.",
+    "quickAccess": "빠른 액세스",
+    "highImpactSolutions": "영향력이 큰 솔루션",
+    "startTransformation": "변화를 시작하세요",
+    "links": {
+      "home": "시작",
+      "whyChooseUs": "우리를 선택하는 이유",
+      "digitalSolutions": "디지털 솔루션",
+      "successCases": "성공 사례",
+      "requestProposal": "제안요청",
+      "termsConditions": "이용약관",
+      "privacyPolicy": "개인 정보 보호 정책",
+      "siteMap": "사이트 맵"
+    },
+    "services": {
+      "aiProjects": "AI 프로젝트(신규)",
+      "convertingWebs": "전환하는 웹사이트 (+180%)",
+      "measurableSeo": "측정 가능한 결과를 제공하는 SEO",
+      "highRoiMarketing": "높은 ROI 마케팅",
+      "premiumApps": "프리미엄 앱(별 4.8개)",
+      "connectingDesign": "연결되는 디자인 (+75%)",
+      "costReducingAi": "비용 절감을 위한 AI(-60%)"
+    },
+    "contact": {
+      "title": "직접 연락",
+      "phone": "핸드폰",
+      "email": "이메일",
+      "address": "주소",
+      "whatsappNow": "지금 WhatsApp에 편지를 보내주세요: +52 55 3376 0889",
+      "requestAnalysis": "무료 분석 요청",
+      "immediateWhatsapp": "즉각적인 WhatsApp",
+      "location": "멕시코시티, 멕시코"
+    },
+    "copyright": "모든 권리 보유"
+  },
+  "work": {
+    "title": "우리는 실제 결과로 비즈니스를 변화시킵니다.",
+    "subtitle": "각 프로젝트는 고객의 비즈니스에 실질적인 영향을 미치는 혁신적인 솔루션을 만들 수 있는 기회입니다.",
+    "badge": "정량화 가능한 결과",
+    "projectsThatConvert": "변환하는 프로젝트",
+    "professionalWebsites": "방문자를 고객으로 전환시키는 전문 웹사이트와 최신 웹 애플리케이션입니다.",
+    "categories": {
+      "all": "모두",
+      "web": "편물",
+      "mobile": "이동하는",
+      "design": "설계"
+    }
+  },
+  "marketing": {
+    "faq": {
+      "question1": {
+        "question": "¿Cuánto tiempo toma ver resultados?",
+        "answer": "Depende de la estrategia, pero generalmente entre 3 y 6 meses."
+      },
+      "question2": {
+        "question": "¿Cuál es la inversión mínima?",
+        "answer": "Recomendamos una inversión mínima de $1,000 USD mensuales."
+      },
+      "question3": {
+        "question": "¿Cómo se mide el éxito?",
+        "answer": "A través de KPIs claros como ROI, conversiones y tráfico."
+      },
+      "question4": {
+        "question": "¿Trabajan con mi industria?",
+        "answer": "Tenemos experiencia en diversas industrias como retail, salud, tecnología, etc."
+      }
+    },
+    "consultancyDescription": "Solicita una consultoría gratuita para definir tu estrategia.",
+    "resultsDescription": "Resultados comprobados en múltiples industrias."
+  },
+  "services": {
+    "expertsBadge": "기술 전문가",
+    "title": "서비스",
+    "subtitle": "비즈니스를 위한 포괄적인 디지털 솔루션",
+    "techBadge": "Tecnologías destacadas",
+    "app-development": {
+      "title": "Desarrollo de Apps",
+      "subtitle": "iOS & Android",
+      "description": "Creamos aplicaciones móviles nativas e híbridas que ofrecen experiencias de usuario excepcionales y rendimiento superior.",
+      "heroTitle": "Desarrollo de Apps Móviles",
+      "heroSubtitle": "Soluciones Móviles de Alto Rendimiento",
+      "heroDescription": "Transformamos tu visión en una aplicación móvil potente y escalable, diseñada para captar y retener usuarios en cualquier plataforma.",
+      "features": {
+        "native": {
+          "title": "Desarrollo Nativo",
+          "description": "Aplicaciones optimizadas para el máximo rendimiento en iOS y Android."
+        },
+        "hybrid": {
+          "title": "Desarrollo Híbrido",
+          "description": "Soluciones eficientes multiplataforma con una sola base de código."
+        },
+        "uiux": {
+          "title": "Diseño UI/UX Móvil",
+          "description": "Interfaces intuitivas y atractivas diseñadas específicamente para dispositivos móviles."
+        },
+        "maintenance": {
+          "title": "Mantenimiento y Soporte",
+          "description": "Actualizaciones continuas y soporte técnico para garantizar el funcionamiento óptimo."
+        }
+      }
+    },
+    "app": {
+      "title": "Desarrollo de Apps",
+      "subtitle": "iOS & Android",
+      "description": "Creamos aplicaciones móviles nativas e híbridas que ofrecen experiencias de usuario excepcionales y rendimiento superior.",
+      "heroTitle": "Desarrollo de Apps Móviles",
+      "heroSubtitle": "Soluciones Móviles de Alto Rendimiento",
+      "heroDescription": "Transformamos tu visión en una aplicación móvil potente y escalable, diseñada para captar y retener usuarios en cualquier plataforma.",
+      "features": {
+        "native": {
+          "title": "Desarrollo Nativo",
+          "description": "Aplicaciones optimizadas para el máximo rendimiento en iOS y Android."
+        },
+        "hybrid": {
+          "title": "Desarrollo Híbrido",
+          "description": "Soluciones eficientes multiplataforma con una sola base de código."
+        },
+        "uiux": {
+          "title": "Diseño UI/UX Móvil",
+          "description": "Interfaces intuitivas y atractivas diseñadas específicamente para dispositivos móviles."
+        },
+        "maintenance": {
+          "title": "Mantenimiento y Soporte",
+          "description": "Actualizaciones continuas y soporte técnico para garantizar el funcionamiento óptimo."
+        }
+      }
+    },
+    "web": {
+      "title": "Desarrollo Web Profesional",
+      "description": "Desarrollamos y diseñamos webs de la más alta calidad, bajo los estándares de W3C con la finalidad de hacer que todo funcione de manera rápida, eficiente, sencilla y sin perder el toque 'mágico' de diseño y de experiencia de usuario.",
+      "subtitle": "Sitios Web Profesionales y E-commerce",
+      "heroTitle": "Desarrollo Web",
+      "heroSubtitle": "Sitios Web Profesionales & E-commerce",
+      "heroDescription": "Desarrollamos y diseñamos webs de la más alta calidad, bajo los estándares de W3C con la finalidad de hacer que todo funcione de manera rápida, eficiente, sencilla y sin perder el toque 'mágico' de diseño y de experiencia de usuario.",
+      "features": {
+        "responsive": {
+          "title": "Diseño Responsive",
+          "description": "Sitios web que se adaptan perfectamente a cualquier dispositivo, desde móviles hasta pantallas de escritorio."
+        },
+        "seo": {
+          "title": "Optimización SEO",
+          "description": "Implementación de mejores prácticas para posicionamiento en buscadores y mayor visibilidad online."
+        },
+        "fastLoading": {
+          "title": "Rápida Carga",
+          "description": "Desarrollo optimizado para garantizar tiempos de carga mínimos y mejor experiencia de usuario."
+        },
+        "cms": {
+          "title": "Integración CMS",
+          "description": "Sistemas de gestión de contenido personalizados para actualizar fácilmente tu web."
+        }
+      },
+      "packages": {
+        "corporate": {
+          "title": "Sitios Web Corporativos",
+          "description": "Creamos sitios web profesionales y personalizados que reflejan la identidad de tu empresa, optimizados para generar confianza y convertir visitantes en clientes potenciales.",
+          "features": [
+            "Diseño personalizado",
+            "Optimización SEO",
+            "Certificado SSL",
+            "Integración con redes sociales"
+          ]
+        },
+        "ecommerce": {
+          "title": "E-commerce & Tiendas Online",
+          "description": "Desarrollamos plataformas de comercio electrónico completas con todas las herramientas necesarias para vender en línea: catálogo de productos, carrito, pasarelas de pago y gestión de inventario.",
+          "features": [
+            "Múltiples pasarelas de pago",
+            "Gestión de inventario",
+            "Facturación electrónica",
+            "Informes de ventas"
+          ]
+        },
+        "landing": {
+          "title": "Landing Pages de Conversión",
+          "description": "Diseñamos páginas de aterrizaje orientadas a resultados que transforman visitantes en leads o ventas mediante un diseño estratégico y llamadas a la acción efectivas.",
+          "features": [
+            "Tests A/B",
+            "Formularios optimizados",
+            "Integración con CRM",
+            "Análisis de conversión"
+          ]
+        },
+        "webapp": {
+          "title": "Aplicaciones Web Personalizadas",
+          "description": "Creamos soluciones web a medida para necesidades específicas de tu negocio con funcionalidades avanzadas, bases de datos y APIs personalizadas para automatizar procesos.",
+          "features": [
+            "Arquitectura escalable",
+            "Conexión con APIs",
+            "Autenticación segura",
+            "Backend personalizado"
+          ]
+        },
+        "optimization": {
+          "title": "Optimización de Rendimiento Web",
+          "description": "Mejoramos la velocidad de carga y el rendimiento de sitios web existentes para mejorar la experiencia del usuario, la tasa de conversión y el posicionamiento en buscadores.",
+          "features": [
+            "Mejora de Core Web Vitals",
+            "Optimización de imágenes",
+            "Minificación de recursos",
+            "Caché avanzado"
+          ]
+        },
+        "maintenance": {
+          "title": "Mantenimiento y Soporte Web",
+          "description": "Ofrecemos servicios continuos para mantener tu sitio actualizado, seguro y funcionando correctamente, con planes de mantenimiento preventivo y soporte técnico especializado.",
+          "features": [
+            "Actualizaciones de seguridad",
+            "Copias de seguridad",
+            "Monitoreo 24/7",
+            "Soporte técnico prioritario"
+          ]
+        }
+      }
+    },
+    "web-development": {
+      "title": "Desarrollo Web",
+      "description": "Desarrollamos y diseñamos webs de la más alta calidad, bajo los estándares de W3C con la finalidad de hacer que todo funcione de manera rápida, eficiente, sencilla y sin perder el toque de diseño y experiencia de usuario.",
+      "subtitle": "HTML5 - CSS3 - Javascript - PHP - MySQL",
+      "heroTitle": "Desarrollo Web",
+      "heroSubtitle": "Sitios Web Profesionales & E-commerce",
+      "heroDescription": "Desarrollamos y diseñamos webs de la más alta calidad, bajo los estándares de W3C con la finalidad de hacer que todo funcione de manera rápida, eficiente, sencilla y sin perder el toque 'mágico' de diseño y de experiencia de usuario.",
+      "features": {
+        "responsive": {
+          "title": "Diseño Responsive",
+          "description": "Sitios web que se adaptan perfectamente a cualquier dispositivo, desde móviles hasta pantallas de escritorio."
+        },
+        "seo": {
+          "title": "Optimización SEO",
+          "description": "Implementación de mejores prácticas para posicionamiento en buscadores y mayor visibilidad online."
+        },
+        "fastLoading": {
+          "title": "Rápida Carga",
+          "description": "Desarrollo optimizado para garantizar tiempos de carga mínimos y mejor experiencia de usuario."
+        },
+        "cms": {
+          "title": "Integración CMS",
+          "description": "Sistemas de gestión de contenido personalizados para actualizar fácilmente tu web."
+        }
+      },
+      "aiRescue": {
+        "badge": "¿PROYECTO AI ATASCADO?",
+        "titlePart1": "¿Generaste tu Web con",
+        "titlePart2": "IA",
+        "titlePart3": "pero no funciona?",
+        "description": "Si creaste tu proyecto con ChatGPT, Claude, Cursor u otra herramienta de IA pero el código tiene errores, no despliega o necesita mejoras profesionales, nosotros lo rescatamos y completamos.",
+        "problems": {
+          "errors": "Código con errores",
+          "deploy": "No sabes desplegar",
+          "design": "Diseño poco profesional"
+        },
+        "stats": {
+          "time": {
+            "value": "24-48h",
+            "label": "Tiempo de rescate"
+          },
+          "projects": {
+            "value": "+150",
+            "label": "Proyectos AI rescatados"
+          },
+          "analysis": {
+            "value": "2h",
+            "label": "Análisis gratuito"
+          }
+        },
+        "cta": "RESCATAR MI PROYECTO AI",
+        "guarantee": "Sin compromiso • Garantía de 30 días"
+      },
+      "packages": {
+        "corporate": {
+          "title": "Sitios Web Corporativos",
+          "description": "Creamos sitios web profesionales y personalizados que reflejan la identidad de tu empresa, optimizados para generar confianza y convertir visitantes en clientes potenciales.",
+          "features": [
+            "Diseño personalizado",
+            "Optimización SEO",
+            "Certificado SSL",
+            "Integración con redes sociales"
+          ]
+        },
+        "ecommerce": {
+          "title": "E-commerce & Tiendas Online",
+          "description": "Desarrollamos plataformas de comercio electrónico completas con todas las herramientas necesarias para vender en línea: catálogo de productos, carrito, pasarelas de pago y gestión de inventario.",
+          "features": [
+            "Múltiples pasarelas de pago",
+            "Gestión de inventario",
+            "Facturación electrónica",
+            "Informes de ventas"
+          ]
+        },
+        "landing": {
+          "title": "Landing Pages de Conversión",
+          "description": "Diseñamos páginas de aterrizaje orientadas a resultados que transforman visitantes en leads o ventas mediante un diseño estratégico y llamadas a la acción efectivas.",
+          "features": [
+            "Tests A/B",
+            "Formularios optimizados",
+            "Integración con CRM",
+            "Análisis de conversión"
+          ]
+        },
+        "webapp": {
+          "title": "Aplicaciones Web Personalizadas",
+          "description": "Creamos soluciones web a medida para necesidades específicas de tu negocio con funcionalidades avanzadas, bases de datos y APIs personalizadas para automatizar procesos.",
+          "features": [
+            "Arquitectura escalable",
+            "Conexión con APIs",
+            "Autenticación segura",
+            "Backend personalizado"
+          ]
+        },
+        "optimization": {
+          "title": "Optimización de Rendimiento Web",
+          "description": "Mejoramos la velocidad de carga y el rendimiento de sitios web existentes para mejorar la experiencia de usuario, la tasa de conversión y el posicionamiento SEO.",
+          "features": [
+            "Mejora de Core Web Vitals",
+            "Optimización de imágenes",
+            "Minificación de recursos",
+            "Caché avanzado"
+          ]
+        },
+        "maintenance": {
+          "title": "Mantenimiento Web & Soporte",
+          "description": "Ofrecemos servicios continuos para mantener tu sitio actualizado, seguro y funcionando correctamente, con planes de mantenimiento preventivo y soporte técnico especializado.",
+          "features": [
+            "Actualizaciones de seguridad",
+            "Copias de seguridad",
+            "Monitorización 24/7",
+            "Soporte prioritario"
+          ]
+        }
+      },
+      "packagesIntro": {
+        "badge": "NUESTROS SERVICIOS",
+        "title": "Desarrollo Web",
+        "subtitle": "Servicios",
+        "description": "Soluciones web profesionales diseñadas para impulsar tu presencia digital y maximizar resultados comerciales.",
+        "premiumBadge": "Servicio Premium",
+        "newBadge": "Nuevo",
+        "transformation": "Servicios de transformación digital para empresas",
+        "customQuestion": "¿Necesitas un servicio específico no listado?",
+        "contactUs": "Contáctanos para una solución a medida.",
+        "customCta": "Solicitar Servicio Personalizado"
+      },
+      "stack": {
+        "badge": "STACK TECNOLÓGICO",
+        "title": "Tecnologías que",
+        "subtitle": "Impulsan Resultados",
+        "description": "Integramos las herramientas más potentes y modernas para construir soluciones web robustas, escalables y de alto rendimiento."
+      }
+    },
+    "cta": {
+      "title": "¿Listo para impulsar tu proyecto con <span class=\"text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-600\">{{service}}</span>?",
+      "subtitle": "Nuestro equipo de expertos está preparado para ayudarte a alcanzar tus objetivos con soluciones personalizadas y tecnología de vanguardia.",
+      "button": "Solicitar Cotización",
+      "whatsapp": "WhatsApp Directo"
+    },
+    "ai-services": {
+      "title": "Inteligencia Artificial",
+      "subtitle": "El Futuro de tu Negocio, Hoy",
+      "description": "Implementamos soluciones de IA de vanguardia que transforman datos en decisiones inteligentes. Desde chatbots conversacionales hasta sistemas predictivos avanzados, llevamos la innovación tecnológica al núcleo de tu empresa.",
+      "resultsTitle": "IA que Impulsa tu Negocio",
+      "resultsDescription": "En IzignaMx desarrollamos soluciones de Inteligencia Artificial que no son solo tecnología avanzada, sino herramientas prácticas que resuelven problemas reales de negocio. Desde automatización inteligente hasta análisis predictivo, transformamos tu empresa con IA.",
+      "solutionsTitle": "Soluciones de IA",
+      "implementSolution": "Implementar solución",
+      "neuralNetwork": {
+        "input": "Input Layer",
+        "output": "Output",
+        "dnn": "Deep Neural Network",
+        "accuracy": "Precisión",
+        "processing": "Procesamiento"
+      },
+      "stuck": {
+        "badge": "SERVICIO ESPECIALIZADO",
+        "title": "¿Tu Proyecto AI Está Atascado?",
+        "description": "Si creaste un proyecto web con ChatGPT, Claude, Cursor u otra herramienta AI pero está incompleto, no funciona o necesitas mejoras profesionales, tenemos la solución perfecta.",
+        "rescued": "Proyectos AI Rescatados",
+        "delivery": "Tiempo de Entrega",
+        "success": "Éxito en Rescates",
+        "errorCode": "Código con errores",
+        "deployIssues": "Problemas de despliegue",
+        "nonProDesign": "Diseño no profesional",
+        "freeAnalysis": "Análisis GRATUITO en 2h",
+        "noCommitment": "Sin compromiso • Respuesta garantizada"
+      },
+      "methodology": {
+        "title": "Proceso de Implementación de IA",
+        "description": "Metodología probada para garantizar implementaciones exitosas de IA en tu organización.",
+        "step1": {
+          "title": "Descubrimiento",
+          "desc": "Identificamos oportunidades de IA en tu negocio."
+        },
+        "step2": {
+          "title": "Diseño",
+          "desc": "Creamos una arquitectura de solución a medida."
+        },
+        "step3": {
+          "title": "Desarrollo",
+          "desc": "Construimos y entrenamos los modelos de IA."
+        },
+        "step4": {
+          "title": "Implementación",
+          "desc": "Integramos la solución en tu ecosistema."
+        },
+        "step5": {
+          "title": "Optimización",
+          "desc": "Mejora continua basada en rendimiento."
+        }
+      },
+      "industries": {
+        "title": "Casos de Uso por Industria",
+        "retail": {
+          "title": "Retail",
+          "items": [
+            "Personalización",
+            "Gestión de inventario",
+            "Precios dinámicos"
+          ]
+        },
+        "finance": {
+          "title": "Finanzas",
+          "items": [
+            "Detección de fraude",
+            "Trading algorítmico",
+            "Análisis crediticio"
+          ]
+        },
+        "health": {
+          "title": "Salud",
+          "items": [
+            "Diagnóstico asistido",
+            "Descubrimiento de fármacos",
+            "Gestión hospitalaria"
+          ]
+        }
+      },
+      "solutions": {
+        "chatbots": {
+          "title": "Chatbots & Asistentes Virtuales",
+          "desc": "Atención al cliente 24/7 y automatización de respuestas.",
+          "features": [
+            "Procesamiento de Lenguaje Natural (NLP)",
+            "Aprendizaje Continuo",
+            "Integración multicanal"
+          ],
+          "apps": [
+            "Servicio al cliente",
+            "Soporte técnico",
+            "Generación de leads"
+          ]
+        },
+        "ml": {
+          "title": "Machine Learning",
+          "desc": "Algoritmos que aprenden de tus datos para predecir tendencias.",
+          "features": [
+            "Modelos predictivos",
+            "Clasificación de datos",
+            "Detección de patrones"
+          ],
+          "apps": [
+            "Análisis de riesgo",
+            "Recomendaciones de productos",
+            "Optimización de procesos"
+          ]
+        },
+        "cv": {
+          "title": "Visión por Computadora",
+          "desc": "Análisis y reconocimiento de imágenes y videos.",
+          "features": [
+            "Reconocimiento facial",
+            "Detección de objetos",
+            "Control de calidad automatizado"
+          ],
+          "apps": [
+            "Seguridad",
+            "Manufactura",
+            "Retail"
+          ]
+        },
+        "nlp": {
+          "title": "Procesamiento de Lenguaje Natural",
+          "desc": "Análisis y comprensión del lenguaje humano.",
+          "features": [
+            "Análisis de sentimientos",
+            "Traducción automática",
+            "Resumen de textos"
+          ],
+          "apps": [
+            "Monitorización de marca",
+            "Análisis de feedback",
+            "Comunicación global"
+          ]
+        },
+        "recommenders": {
+          "title": "Sistemas de Recomendación",
+          "desc": "Sugerencias personalizadas para aumentar ventas y engagement.",
+          "features": [
+            "Filtrado colaborativo",
+            "Recomendaciones basadas en contenido",
+            "Personalización en tiempo real"
+          ],
+          "apps": [
+            "E-commerce",
+            "Streaming",
+            "Contenido personalizado"
+          ]
+        },
+        "rpa": {
+          "title": "Automatización Robótica de Procesos (RPA)",
+          "desc": "Automatización de tareas repetitivas y basadas en reglas.",
+          "features": [
+            "Bots de software",
+            "Integración de sistemas",
+            "Reducción de errores"
+          ],
+          "apps": [
+            "Finanzas",
+            "Recursos Humanos",
+            "Logística"
+          ]
+        }
+      },
+      "benefits": {
+        "totalTransparency": {
+          "title": "Transparencia Total",
+          "description": "Todas las transacciones son públicas y verificables en la blockchain."
+        },
+        "advancedSecurity": {
+          "title": "Seguridad Avanzada",
+          "description": "Criptografía de nivel militar y arquitectura descentralizada."
+        },
+        "eliminateIntermediaries": {
+          "title": "Eliminación de Intermediarios",
+          "description": "Transacciones directas sin necesidad de terceros de confianza."
+        },
+        "smartAutomation": {
+          "title": "Automatización Inteligente",
+          "description": "Contratos que se ejecutan automáticamente cuando se cumplen las condiciones."
+        }
+      },
+      "readyToTransform": "¿Listo para transformar tu negocio con IA?",
+      "startAiProject": "Comenzar mi Proyecto de IA",
+      "consultancyDescription": "Consulta con nuestros expertos en IA.",
+      "techTitle": "Tecnologías",
+      "appsTitle": "Aplicaciones",
+      "faq": {
+        "title": "Preguntas Frecuentes sobre <span class=\"text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-fuchsia-600\">Inteligencia Artificial</span>",
+        "beneficiaries": {
+          "q": "¿Qué tipo de empresa puede beneficiarse de la IA?",
+          "a": "Cualquier empresa puede beneficiarse de la IA, desde startups hasta corporaciones. Aplicamos IA en retail (predicción de demanda), finanzas (detección de fraude), salud (diagnósticos), manufactura (control de calidad) y servicios (chatbots). La clave es identificar procesos repetitivos o análisis complejos que la IA pueda optimizar."
+        },
+        "dataVolume": {
+          "q": "¿Necesito grandes volúmenes de datos para implementar IA?",
+          "a": "No siempre. Mientras que algunos modelos de ML requieren grandes datasets, muchas soluciones de IA funcionan con datos moderados. Podemos implementar transfer learning, modelos pre-entrenados o técnicas de data augmentation. También ayudamos a estructurar la recolección de datos para proyectos futuros más ambiciosos."
+        },
+        "privacy": {
+          "q": "¿Cómo garantizan la privacidad y seguridad de los datos?",
+          "a": "Implementamos protocolos de seguridad estrictos: encriptación end-to-end, anonimización de datos sensibles, cumplimiento GDPR/CCPA, auditorías regulares y modelos on-premise cuando se requiere. Firmamos NDAs y seguimos mejores prácticas de MLOps para garantizar la integridad y privacidad de la información."
+        },
+        "maintenance": {
+          "q": "¿Los modelos de IA necesitan actualizarse con el tiempo?",
+          "a": "Sí, los modelos de IA requieren mantenimiento continuo para mantener su precisión. Ofrecemos servicios de: reentrenamiento periódico con nuevos datos, monitoreo de drift/degradación, ajuste de hiperparámetros, actualización ante cambios de negocio y optimización de performance. Incluimos dashboards para monitorear KPIs del modelo en tiempo real."
+        }
+      }
+    },
+    "hosting": {
+      "title": "Hosting",
+      "description": "Contamos con el mejor servicio de hosting, con tecnologías SSD, protección contra ataques DDoS, OpenDNS y compresión gzip para obtener un sitio web rápido y seguro.",
+      "subtitle": "Alta Disponibilidad - SSL - Backups - Soporte 24/7"
+    },
+    "cloudEnterprise": {
+      "title": "Cloud Enterprise",
+      "description": "La seguridad de tu información y bases de datos es una prioridad. Con almacenamiento en nube puedes administrar información y compartirla de manera segura entre miembros de tu empresa."
+    },
+    "video-production": {
+      "title": "Producción de Video",
+      "description": "Creamos contenido visual atractivo para tus campañas de marketing."
+    },
+    "graphic-design": {
+      "title": "Diseño Gráfico",
+      "subtitle": "Identidad Visual que Impacta",
+      "description": "Creamos diseños visuales impactantes para tu marca, desde logotipos hasta materiales de marketing."
+    },
+    "ecommerce": {
+      "title": "E-commerce",
+      "description": "Tiendas en línea con experiencias de compra optimizadas"
+    },
+    "blockchain": {
+      "title": "블록체인 및 웹3",
+      "description": "Desarrollamos soluciones innovadoras basadas en blockchain que transforman negocios y crean nuevas oportunidades en el ecosistema Web3. Desde DApps y smart contracts hasta tokenización de activos y sistemas DeFi.",
+      "subtitle": "DeFi - 스마트 계약 - NFT - 토큰화 - Solidity",
+      "technologies": "Ethereum - Solana - Polygon - Smart Contracts - DeFi - NFTs - Tokenización - Web3.js - Solidity"
+    },
+    "digitalMarketing": {
+      "title": "Marketing Digital",
+      "subtitle": "Google Adwords - Analytics - Ads - E-Mail Marketing",
+      "servicesTitle": "Nuestros Servicios de Marketing",
+      "description": "También conocido como Marketing 3.0 es la nueva forma de llegar a tu público, administramos y diseñamos campañas publicitarias en Google Adwords, redes sociales y campañas especiales con influencers.",
+      "resultsTitle": "Marketing que Genera Resultados Reales",
+      "resultsDescription": "En IzignaMx no hacemos marketing tradicional. Creamos ecosistemas digitales completos que atraen, convierten y retienen clientes. Cada estrategia está respaldada por datos, optimizada para performance y diseñada para escalar tu negocio.",
+      "dashboard": {
+        "title": "Marketing Dashboard",
+        "conversions": "Conversiones",
+        "roi": "ROI",
+        "performance": "Rendimiento de Campañas",
+        "realTime": "Actividad en Tiempo Real",
+        "newConversion": "Nueva conversión",
+        "qualifiedLead": "Lead calificado desde Google Ads",
+        "emailOpened": "Email abierto: Campaña Black Friday"
+      },
+      "funnel": {
+        "title": "El Funnel de Marketing Perfecto",
+        "description": "Optimizamos cada etapa del customer journey para maximizar conversiones y valor de vida del cliente.",
+        "awareness": "Conciencia",
+        "awarenessDesc": "Atraemos visitantes cualificados",
+        "interest": "Interés",
+        "interestDesc": "Generamos interés genuino",
+        "consideration": "Consideración",
+        "considerationDesc": "Nutrimos con contenido valioso",
+        "conversion": "Conversión",
+        "conversionDesc": "Convertimos en clientes",
+        "loyalty": "Lealtad",
+        "loyaltyDesc": "Fidelizamos y generamos advocates"
+      },
+      "resultsSpeak": {
+        "title": "Resultados que Hablan por Sí Mismos",
+        "desc": "Nuestras estrategias de marketing digital han ayudado a más de 100 empresas a multiplicar sus ventas online.",
+        "leadsIncrease": "+250% Aumento en leads",
+        "avgRoi": "4.5x ROI promedio",
+        "costReduction": "-45% Costo por conversión",
+        "happyClients": "98% Clientes satisfechos"
+      },
+      "readyToMultiply": "¿Listo para multiplicar tus ventas?",
+      "startStrategy": "Iniciar Estrategia",
+      "implementStrategy": "Implementar Estrategia",
+      "services": {
+        "sem": {
+          "title": "Google Ads & SEM",
+          "desc": "Campañas de búsqueda, display y shopping optimizadas para la máxima conversión.",
+          "metrics": [
+            "CTR promedio: 8.5%",
+            "Reducción CPC: 35%",
+            "ROAS: 4.2x"
+          ],
+          "features": [
+            "Search Ads",
+            "Shopping Ads",
+            "Red de Display",
+            "YouTube Ads"
+          ]
+        },
+        "social": {
+          "title": "Social Media Marketing",
+          "desc": "Estrategias integrales en redes sociales que construyen comunidades y generan ventas.",
+          "metrics": [
+            "Engagement: +250%",
+            "Alcance: +180%",
+            "Conversiones: +65%"
+          ],
+          "features": [
+            "Facebook & Instagram",
+            "LinkedIn B2B",
+            "TikTok Marketing",
+            "Community Management"
+          ]
+        },
+        "seo": {
+          "title": "SEO Avanzado",
+          "desc": "Posicionamiento orgánico sostenible que atrae tráfico cualificado constantemente.",
+          "metrics": [
+            "Top 3 rankings: 85%",
+            "Tráfico orgánico: +150%",
+            "SEO Leads: +200%"
+          ],
+          "features": [
+            "SEO Técnico",
+            "SEO Content",
+            "Link Building",
+            "SEO Local"
+          ]
+        },
+        "email": {
+          "title": "Email Marketing",
+          "desc": "Automatizaciones y campañas que nutren leads y fidelizan clientes.",
+          "metrics": [
+            "Tasa de apertura: 32%",
+            "CTR: 12%",
+            "ROI: 42:1"
+          ],
+          "features": [
+            "Automatización",
+            "Segmentación",
+            "A/B Testing",
+            "Nurturing"
+          ]
+        },
+        "content": {
+          "title": "Content Marketing",
+          "desc": "Contenido estratégico que posiciona tu marca como líder de opinión.",
+          "metrics": [
+            "Engagement: +180%",
+            "Shares: +220%",
+            "Leads: +95%"
+          ],
+          "features": [
+            "Estrategia de Blog",
+            "Video Marketing",
+            "Infografías",
+            "Podcasts"
+          ]
+        },
+        "analytics": {
+          "title": "Marketing Analytics",
+          "desc": "Medición y optimización continua para maximizar resultados.",
+          "metrics": [
+            "Precisión: 97%",
+            "Insights: 150+/mes",
+            "Optimización: Continua"
+          ],
+          "features": [
+            "Setup GA4",
+            "Dashboards",
+            "Atribución",
+            "Reportes Custom"
+          ]
+        },
+        "ai-services": {
+          "title": "Soluciones de IA",
+          "description": "Transforma tu negocio con soluciones automatizadas inteligentes.",
+          "techTitle": "Nuestras Tecnologías",
+          "appsTitle": "Aplicaciones",
+          "readyToTransform": "¿Listo para transformar tu negocio?",
+          "startAiProject": "Iniciar Proyecto IA",
+          "consultancyDescription": "Consultoría experta para implementación de IA.",
+          "benefits": {
+            "smartAutomation": {
+              "title": "Automatización Inteligente",
+              "description": "Automatiza tareas complejas eficientemente."
+            },
+            "totalTransparency": {
+              "title": "Transparencia Total",
+              "description": "Decisiones de IA claras y explicables."
+            },
+            "eliminateIntermediaries": {
+              "title": "Eficiencia Directa",
+              "description": "Elimina pasos innecesarios."
+            },
+            "advancedSecurity": {
+              "title": "Seguridad Avanzada",
+              "description": "Implementación segura de IA."
+            }
+          },
+          "neuralNetwork": {
+            "accuracy": "Precisión",
+            "processing": "Velocidad de Procesamiento"
+          },
+          "solutions": {
+            "chatbots": {
+              "title": "Chatbots Inteligentes",
+              "desc": "Agentes de atención al cliente 24/7.",
+              "features": [
+                "PNL",
+                "Soporte 24/7"
+              ],
+              "apps": [
+                "Atención al Cliente",
+                "Ventas"
+              ]
+            },
+            "ml": {
+              "title": "Machine Learning",
+              "desc": "Modelos predictivos y análisis.",
+              "features": [
+                "Predicción",
+                "Clustering"
+              ],
+              "apps": [
+                "Pronósticos",
+                "Segmentación"
+              ]
+            },
+            "cv": {
+              "title": "Visión por Computadora",
+              "desc": "Análisis de imagen y video.",
+              "features": [
+                "Detección de Objetos"
+              ],
+              "apps": [
+                "Seguridad",
+                "Control de Calidad"
+              ]
+            },
+            "nlp": {
+              "title": "PNL",
+              "desc": "Procesamiento de Lenguaje Natural.",
+              "features": [
+                "Análisis de Sentimiento"
+              ],
+              "apps": [
+                "Feedback de Clientes"
+              ]
+            },
+            "recommenders": {
+              "title": "Sistemas de Recomendación",
+              "desc": "Sugerencias personalizadas.",
+              "features": [
+                "Personalización"
+              ],
+              "apps": [
+                "Comercio Electrónico"
+              ]
+            },
+            "rpa": {
+              "title": "RPA",
+              "desc": "Automatización Robótica de Procesos.",
+              "features": [
+                "Automatización de Flujos"
+              ],
+              "apps": [
+                "Entrada de Datos"
+              ]
+            }
+          },
+          "methodology": {
+            "title": "Metodología",
+            "description": "Nuestro proceso de implementación de IA.",
+            "step1": {
+              "title": "Análisis",
+              "desc": "Recopilación de requisitos."
+            },
+            "step2": {
+              "title": "Estrategia",
+              "desc": "Definición del enfoque."
+            },
+            "step3": {
+              "title": "Desarrollo",
+              "desc": "Construcción del modelo."
+            },
+            "step4": {
+              "title": "Entrenamiento",
+              "desc": "Entrenamiento y ajuste."
+            },
+            "step5": {
+              "title": "Despliegue",
+              "desc": "Lanzamiento a producción."
+            }
+          },
+          "industries": {
+            "title": "Industrias",
+            "retail": {
+              "title": "Retail",
+              "items": [
+                "Inventario",
+                "Personalización"
+              ]
+            },
+            "finance": {
+              "title": "Finanzas",
+              "items": [
+                "Detección de Fraude",
+                "Trading"
+              ]
+            },
+            "health": {
+              "title": "Salud",
+              "items": [
+                "Diagnóstico",
+                "Atención al Paciente"
+              ]
+            }
+          },
+          "faq": {
+            "title": "Preguntas Frecuentes",
+            "beneficiaries": {
+              "q": "¿Quién se beneficia?",
+              "a": "Todos."
+            },
+            "dataVolume": {
+              "q": "¿Datos necesarios?",
+              "a": "Depende del modelo."
+            },
+            "privacy": {
+              "q": "¿Es seguro?",
+              "a": "Sí, priorizamos la seguridad."
+            },
+            "maintenance": {
+              "q": "¿Mantenimiento?",
+              "a": "Monitoreo continuo incluido."
+            }
+          },
+          "stuck": {
+            "rescued": "Rescatado",
+            "delivery": "Entrega",
+            "success": "Éxito",
+            "errorCode": "Código de Error",
+            "deployIssues": "Problemas de Despliegue",
+            "nonProDesign": "Diseño no Profesional",
+            "freeAnalysis": "Análisis Gratuito",
+            "noCommitment": "Sin Compromiso"
+          }
+        }
+      },
+      "faq": {
+        "title": "Marketing Digital",
+        "question1": {
+          "question": "¿Cuánto tiempo toma ver resultados en marketing digital?",
+          "answer": "Los resultados en marketing digital varían según el canal y estrategia. Google Ads puede generar resultados inmediatos, mientras que SEO requiere 3-6 meses. Las redes sociales muestran engagement en 1-2 semanas. Siempre establecemos expectativas claras y KPIs específicos desde el inicio."
+        },
+        "question2": {
+          "question": "¿Cuál es la inversión mínima recomendada en marketing digital?",
+          "answer": "La inversión depende de tus objetivos y mercado. Recomendamos un mínimo de $2,000 USD mensuales para campañas efectivas (incluye gestión + presupuesto publicitario). Ofrecemos paquetes escalables desde startups hasta empresas Fortune 500. Agenda una consultoría gratuita para una estrategia personalizada."
+        },
+        "question3": {
+          "question": "¿Cómo miden el éxito de las campañas de marketing?",
+          "answer": "Establecemos KPIs específicos desde el inicio: ROI, CAC, LTV, conversiones, tráfico cualificado y engagement. Utilizamos herramientas como Google Analytics, Facebook Analytics y dashboards personalizados. Reportes mensuales transparentes muestran performance real vs. objetivos establecidos."
+        },
+        "question4": {
+          "question": "¿Trabajan con empresas de todos los tamaños?",
+          "answer": "Sí, trabajamos desde startups hasta corporaciones multinacionales. Adaptamos estrategias y presupuestos a cada realidad empresarial. Startups reciben enfoques ágiles y cost-effective, mientras que grandes empresas obtienen estrategias omnicanal complejas. La clave es maximizar ROI independientemente del tamaño."
+        }
+      },
+      "benefits": {
+        "totalTransparency": {
+          "title": "Transparencia Total",
+          "description": "Todas las transacciones son públicas y verificables en la blockchain."
+        },
+        "advancedSecurity": {
+          "title": "Seguridad Avanzada",
+          "description": "Criptografía de nivel militar y arquitectura descentralizada."
+        },
+        "eliminateIntermediaries": {
+          "title": "Eliminación de Intermediarios",
+          "description": "Transacciones directas sin necesidad de terceros de confianza."
+        },
+        "smartAutomation": {
+          "title": "Automatización Inteligente",
+          "description": "Contratos que se ejecutan automáticamente cuando se cumplen las condiciones."
+        }
+      }
+    },
+    "seo": {
+      "heroTitle": "Posicionamiento SEO",
+      "heroSubtitle": "Optimización para Motores de Búsqueda",
+      "heroDescription": "Mejoramos tu visibilidad en buscadores para atraer más tráfico orgánico, convertir visitas en clientes y superar a tu competencia con estrategias éticas y efectivas.",
+      "title": "Optimización SEO",
+      "subtitle": "Mejora el Posicionamiento de tu Web",
+      "description": "Mejoramos la visibilidad de tu sitio web en los motores de búsqueda con estrategias SEO avanzadas. Análisis completo, optimización técnica y generación de contenido de calidad para aumentar el tráfico orgánico y mejorar tu posicionamiento en Google y otros buscadores.",
+      "methodology": {
+        "badge": "METODOLOGÍA",
+        "title": "Nuestra Metodología SEO",
+        "description": "Seguimos un enfoque estructurado y probado para garantizar el éxito en cada proyecto de SEO.",
+        "step1": {
+          "title": "Análisis y Diagnóstico",
+          "desc": "Evaluamos tu sitio y la competencia para identificar oportunidades de mejora."
+        },
+        "step2": {
+          "title": "Investigación de Keywords",
+          "desc": "Identificamos las palabras clave más relevantes para tu negocio y con mejor potencial."
+        },
+        "step3": {
+          "title": "Optimización On-Page",
+          "desc": "Mejoramos aspectos técnicos y de contenido de tu sitio para facilitar el rastreo."
+        },
+        "step4": {
+          "title": "Optimización Off-Page",
+          "desc": "Desarrollamos estrategias para aumentar la autoridad y relevancia de tu dominio."
+        },
+        "step5": {
+          "title": "Creación de Contenido",
+          "desc": "Generamos contenido de valor que responda a las búsquedas de tu audiencia."
+        },
+        "step6": {
+          "title": "Análisis y Seguimiento",
+          "desc": "Monitoreamos resultados y ajustamos estrategias para mantener y mejorar posiciones."
+        }
+      },
+      "plansTitle": "Planes de Optimización SEO",
+      "whyChoose": "¿Por qué elegir nuestro servicio de SEO?",
+      "resultsMeasurable": {
+        "title": "Resultados Medibles",
+        "desc": "Reportes detallados y KPIs claros para evaluar el progreso de tu estrategia SEO."
+      },
+      "updatedMethodology": {
+        "title": "Metodología Actualizada",
+        "desc": "Nos mantenemos al día con los cambios en los algoritmos de búsqueda."
+      },
+      "specializedTeam": {
+        "title": "Equipo Especializado",
+        "desc": "Expertos certificados en SEO, analítica web y marketing de contenidos."
+      },
+      "advancedTechnical": {
+        "title": "SEO Técnico Avanzado",
+        "desc": "Optimizamos aspectos técnicos complejos que otros pasan por alto."
+      },
+      "qualityContent": {
+        "title": "Contenido de Calidad",
+        "desc": "Creamos contenido valioso orientado tanto a usuarios como a buscadores."
+      },
+      "ethicalStrategies": {
+        "title": "Estrategias Éticas",
+        "desc": "Solo utilizamos técnicas de White Hat SEO para resultados duraderos y seguros."
+      },
+      "requestConsultancy": "Solicitar Consultoría SEO",
+      "plans": {
+        "audit": {
+          "title": "Auditoría SEO Completa",
+          "desc": "Análisis exhaustivo del estado actual de tu sitio web, identificando problemas técnicos, oportunidades de optimización y estrategias de mejora.",
+          "price": "Desde $4,900 MXN",
+          "features": [
+            "Análisis técnico completo",
+            "Revisión de velocidad y rendimiento",
+            "Evaluación de estructura web",
+            "Análisis de palabras clave",
+            "Estudio de la competencia",
+            "Informe detallado con recomendaciones"
+          ]
+        },
+        "onpage": {
+          "title": "SEO On-Page",
+          "desc": "Optimización de los elementos internos de tu sitio web para mejorar su posicionamiento en los motores de búsqueda.",
+          "price": "Desde $7,900 MXN",
+          "features": [
+            "Optimización de meta etiquetas",
+            "Estructuración de URLs amigables",
+            "Mejora de arquitectura web",
+            "Optimización de imágenes",
+            "Implementación de Schema.org",
+            "Mejora de velocidad de carga"
+          ]
+        },
+        "offpage": {
+          "title": "SEO Off-Page",
+          "desc": "Estrategias externas para mejorar la autoridad de tu dominio mediante la generación de enlaces de calidad y menciones de marca.",
+          "price": "Desde $6,900 MXN",
+          "features": [
+            "Link building de calidad",
+            "Análisis de perfil de enlaces",
+            "Guest posting en sitios relevantes",
+            "Estrategia de redes sociales",
+            "Menciones de marca",
+            "Monitoreo de reputación online"
+          ]
+        },
+        "local": {
+          "title": "SEO Local",
+          "desc": "Optimización para negocios que buscan atraer clientes en su área geográfica, mejorando la visibilidad en búsquedas locales.",
+          "price": "Desde $5,500 MXN",
+          "features": [
+            "Optimización de Google My Business",
+            "Gestión de reseñas locales",
+            "NAP consistente (Nombre, Dirección, Teléfono)",
+            "Optimización de microformatos locales",
+            "Estrategia de palabras clave locales",
+            "Registro en directorios locales"
+          ]
+        }
+      }
+    },
+    "digital-marketing": {
+      "title": "Marketing Digital",
+      "subtitle": "Estrategias que Convierten",
+      "servicesTitle": "Nuestros Servicios de Marketing",
+      "description": "Transformamos tu presencia digital en resultados medibles. Diseñamos estrategias de marketing integral que conectan con tu audiencia, generan leads cualificados y maximizan tu ROI a través de campañas data-driven y creatividad innovadora.",
+      "resultsTitle": "Marketing que Genera Resultados Reales",
+      "resultsDescription": "En IzignaMx no hacemos marketing tradicional. Creamos ecosistemas digitales completos que atraen, convierten y retienen clientes. Cada estrategia está respaldada por datos, optimizada para performance y diseñada para escalar tu negocio.",
+      "dashboard": {
+        "title": "Marketing Dashboard",
+        "conversions": "Conversiones",
+        "roi": "ROI",
+        "performance": "Rendimiento de Campañas",
+        "realTime": "Actividad en Tiempo Real",
+        "newConversion": "Nueva conversión",
+        "qualifiedLead": "Lead calificado desde Google Ads",
+        "emailOpened": "Email abierto: Campaña Black Friday"
+      },
+      "funnel": {
+        "title": "El Funnel de Marketing Perfecto",
+        "description": "Optimizamos cada etapa del customer journey para maximizar conversiones y valor de vida del cliente.",
+        "awareness": "Conciencia",
+        "awarenessDesc": "Atraemos visitantes cualificados",
+        "interest": "Interés",
+        "interestDesc": "Generamos interés genuino",
+        "consideration": "Consideración",
+        "considerationDesc": "Nutrimos con contenido valioso",
+        "conversion": "Conversión",
+        "conversionDesc": "Convertimos en clientes",
+        "loyalty": "Lealtad",
+        "loyaltyDesc": "Fidelizamos y generamos advocates"
+      },
+      "resultsSpeak": {
+        "title": "Resultados que Hablan por Sí Mismos",
+        "desc": "Nuestras estrategias de marketing digital han ayudado a más de 100 empresas a multiplicar sus ventas online.",
+        "leadsIncrease": "+250% Aumento en leads",
+        "avgRoi": "4.5x ROI promedio",
+        "costReduction": "-45% Costo por conversión",
+        "happyClients": "98% Clientes satisfechos"
+      },
+      "readyToMultiply": "¿Listo para multiplicar tus ventas online?",
+      "startStrategy": "Comenzar mi Estrategia Digital",
+      "services": {
+        "sem": {
+          "title": "Google Ads & SEM",
+          "desc": "Campañas de búsqueda, display y shopping optimizadas para la máxima conversión.",
+          "metrics": [
+            "CTR promedio: 8.5%",
+            "Reducción CPC: 35%",
+            "ROAS: 4.2x"
+          ],
+          "features": [
+            "Search Ads",
+            "Shopping Ads",
+            "Red de Display",
+            "YouTube Ads"
+          ]
+        },
+        "social": {
+          "title": "Social Media Marketing",
+          "desc": "Estrategias integrales en redes sociales que construyen comunidades y generan ventas.",
+          "metrics": [
+            "Engagement: +250%",
+            "Alcance: +180%",
+            "Conversiones: +65%"
+          ],
+          "features": [
+            "Facebook & Instagram",
+            "LinkedIn B2B",
+            "TikTok Marketing",
+            "Community Management"
+          ]
+        },
+        "seo": {
+          "title": "SEO Avanzado",
+          "desc": "Posicionamiento orgánico sostenible que atrae tráfico cualificado constantemente.",
+          "metrics": [
+            "Top 3 rankings: 85%",
+            "Tráfico orgánico: +150%",
+            "SEO Leads: +200%"
+          ],
+          "features": [
+            "SEO Técnico",
+            "SEO Content",
+            "Link Building",
+            "SEO Local"
+          ]
+        },
+        "email": {
+          "title": "Email Marketing",
+          "desc": "Automatizaciones y campañas que nutren leads y fidelizan clientes.",
+          "metrics": [
+            "Tasa de apertura: 32%",
+            "CTR: 12%",
+            "ROI: 42:1"
+          ],
+          "features": [
+            "Automatización",
+            "Segmentación",
+            "A/B Testing",
+            "Nurturing"
+          ]
+        },
+        "content": {
+          "title": "Content Marketing",
+          "desc": "Contenido estratégico que posiciona tu marca como líder de opinión.",
+          "metrics": [
+            "Engagement: +180%",
+            "Shares: +220%",
+            "Leads: +95%"
+          ],
+          "features": [
+            "Estrategia de Blog",
+            "Video Marketing",
+            "Infografías",
+            "Podcasts"
+          ]
+        },
+        "analytics": {
+          "title": "Marketing Analytics",
+          "desc": "Medición y optimización continua para maximizar resultados.",
+          "metrics": [
+            "Precisión: 97%",
+            "Insights: 150+/mes",
+            "Optimización: Continua"
+          ],
+          "features": [
+            "Setup GA4",
+            "Dashboards",
+            "Atribución",
+            "Reportes Custom"
+          ]
+        },
+        "ai-services": {
+          "title": "Soluciones de IA",
+          "description": "Transforma tu negocio con soluciones automatizadas inteligentes.",
+          "techTitle": "Nuestras Tecnologías",
+          "appsTitle": "Aplicaciones",
+          "readyToTransform": "¿Listo para transformar tu negocio?",
+          "startAiProject": "Iniciar Proyecto IA",
+          "consultancyDescription": "Consultoría experta para implementación de IA.",
+          "benefits": {
+            "smartAutomation": {
+              "title": "Automatización Inteligente",
+              "description": "Automatiza tareas complejas eficientemente."
+            },
+            "totalTransparency": {
+              "title": "Transparencia Total",
+              "description": "Decisiones de IA claras y explicables."
+            },
+            "eliminateIntermediaries": {
+              "title": "Eficiencia Directa",
+              "description": "Elimina pasos innecesarios."
+            },
+            "advancedSecurity": {
+              "title": "Seguridad Avanzada",
+              "description": "Implementación segura de IA."
+            }
+          },
+          "neuralNetwork": {
+            "accuracy": "Precisión",
+            "processing": "Velocidad de Procesamiento"
+          },
+          "solutions": {
+            "chatbots": {
+              "title": "Chatbots Inteligentes",
+              "desc": "Agentes de atención al cliente 24/7.",
+              "features": [
+                "PNL",
+                "Soporte 24/7"
+              ],
+              "apps": [
+                "Atención al Cliente",
+                "Ventas"
+              ]
+            },
+            "ml": {
+              "title": "Machine Learning",
+              "desc": "Modelos predictivos y análisis.",
+              "features": [
+                "Predicción",
+                "Clustering"
+              ],
+              "apps": [
+                "Pronósticos",
+                "Segmentación"
+              ]
+            },
+            "cv": {
+              "title": "Visión por Computadora",
+              "desc": "Análisis de imagen y video.",
+              "features": [
+                "Detección de Objetos"
+              ],
+              "apps": [
+                "Seguridad",
+                "Control de Calidad"
+              ]
+            },
+            "nlp": {
+              "title": "PNL",
+              "desc": "Procesamiento de Lenguaje Natural.",
+              "features": [
+                "Análisis de Sentimiento"
+              ],
+              "apps": [
+                "Feedback de Clientes"
+              ]
+            },
+            "recommenders": {
+              "title": "Sistemas de Recomendación",
+              "desc": "Sugerencias personalizadas.",
+              "features": [
+                "Personalización"
+              ],
+              "apps": [
+                "Comercio Electrónico"
+              ]
+            },
+            "rpa": {
+              "title": "RPA",
+              "desc": "Automatización Robótica de Procesos.",
+              "features": [
+                "Automatización de Flujos"
+              ],
+              "apps": [
+                "Entrada de Datos"
+              ]
+            }
+          },
+          "methodology": {
+            "title": "Metodología",
+            "description": "Nuestro proceso de implementación de IA.",
+            "step1": {
+              "title": "Análisis",
+              "desc": "Recopilación de requisitos."
+            },
+            "step2": {
+              "title": "Estrategia",
+              "desc": "Definición del enfoque."
+            },
+            "step3": {
+              "title": "Desarrollo",
+              "desc": "Construcción del modelo."
+            },
+            "step4": {
+              "title": "Entrenamiento",
+              "desc": "Entrenamiento y ajuste."
+            },
+            "step5": {
+              "title": "Despliegue",
+              "desc": "Lanzamiento a producción."
+            }
+          },
+          "industries": {
+            "title": "Industrias",
+            "retail": {
+              "title": "Retail",
+              "items": [
+                "Inventario",
+                "Personalización"
+              ]
+            },
+            "finance": {
+              "title": "Finanzas",
+              "items": [
+                "Detección de Fraude",
+                "Trading"
+              ]
+            },
+            "health": {
+              "title": "Salud",
+              "items": [
+                "Diagnóstico",
+                "Atención al Paciente"
+              ]
+            }
+          },
+          "faq": {
+            "title": "Preguntas Frecuentes",
+            "beneficiaries": {
+              "q": "¿Quién se beneficia?",
+              "a": "Todos."
+            },
+            "dataVolume": {
+              "q": "¿Datos necesarios?",
+              "a": "Depende del modelo."
+            },
+            "privacy": {
+              "q": "¿Es seguro?",
+              "a": "Sí, priorizamos la seguridad."
+            },
+            "maintenance": {
+              "q": "¿Mantenimiento?",
+              "a": "Monitoreo continuo incluido."
+            }
+          },
+          "stuck": {
+            "rescued": "Rescatado",
+            "delivery": "Entrega",
+            "success": "Éxito",
+            "errorCode": "Código de Error",
+            "deployIssues": "Problemas de Despliegue",
+            "nonProDesign": "Diseño no Profesional",
+            "freeAnalysis": "Análisis Gratuito",
+            "noCommitment": "Sin Compromiso"
+          }
+        }
+      },
+      "implementStrategy": "Implementar estrategia",
+      "faq": {
+        "title": "Marketing Digital",
+        "question1": {
+          "question": "¿Cuánto tiempo toma ver resultados en marketing digital?",
+          "answer": "Los resultados en marketing digital varían según el canal y estrategia. Google Ads puede generar resultados inmediatos, mientras que SEO requiere 3-6 meses. Las redes sociales muestran engagement en 1-2 semanas. Siempre establecemos expectativas claras y KPIs específicos desde el inicio."
+        },
+        "question2": {
+          "question": "¿Cuál es la inversión mínima recomendada en marketing digital?",
+          "answer": "La inversión depende de tus objetivos y mercado. Recomendamos un mínimo de $2,000 USD mensuales para campañas efectivas (incluye gestión + presupuesto publicitario). Ofrecemos paquetes escalables desde startups hasta empresas Fortune 500. Agenda una consultoría gratuita para una estrategia personalizada."
+        },
+        "question3": {
+          "question": "¿Cómo miden el éxito de las campañas de marketing?",
+          "answer": "Establecemos KPIs específicos desde el inicio: ROI, CAC, LTV, conversiones, tráfico cualificado y engagement. Utilizamos herramientas como Google Analytics, Facebook Analytics y dashboards personalizados. Reportes mensuales transparentes muestran performance real vs. objetivos establecidos."
+        },
+        "question4": {
+          "question": "¿Trabajan con empresas de todos los tamaños?",
+          "answer": "Sí, trabajamos desde startups hasta corporaciones multinacionales. Adaptamos estrategias y presupuestos a cada realidad empresarial. Startups reciben enfoques ágiles y cost-effective, mientras que grandes empresas obtienen estrategias omnicanal complejas. La clave es maximizar ROI independientemente del tamaño."
+        }
+      },
+      "benefits": {
+        "totalTransparency": {
+          "title": "Transparencia Total",
+          "description": "Todas las transacciones son públicas y verificables en la blockchain."
+        },
+        "advancedSecurity": {
+          "title": "Seguridad Avanzada",
+          "description": "Criptografía de nivel militar y arquitectura descentralizada."
+        },
+        "eliminateIntermediaries": {
+          "title": "Eliminación de Intermediarios",
+          "description": "Transacciones directas sin necesidad de terceros de confianza."
+        },
+        "smartAutomation": {
+          "title": "Automatización Inteligente",
+          "description": "Contratos que se ejecutan automáticamente cuando se cumplen las condiciones."
+        }
+      }
+    },
+    "premiumBadge": "Servicio Premium",
+    "requestProposal": "Solicitar Propuesta",
+    "methodologyBadge": "METODOLOGÍA",
+    "methodologyTitle": "Nuestro Proceso de Desarrollo Web",
+    "methodologyDescription": "Seguimos una metodología estructurada para garantizar sitios web de alta calidad que cumplan con tus objetivos de negocio.",
+    "requestQuote": "Solicitar Cotización",
+    "startProjectNow": "Iniciar Proyecto Ahora",
+    "viewTechnologies": "Ver tecnologías",
+    "iot": {
+      "title": "Desarrollo IoT",
+      "description": "Desarrollamos dispositivos y sistemas IoT personalizados que conectan el mundo físico con el digital. Creamos soluciones que optimizan procesos, recopilan datos valiosos y mejoran la eficiencia operativa.",
+      "subtitle": "Arduino - Raspberry Pi - ESP32 - Sensores - Automatización"
+    },
+    "iot-development": {
+      "title": "Desarrollo IoT",
+      "description": "Desarrollamos dispositivos y sistemas IoT personalizados que conectan el mundo físico con el digital. Creamos soluciones que optimizan procesos, recopilan datos valiosos y mejoran la eficiencia operativa.",
+      "subtitle": "Arduino - Raspberry Pi - Sensores - Conectividad"
+    },
+    "printing3d": {
+      "title": "Impresión 3D",
+      "description": "Ofrecemos servicios de impresión 3D de alta calidad para prototipos, productos finales, piezas personalizadas y proyectos creativos con tecnologías avanzadas y materiales premium.",
+      "subtitle": "Prototipado - Producción - Piezas Personalizadas - Modelos"
+    },
+    "3d-printing": {
+      "title": "Impresión 3D",
+      "description": "Ofrecemos servicios de impresión 3D de alta calidad para prototipos, productos finales, piezas personalizadas y proyectos creativos con tecnologías avanzadas y materiales premium.",
+      "subtitle": "Prototipado - Producción - Diseño Industrial"
+    },
+    "consulting": {
+      "title": "Consulting",
+      "description": "Ofrecemos servicios de consultoría especializada para ayudar a empresas y organizaciones a optimizar sus procesos, implementar nuevas tecnologías y desarrollar estrategias digitales efectivas.",
+      "subtitle": "Transformación Digital - Optimización - Estrategia Tecnológica",
+      "technologies": "Análisis de Datos - Transformación Digital - Optimización de Procesos - Estrategia Tecnológica - Ciberseguridad"
+    },
+    "modeling3d": {
+      "title": "Modelado 3D",
+      "description": "Creamos modelos 3D profesionales para visualización arquitectónica, diseño de productos, animación, videojuegos, realidad virtual y aumentada con detalle y realismo.",
+      "subtitle": "Visualización - Diseño de Productos - Personajes - Entornos",
+      "services": {
+        "architectural": {
+          "title": "Modelado Arquitectónico",
+          "description": "Creación de modelos 3D detallados de edificios, interiores y espacios urbanos para visualización y presentación."
+        },
+        "product": {
+          "title": "Diseño de Productos",
+          "description": "Modelado de productos, prototipos y conceptos para visualización, marketing y fabricación."
+        },
+        "character": {
+          "title": "Personajes y Orgánicos",
+          "description": "Creación de personajes, criaturas y modelos orgánicos para animación, videojuegos y efectos visuales."
+        },
+        "environment": {
+          "title": "Entornos Virtuales",
+          "description": "Desarrollo de escenarios y entornos inmersivos para videojuegos, realidad virtual y simulaciones."
+        },
+        "scientific": {
+          "title": "Visualización Científica",
+          "description": "Modelado de conceptos científicos, médicos y educativos para facilitar la comprensión y el aprendizaje."
+        },
+        "animation": {
+          "title": "Animación 3D",
+          "description": "Creación de modelos optimizados para animación con sistemas de rigging y controles avanzados."
+        }
+      }
+    },
+    "3d-modeling": {
+      "title": "Modelado 3D",
+      "description": "Creamos modelos 3D profesionales para visualización arquitectónica, diseño de productos, animación, videojuegos, realidad virtual y aumentada con detalle y realismo excepcional.",
+      "subtitle": "Animación - Rendering - Visualización",
+      "services": {
+        "architectural": {
+          "title": "Modelado Arquitectónico",
+          "description": "Creación de modelos 3D detallados de edificios, interiores y espacios urbanos para visualización y presentación."
+        },
+        "product": {
+          "title": "Diseño de Productos",
+          "description": "Modelado de productos, prototipos y conceptos para visualización, marketing y fabricación."
+        },
+        "character": {
+          "title": "Personajes y Orgánicos",
+          "description": "Creación de personajes, criaturas y modelos orgánicos para animación, videojuegos y efectos visuales."
+        },
+        "environment": {
+          "title": "Entornos Virtuales",
+          "description": "Desarrollo de escenarios y entornos inmersivos para videojuegos, realidad virtual y simulaciones."
+        },
+        "scientific": {
+          "title": "Visualización Científica",
+          "description": "Modelado de conceptos científicos, médicos y educativos para facilitar la comprensión y el aprendizaje."
+        },
+        "animation": {
+          "title": "Animación 3D",
+          "description": "Creación de modelos optimizados para animación con sistemas de rigging y controles avanzados."
+        }
+      }
+    },
+    "cloud": {
+      "title": "Nube Empresarial",
+      "description": "La seguridad de tu información y bases de datos es una prioridad. Con almacenamiento en nube puedes administrar información y compartirla de manera segura entre miembros de tu empresa.",
+      "subtitle": "AWS - Google Cloud - Microsoft Azure - Migración",
+      "technologies": "AWS - Google Cloud - Azure - OwnCloud - Docker - Kubernetes - Virtualización"
+    },
+    "cloud-enterprise": {
+      "title": "Nube Empresarial",
+      "description": "La seguridad de tu información y bases de datos es una prioridad. Con almacenamiento en nube puedes administrar información y compartirla de manera segura entre miembros de tu empresa.",
+      "subtitle": "AWS - Google Cloud - Microsoft Azure - Migración",
+      "technologies": "AWS - Google Cloud - Azure - OwnCloud - Docker - Kubernetes - Virtualización"
+    },
+    "blockchainService": {
+      "pageTitle": "Blockchain & Web3 | IzignaMX - Soluciones Descentralizadas",
+      "pageDescription": "Desarrollamos soluciones blockchain innovadoras que revolucionan la forma de hacer negocios. Desde criptomonedas y NFTs hasta contratos inteligentes y aplicaciones descentralizadas.",
+      "serviceInfo": {
+        "title": "Blockchain",
+        "subtitle": "Soluciones Descentralizadas para la Nueva Economía Digital",
+        "description": "Desarrollamos soluciones blockchain innovadoras que revolucionan la forma de hacer negocios. Desde criptomonedas y NFTs hasta contratos inteligentes y aplicaciones descentralizadas, implementamos tecnología blockchain para maximizar la transparencia, seguridad y eficiencia de tu empresa."
+      },
+      "benefits": {
+        "totalTransparency": {
+          "title": "Transparencia Total",
+          "description": "Todas las transacciones son públicas y verificables en la blockchain."
+        },
+        "advancedSecurity": {
+          "title": "Seguridad Avanzada",
+          "description": "Criptografía de nivel militar y arquitectura descentralizada."
+        },
+        "eliminateIntermediaries": {
+          "title": "Eliminación de Intermediarios",
+          "description": "Transacciones directas sin necesidad de terceros de confianza."
+        },
+        "smartAutomation": {
+          "title": "Automatización Inteligente",
+          "description": "Contratos que se ejecutan automáticamente cuando se cumplen las condiciones."
+        }
+      },
+      "services": {
+        "title": "Nuestros Servicios Blockchain",
+        "cryptocurrency": {
+          "title": "Desarrollo de Criptomonedas",
+          "description": "Creamos tokens y criptomonedas personalizadas para tu proyecto, incluyendo tokenomics, distribución y listado en exchanges.",
+          "features": [
+            "Tokens ERC-20/BEP-20",
+            "Tokenomics personalizada",
+            "Smart contracts de distribución",
+            "Auditorías de seguridad"
+          ]
+        },
+        "nfts": {
+          "title": "NFTs y Colecciones Digitales",
+          "description": "Desarrollamos mercados de NFTs, colecciones únicas y plataformas de trading para arte digital y activos únicos.",
+          "features": [
+            "Contratos NFT ERC-721",
+            "Marketplace personalizado",
+            "Metadatos en IPFS",
+            "Funciones de royalties"
+          ]
+        },
+        "defi": {
+          "title": "DeFi y Finanzas Descentralizadas",
+          "description": "Construimos protocolos DeFi como exchanges descentralizados, pools de liquidez y plataformas de lending.",
+          "features": [
+            "AMM y DEX",
+            "Yield farming",
+            "Staking y governance",
+            "Pools de liquidez"
+          ]
+        },
+        "smartContracts": {
+          "title": "Smart Contracts",
+          "description": "Desarrollamos contratos inteligentes seguros y auditados para automatizar procesos y transacciones empresariales.",
+          "features": [
+            "Contratos Solidity",
+            "Auditorías de código",
+            "Testing exhaustivo",
+            "Optimización de gas"
+          ]
+        },
+        "dapps": {
+          "title": "dApps Descentralizadas",
+          "description": "Aplicaciones web3 completamente descentralizadas que funcionan sin servidores centralizados.",
+          "features": [
+            "Frontend Web3",
+            "Integración MetaMask",
+            "IPFS hosting",
+            "Arquitectura descentralizada"
+          ]
+        },
+        "consulting": {
+          "title": "Consultoría Blockchain",
+          "description": "Asesoramos en la implementación de tecnología blockchain para optimizar procesos empresariales existentes.",
+          "features": [
+            "Análisis de viabilidad",
+            "Roadmap de implementación",
+            "Capacitación técnica",
+            "Estrategia go-to-market"
+          ]
+        }
+      },
+      "methodology": {
+        "title": "Metodología de Desarrollo",
+        "subtitle": "Seguimos una metodología rigurosa que prioriza la seguridad y la auditabilidad en cada fase del desarrollo blockchain.",
+        "steps": {
+          "analysis": {
+            "title": "Análisis y Diseño",
+            "description": "Evaluamos los requerimientos y diseñamos la arquitectura blockchain óptima"
+          },
+          "development": {
+            "title": "Desarrollo",
+            "description": "Programamos smart contracts y componentes con las mejores prácticas"
+          },
+          "testing": {
+            "title": "Testing y Auditoría",
+            "description": "Realizamos pruebas exhaustivas y auditorías de seguridad"
+          },
+          "deployment": {
+            "title": "Deployment",
+            "description": "Desplegamos en mainnet con configuraciones de producción"
+          },
+          "maintenance": {
+            "title": "Mantenimiento",
+            "description": "Soporte continuo y actualizaciones según evolución del protocolo"
+          }
+        }
+      },
+      "networks": {
+        "title": "Redes Blockchain Soportadas",
+        "subtitle": "Trabajamos con las principales redes blockchain para garantizar compatibilidad y escalabilidad."
+      },
+      "advantages": {
+        "title": "¿Por qué elegir Blockchain?",
+        "technical": {
+          "title": "Ventajas Técnicas",
+          "immutability": "Inmutabilidad de registros",
+          "decentralization": "Descentralización y disponibilidad 24/7",
+          "transparency": "Transparencia total en transacciones",
+          "noFailure": "Eliminación de puntos únicos de falla"
+        },
+        "business": {
+          "title": "Beneficios de Negocio",
+          "costReduction": "Reducción de costos operativos",
+          "eliminateIntermediaries": "Eliminación de intermediarios",
+          "newModels": "Nuevos modelos de monetización",
+          "userTrust": "Mayor confianza de usuarios"
+        },
+        "cta": "¿Listo para revolucionar tu negocio con blockchain?",
+        "ctaButton": "Solicitar Consulta Técnica"
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes sobre Blockchain",
+        "question1": {
+          "question": "¿Qué redes blockchain utilizan para desarrollar?",
+          "answer": "Trabajamos con las principales redes blockchain incluyendo Ethereum, Binance Smart Chain, Polygon, Solana, y otras redes Layer 1 y Layer 2. Seleccionamos la red más adecuada según los requerimientos específicos del proyecto, considerando factores como costos de transacción, velocidad, y ecosistema disponible."
+        },
+        "question2": {
+          "question": "¿Cuánto cuesta desarrollar un proyecto blockchain?",
+          "answer": "Los costos varían significativamente según la complejidad del proyecto. Un token simple puede costar desde $3,000 USD, mientras que una dApp completa con smart contracts avanzados puede requerir $15,000-50,000 USD. Ofrecemos cotizaciones detalladas basadas en requerimientos específicos."
+        },
+        "question3": {
+          "question": "¿Realizan auditorías de seguridad en los smart contracts?",
+          "answer": "Sí, incluimos auditorías internas en todos nuestros proyectos y recomendamos auditorías externas por firmas especializadas para proyectos con alto valor bloqueado. Utilizamos herramientas como Slither, Mythril y realizamos testing exhaustivo antes del deployment en mainnet."
+        },
+        "question4": {
+          "question": "¿Qué soporte ofrecen después del deployment?",
+          "answer": "Ofrecemos soporte post-deployment que incluye monitoreo de contratos, actualizaciones de frontend, resolución de issues técnicos y nuevas funcionalidades. También proporcionamos documentación técnica completa y capacitación para que tu equipo pueda gestionar el proyecto independientemente."
+        }
+      },
+      "cta": {
+        "title": "¿Listo para impulsar tu proyecto con Blockchain?",
+        "subtitle": "Nuestro equipo de expertos en blockchain está preparado para ayudarte a revolucionar tu negocio con tecnología descentralizada de vanguardia.",
+        "requestQuote": "Solicitar Cotización",
+        "whatsappDirect": "WhatsApp Directo"
+      }
+    },
+    "packages": {
+      "corporate": {
+        "title": "Sitios Corporativos",
+        "description": "Creamos sitios web profesionales que reflejan la identidad de tu empresa, optimizados para generar confianza.",
+        "features": [
+          "Diseño personalizado",
+          "Optimización SEO",
+          "Certificado SSL",
+          "Integración redes sociales"
+        ]
+      },
+      "ecommerce": {
+        "title": "E-commerce y Tiendas en Línea",
+        "description": "Desarrollamos plataformas de comercio electrónico completas con todas las herramientas necesarias para vender en línea.",
+        "features": [
+          "Múltiples pasarelas de pago",
+          "Gestión de inventario",
+          "Facturación electrónica",
+          "Reportes de ventas"
+        ]
+      },
+      "landing": {
+        "title": "Landing Pages de Conversión",
+        "description": "Diseñamos landing pages orientadas a resultados que transforman visitantes en leads o ventas.",
+        "features": [
+          "Tests A/B",
+          "Formularios optimizados",
+          "Integración CRM",
+          "Análisis de conversión"
+        ]
+      },
+      "webapp": {
+        "title": "Aplicaciones Web a Medida",
+        "description": "Creamos soluciones web personalizadas para necesidades empresariales específicas con funcionalidades avanzadas.",
+        "features": [
+          "Arquitectura escalable",
+          "Conexión API",
+          "Autenticación segura",
+          "Backend personalizado"
+        ]
+      },
+      "optimization": {
+        "title": "Optimización de Rendimiento Web",
+        "description": "Mejoramos la velocidad de carga y el rendimiento de sitios web existentes para mejorar la experiencia de usuario.",
+        "features": [
+          "Mejora Core Web Vitals",
+          "Optimización de imágenes",
+          "Minificación de recursos",
+          "Caché avanzada"
+        ]
+      },
+      "maintenance": {
+        "title": "Mantenimiento y Soporte Web",
+        "description": "Ofrecemos servicios continuos para mantener tu sitio actualizado, seguro y funcionando correctamente.",
+        "features": [
+          "Actualizaciones de seguridad",
+          "Backups",
+          "Monitoreo 24/7",
+          "Soporte prioritario"
+        ]
+      }
+    }
+  },
+  "portfolio": {
+    "projects": {
+      "proyecto1": {
+        "title": "프리미엄 웹 개발",
+        "description": "3개월 만에 트래픽이 85% 증가한 WordPress 플랫폼입니다.",
+        "detailedDescription": "<p class=\"mb-4\">이 프로젝트는 고객의 디지털 존재감을 완전히 변화시켜 wordpress.com을 사용자 정의 호스팅으로 마이그레이션한 후 즉각적인 결과를 얻었습니다.</p><p class=\"mb-4\">주목할만한 결과:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>단 3개월 만에 유기적 트래픽 85% 증가</li><li>최적화된 반응으로 이탈률 40% 감소 디자인</li><li>맞춤 애니메이션 덕분에 체류 시간 120% 증가</li><li>사이트 로딩 속도 90% 향상</li></ul>"
+      },
+      "proyecto2": {
+        "title": "15,000명 이상의 사용자를 지원하는 결제 앱",
+        "description": "거래 처리 시간을 65% 단축한 결제 앱입니다.",
+        "detailedDescription": "<p class=\"mb-4\">저희는 고객이 디지털 결제를 처리하는 방식을 혁신한 직관적인 모바일 애플리케이션을 개발했습니다.</p><p class=\"mb-4\">비즈니스 영향:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>처음 6개월 동안 +15,000명의 활성 사용자 확보</li><li>처리 시간 트랜잭션 65% 감소 </li><li>사용자 유지율 38% 업계 평균보다 높음 </li><li>애플리케이션 스토어 평균 평점 4.7/5 </li></ul>"
+      },
+      "proyecto3": {
+        "title": "건강 웹 디자인",
+        "description": "전문 진료소의 온라인 예약이 120% 증가한 재설계.",
+        "detailedDescription": "<p class=\"mb-4\">우리는 환자 경험에 초점을 맞춘 접근 방식으로 이 전문 클리닉의 디지털 존재감을 변화시켰습니다.</p><p class=\"mb-4\">얻은 결과:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>온라인 예약 예약이 120% 증가</li><li>신규 환자 상담이 75% 증가</li><li>주요 정보를 찾기 위한 검색 시간 40% 단축 </li><li>모든 사용자의 경험을 향상시키는 접근성 높은 디자인 </li></ul>"
+      },
+      "proyecto4": {
+        "title": "방문자가 25만명 이상인 문화 플랫폼",
+        "description": "방문자 수 25,000명, 문화 행사 기간 동안 유지율 95%를 자랑하는 플랫폼입니다.",
+        "detailedDescription": "<p class=\"mb-4\">저희는 이 명망 높은 영화제를 위해 영향력 있는 웹사이트를 개발하여 행사에 어울리는 디지털 경험을 구현했습니다.</p><p class=\"mb-4\">측정 가능한 결과:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>축제 기간 동안 25,000명 이상의 순 방문자 수</li><li>행사 기간 동안 유지율 95% </li><li>전년 대비 온라인 티켓 예약 85% 증가</li><li>고객 서비스 상담 60% 감소</li><li>디지털 존재 덕분에 미디어 보도 70% 증가</li></ul>"
+      },
+      "proyecto5": {
+        "title": "리드가 140% 증가한 기업 웹사이트",
+        "description": "광고 대행사의 리드를 140% 증가시킨 플랫폼입니다.",
+        "detailedDescription": "<p class=\"mb-4\">우리는 이 광고 대행사의 디지털 입지를 완전히 재설계하여 웹사이트를 강력한 비즈니스 생성 도구로 만들었습니다.</p><p class=\"mb-4\">비즈니스 영향:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>적격한 문의 요청이 140% 증가했습니다.</li><li>웹사이트 로딩 속도가 95% 향상되었습니다.</li><li>에 소요되는 시간이 75% 증가했습니다. 웹사이트.</li><li>이탈률 50% 감소.</li><li>35% 더 많은 프로젝트가 웹사이트에서 직접 마감되었습니다.</li></ul>"
+      },
+      "proyecto6": {
+        "title": "국제 웹사이트(+180% 가시성)",
+        "description": "연구의 국제적 가시성을 180% 높인 웹사이트입니다.",
+        "detailedDescription": "<p class=\"mb-4\">우리는 프로젝트의 시각적 표현에 중점을 두고 이 건축 스튜디오의 명성에 걸맞는 디지털 입지를 구축했습니다.</p><p class=\"mb-4\">주요 결과:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>국제 가시성 180% 증가</li><li>웹에서 직접 3개의 새로운 국제 프로젝트 확보</li><li>90% 포트폴리오 보기 시간 증가</li><li>프로젝트 업데이트 시간 70% 감소</li><li>멀티미디어 콘텐츠와의 상호 작용 110% 개선</li></ul>"
+      },
+      "proyecto7": {
+        "title": "시각적 아이덴티티(+85% 인식)",
+        "description": "브랜드 인지도를 85% 강화한 비주얼 아이덴티티.",
+        "detailedDescription": "<p class=\"mb-4\">우리는 시장에서 Ispharus의 인식과 포지셔닝을 변화시키는 완전한 브랜드 아이덴티티를 개발했습니다.</p><p class=\"mb-4\">측정 가능한 영향:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>첫 해 투자 ROI 250%</li><li>브랜드 인지도 85% 증가(출시 후) 연구)</li><li>전문성과 신뢰에 대한 인식 70% 증가</li><li>25개 이상의 접점에 일관된 시각적 아이덴티티 시스템 적용</li><li>서비스 인식 가치 45% 증가</li></ul>"
+      },
+      "proyecto8": {
+        "title": "패션 브랜딩(+120% 매출)",
+        "description": "패션 브랜드의 온라인 판매를 120% 증가시킨 아이덴티티.",
+        "detailedDescription": "<p class=\"mb-4\">우리는 경쟁이 치열한 시장에서 이 패션 브랜드가 두각을 나타내는 데 도움이 되는 독특한 시각적 아이덴티티를 만들었습니다.</p><p class=\"mb-4\">주목할 만한 결과:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>재출시 후 온라인 판매 120% 증가</li><li>사회적 참여 소셜 65% 증가</li><li>브랜드 85% 개선 인지도</li><li>우수한 품질을 유지하면서 비용을 30% 절감한 포장 시스템</li><li>고객 유지율 45% 증가</li></ul>"
+      },
+      "proyecto9": {
+        "title": "전환율이 90% 이상인 전자상거래",
+        "description": "처음 6개월 동안 매출이 두 배 증가한 온라인 상점입니다.",
+        "detailedDescription": "<p class=\"mb-4\">우리는 이 패션 브랜드의 비즈니스 결과를 변화시키는 최적화된 쇼핑 경험을 설계하고 개발했습니다.</p><p class=\"mb-4\">판매에 미치는 영향:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>전환율 90% 증가</li><li>6개월 만에 총 수익 105% 증가</li><li>장바구니 이탈률 60% 감소 비율</li><li>평균 구매 가치 40% 증가</li><li>재고객 비율 75% 증가</li></ul>"
+      },
+      "proyecto10": {
+        "title": "관리 앱(-70% 횟수)",
+        "description": "인사관리 시간을 70% 단축해주는 어플리케이션입니다.",
+        "detailedDescription": "<p class=\"mb-4\">우리는 인적 자원 프로세스를 혁신하여 상당한 시간과 비용 절감 효과를 가져온 모바일 애플리케이션을 개발했습니다.</p><p class=\"mb-4\">입증된 결과:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>인사 관리에 소요되는 시간이 70% 감소</li><li>관리 작업에서 주당 35시간의 예상 절감 효과</li><li>직원 만족도 60% 증가 HR 프로세스</li><li>처음 2주 만에 직원의 95% 채택</li><li>구현 후 단 3개월 만에 긍정적인 ROI 달성</li></ul>"
+      }
+    },
+    "categories": {
+      "all": "모두",
+      "web": "편물",
+      "mobile": "이동하는",
+      "design": "설계"
+    },
+    "modal": {
+      "description": "설명",
+      "projectDetails": "프로젝트 세부정보",
+      "client": "고객:",
+      "date": "날짜:",
+      "category": "범주:",
+      "tools": "도구:",
+      "viewFullProject": "전체 프로젝트 보기",
+      "categories": {
+        "web": "편물",
+        "mobile": "이동하는",
+        "design": "설계"
+      }
+    }
+  },
+  "centralComunicacion": {
+    "title": "Central Comunicación",
+    "description": "Rediseño de sitio web corporativo con integración de catálogo de productos"
+  },
+  "doradoStudio": {
+    "title": "Dorado Studio",
+    "description": "Plataforma digital para estudio de tatuajes con sistema de reservas"
+  },
+  "legal": {
+    "terms": {
+      "title": "이용약관",
+      "subtitle": "당사 서비스 이용에 관한 법적 정보",
+      "pageTitle": "이용약관 | 이지냐MX",
+      "pageDescription": "IzignaMX 서비스 및 웹사이트 사용에 대한 법적 이용 약관.",
+      "acceptance": {
+        "title": "1. 약관 동의",
+        "content": "IzignaMX(\"당사\", \"당사의\" 또는 \"회사\") 웹사이트에 액세스하고 사용함으로써 귀하는 본 이용 약관을 준수하고 이에 구속된다는 데 동의합니다. 본 약관의 일부에 동의하지 않는 경우 당사 서비스에 액세스할 수 없습니다."
+      },
+      "privacy": {
+        "title": "4. 개인정보 보호",
+        "content": "귀하의 개인정보는 우리에게 중요합니다. 당사의 개인정보 보호정책은 귀하가 제공한 정보를 수집, 사용 및 보호하는 방법을 설명합니다.",
+        "linkText": "개인 정보 보호 정책"
+      }
+    }
+  },
+  "about": {
+    "pageTitle": "IzignaMx 소개 | 크리에이티브 디지털 에이전시",
+    "pageDescription": "IzignaMx, 우리의 사명, 가치 및 비즈니스의 디지털 혁신을 가능하게 하는 팀에 대해 자세히 알아보세요.",
+    "badge": "우리에 대해 알아보세요",
+    "title": "회사 소개",
+    "subtitle": "우리는 아이디어를 효과적이고 기억에 남는 디지털 솔루션으로 전환하는 데 특화된 우수성을 추구하는 디지털 대행사입니다.",
+    "mission": {
+      "title": "우리의 사명",
+      "content1": "IzignaMx에서는 디지털 환경에서 기업의 성장과 가시성을 높이는 혁신적인 디지털 솔루션을 통해 모든 규모의 기업에 역량을 부여한다는 사명을 갖고 있습니다.",
+      "content2": "우리는 디지털 혁신이 지속적이고 개인화된 프로세스라고 굳게 믿습니다. 이것이 바로 고객과 협력하여 고객의 요구 사항과 목표를 깊이 이해하는 이유입니다."
+    },
+    "vision": {
+      "title": "우리의 비전",
+      "content": "우리는 의미 있고 지속적인 방식으로 브랜드와 사람들을 연결하는 탁월한 디지털 경험을 창출하여 멕시코에서 디지털 혁신의 벤치마크로 인정받기를 열망합니다."
+    },
+    "values": {
+      "badge": "우리의 원칙",
+      "title": "우리를 정의하는 가치",
+      "subtitle": "이러한 기본 원칙은 우리가 내리는 모든 결정과 우리가 수행하는 모든 프로젝트의 지침이 됩니다.",
+      "innovation": {
+        "title": "혁신",
+        "description": "우리는 프로젝트에 최신 기술과 방법론을 통합하여 과제를 극복할 수 있는 새로운 방법을 끊임없이 모색합니다."
+      },
+      "quality": {
+        "title": "품질",
+        "description": "우리는 모든 세부 사항에서 우수성을 위해 최선을 다하고 있으며 고객의 기대를 뛰어넘는 결과를 보장합니다."
+      },
+      "collaboration": {
+        "title": "협동",
+        "description": "우리는 공동의 목표를 달성하기 위해 고객과 전략적 제휴를 구축하고 협력하는 것의 힘을 믿습니다."
+      },
+      "adaptability": {
+        "title": "적응성",
+        "description": "디지털 세계는 끊임없이 진화하고 있으며, 우리는 트렌드와 기술의 최전선에 머물면서 함께 진화합니다."
+      }
+    },
+    "metrics": {
+      "experience": "수년간의 경험",
+      "projects": "완료된 프로젝트",
+      "clients": "만족한 고객"
+    },
+    "cta": {
+      "title": "함께 일할 준비가 되셨나요?",
+      "subtitle": "모든 프로젝트는 특별한 것을 창조할 수 있는 기회입니다. 지금 저희에게 연락하셔서 귀하의 디지털 성공을 구축해 보세요.",
+      "button": "프로젝트 시작"
+    }
+  },
+  "aiProjectHelp": {
+    "pageTitle": "귀하의 Web AI 프로젝트가 중단되었습니까? | 전문가의 도움 - IzignaMx",
+    "pageDescription": "AI로 웹 프로젝트를 만들었지만 전문가의 도움이 필요하신가요? 우리는 귀하의 AI 프로젝트를 개선, 맞춤화 및 배포하는 데 도움을 드립니다. ChatGPT, Claude, Cursor 등으로 생성된 프로젝트를 위한 전문가 솔루션입니다.",
+    "keywords": "AI 웹 프로젝트, AI 개발 도움말, AI 프로젝트 배포, AI 웹사이트 개선, ChatGPT 웹 프로젝트, Claude 웹 개발, 커서 도움말",
+    "hero": {
+      "urgencyBadge": "AI 프로젝트가 중단되었나요?",
+      "title": {
+        "part1": "당신의 변환",
+        "part2": "AI 프로젝트",
+        "part3": "웹사이트에서",
+        "part4": "전문적인"
+      },
+      "subtitle": "AI로 웹 프로젝트를 생성했지만 <strong>불완전</strong>하거나 <strong>작동하지 않거나</strong> <strong>전문적인 개선</strong>이 필요합니까? 우리는 <strong>48시간 이내에</strong> 이를 완료하고 배포했습니다.",
+      "socialProof": {
+        "projectsCompleted": "+150개의 완료된 AI 프로젝트",
+        "rating": "4.9/5 평가",
+        "delivery": "24~48시간 내 배송"
+      },
+      "ctaPrimary": "내 프로젝트를 무료로 분석하세요",
+      "ctaSecondary": "지원되는 AI 도구 보기",
+      "guarantee": "🛡️ 30일 보증 | 💰 배송 안되면 전액 환불"
+    },
+    "problems": {
+      "title": "<span>익숙한</span> 것 같나요?",
+      "solutionTitle": "우리가 해결해 드립니다!",
+      "solutionSubtitle": "AI로 생성된 웹 프로젝트를 구조하고 완성하는 전문가",
+      "problem1": {
+        "title": "코드가 올바르게 작동하지 않습니다.",
+        "description": "ChatGPT, Claude 또는 Cursor가 코드를 생성했지만 오류, 불완전한 기능 또는 호환성 문제가 있습니다."
+      },
+      "problem2": {
+        "title": "배포 방법을 모르는 경우",
+        "description": "프로젝트가 완료되었지만 도메인에 업로드하는 방법이나 호스팅을 구성하는 방법을 모릅니다."
+      },
+      "problem3": {
+        "title": "전문적인 맞춤화가 필요합니다",
+        "description": "디자인은 일반적이며 전문적인 터치, 더 나은 애니메이션 또는 특정 기능이 필요합니다."
+      },
+      "solutions": {
+        "analysis": "2시간 안에 무료 프로젝트 분석",
+        "correction": "버그 수정 및 최적화",
+        "deployment": "SSL을 통한 전문적인 배포",
+        "customization": "사용자 정의 및 디자인 개선",
+        "support": "30일 동안 기술 지원"
+      }
+    },
+    "aiTools": {
+      "title": "우리는 <span>모든 AI 도구</span>를 사용합니다.",
+      "subtitle": "프로젝트를 생성하는 데 사용한 AI 도구가 무엇이든 우리는 코드로 작업할 수 있습니다.",
+      "example": "예를 들어:",
+      "formats": "<strong>지원 형식:</strong> React, Vue, Angular, HTML/CSS/JS, Node.js, Python, PHP 등",
+      "cta": "내 프로젝트에 문의하세요"
+    },
+    "process": {
+      "title": "<span>3단계</span> 프로세스",
+      "step1": {
+        "title": "무료 분석",
+        "description": "우리는 귀하의 AI 프로젝트를 검토하고 문제를 식별하며 필요한 개선 사항을 정의합니다. <strong>100% 무료</strong>이며 의무 사항이 없습니다."
+      },
+      "step2": {
+        "title": "신속한 개발",
+        "description": "우리는 버그를 수정하고, 코드를 최적화하고, 디자인을 개선하고, 기능을 추가합니다. <strong>24~48시간 내 배송</strong>."
+      },
+      "step3": {
+        "title": "시작하다",
+        "description": "SSL, 최적화 및 지원을 통해 30일 동안 귀하의 도메인에 웹사이트를 배포합니다. <strong>사용 준비가 완료되었습니다!</strong>"
+      }
+    },
+    "pricing": {
+      "title": "<span>투명한 가격</span>",
+      "subtitle": "놀라운 일이 아닙니다. 프로젝트의 복잡성 수준에 따라 고정 요금이 적용됩니다.",
+      "basic": {
+        "title": "Diagnóstico y Corrección Rápida",
+        "price": "Desde $997 USD",
+        "description": "Para problemas puntuales y errores específicos.",
+        "features": [
+          "Auditoría de código (hasta 5k líneas)",
+          "Corrección de errores críticos",
+          "Optimización de prompts básica",
+          "Entrega en 3-5 días"
+        ],
+        "cta": "Empezar Ahora"
+      },
+      "professional": {
+        "title": "Rescate Completo",
+        "badge": "Más Popular",
+        "price": "Desde $2,497 USD",
+        "description": "Solución integral para proyectos complejos.",
+        "features": [
+          "Auditoría completa de arquitectura",
+          "Refactorización de código y prompts",
+          "Optimización de rendimiento y costos",
+          "Entrega en 1-2 semanas",
+          "Soporte prioritario por 30 días"
+        ],
+        "cta": "Solicitar Rescate"
+      },
+      "enterprise": {
+        "title": "Partner IA Dedicado",
+        "price": "Personalizado",
+        "description": "Soporte continuo y desarrollo a medida.",
+        "features": [
+          "Equipo de expertos dedicado",
+          "SLA garantizado",
+          "Consultoría estratégica",
+          "Integración con sistemas legacy",
+          "Monitoreo 24/7"
+        ],
+        "cta": "Contactar Ventas"
+      },
+      "guarantees": [
+        "Confidencialidad Garantizada (NDA)",
+        "Garantía de Satisfacción 100%",
+        "Soporte Post-Entrega"
+      ],
+      "help": "¿No estás seguro de qué plan necesitas? Contáctanos para una evaluación gratuita."
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "subtitle": "¿Listo para empezar?",
+      "urgency": "Urgente"
+    },
+    "form": {
+      "title": "Solicita tu Análisis Gratuito",
+      "subtitle": "Completa el formulario y nos pondremos en contacto contigo en menos de 2 horas.",
+      "name": "Nombre Completo",
+      "namePlaceholder": "Tu nombre",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "tu@email.com",
+      "company": "Empresa / Proyecto",
+      "companyPlaceholder": "Nombre de tu empresa o proyecto",
+      "budget": "Presupuesto Aproximado",
+      "budgetPlaceholder": "Selecciona un rango",
+      "timeline": "¿Cuándo necesitas el proyecto listo?",
+      "timelinePlaceholder": "Selecciona una fecha",
+      "description": "Describe tu proyecto y los problemas específicos",
+      "descriptionPlaceholder": "Cuéntanos qué funciona, qué no funciona, qué mejoras necesitas, etc.",
+      "projectUrl": "Enlace al proyecto (GitHub, Replit, etc.)",
+      "projectUrlPlaceholder": "https://github.com/...",
+      "projectUrlHelp": "Opcional: Comparte el enlace para un análisis más preciso",
+      "submit": "Obtener Análisis Gratuito",
+      "privacyNotice": "Al enviar este formulario, aceptas que procesemos tu información para enviarte el análisis gratuito.",
+      "successTitle": "¡Solicitud Enviada!",
+      "successMessage": "Hemos recibido tu solicitud. Te contactaremos pronto.",
+      "errorTitle": "Error al enviar",
+      "errorMessage": "Hubo un problema al enviar tu solicitud. Por favor, intenta de nuevo.",
+      "budgetOptions": {
+        "200-400": "$200 - $400 USD",
+        "400-600": "$400 - $600 USD",
+        "600-1000": "$600 - $1,000 USD",
+        "1000+": "$1,000+ USD",
+        "needQuote": "Necesito cotización"
+      },
+      "timelineOptions": {
+        "asap": "Lo antes posible",
+        "thisWeek": "Esta semana",
+        "twoWeeks": "En 2 semanas",
+        "oneMonth": "En 1 mes",
+        "noRush": "Sin prisa"
+      },
+      "aiTool": "Herramienta IA utilizada",
+      "aiToolPlaceholder": "Selecciona una herramienta",
+      "aiToolOptions": {
+        "chatgpt": "ChatGPT / GPT-4",
+        "claude": "Claude 3 / 3.5",
+        "cursor": "Cursor / VS Code AI",
+        "bolt": "Bolt.new",
+        "replit": "Replit / Ghostwriter",
+        "copilot": "GitHub Copilot",
+        "codeium": "Codeium",
+        "other": "Otra herramienta"
+      },
+      "projectType": "Tipo de Proyecto",
+      "projectTypePlaceholder": "Selecciona el tipo",
+      "projectTypeOptions": {
+        "landing": "Landing Page",
+        "corporate": "Sitio Corporativo",
+        "ecommerce": "Tienda Online / E-commerce",
+        "webapp": "Aplicación Web / SaaS",
+        "blog": "Blog / Contenido",
+        "dashboard": "Panel de Control / Dashboard",
+        "portfolio": "Portafolio Personal",
+        "other": "Otro tipo de proyecto"
+      },
+      "currentStatus": "Estado Actual",
+      "currentStatusOptions": {
+        "notWorking": "No funciona / Errores críticos",
+        "needsImprovements": "Funciona pero necesita mejoras",
+        "dontKnowDeploy": "Funciona pero no sé cómo desplegarlo",
+        "needsHosting": "Necesito hosting / dominio",
+        "other": "Otro estado"
+      }
+    },
+    "benefits": {
+      "title": "무료 분석에는 무엇이 포함되나요?",
+      "codeReview": "AI 생성 코드 검토 완료",
+      "errorIdentification": "오류 및 문제 식별",
+      "improvementPlan": "개선 및 최적화 계획",
+      "detailedQuote": "자세한 견적 및 일정",
+      "deploymentRecommendations": "배포 권장사항"
+    },
+    "specialists": {
+      "title": "🎯 AI 전문가",
+      "description": "우리는 AI 도구로 생성된 코드 작업의 전문가입니다. 우리는 각 도구의 한계와 장점을 이해합니다.",
+      "responseTime": "2시간 이내에 응답"
+    },
+    "testimonials": {
+      "title": "💬 사용후기",
+      "testimonial1": {
+        "text": "ChatGPT에 작동하지 않는 프로젝트가 있었습니다. 24시간 만에 완벽하게 작동하고 배포되었습니다.",
+        "author": "- Carlos M., 기업가"
+      },
+      "testimonial2": {
+        "text": "커서가 내 앱을 생성했지만 오류가 가득했습니다. IzignaMx는 그것을 전문적인 것으로 변화시켰습니다.",
+        "author": "- Ana L., 스타트업"
+      }
+    }
+  },
+  "pwa": {
+    "installButton": "애플리케이션 설치",
+    "offlineIndicator": "오프라인 모드",
+    "newVersionAvailable": "새 버전을 사용할 수 있습니다. 지금 업데이트하시겠습니까?",
+    "updateAvailable": "업데이트 가능",
+    "updateNow": "지금 업데이트",
+    "installedSuccessfully": "애플리케이션이 성공적으로 설치되었습니다."
+  },
+  "analytics": {
+    "consentBanner": {
+      "message": "우리는 귀하의 경험을 개선하기 위해 쿠키와 분석을 사용합니다.",
+      "moreInfo": "추가 정보",
+      "accept": "수용하다",
+      "reject": "감소"
+    },
+    "consentGranted": "분석에 대한 동의가 부여되었습니다.",
+    "consentRevoked": "분석 동의가 취소되었습니다.",
+    "doNotTrackDetected": "추적 금지가 감지되어 추적이 생략되었습니다.",
+    "waitingForConsent": "사용자 동의를 기다리는 중",
+    "initialized": "Google 애널리틱스 4가 초기화되었습니다.",
+    "debugMode": "디버그 모드 활성화됨"
+  },
+  "ui": {
+    "skeleton": {
+      "loading": "콘텐츠 로드 중"
+    },
+    "datepicker": {
+      "selectDate": "날짜 선택",
+      "months": [
+        "1월",
+        "2월",
+        "3월",
+        "4월",
+        "5월",
+        "6월",
+        "칠월",
+        "팔월",
+        "구월",
+        "십월",
+        "십일월",
+        "12월"
+      ],
+      "weekdays": [
+        "하다",
+        "루",
+        "엄마",
+        "나의",
+        "주",
+        "나는 보았다",
+        "사"
+      ]
+    },
+    "multiselect": {
+      "selectOptions": "옵션 선택"
+    }
+  },
+  "gracias": {
+    "title": "¡Gracias!",
+    "description": "Solicitud recibida con éxito.",
+    "titleHtml": "¡Solicitud <span class=\"text-primary\">Recibida!</span>",
+    "successHtml": "Hemos recibido tu información correctamente.",
+    "sectionNextStepsTitle": "Siguientes Pasos",
+    "nextSteps": {
+      "reviewTitle": "Revisión",
+      "reviewDesc": "Nuestro equipo revisará tu solicitud en las próximas 24 horas.",
+      "contactTitle": "Contacto",
+      "contactDesc": "Te contactaremos para agendar una llamada de descubrimiento.",
+      "proposalTitle": "Propuesta",
+      "proposalDesc": "Recibirás una propuesta detallada ajustada a tus necesidades.",
+      "startTitle": "Inicio",
+      "startDesc": "Comenzamos a trabajar en tu proyecto inmediatamente."
+    },
+    "urgentContactTitle": "¿Necesitas respuesta urgente?",
+    "social": {
+      "whatsapp": "Contactar por WhatsApp",
+      "joinText": "Únete a nuestra comunidad",
+      "ratingText": "Califícanos"
+    },
+    "actions": {
+      "backHome": "Volver al Inicio",
+      "viewServices": "Ver Servicios"
+    }
+  }
+}

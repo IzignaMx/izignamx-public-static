@@ -1,0 +1,32 @@
+{
+  "gracias": {
+    "seo": {
+      "title": "Bize ulaştığınız için teşekkürler! - IzignaMx",
+      "description": "Mesajınızı aldık ve en kısa sürede sizinle iletişime geçeceğiz."
+    },
+    "titleHtml": "Mesaj <span class=\"text-gradient bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent\">başarıyla</span> gönderildi!",
+    "successHtml": "Bizimle iletişime geçtiğiniz için teşekkürler. Talebinizi aldık ve bir uzman önümüzdeki <strong class=\"text-green-400\">24 saat</strong> içinde sizinle iletişime geçecektir.",
+    "sectionNextStepsTitle": "Sırada ne var?",
+    "nextSteps": {
+      "reviewTitle": "Talebinizin incelenmesi",
+      "reviewDesc": "Projenizi ve özel ihtiyaçlarınızı analiz edeceğiz",
+      "contactTitle": "Kişisel iletişim",
+      "contactDesc": "Ücretsiz danışmanlık planlamak için sizinle iletişime geçeceğiz",
+      "proposalTitle": "Kişiye özel teklif",
+      "proposalDesc": "Ayrıntılı bir teklif ve proje zaman çizelgesi alacaksınız",
+      "startTitle": "Proje başlangıcı",
+      "startDesc": "Onaylandıktan sonra projeniz üzerinde çalışmaya başlarız"
+    },
+    "urgentContactTitle": "Acil olarak bizimle iletişime geçmeniz mi gerekiyor?",
+    "actions": {
+      "backHome": "Ana sayfaya dön",
+      "viewServices": "Hizmetlerimizi görüntüle"
+    },
+    "social": {
+      "joinText": "Bize güvenen 500+ şirkete katılın",
+      "ratingText": "200+ değerlendirmeye göre 4.9/5",
+      "whatsapp": "WhatsApp",
+      "whatsappText": "Merhaba IzignaMx, az önce bir form gönderdim"
+    }
+  }
+}

@@ -1,0 +1,2613 @@
+{
+  "common": {
+    "dataAnalysis": "Data Analysis",
+    "processOptimization": "Process Optimization",
+    "welcome": "Welcome to IzignaMx",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "language": "Language",
+    "readMore": "Read more",
+    "getStarted": "Get started",
+    "learnMore": "Learn more",
+    "viewAll": "View all",
+    "viewMore": "View more",
+    "viewMoreAbout": "View more about {{service}}",
+    "exploreService": "Explore {{service}}",
+    "backToHome": "Back to home",
+    "loading": "Loading...",
+    "error": "Mistake",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "requestProposal": "Request Proposal",
+    "startProject": "Start Project",
+    "startProjectNow": "Start Project Now",
+    "seeMore": "See more",
+    "exploreStack": "Explore Stack",
+    "premiumService": "Premium Service",
+    "quantifiableResults": "Quantifiable Results",
+    "cuttingEdgeTechnology": "Cutting-edge Technology",
+    "lastUpdated": "Last updated",
+    "newService": "NEW SERVICE",
+    "allRightsReserved": "All rights reserved",
+    "all": "All",
+    "web": "Web",
+    "mobile": "Mobile",
+    "design": "Design",
+    "more": "more",
+    "moreInformation": "More Information",
+    "requestQuote": "Request Quote",
+    "ourServices": "Our Services",
+    "readyToBoost": "Ready to boost your project with",
+    "readyToTransform": "Ready to transform your organization?",
+    "readyToImprove": "Ready to improve your positioning?",
+    "readyToElevate": "Ready to elevate your brand to the next level?",
+    "readyToMultiply": "Ready to multiply your online sales?",
+    "readyToBringToLife": "Ready to bring your 3D project to life?",
+    "skipToContent": "Skip to main content",
+    "backToTop": "Back to top",
+    "darkModeActivated": "Dark mode activated",
+    "lightModeActivated": "Light mode activated",
+    "returningToTop": "Returning to top of page",
+    "benefits": "Benefits",
+    "whatsappDirect": "WhatsApp Direct",
+    "faqTitle": "Frequent Questions",
+    "requestService": "Request Service",
+    "exitPopup": {
+      "title": "EXCLUSIVE ONLINE OFFER!",
+      "description": "Get a FREE digital diagnosis valued at $1,500 MXN and learn how to increase your conversions by up to 200%",
+      "limitedSpots": "Only available for the next 5 requests",
+      "emailPlaceholder": "Your email address",
+      "namePlaceholder": "Your name",
+      "submit": "I WANT MY FREE DIAGNOSIS NOW!",
+      "includesHtml": "<strong>Includes:</strong> Conversion analysis, SEO review, competition analysis, and recommended strategy",
+      "testimonial": "\"We increased our sales by 85% in 2 months\" - Carlos M.",
+      "trust": "We guarantee 100% confidentiality. No commitments or spam.",
+      "redirectBannerHtml": "You are about to be redirected. In <span id=\"redirect-counter\">{{seconds}}</span>s we will go to <strong>/gracias</strong>.",
+      "sending": "Sending...",
+      "success": "Thank you! We'll be in touch shortly.",
+      "error": "We couldn't send your message. Please try again.",
+      "redirecting": "Redirecting in {{seconds}}s...",
+      "unexpectedError": "An unexpected error occurred. Please try again."
+    },
+    "connectingPhysicalDigital": "Connecting the Physical World with the Digital",
+    "iotDashboard": "IoT Dashboard",
+    "temperature": "Temperature",
+    "humidity": "Humidity",
+    "live": "Live",
+    "deviceStatus": "Device Status",
+    "connected": "Connected",
+    "battery": "Battery",
+    "signal": "Signal",
+    "uptime": "Uptime",
+    "update": "Update",
+    "configure": "Configure",
+    "ourIotSolutions": "Our IoT Solutions",
+    "industryApplications": "Industry Applications",
+    "ourDevelopmentProcess": "Our Development Process",
+    "consultingAnalysis": "Consulting and Analysis",
+    "prototyping": "Prototyping",
+    "developmentIntegration": "Development and Integration",
+    "testingOptimization": "Testing and Optimization",
+    "deploymentSupport": "Deployment and Support",
+    "iotDescription": "At IzignaMx we develop innovative IoT solutions that transform data into valuable information for your business. Our connected devices help optimize processes, reduce costs and create new business opportunities through intelligent technology.",
+    "realTimeMonitoring": "Real-Time Monitoring",
+    "realTimeMonitoringDesc": "Systems that provide critical data and information in real time to make immediate decisions.",
+    "intelligentAutomation": "Intelligent Automation",
+    "intelligentAutomationDesc": "Process optimization through automation based on data and predefined conditions.",
+    "scalability": "Scalability",
+    "scalabilityDesc": "Solutions designed to grow with your business, from prototypes to large-scale implementations.",
+    "energyEfficiency": "Energy Efficiency",
+    "energyEfficiencyDesc": "Devices optimized for low energy consumption and greater durability in diverse environments.",
+    "smartSensors": "Smart Sensors",
+    "smartSensorsDesc": "Development of custom sensors for environmental, industrial, agricultural and health monitoring with wireless connectivity.",
+    "automationSystems": "Automation Systems",
+    "automationSystemsDesc": "Complete solutions to automate industrial, commercial and residential processes with remote control.",
+    "wearables": "Wearables",
+    "wearablesDesc": "Wearable devices for health, fitness, safety and industrial applications monitoring with intuitive interfaces.",
+    "smartHomeBuildings": "Smart Home & Buildings",
+    "smartHomeBuildingsDesc": "Intelligent systems for homes and buildings that optimize energy consumption and improve comfort and security.",
+    "iotManagementPlatforms": "IoT Management Platforms",
+    "iotManagementPlatformsDesc": "Development of dashboards and applications for visualization, control and analysis of data from IoT devices.",
+    "edgeComputing": "Edge Computing",
+    "edgeComputingDesc": "Data processing at the network edge to reduce latency and optimize bandwidth in critical applications.",
+    "agriculture": "Agriculture",
+    "agricultureApps": "Crop monitoring, automated irrigation, greenhouse climate control",
+    "manufacturingApps": "Predictive maintenance, machinery monitoring, production optimization",
+    "healthcare": "Healthcare",
+    "healthcareApps": "Remote patient monitoring, hospital asset management, smart dispensers",
+    "logistics": "Logistics",
+    "logisticsApps": "Asset tracking, fleet management, route optimization, cold chain control",
+    "smartCities": "Smart Cities",
+    "smartCitiesApps": "Smart lighting, waste management, traffic monitoring, air quality",
+    "retail": "Retail",
+    "retailApps": "Inventory management, personalized shopping experiences, in-store traffic analysis",
+    "iotSolutionsAdapt": "Our IoT solutions adapt to the specific needs of different industries, providing value and optimization in various contexts.",
+    "frequentQuestions": "Frequent Questions about",
+    "faqQuestion1": "How long does it take to complete an IoT project?",
+    "faqAnswer1": "Development time varies depending on the complexity and scope of the project. Small projects can be completed in 2-4 weeks, while more complex projects can take 2 to 6 months. We always provide a detailed timeline at the beginning of the project.",
+    "faqQuestion2": "What is the approximate cost of your services?",
+    "faqAnswer2": "Our prices vary according to the specific requirements of each project. We offer options for different budgets without compromising quality. Contact us to receive a personalized quote based on your exact needs.",
+    "faqQuestion3": "What information do you need to start a project?",
+    "faqAnswer3": "To get started, we need to understand your objectives, target audience, design preferences and required functionalities. Our process begins with a detailed consultation where we gather all the necessary information to create an accurate proposal.",
+    "faqQuestion4": "Do you offer maintenance after completing the project?",
+    "faqAnswer4": "Yes, we offer various maintenance and ongoing support plans to ensure your solution continues to function optimally. These include security updates, performance optimizations and technical assistance according to your needs.",
+    "consultingAnalysisDesc": "We evaluate your needs and define the technical requirements of the project.",
+    "prototypingDesc": "We develop a functional prototype to validate concepts and perform initial testing.",
+    "developmentIntegrationDesc": "We implement hardware, firmware and software, integrating all components.",
+    "testingOptimizationDesc": "We perform exhaustive testing to guarantee the reliability and efficiency of the system.",
+    "deploymentSupportDesc": "We implement the solution and provide continuous technical support.",
+    "expertTeamReady": "Our team of experts is ready to help you achieve your goals with personalized solutions and cutting-edge technology.",
+    "iotSubtitle": "Connected Solutions for the Digital World",
+    "iotServiceDescription": "We develop custom IoT devices and systems that connect the physical world with the digital. From smart sensors to complete automation systems, we create solutions that optimize processes, collect valuable data and improve operational efficiency.",
+    "analysis": "Analysis",
+    "development": "Development",
+    "testing": "Testing",
+    "deployment": "Deployment",
+    "technologies": "Technologies",
+    "consultingSubtitle": "Strategic Advisory for Digital Transformation",
+    "consultingDescription": "We offer specialized consulting services to help companies and organizations optimize their processes, implement new technologies and develop effective digital strategies that drive their growth and competitiveness.",
+    "powerOrganizationGrowth": "Power Your Organization's Growth",
+    "consultingIntro": "At IzignaMx we offer consulting services that combine technical expertise and strategic vision to help you successfully navigate the changing digital environment. Our personalized approach adapts to the specific needs of your organization to generate tangible and lasting results.",
+    "specializedExperience": "Specialized Experience",
+    "specializedExperienceDesc": "Access to knowledge and skills from experts in various technological and business areas.",
+    "objectiveVision": "Objective Vision",
+    "objectiveVisionDesc": "External and impartial perspective to identify improvement opportunities and innovative solutions.",
+    "resourceOptimization": "Resource Optimization",
+    "resourceOptimizationDesc": "Maximizing return on investment through efficient allocation of technological and human resources.",
+    "riskReduction": "Risk Reduction",
+    "riskReductionDesc": "Early identification of potential problems and development of effective mitigation strategies.",
+    "requestConsultation": "Request Consultation",
+    "ourConsultingServices": "Our Consulting Services",
+    "digitalTransformation": "Digital Transformation",
+    "digitalTransformationDesc": "Design and implementation of strategies to integrate digital technologies in all areas of your business.",
+    "processAnalysisOptimization": "Process Analysis and Optimization",
+    "processAnalysisOptimizationDesc": "Evaluation and redesign of processes to improve operational efficiency and reduce costs.",
+    "technologyStrategy": "Technology Strategy",
+    "technologyStrategyDesc": "Development of technology roadmaps aligned with business objectives and market trends.",
+    "technologyProjectManagement": "Technology Project Management",
+    "technologyProjectManagementDesc": "Planning, execution and supervision of technology implementation projects.",
+    "systemsAudit": "Systems Audit",
+    "systemsAuditDesc": "Evaluation of existing technology infrastructures to identify improvements and optimizations.",
+    "trainingKnowledgeTransfer": "Training and Knowledge Transfer",
+    "trainingKnowledgeTransferDesc": "Personalized training programs for technical teams and end users.",
+    "ourMethodology": "Our Methodology",
+    "methodologyIntro": "We apply a structured and proven approach to guarantee successful results in each consulting project.",
+    "diagnosis": "Diagnosis",
+    "diagnosisDesc": "Detailed analysis of the current situation, identification of needs and definition of objectives.",
+    "planning": "Planning",
+    "planningDesc": "Development of personalized strategies and action plans with clear metrics and objectives.",
+    "implementation": "Implementation",
+    "implementationDesc": "Execution of proposed solutions with continuous support and adjustments as needed.",
+    "evaluation": "Evaluation",
+    "evaluationDesc": "Measurement of results, impact analysis and adjustments for continuous optimization.",
+    "transfer": "Transfer",
+    "transferDesc": "Training of internal teams and detailed documentation to ensure continuity.",
+    "industriesWeServe": "Industries We Serve",
+    "financesBanking": "Finance and Banking",
+    "health": "Health",
+    "retailEcommerce": "Retail and E-commerce",
+    "manufacturing": "Manufacturing",
+    "education": "Education",
+    "logisticsTransport": "Logistics and Transport",
+    "professionalServices": "Professional Services",
+    "publicSector": "Public Sector",
+    "scheduleFreeConsultation": "Schedule a Free Consultation",
+    "cybersecurity": "Cybersecurity",
+    "projectManagement": "Project Management",
+    "systemsArchitecture": "Systems Architecture",
+    "innovation": "Innovation",
+    "innovationDesc": "Implementation of innovative solutions",
+    "efficiency": "Efficiency",
+    "efficiencyDesc": "Key process optimization",
+    "collaboration": "Collaboration",
+    "collaborationDesc": "Joint work with internal teams",
+    "growth": "Growth",
+    "growthDesc": "Expansion and scalability strategies",
+    "security": "Security",
+    "securityDesc": "Digital asset protection",
+    "roi": "ROI",
+    "roiDesc": "Maximizing return on investment",
+    "expectedResults": "Expected Results",
+    "start": "Start",
+    "results": "Results",
+    "frequentQuestionsAbout": "Frequent Questions about",
+    "consultingFaqQuestion1": "How long does it take to complete a consulting project?",
+    "consultingFaqAnswer1": "Development time varies according to the complexity and scope of the project. Small projects can be completed in 2-4 weeks, while more complex projects can take 2 to 6 months. We always provide a detailed timeline at the beginning of the project.",
+    "consultingFaqQuestion2": "What is the approximate cost of your services?",
+    "consultingFaqAnswer2": "Our prices vary according to the specific requirements of each project. We offer options for different budgets without compromising quality. Contact us to receive a personalized quote based on your exact needs.",
+    "consultingFaqQuestion3": "What information do you need to start a project?",
+    "consultingFaqAnswer3": "To get started, we need to understand your objectives, target audience, design preferences and required functionalities. Our process begins with a detailed consultation where we gather all the necessary information to create an accurate proposal.",
+    "consultingFaqQuestion4": "Do you offer maintenance after completing the project?",
+    "consultingFaqAnswer4": "Yes, we offer various maintenance and ongoing support plans to ensure your solution continues to function optimally. These include security updates, performance optimizations and technical assistance according to your needs.",
+    "expertTeamReadyConsulting": "Our team of experts is ready to help you achieve your goals with personalized solutions and cutting-edge technology.",
+    "3dModelingSubtitle": "Professional 3D Model Creation for Any Project",
+    "3dModelingDescription": "We offer high-quality 3D modeling services for architectural visualization, product design, animation, video games, virtual and augmented reality. Our detailed and realistic 3D models help communicate ideas, visualize concepts and create immersive experiences.",
+    "bringingIdeasToLife3D": "Bringing Ideas to Life in Three Dimensions",
+    "3dModelingIntro": "At IzignaMx we convert concepts and ideas into stunning 3D models with the level of detail and realism your project needs. Our team of 3D artists and modelers combines creativity and technical precision to create high-quality 3D assets for any application.",
+    "realisticVisualization": "Realistic Visualization",
+    "realisticVisualizationDesc": "Photorealistic 3D models that allow you to visualize products and spaces before their manufacture or construction.",
+    "versatility": "Versatility",
+    "versatilityDesc": "Adaptation to multiple formats and platforms, from static renders to interactive experiences.",
+    "optimization": "Optimization",
+    "optimizationDesc": "Models optimized according to the specific needs of each project and destination platform.",
+    "detailPrecision": "Detail and Precision",
+    "detailPrecisionDesc": "Meticulous attention to detail to guarantee the technical and visual accuracy of each model.",
+    "requestQuotation": "Request Quotation",
+    "our3dModelingServices": "Our 3D Modeling Services",
+    "architecturalModeling": "Architectural Modeling",
+    "architecturalModelingDesc": "Creation of detailed 3D models of buildings, interiors and urban spaces for visualization and presentation.",
+    "productDesign": "Product Design",
+    "productDesignDesc": "Modeling of products, prototypes and concepts for visualization, marketing and manufacturing.",
+    "charactersOrganics": "Characters and Organics",
+    "charactersOrganicsDesc": "Creation of characters, creatures and organic models for animation, video games and visual effects.",
+    "virtualEnvironments": "Virtual Environments",
+    "virtualEnvironmentsDesc": "Development of immersive scenarios and environments for video games, virtual reality and simulations.",
+    "scientificVisualization": "Scientific Visualization",
+    "scientificVisualizationDesc": "Modeling of scientific, medical and educational concepts to facilitate understanding and learning.",
+    "3dAnimation": "3D Animation",
+    "3dAnimationDesc": "Creation of models optimized for animation with rigging systems and advanced controls.",
+    "our3dModelingProcess": "Our 3D Modeling Process",
+    "3dProcessIntro": "We follow a structured process to guarantee high-quality 3D models that meet your expectations.",
+    "conceptPlanning": "Concept and Planning",
+    "conceptPlanningDesc": "We define the requirements, references and technical specifications of the model.",
+    "baseModeling": "Base Modeling",
+    "baseModelingDesc": "We create the basic structure and fundamental geometry of the model.",
+    "detailingTexturing": "Detailing and Texturing",
+    "detailingTexturingDesc": "We add details, materials and textures to give realism to the model.",
+    "optimizationDelivery": "Optimization and Delivery",
+    "optimizationDeliveryDesc": "We optimize the model for its final use and deliver it in the required formats.",
+    "examplesOurWork": "Examples of Our Work",
+    "architecturalModelingWork": "Architectural Modeling",
+    "architecturalModelingWorkDesc": "Photorealistic visualizations of architectural projects.",
+    "productDesignWork": "Product Design",
+    "productDesignWorkDesc": "Detailed 3D prototypes for product manufacturing and marketing.",
+    "characterCreationWork": "Character Creation",
+    "characterCreationWorkDesc": "Character design and modeling for video games and animation.",
+    "scenariosEnvironmentsWork": "Scenarios and Environments",
+    "scenariosEnvironmentsWorkDesc": "Creation of immersive and detailed worlds for digital productions.",
+    "readyToBringProjectToLife3D": "Ready to bring your project to life in 3D?",
+    "contactTodayDiscuss3D": "Contact us today to discuss your 3D modeling needs and get a personalized quote.",
+    "start3dModelingProject": "Start 3D Modeling Project",
+    "frequentQuestions3dModeling": "Frequent Questions about 3D Modeling",
+    "3dModelingFaqQuestion1": "How long does it take to complete a 3D modeling project?",
+    "3dModelingFaqAnswer1": "Development time varies according to the complexity and scope of the project. Small projects can be completed in 2-4 weeks, while more complex projects can take 2 to 6 months. We always provide a detailed timeline at the beginning of the project.",
+    "3dModelingFaqQuestion2": "What is the approximate cost of your services?",
+    "3dModelingFaqAnswer2": "Our prices vary according to the specific requirements of each project. We offer options for different budgets without compromising quality. Contact us to receive a personalized quote based on your exact needs.",
+    "3dModelingFaqQuestion3": "What information do you need to start a project?",
+    "3dModelingFaqAnswer3": "To get started, we need to understand your objectives, target audience, design preferences and required functionalities. Our process begins with a detailed consultation where we gather all the necessary information to create an accurate proposal.",
+    "3dModelingFaqQuestion4": "Do you offer maintenance after completing the project?",
+    "3dModelingFaqAnswer4": "Yes, we offer various maintenance and ongoing support plans to ensure your solution continues to function optimally. These include security updates, performance optimizations and technical assistance according to your needs.",
+    "expertTeamReady3dModeling": "Our team of experts is ready to help you achieve your goals with personalized solutions and cutting-edge technology."
+  },
+  "header": {
+    "home": "HOME",
+    "aboutUs": "ABOUT US",
+    "ourServices": "SERVICES",
+    "ourWork": "WORK",
+    "blog": "Blog",
+    "getInTouch": "CONTACT",
+    "aiProjectsHelp": "AI Project Help",
+    "services": {
+      "blockchain": "Blockchain & Web3",
+      "iot": "IoT Development",
+      "printing3d": "3D Printing",
+      "consulting": "Consulting",
+      "modeling3d": "3D Modeling"
+    }
+  },
+  "home": {
+    "title": "IzignaMx - Digital Solutions & Web Development",
+    "description": "Digital agency specialized in web development, apps, and marketing."
+  },
+  "hero": {
+    "title": "IzignaMx",
+    "tagline": "Technology that transforms",
+    "description": "We are experts in web development, mobile applications, graphic design and innovative digital solutions. We transform ideas into exceptional digital experiences.",
+    "techBadge": "Cutting-edge Technology",
+    "workButton": "View Work",
+    "contactButton": "Contact",
+    "yearsExperience": "Years of Experience",
+    "projectsCompleted": "Projects Completed",
+    "happyClients": "Happy Clients",
+    "explore": "Explore",
+    "ctaPrimary": "See our services",
+    "ctaSecondary": "See our work"
+  },
+  "aiProjectBanner": {
+    "badge": "NEW SERVICE",
+    "title": "Is Your AI Project Stuck?",
+    "stuck": "Stuck",
+    "description": "If you generated a web project with ChatGPT, Claude or Cursor but it doesn't work or you need professional improvements, we complete it.",
+    "ctaButton": "FREE Analysis in 2h",
+    "projectsRescued": "+150 AI Projects Rescued",
+    "weCompleteIt": "we complete it",
+    "newService": "NEW SERVICE",
+    "titlePrefix": "Is Your AI Project",
+    "titleSuffix": "Stuck?",
+    "freeAnalysis": "Free Analysis - $0 USD",
+    "rescuedProjects": "+50 Projects Rescued",
+    "rating": "4.9/5 Rating",
+    "delivery": "Results in < 2. Weeks",
+    "guarantee": "Diagnosis in 24h"
+  },
+  "contact": {
+    "pageTitle": "Contact | IzignaMx - Digital Agency",
+    "pageDescription": "Contact us to discuss your digital project. We offer web development, graphic design, digital marketing and more.",
+    "badge": "CONTACT US",
+    "title": "Let's Talk About Your Project",
+    "subtitle": "Our team is ready to turn your ideas into successful digital solutions.",
+    "directContact": "Direct Contact",
+    "mainOffice": "Headquarters",
+    "location": "Mexico City, Mexico",
+    "corporateEmail": "Corporate Email",
+    "directLine": "Direct Line (24/7)",
+    "followUs": "Follow Us",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "email@yourcompany.com",
+      "emailHelp": "We will use this email to send you the proposal",
+      "phone": "Direct Phone",
+      "phoneHelp": "Optional: For faster contact",
+      "company": "Company",
+      "message": "Project Details",
+      "messagePlaceholder": "Briefly describe your project and specific objectives...",
+      "messageHelp": "Minimum 10 characters, maximum 2000",
+      "services": "Solution you need",
+      "servicesPlaceholder": "Select the solution you need",
+      "budget": "Estimated Investment",
+      "budgetHelp": "Optional: Helps us customize our proposal",
+      "timeline": "Project Urgency",
+      "timelineHelp": "Optional: Helps us prioritize your project",
+      "howDidYouHear": "How did you hear about us?",
+      "howDidYouHearPlaceholder": "Select an option",
+      "howDidYouHearHelp": "Optional: Helps us improve our reach",
+      "send": "Request Personalized Proposal",
+      "reset": "Reset Form",
+      "sending": "Sending...",
+      "success": "Your request has been received! A specialized consultant will contact you in less than 24 hours.",
+      "error": "An error occurred while sending your message. Please try again or contact us directly.",
+      "generalError": "An error occurred. Please try again.",
+      "serviceOptions": {
+        "web": "Professional Website",
+        "design": "Graphic Design",
+        "app": "Mobile/Web App",
+        "ecommerce": "Profitable Online Store",
+        "marketing": "Digital Marketing & Advertising",
+        "branding": "Branding & Corporate Identity",
+        "seo": "SEO Optimization",
+        "other": "Other"
+      }
+    },
+    "benefits": {
+      "proposal24h": "Proposal in 24 hours",
+      "freeDiagnosis": "Free diagnosis",
+      "confidentialityNDA": "Confidentiality NDA",
+      "limitedSpots": "LIMITED SPOTS! - Only 2 projects available this month"
+    },
+    "whatsapp": {
+      "immediateResponse": "Immediate response via WhatsApp"
+    },
+    "security": {
+      "formProtected": "This form is protected by advanced security measures.",
+      "dataProtected": "Your data is protected by our",
+      "privacyPolicy": "Privacy Policy",
+      "noThirdParties": "We never share your information with third parties."
+    },
+    "serviceOptions": {
+      "googleSearch": "Google Search",
+      "colleagueRecommendation": "Colleague Recommendation",
+      "socialMedia": "Social Media",
+      "eventConference": "Event or Conference",
+      "otherMedium": "Other medium"
+    },
+    "urgencyOptions": {
+      "urgent": "Urgent (1-2 weeks)",
+      "priority": "Priority (1-2 months)",
+      "strategic": "Strategic (+3 months)"
+    },
+    "budget": {
+      "less5k": "Less than $5,000",
+      "5k15k": "$5,000 - $15,000",
+      "15k30k": "$15,000 - $30,000",
+      "30k50k": "$30,000 - $50,000",
+      "more50k": "More than $50,000"
+    },
+    "timeline": {
+      "urgent": "Urgent (less than 1 week)",
+      "fast": "Fast (1-2 weeks)",
+      "normal": "Normal (2-4 weeks)",
+      "extended": "Extended project (1-3 months)",
+      "ongoing": "Ongoing collaboration"
+    },
+    "howDidYouHear": {
+      "google": "Google Search",
+      "social": "Social Media",
+      "referral": "Referral",
+      "event": "Event or Conference",
+      "other": "Other"
+    },
+    "budgetOptions": {
+      "small": "$1K - $5K",
+      "medium": "$5K - $10K",
+      "large": "$10K - $20K",
+      "enterprise": "$20K+"
+    }
+  },
+  "footer": {
+    "description": "We transform ideas into high-performance digital solutions that generate measurable ROI and real growth for your business.",
+    "quickAccess": "Quick Access",
+    "highImpactSolutions": "High Impact Solutions",
+    "startTransformation": "Start Your Transformation",
+    "links": {
+      "home": "Home",
+      "whyChooseUs": "Why Choose Us",
+      "digitalSolutions": "Digital Solutions",
+      "successCases": "Success Cases",
+      "requestProposal": "Request Proposal",
+      "termsConditions": "Terms and Conditions",
+      "privacyPolicy": "Privacy Policy",
+      "siteMap": "Site Map"
+    },
+    "services": {
+      "aiProjects": "AI Projects (NEW)",
+      "convertingWebs": "Converting Websites (+180%)",
+      "measurableSeo": "SEO with Measurable Results",
+      "highRoiMarketing": "High ROI Marketing",
+      "premiumApps": "Premium Apps (4.8★)",
+      "connectingDesign": "Connecting Design (+75%)",
+      "costReducingAi": "AI to Reduce Costs (-60%)"
+    },
+    "contact": {
+      "title": "Direct Contact",
+      "phone": "Phone",
+      "email": "E-mail",
+      "address": "Address",
+      "whatsappNow": "Write us on WhatsApp now: +52 55 3376 0889",
+      "requestAnalysis": "Request free analysis",
+      "immediateWhatsapp": "Immediate WhatsApp",
+      "location": "Mexico City, Mexico"
+    },
+    "copyright": "All rights reserved"
+  },
+  "work": {
+    "title": "We Transform Businesses with Real Results",
+    "subtitle": "Every project is an opportunity to create innovative solutions that generate real impact on our clients' businesses.",
+    "badge": "QUANTIFIABLE RESULTS",
+    "projectsThatConvert": "Projects that Convert",
+    "professionalWebsites": "Professional websites and modern web applications that transform visitors into customers.",
+    "categories": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "design": "Design"
+    }
+  },
+  "marketing": {
+    "faq": {
+      "question1": {
+        "question": "How do you measure results?",
+        "answer": "We use key metrics (KPIs) defined at the start of the project, such as ROI, cost per lead, and conversion rate, reported in real-time dashboards."
+      },
+      "question2": {
+        "question": "Which platforms do you advertise on?",
+        "answer": "Depending on your audience, we manage campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, TikTok, and more."
+      },
+      "question3": {
+        "question": "How much should I invest in advertising?",
+        "answer": "We recommend budgets based on your objectives and competition in your sector. We optimize investment to maximize return."
+      },
+      "question4": {
+        "question": "Do you offer monthly reports?",
+        "answer": "Yes, we deliver detailed reports and monthly review sessions to analyze performance and adjust strategy."
+      }
+    },
+    "consultancyDescription": "Schedule a free consultancy to analyze your current situation.",
+    "resultsDescription": "Proven results across multiple industries."
+  },
+  "services": {
+    "expertsBadge": "Technology Experts",
+    "title": "Our Services",
+    "subtitle": "We offer complete and customized solutions to boost your digital presence",
+    "techBadge": "Featured Technologies",
+    "app-development": {
+      "title": "App Development",
+      "subtitle": "iOS & Android",
+      "description": "We create native and hybrid mobile applications that offer exceptional user experiences and superior performance.",
+      "heroTitle": "Mobile App Development",
+      "heroSubtitle": "High Performance Mobile Solutions",
+      "heroDescription": "We transform your vision into a powerful and scalable mobile application, designed to capture and retain users on any platform.",
+      "features": {
+        "native": {
+          "title": "Native Development",
+          "description": "Apps optimized for maximum performance on iOS and Android."
+        },
+        "hybrid": {
+          "title": "Hybrid Development",
+          "description": "Efficient cross-platform solutions with a single code base."
+        },
+        "uiux": {
+          "title": "Mobile UI/UX Design",
+          "description": "Intuitive and attractive interfaces designed specifically for mobile devices."
+        },
+        "maintenance": {
+          "title": "Maintenance and Support",
+          "description": "Continuous updates and technical support to ensure optimal operation."
+        }
+      }
+    },
+    "app": {
+      "title": "App Development",
+      "subtitle": "iOS - Android - React Native - Flutter",
+      "description": "We create cross-platform applications compatible with iOS (iPhone, iPad), Android, Web Apps and more.",
+      "heroTitle": "Desarrollo de Apps Móviles",
+      "heroSubtitle": "Soluciones Móviles de Alto Rendimiento",
+      "heroDescription": "Transformamos tu visión en una aplicación móvil potente y escalable, diseñada para captar y retener usuarios en cualquier plataforma.",
+      "features": {
+        "native": {
+          "title": "Desarrollo Nativo",
+          "description": "Aplicaciones optimizadas para el máximo rendimiento en iOS y Android."
+        },
+        "hybrid": {
+          "title": "Desarrollo Híbrido",
+          "description": "Soluciones eficientes multiplataforma con una sola base de código."
+        },
+        "uiux": {
+          "title": "Diseño UI/UX Móvil",
+          "description": "Interfaces intuitivas y atractivas diseñadas específicamente para dispositivos móviles."
+        },
+        "maintenance": {
+          "title": "Mantenimiento y Soporte",
+          "description": "Actualizaciones continuas y soporte técnico para garantizar el funcionamiento óptimo."
+        }
+      }
+    },
+    "web": {
+      "title": "Web Development",
+      "description": "We develop and design the highest quality websites, under W3C standards, ensuring everything works quickly, efficiently, simply, and without losing the 'magic' touch of design and user experience.",
+      "subtitle": "Professional Websites & E-commerce",
+      "heroTitle": "Desarrollo Web",
+      "heroSubtitle": "Sitios Web Profesionales & E-commerce",
+      "heroDescription": "Desarrollamos y diseñamos webs de la más alta calidad, bajo los estándares de W3C con la finalidad de hacer que todo funcione de manera rápida, eficiente, sencilla y sin perder el toque 'mágico' de diseño y de experiencia de usuario.",
+      "features": {
+        "responsive": {
+          "title": "Diseño Responsive",
+          "description": "Sitios web que se adaptan perfectamente a cualquier dispositivo, desde móviles hasta pantallas de escritorio."
+        },
+        "seo": {
+          "title": "Optimización SEO",
+          "description": "Implementación de mejores prácticas para posicionamiento en buscadores y mayor visibilidad online."
+        },
+        "fastLoading": {
+          "title": "Rápida Carga",
+          "description": "Desarrollo optimizado para garantizar tiempos de carga mínimos y mejor experiencia de usuario."
+        },
+        "cms": {
+          "title": "Integración CMS",
+          "description": "Sistemas de gestión de contenido personalizados para actualizar fácilmente tu web."
+        }
+      },
+      "packages": {
+        "corporate": {
+          "title": "Sitios Web Corporativos",
+          "description": "Creamos sitios web profesionales y personalizados que reflejan la identidad de tu empresa, optimizados para generar confianza y convertir visitantes en clientes potenciales.",
+          "features": [
+            "Diseño personalizado",
+            "Optimización SEO",
+            "Certificado SSL",
+            "Integración con redes sociales"
+          ]
+        },
+        "ecommerce": {
+          "title": "E-commerce & Tiendas Online",
+          "description": "Desarrollamos plataformas de comercio electrónico completas con todas las herramientas necesarias para vender en línea: catálogo de productos, carrito, pasarelas de pago y gestión de inventario.",
+          "features": [
+            "Múltiples pasarelas de pago",
+            "Gestión de inventario",
+            "Facturación electrónica",
+            "Informes de ventas"
+          ]
+        },
+        "landing": {
+          "title": "Landing Pages de Conversión",
+          "description": "Diseñamos páginas de aterrizaje orientadas a resultados que transforman visitantes en leads o ventas mediante un diseño estratégico y llamadas a la acción efectivas.",
+          "features": [
+            "Tests A/B",
+            "Formularios optimizados",
+            "Integración con CRM",
+            "Análisis de conversión"
+          ]
+        },
+        "webapp": {
+          "title": "Aplicaciones Web Personalizadas",
+          "description": "Creamos soluciones web a medida para necesidades específicas de tu negocio con funcionalidades avanzadas, bases de datos y APIs personalizadas para automatizar procesos.",
+          "features": [
+            "Arquitectura escalable",
+            "Conexión con APIs",
+            "Autenticación segura",
+            "Backend personalizado"
+          ]
+        },
+        "optimization": {
+          "title": "Optimización de Rendimiento Web",
+          "description": "Mejoramos la velocidad de carga y el rendimiento de sitios web existentes para mejorar la experiencia del usuario, la tasa de conversión y el posicionamiento en buscadores.",
+          "features": [
+            "Mejora de Core Web Vitals",
+            "Optimización de imágenes",
+            "Minificación de recursos",
+            "Caché avanzado"
+          ]
+        },
+        "maintenance": {
+          "title": "Mantenimiento y Soporte Web",
+          "description": "Ofrecemos servicios continuos para mantener tu sitio actualizado, seguro y funcionando correctamente, con planes de mantenimiento preventivo y soporte técnico especializado.",
+          "features": [
+            "Actualizaciones de seguridad",
+            "Copias de seguridad",
+            "Monitoreo 24/7",
+            "Soporte técnico prioritario"
+          ]
+        }
+      }
+    },
+    "web-development": {
+      "title": "Web Development",
+      "description": "We develop and design high-quality websites, under W3C standards to ensure everything works quickly, efficiently, simply and without losing the touch of design and user experience.",
+      "subtitle": "HTML5 - CSS3 - Javascript - PHP - MySQL",
+      "heroTitle": "Web Development",
+      "heroSubtitle": "Professional Websites & E-commerce",
+      "heroDescription": "We develop and design high-quality websites, under W3C standards to ensure everything works quickly, efficiently, simply and without losing the 'magic' touch of design and user experience.",
+      "features": {
+        "responsive": {
+          "title": "Responsive Design",
+          "description": "Websites that adapt perfectly to any device, from mobiles to desktop screens."
+        },
+        "seo": {
+          "title": "SEO Optimization",
+          "description": "Implementation of best practices for search engine positioning and greater online visibility."
+        },
+        "fastLoading": {
+          "title": "Fast Loading",
+          "description": "Development optimized to ensure minimum load times and better user experience."
+        },
+        "cms": {
+          "title": "CMS Integration",
+          "description": "Customized content management systems to easily update your website."
+        }
+      },
+      "aiRescue": {
+        "badge": "¿PROYECTO AI ATASCADO?",
+        "titlePart1": "¿Generaste tu Web con",
+        "titlePart2": "IA",
+        "titlePart3": "pero no funciona?",
+        "description": "Si creaste tu proyecto con ChatGPT, Claude, Cursor u otra herramienta de IA pero el código tiene errores, no despliega o necesita mejoras profesionales, nosotros lo rescatamos y completamos.",
+        "problems": {
+          "errors": "Código con errores",
+          "deploy": "No sabes desplegar",
+          "design": "Diseño poco profesional"
+        },
+        "stats": {
+          "time": {
+            "value": "24-48h",
+            "label": "Tiempo de rescate"
+          },
+          "projects": {
+            "value": "+150",
+            "label": "Proyectos AI rescatados"
+          },
+          "analysis": {
+            "value": "2h",
+            "label": "Análisis gratuito"
+          }
+        },
+        "cta": "RESCATAR MI PROYECTO AI",
+        "guarantee": "Sin compromiso • Garantía de 30 días"
+      },
+      "packages": {
+        "corporate": {
+          "title": "Corporate Websites",
+          "description": "We create professional and customized websites that reflect your company's identity, optimized to build trust and convert visitors into potential clients.",
+          "features": [
+            "Custom design",
+            "SEO Optimization",
+            "SSL Certificate",
+            "Social media integration"
+          ]
+        },
+        "ecommerce": {
+          "title": "E-commerce & Online Stores",
+          "description": "We develop complete e-commerce platforms with all necessary tools to sell online: product catalog, shopping cart, payment gateways and inventory management.",
+          "features": [
+            "Multiple payment gateways",
+            "Inventory management",
+            "Electronic invoicing",
+            "Sales reports"
+          ]
+        },
+        "landing": {
+          "title": "Conversion Landing Pages",
+          "description": "We design result-oriented landing pages that transform visitors into leads or sales through strategic design and effective calls to action.",
+          "features": [
+            "A/B Tests",
+            "Optimized forms",
+            "CRM Integration",
+            "Conversion analysis"
+          ]
+        },
+        "webapp": {
+          "title": "Custom Web Applications",
+          "description": "We create custom web solutions for specific business needs with advanced functionalities, databases and custom APIs to automate processes.",
+          "features": [
+            "Scalable architecture",
+            "API connection",
+            "Secure authentication",
+            "Custom backend"
+          ]
+        },
+        "optimization": {
+          "title": "Web Performance Optimization",
+          "description": "We improve load speed and performance of existing websites to improve user experience, conversion rate and SEO positioning.",
+          "features": [
+            "Core Web Vitals improvement",
+            "Image optimization",
+            "Resource minification",
+            "Advanced caching"
+          ]
+        },
+        "maintenance": {
+          "title": "Web Maintenance & Support",
+          "description": "We offer continuous services to keep your site updated, secure and functioning correctly, with preventive maintenance plans and specialized technical support.",
+          "features": [
+            "Security updates",
+            "Backups",
+            "24/7 Monitoring",
+            "Priority support"
+          ]
+        }
+      },
+      "packagesIntro": {
+        "badge": "NUESTROS SERVICIOS",
+        "title": "Desarrollo Web",
+        "subtitle": "Servicios",
+        "description": "Soluciones web profesionales diseñadas para impulsar tu presencia digital y maximizar resultados comerciales.",
+        "premiumBadge": "Servicio Premium",
+        "newBadge": "Nuevo",
+        "transformation": "Servicios de transformación digital para empresas",
+        "customQuestion": "¿Necesitas un servicio específico no listado?",
+        "contactUs": "Contáctanos para una solución a medida.",
+        "customCta": "Solicitar Servicio Personalizado"
+      },
+      "stack": {
+        "badge": "STACK TECNOLÓGICO",
+        "title": "Tecnologías que",
+        "subtitle": "Impulsan Resultados",
+        "description": "Integramos las herramientas más potentes y modernas para construir soluciones web robustas, escalables y de alto rendimiento."
+      }
+    },
+    "cta": {
+      "title": "Ready to boost your project with <span class=\"text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-600\">{{service}}</span>?",
+      "subtitle": "Our team of experts is ready to help you achieve your goals with customized solutions and cutting-edge technology.",
+      "button": "Request Quote",
+      "whatsapp": "Direct WhatsApp"
+    },
+    "ai-services": {
+      "title": "Artificial Intelligence",
+      "subtitle": "The Future of Your Business, Today",
+      "description": "We implement cutting-edge AI solutions that transform data into intelligent decisions. From conversational chatbots to advanced predictive systems, we bring technological innovation to the core of your company.",
+      "resultsTitle": "AI that Boosts your Business",
+      "resultsDescription": "At IzignaMx we develop Artificial Intelligence solutions that are not just advanced technology, but practical tools that solve real business problems. From intelligent automation to predictive analysis, we transform your company with AI.",
+      "solutionsTitle": "AI Solutions",
+      "implementSolution": "Implement solution",
+      "neuralNetwork": {
+        "input": "Input Layer",
+        "output": "Output",
+        "dnn": "Deep Neural Network",
+        "accuracy": "Precisión",
+        "processing": "Procesamiento"
+      },
+      "stuck": {
+        "badge": "SPECIALIZED SERVICE",
+        "title": "Is Your AI Project Stuck?",
+        "description": "If you created a web project with ChatGPT, Claude, Cursor or another AI tool but it is incomplete, does not work or you need professional improvements, we have the perfect solution.",
+        "rescued": "Rescued AI Projects",
+        "delivery": "Delivery Time",
+        "success": "Rescue Success",
+        "errorCode": "Code with errors",
+        "deployIssues": "Deployment issues",
+        "nonProDesign": "Non-professional design",
+        "freeAnalysis": "FREE Analysis in 2h",
+        "noCommitment": "No commitment • Guaranteed response"
+      },
+      "methodology": {
+        "title": "AI Implementation Process",
+        "description": "Proven methodology to guarantee successful AI implementations in your organization.",
+        "step1": {
+          "title": "Descubrimiento",
+          "desc": "Identificamos oportunidades de IA en tu negocio."
+        },
+        "step2": {
+          "title": "Diseño",
+          "desc": "Creamos una arquitectura de solución a medida."
+        },
+        "step3": {
+          "title": "Desarrollo",
+          "desc": "Construimos y entrenamos los modelos de IA."
+        },
+        "step4": {
+          "title": "Implementación",
+          "desc": "Integramos la solución en tu ecosistema."
+        },
+        "step5": {
+          "title": "Optimización",
+          "desc": "Mejora continua basada en rendimiento."
+        }
+      },
+      "industries": {
+        "title": "Use Cases by Industry",
+        "retail": {
+          "title": "Retail",
+          "items": [
+            "Personalización",
+            "Gestión de inventario",
+            "Precios dinámicos"
+          ]
+        },
+        "finance": {
+          "title": "Finanzas",
+          "items": [
+            "Detección de fraude",
+            "Trading algorítmico",
+            "Análisis crediticio"
+          ]
+        },
+        "health": {
+          "title": "Salud",
+          "items": [
+            "Diagnóstico asistido",
+            "Descubrimiento de fármacos",
+            "Gestión hospitalaria"
+          ]
+        }
+      },
+      "solutions": {
+        "chatbots": {
+          "title": "Chatbots & Asistentes Virtuales",
+          "desc": "Atención al cliente 24/7 y automatización de respuestas.",
+          "features": [
+            "Procesamiento de Lenguaje Natural (NLP)",
+            "Aprendizaje Continuo",
+            "Integración multicanal"
+          ],
+          "apps": [
+            "Servicio al cliente",
+            "Soporte técnico",
+            "Generación de leads"
+          ]
+        },
+        "ml": {
+          "title": "Machine Learning",
+          "desc": "Algoritmos que aprenden de tus datos para predecir tendencias.",
+          "features": [
+            "Modelos predictivos",
+            "Clasificación de datos",
+            "Detección de patrones"
+          ],
+          "apps": [
+            "Análisis de riesgo",
+            "Recomendaciones de productos",
+            "Optimización de procesos"
+          ]
+        },
+        "cv": {
+          "title": "Visión por Computadora",
+          "desc": "Análisis y reconocimiento de imágenes y videos.",
+          "features": [
+            "Reconocimiento facial",
+            "Detección de objetos",
+            "Control de calidad automatizado"
+          ],
+          "apps": [
+            "Seguridad",
+            "Manufactura",
+            "Retail"
+          ]
+        },
+        "nlp": {
+          "title": "Procesamiento de Lenguaje Natural",
+          "desc": "Análisis y comprensión del lenguaje humano.",
+          "features": [
+            "Análisis de sentimientos",
+            "Traducción automática",
+            "Resumen de textos"
+          ],
+          "apps": [
+            "Monitorización de marca",
+            "Análisis de feedback",
+            "Comunicación global"
+          ]
+        },
+        "recommenders": {
+          "title": "Sistemas de Recomendación",
+          "desc": "Sugerencias personalizadas para aumentar ventas y engagement.",
+          "features": [
+            "Filtrado colaborativo",
+            "Recomendaciones basadas en contenido",
+            "Personalización en tiempo real"
+          ],
+          "apps": [
+            "E-commerce",
+            "Streaming",
+            "Contenido personalizado"
+          ]
+        },
+        "rpa": {
+          "title": "Automatización Robótica de Procesos (RPA)",
+          "desc": "Automatización de tareas repetitivas y basadas en reglas.",
+          "features": [
+            "Bots de software",
+            "Integración de sistemas",
+            "Reducción de errores"
+          ],
+          "apps": [
+            "Finanzas",
+            "Recursos Humanos",
+            "Logística"
+          ]
+        }
+      },
+      "benefits": {
+        "totalTransparency": {
+          "title": "Transparencia Total",
+          "description": "Todas las transacciones son públicas y verificables en la blockchain."
+        },
+        "advancedSecurity": {
+          "title": "Seguridad Avanzada",
+          "description": "Criptografía de nivel militar y arquitectura descentralizada."
+        },
+        "eliminateIntermediaries": {
+          "title": "Eliminación de Intermediarios",
+          "description": "Transacciones directas sin necesidad de terceros de confianza."
+        },
+        "smartAutomation": {
+          "title": "Automatización Inteligente",
+          "description": "Contratos que se ejecutan automáticamente cuando se cumplen las condiciones."
+        }
+      },
+      "readyToTransform": "Ready to transform your business with AI?",
+      "startAiProject": "Start my AI Project",
+      "consultancyDescription": "Consult with our AI experts.",
+      "techTitle": "Technologies",
+      "appsTitle": "Applications",
+      "faq": {
+        "title": "Frequently Asked Questions about <span class=\"text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-fuchsia-600\">Artificial Intelligence</span>",
+        "beneficiaries": {
+          "q": "What type of company can benefit from AI?",
+          "a": "Any company can benefit from AI, from startups to corporations. We apply AI in retail (demand prediction), finance (fraud detection), health (diagnostics), manufacturing (quality control) and services (chatbots). The key is identifying repetitive processes or complex analysis that AI can optimize."
+        },
+        "dataVolume": {
+          "q": "Do I need large volumes of data to implement AI?",
+          "a": "Not always. While some ML models require large datasets, many AI solutions work with moderate data. We can implement transfer learning, pre-trained models or data augmentation techniques. We also help structure data collection for future ambitious projects."
+        },
+        "privacy": {
+          "q": "How do you guarantee data privacy and security?",
+          "a": "We implement strict security protocols: end-to-end encryption, anonymization of sensitive data, GDPR/CCPA compliance, regular audits and on-premise models when required. We sign NDAs and follow MLOps best practices to guarantee information integrity and privacy."
+        },
+        "maintenance": {
+          "q": "Do AI models need updates over time?",
+          "a": "Yes, AI models require continuous maintenance to maintain their accuracy. We offer services of: periodic retraining with new data, drift/degradation monitoring, hyperparameter tuning, updates due to business changes and performance optimization. We include dashboards to monitor model KPIs in real time."
+        }
+      }
+    },
+    "hosting": {
+      "title": "Hosting",
+      "description": "We have the best hosting service, with SSD technologies, DDoS protection, OpenDNS and gzip compression to obtain a fast and secure website.",
+      "subtitle": "High Availability - SSL - Backups - 24/7 Support"
+    },
+    "cloudEnterprise": {
+      "title": "Cloud Enterprise",
+      "description": "The security of your information and databases is a priority. With cloud storage you can manage information and share it securely among members of your company."
+    },
+    "video-production": {
+      "title": "Video Production",
+      "description": "We create attractive visual content for your marketing campaigns."
+    },
+    "graphic-design": {
+      "title": "Graphic Design",
+      "subtitle": "Visual Identity that Impacts",
+      "description": "We create impactful visual designs for your brand, from logos to marketing materials."
+    },
+    "ecommerce": {
+      "title": "E-commerce & Online Stores",
+      "description": "Online stores with optimized shopping experiences"
+    },
+    "blockchain": {
+      "title": "Blockchain & Web3",
+      "description": "We develop innovative blockchain-based solutions that transform businesses and create new opportunities in the Web3 ecosystem. From DApps and smart contracts to asset tokenization and DeFi systems.",
+      "subtitle": "Decentralized Innovation",
+      "technologies": "Ethereum - Solana - Polygon - Smart Contracts - DeFi - NFTs - Tokenization - Web3.js - Solidity"
+    },
+    "digitalMarketing": {
+      "title": "Digital Marketing",
+      "subtitle": "SEO - SEM - Social Media",
+      "servicesTitle": "Nuestros Servicios de Marketing",
+      "description": "Strategic solutions to boost your brand and sales.",
+      "resultsTitle": "Marketing que Genera Resultados Reales",
+      "resultsDescription": "En IzignaMx no hacemos marketing tradicional. Creamos ecosistemas digitales completos que atraen, convierten y retienen clientes. Cada estrategia está respaldada por datos, optimizada para performance y diseñada para escalar tu negocio.",
+      "dashboard": {
+        "title": "Marketing Dashboard",
+        "conversions": "Conversiones",
+        "roi": "ROI",
+        "performance": "Rendimiento de Campañas",
+        "realTime": "Actividad en Tiempo Real",
+        "newConversion": "Nueva conversión",
+        "qualifiedLead": "Lead calificado desde Google Ads",
+        "emailOpened": "Email abierto: Campaña Black Friday"
+      },
+      "funnel": {
+        "title": "El Funnel de Marketing Perfecto",
+        "description": "Optimizamos cada etapa del customer journey para maximizar conversiones y valor de vida del cliente.",
+        "awareness": "Conciencia",
+        "awarenessDesc": "Atraemos visitantes cualificados",
+        "interest": "Interés",
+        "interestDesc": "Generamos interés genuino",
+        "consideration": "Consideración",
+        "considerationDesc": "Nutrimos con contenido valioso",
+        "conversion": "Conversión",
+        "conversionDesc": "Convertimos en clientes",
+        "loyalty": "Lealtad",
+        "loyaltyDesc": "Fidelizamos y generamos advocates"
+      },
+      "resultsSpeak": {
+        "title": "Resultados que Hablan por Sí Mismos",
+        "desc": "Nuestras estrategias de marketing digital han ayudado a más de 100 empresas a multiplicar sus ventas online.",
+        "leadsIncrease": "+250% Aumento en leads",
+        "avgRoi": "4.5x ROI promedio",
+        "costReduction": "-45% Costo por conversión",
+        "happyClients": "98% Clientes satisfechos"
+      },
+      "readyToMultiply": "¿Listo para multiplicar tus ventas?",
+      "startStrategy": "Iniciar Estrategia",
+      "implementStrategy": "Implementar Estrategia",
+      "services": {
+        "sem": {
+          "title": "SEM",
+          "desc": "Campañas de búsqueda, display y shopping optimizadas para la máxima conversión.",
+          "metrics": [
+            "CTR promedio: 8.5%",
+            "Reducción CPC: 35%",
+            "ROAS: 4.2x"
+          ],
+          "features": [
+            "Search Ads",
+            "Shopping Ads",
+            "Red de Display",
+            "YouTube Ads"
+          ]
+        },
+        "social": {
+          "title": "Social Media",
+          "desc": "Estrategias integrales en redes sociales que construyen comunidades y generan ventas.",
+          "metrics": [
+            "Engagement: +250%",
+            "Alcance: +180%",
+            "Conversiones: +65%"
+          ],
+          "features": [
+            "Facebook & Instagram",
+            "LinkedIn B2B",
+            "TikTok Marketing",
+            "Community Management"
+          ]
+        },
+        "seo": {
+          "title": "SEO",
+          "desc": "Posicionamiento orgánico sostenible que atrae tráfico cualificado constantemente.",
+          "metrics": [
+            "Top 3 rankings: 85%",
+            "Tráfico orgánico: +150%",
+            "SEO Leads: +200%"
+          ],
+          "features": [
+            "SEO Técnico",
+            "SEO Content",
+            "Link Building",
+            "SEO Local"
+          ]
+        },
+        "email": {
+          "title": "Email Marketing",
+          "desc": "Automatizaciones y campañas que nutren leads y fidelizan clientes.",
+          "metrics": [
+            "Tasa de apertura: 32%",
+            "CTR: 12%",
+            "ROI: 42:1"
+          ],
+          "features": [
+            "Automatización",
+            "Segmentación",
+            "A/B Testing",
+            "Nurturing"
+          ]
+        },
+        "content": {
+          "title": "Content Marketing",
+          "desc": "Contenido estratégico que posiciona tu marca como líder de opinión.",
+          "metrics": [
+            "Engagement: +180%",
+            "Shares: +220%",
+            "Leads: +95%"
+          ],
+          "features": [
+            "Estrategia de Blog",
+            "Video Marketing",
+            "Infografías",
+            "Podcasts"
+          ]
+        },
+        "analytics": {
+          "title": "Marketing Analytics",
+          "desc": "Medición y optimización continua para maximizar resultados.",
+          "metrics": [
+            "Precisión: 97%",
+            "Insights: 150+/mes",
+            "Optimización: Continua"
+          ],
+          "features": [
+            "Setup GA4",
+            "Dashboards",
+            "Atribución",
+            "Reportes Custom"
+          ]
+        },
+        "ai-services": {
+          "title": "Soluciones de IA",
+          "description": "Transforma tu negocio con soluciones automatizadas inteligentes.",
+          "techTitle": "Nuestras Tecnologías",
+          "appsTitle": "Aplicaciones",
+          "readyToTransform": "¿Listo para transformar tu negocio?",
+          "startAiProject": "Iniciar Proyecto IA",
+          "consultancyDescription": "Consultoría experta para implementación de IA.",
+          "benefits": {
+            "smartAutomation": {
+              "title": "Automatización Inteligente",
+              "description": "Automatiza tareas complejas eficientemente."
+            },
+            "totalTransparency": {
+              "title": "Transparencia Total",
+              "description": "Decisiones de IA claras y explicables."
+            },
+            "eliminateIntermediaries": {
+              "title": "Eficiencia Directa",
+              "description": "Elimina pasos innecesarios."
+            },
+            "advancedSecurity": {
+              "title": "Seguridad Avanzada",
+              "description": "Implementación segura de IA."
+            }
+          },
+          "neuralNetwork": {
+            "accuracy": "Precisión",
+            "processing": "Velocidad de Procesamiento"
+          },
+          "solutions": {
+            "chatbots": {
+              "title": "Chatbots Inteligentes",
+              "desc": "Agentes de atención al cliente 24/7.",
+              "features": [
+                "PNL",
+                "Soporte 24/7"
+              ],
+              "apps": [
+                "Atención al Cliente",
+                "Ventas"
+              ]
+            },
+            "ml": {
+              "title": "Machine Learning",
+              "desc": "Modelos predictivos y análisis.",
+              "features": [
+                "Predicción",
+                "Clustering"
+              ],
+              "apps": [
+                "Pronósticos",
+                "Segmentación"
+              ]
+            },
+            "cv": {
+              "title": "Visión por Computadora",
+              "desc": "Análisis de imagen y video.",
+              "features": [
+                "Detección de Objetos"
+              ],
+              "apps": [
+                "Seguridad",
+                "Control de Calidad"
+              ]
+            },
+            "nlp": {
+              "title": "PNL",
+              "desc": "Procesamiento de Lenguaje Natural.",
+              "features": [
+                "Análisis de Sentimiento"
+              ],
+              "apps": [
+                "Feedback de Clientes"
+              ]
+            },
+            "recommenders": {
+              "title": "Sistemas de Recomendación",
+              "desc": "Sugerencias personalizadas.",
+              "features": [
+                "Personalización"
+              ],
+              "apps": [
+                "Comercio Electrónico"
+              ]
+            },
+            "rpa": {
+              "title": "RPA",
+              "desc": "Automatización Robótica de Procesos.",
+              "features": [
+                "Automatización de Flujos"
+              ],
+              "apps": [
+                "Entrada de Datos"
+              ]
+            }
+          },
+          "methodology": {
+            "title": "Metodología",
+            "description": "Nuestro proceso de implementación de IA.",
+            "step1": {
+              "title": "Análisis",
+              "desc": "Recopilación de requisitos."
+            },
+            "step2": {
+              "title": "Estrategia",
+              "desc": "Definición del enfoque."
+            },
+            "step3": {
+              "title": "Desarrollo",
+              "desc": "Construcción del modelo."
+            },
+            "step4": {
+              "title": "Entrenamiento",
+              "desc": "Entrenamiento y ajuste."
+            },
+            "step5": {
+              "title": "Despliegue",
+              "desc": "Lanzamiento a producción."
+            }
+          },
+          "industries": {
+            "title": "Industrias",
+            "retail": {
+              "title": "Retail",
+              "items": [
+                "Inventario",
+                "Personalización"
+              ]
+            },
+            "finance": {
+              "title": "Finanzas",
+              "items": [
+                "Detección de Fraude",
+                "Trading"
+              ]
+            },
+            "health": {
+              "title": "Salud",
+              "items": [
+                "Diagnóstico",
+                "Atención al Paciente"
+              ]
+            }
+          },
+          "faq": {
+            "title": "Preguntas Frecuentes",
+            "beneficiaries": {
+              "q": "¿Quién se beneficia?",
+              "a": "Todos."
+            },
+            "dataVolume": {
+              "q": "¿Datos necesarios?",
+              "a": "Depende del modelo."
+            },
+            "privacy": {
+              "q": "¿Es seguro?",
+              "a": "Sí, priorizamos la seguridad."
+            },
+            "maintenance": {
+              "q": "¿Mantenimiento?",
+              "a": "Monitoreo continuo incluido."
+            }
+          },
+          "stuck": {
+            "rescued": "Rescatado",
+            "delivery": "Entrega",
+            "success": "Éxito",
+            "errorCode": "Código de Error",
+            "deployIssues": "Problemas de Despliegue",
+            "nonProDesign": "Diseño no Profesional",
+            "freeAnalysis": "Análisis Gratuito",
+            "noCommitment": "Sin Compromiso"
+          }
+        }
+      },
+      "faq": {
+        "title": "Marketing Digital",
+        "question1": {
+          "question": "¿Cuánto tiempo toma ver resultados en marketing digital?",
+          "answer": "Los resultados en marketing digital varían según el canal y estrategia. Google Ads puede generar resultados inmediatos, mientras que SEO requiere 3-6 meses. Las redes sociales muestran engagement en 1-2 semanas. Siempre establecemos expectativas claras y KPIs específicos desde el inicio."
+        },
+        "question2": {
+          "question": "¿Cuál es la inversión mínima recomendada en marketing digital?",
+          "answer": "La inversión depende de tus objetivos y mercado. Recomendamos un mínimo de $2,000 USD mensuales para campañas efectivas (incluye gestión + presupuesto publicitario). Ofrecemos paquetes escalables desde startups hasta empresas Fortune 500. Agenda una consultoría gratuita para una estrategia personalizada."
+        },
+        "question3": {
+          "question": "¿Cómo miden el éxito de las campañas de marketing?",
+          "answer": "Establecemos KPIs específicos desde el inicio: ROI, CAC, LTV, conversiones, tráfico cualificado y engagement. Utilizamos herramientas como Google Analytics, Facebook Analytics y dashboards personalizados. Reportes mensuales transparentes muestran performance real vs. objetivos establecidos."
+        },
+        "question4": {
+          "question": "¿Trabajan con empresas de todos los tamaños?",
+          "answer": "Sí, trabajamos desde startups hasta corporaciones multinacionales. Adaptamos estrategias y presupuestos a cada realidad empresarial. Startups reciben enfoques ágiles y cost-effective, mientras que grandes empresas obtienen estrategias omnicanal complejas. La clave es maximizar ROI independientemente del tamaño."
+        }
+      },
+      "benefits": {
+        "totalTransparency": {
+          "title": "Transparencia Total",
+          "description": "Todas las transacciones son públicas y verificables en la blockchain."
+        },
+        "advancedSecurity": {
+          "title": "Seguridad Avanzada",
+          "description": "Criptografía de nivel militar y arquitectura descentralizada."
+        },
+        "eliminateIntermediaries": {
+          "title": "Eliminación de Intermediarios",
+          "description": "Transacciones directas sin necesidad de terceros de confianza."
+        },
+        "smartAutomation": {
+          "title": "Automatización Inteligente",
+          "description": "Contratos que se ejecutan automáticamente cuando se cumplen las condiciones."
+        }
+      }
+    },
+    "seo": {
+      "heroTitle": "Posicionamiento SEO",
+      "heroSubtitle": "Optimización para Motores de Búsqueda",
+      "heroDescription": "Mejoramos tu visibilidad en buscadores para atraer más tráfico orgánico, convertir visitas en clientes y superar a tu competencia con estrategias éticas y efectivas.",
+      "title": "SEO Optimization",
+      "subtitle": "Improve your online visibility and attract more organic clients",
+      "description": "Web positioning strategies based on data and measurable results to dominate search engines.",
+      "methodology": {
+        "badge": "METODOLOGÍA",
+        "title": "Our Methodology",
+        "description": "Seguimos un enfoque estructurado y probado para garantizar el éxito en cada proyecto de SEO.",
+        "step1": {
+          "title": "Analysis",
+          "desc": "Deep evaluation of your site and competition."
+        },
+        "step2": {
+          "title": "Strategy",
+          "desc": "Keyword definition and action plan."
+        },
+        "step3": {
+          "title": "Technical Optimization",
+          "desc": "Error correction and performance improvements."
+        },
+        "step4": {
+          "title": "Content",
+          "desc": "Creation and optimization of relevant content."
+        },
+        "step5": {
+          "title": "Authority",
+          "desc": "Link building strategies and external presence."
+        },
+        "step6": {
+          "title": "Monitoring",
+          "desc": "Continuous tracking and strategy adjustments."
+        }
+      },
+      "plansTitle": "Our SEO Plans",
+      "whyChoose": "Why choose us?",
+      "resultsMeasurable": {
+        "title": "Measurable Results",
+        "desc": "Detailed and transparent reports on your growth."
+      },
+      "updatedMethodology": {
+        "title": "Updated Methodology",
+        "desc": "We constantly adapt to algorithm changes."
+      },
+      "specializedTeam": {
+        "title": "Specialized Team",
+        "desc": "Experts in technical, on-page, and off-page SEO."
+      },
+      "advancedTechnical": {
+        "title": "Advanced Technical SEO",
+        "desc": "Deep optimizations for maximum performance."
+      },
+      "qualityContent": {
+        "title": "Quality Content",
+        "desc": "Creation of relevant content that attracts and converts."
+      },
+      "ethicalStrategies": {
+        "title": "Ethical Strategies",
+        "desc": "White Hat techniques that guarantee sustainable results."
+      },
+      "requestConsultancy": "Request Consultancy",
+      "plans": {
+        "audit": {
+          "title": "SEO Audit",
+          "desc": "Complete analysis of your website's current state.",
+          "price": "Consult",
+          "features": [
+            "Technical analysis",
+            "Content review",
+            "Competitor analysis",
+            "Error report"
+          ]
+        },
+        "onpage": {
+          "title": "On-Page SEO",
+          "desc": "Internal optimization of your website.",
+          "price": "From $5,000 MXN",
+          "features": [
+            "Meta tags optimization",
+            "Speed improvement",
+            "URL structure",
+            "Image optimization"
+          ]
+        },
+        "offpage": {
+          "title": "Off-Page SEO",
+          "desc": "External authority and reputation.",
+          "price": "From $7,000 MXN",
+          "features": [
+            "Quality link building",
+            "Reputation management",
+            "Local directories",
+            "Brand mentions"
+          ]
+        },
+        "local": {
+          "title": "Local SEO",
+          "desc": "Positioning in your geographic area.",
+          "price": "From $4,000 MXN",
+          "features": [
+            "Google My Business",
+            "Local citations",
+            "Reviews and ratings",
+            "Map optimization"
+          ]
+        }
+      }
+    },
+    "digital-marketing": {
+      "title": "Digital Marketing",
+      "subtitle": "Strategies that generate results",
+      "servicesTitle": "Our Services",
+      "description": "Boost your brand with data-driven digital marketing strategies focused on return on investment.",
+      "resultsTitle": "Marketing Results",
+      "resultsDescription": "Our strategies are designed to maximize your ROI and generate sustainable growth.",
+      "dashboard": {
+        "title": "Dashboard",
+        "conversions": "Conversions",
+        "roi": "ROI",
+        "performance": "Performance",
+        "realTime": "Real Time",
+        "newConversion": "New Conversion",
+        "qualifiedLead": "Qualified Lead",
+        "emailOpened": "Email Opened"
+      },
+      "funnel": {
+        "title": "Conversion Funnel",
+        "description": "We optimize every stage of the customer journey to maximize conversions.",
+        "awareness": "Awareness",
+        "awarenessDesc": "Attracting qualified traffic.",
+        "interest": "Interest",
+        "interestDesc": "Lead capture and nurturing.",
+        "consideration": "Consideration",
+        "considerationDesc": "Value proposition and differentiation.",
+        "conversion": "Conversion",
+        "conversionDesc": "Closing sales and transactions.",
+        "loyalty": "Loyalty",
+        "loyaltyDesc": "Retention and repurchase."
+      },
+      "resultsSpeak": {
+        "title": "Results That Speak",
+        "desc": "Real metrics from our most successful clients.",
+        "leadsIncrease": "Leads Increase",
+        "avgRoi": "Average ROI",
+        "costReduction": "Cost Reduction",
+        "happyClients": "Happy Clients"
+      },
+      "readyToMultiply": "Ready to multiply your sales?",
+      "startStrategy": "Start Strategy",
+      "services": {
+        "sem": {
+          "title": "SEM & Advertising",
+          "desc": "Paid campaigns on Google and social networks.",
+          "metrics": [
+            "CPC",
+            "CTR",
+            "CPA"
+          ],
+          "features": [
+            "Precise segmentation",
+            "Dynamic ads",
+            "Remarketing"
+          ]
+        },
+        "social": {
+          "title": "Social Media",
+          "desc": "Community management and growth.",
+          "metrics": [
+            "Engagement",
+            "Reach",
+            "Followers"
+          ],
+          "features": [
+            "Editorial calendar",
+            "Post design",
+            "Interaction"
+          ]
+        },
+        "seo": {
+          "title": "SEO",
+          "desc": "Organic positioning in search engines.",
+          "metrics": [
+            "Ranking",
+            "Traffic",
+            "Authority"
+          ],
+          "features": [
+            "Technical audit",
+            "Link building",
+            "Content"
+          ]
+        },
+        "email": {
+          "title": "Email Marketing",
+          "desc": "Automated email campaigns.",
+          "metrics": [
+            "Open rate",
+            "Clicks",
+            "Conversion"
+          ],
+          "features": [
+            "Automation",
+            "Segmentation",
+            "Responsive design"
+          ]
+        },
+        "content": {
+          "title": "Content Marketing",
+          "desc": "Creating value for your audience.",
+          "metrics": [
+            "Time on page",
+            "Shares",
+            "Leads"
+          ],
+          "features": [
+            "Blogs",
+            "E-books",
+            "Video"
+          ]
+        },
+        "analytics": {
+          "title": "Web Analytics",
+          "desc": "Data measurement and analysis.",
+          "metrics": [
+            "Bounce rate",
+            "Conversion",
+            "Funnel"
+          ],
+          "features": [
+            "Google Analytics",
+            "Tag Manager",
+            "Data Studio"
+          ]
+        },
+        "ai-services": {
+          "title": "Soluciones de IA",
+          "description": "Transforma tu negocio con soluciones automatizadas inteligentes.",
+          "techTitle": "Nuestras Tecnologías",
+          "appsTitle": "Aplicaciones",
+          "readyToTransform": "¿Listo para transformar tu negocio?",
+          "startAiProject": "Iniciar Proyecto IA",
+          "consultancyDescription": "Consultoría experta para implementación de IA.",
+          "benefits": {
+            "smartAutomation": {
+              "title": "Automatización Inteligente",
+              "description": "Automatiza tareas complejas eficientemente."
+            },
+            "totalTransparency": {
+              "title": "Transparencia Total",
+              "description": "Decisiones de IA claras y explicables."
+            },
+            "eliminateIntermediaries": {
+              "title": "Eficiencia Directa",
+              "description": "Elimina pasos innecesarios."
+            },
+            "advancedSecurity": {
+              "title": "Seguridad Avanzada",
+              "description": "Implementación segura de IA."
+            }
+          },
+          "neuralNetwork": {
+            "accuracy": "Precisión",
+            "processing": "Velocidad de Procesamiento"
+          },
+          "solutions": {
+            "chatbots": {
+              "title": "Chatbots Inteligentes",
+              "desc": "Agentes de atención al cliente 24/7.",
+              "features": [
+                "PNL",
+                "Soporte 24/7"
+              ],
+              "apps": [
+                "Atención al Cliente",
+                "Ventas"
+              ]
+            },
+            "ml": {
+              "title": "Machine Learning",
+              "desc": "Modelos predictivos y análisis.",
+              "features": [
+                "Predicción",
+                "Clustering"
+              ],
+              "apps": [
+                "Pronósticos",
+                "Segmentación"
+              ]
+            },
+            "cv": {
+              "title": "Visión por Computadora",
+              "desc": "Análisis de imagen y video.",
+              "features": [
+                "Detección de Objetos"
+              ],
+              "apps": [
+                "Seguridad",
+                "Control de Calidad"
+              ]
+            },
+            "nlp": {
+              "title": "PNL",
+              "desc": "Procesamiento de Lenguaje Natural.",
+              "features": [
+                "Análisis de Sentimiento"
+              ],
+              "apps": [
+                "Feedback de Clientes"
+              ]
+            },
+            "recommenders": {
+              "title": "Sistemas de Recomendación",
+              "desc": "Sugerencias personalizadas.",
+              "features": [
+                "Personalización"
+              ],
+              "apps": [
+                "Comercio Electrónico"
+              ]
+            },
+            "rpa": {
+              "title": "RPA",
+              "desc": "Automatización Robótica de Procesos.",
+              "features": [
+                "Automatización de Flujos"
+              ],
+              "apps": [
+                "Entrada de Datos"
+              ]
+            }
+          },
+          "methodology": {
+            "title": "Metodología",
+            "description": "Nuestro proceso de implementación de IA.",
+            "step1": {
+              "title": "Análisis",
+              "desc": "Recopilación de requisitos."
+            },
+            "step2": {
+              "title": "Estrategia",
+              "desc": "Definición del enfoque."
+            },
+            "step3": {
+              "title": "Desarrollo",
+              "desc": "Construcción del modelo."
+            },
+            "step4": {
+              "title": "Entrenamiento",
+              "desc": "Entrenamiento y ajuste."
+            },
+            "step5": {
+              "title": "Despliegue",
+              "desc": "Lanzamiento a producción."
+            }
+          },
+          "industries": {
+            "title": "Industrias",
+            "retail": {
+              "title": "Retail",
+              "items": [
+                "Inventario",
+                "Personalización"
+              ]
+            },
+            "finance": {
+              "title": "Finanzas",
+              "items": [
+                "Detección de Fraude",
+                "Trading"
+              ]
+            },
+            "health": {
+              "title": "Salud",
+              "items": [
+                "Diagnóstico",
+                "Atención al Paciente"
+              ]
+            }
+          },
+          "faq": {
+            "title": "Preguntas Frecuentes",
+            "beneficiaries": {
+              "q": "¿Quién se beneficia?",
+              "a": "Todos."
+            },
+            "dataVolume": {
+              "q": "¿Datos necesarios?",
+              "a": "Depende del modelo."
+            },
+            "privacy": {
+              "q": "¿Es seguro?",
+              "a": "Sí, priorizamos la seguridad."
+            },
+            "maintenance": {
+              "q": "¿Mantenimiento?",
+              "a": "Monitoreo continuo incluido."
+            }
+          },
+          "stuck": {
+            "rescued": "Rescatado",
+            "delivery": "Entrega",
+            "success": "Éxito",
+            "errorCode": "Código de Error",
+            "deployIssues": "Problemas de Despliegue",
+            "nonProDesign": "Diseño no Profesional",
+            "freeAnalysis": "Análisis Gratuito",
+            "noCommitment": "Sin Compromiso"
+          }
+        }
+      },
+      "implementStrategy": "Implement Strategy",
+      "faq": {
+        "title": "Marketing Digital",
+        "question1": {
+          "question": "¿Cuánto tiempo toma ver resultados en marketing digital?",
+          "answer": "Los resultados en marketing digital varían según el canal y estrategia. Google Ads puede generar resultados inmediatos, mientras que SEO requiere 3-6 meses. Las redes sociales muestran engagement en 1-2 semanas. Siempre establecemos expectativas claras y KPIs específicos desde el inicio."
+        },
+        "question2": {
+          "question": "¿Cuál es la inversión mínima recomendada en marketing digital?",
+          "answer": "La inversión depende de tus objetivos y mercado. Recomendamos un mínimo de $2,000 USD mensuales para campañas efectivas (incluye gestión + presupuesto publicitario). Ofrecemos paquetes escalables desde startups hasta empresas Fortune 500. Agenda una consultoría gratuita para una estrategia personalizada."
+        },
+        "question3": {
+          "question": "¿Cómo miden el éxito de las campañas de marketing?",
+          "answer": "Establecemos KPIs específicos desde el inicio: ROI, CAC, LTV, conversiones, tráfico cualificado y engagement. Utilizamos herramientas como Google Analytics, Facebook Analytics y dashboards personalizados. Reportes mensuales transparentes muestran performance real vs. objetivos establecidos."
+        },
+        "question4": {
+          "question": "¿Trabajan con empresas de todos los tamaños?",
+          "answer": "Sí, trabajamos desde startups hasta corporaciones multinacionales. Adaptamos estrategias y presupuestos a cada realidad empresarial. Startups reciben enfoques ágiles y cost-effective, mientras que grandes empresas obtienen estrategias omnicanal complejas. La clave es maximizar ROI independientemente del tamaño."
+        }
+      },
+      "benefits": {
+        "totalTransparency": {
+          "title": "Total Transparency",
+          "description": "Full access to accounts and real-time reports."
+        },
+        "advancedSecurity": {
+          "title": "Advanced Security",
+          "description": "Data and ad account protection."
+        },
+        "eliminateIntermediaries": {
+          "title": "No Intermediaries",
+          "description": "Direct dealing with specialists."
+        },
+        "smartAutomation": {
+          "title": "Smart Automation",
+          "description": "Use of technology to optimize processes."
+        }
+      }
+    },
+    "premiumBadge": "Premium Service",
+    "requestProposal": "Request Proposal",
+    "methodologyBadge": "METHODOLOGY",
+    "methodologyTitle": "Our Web Development Process",
+    "methodologyDescription": "We follow a structured methodology to ensure high-quality websites that meet your business objectives.",
+    "requestQuote": "Request Quote",
+    "startProjectNow": "Start Project Now",
+    "viewTechnologies": "View technologies",
+    "iot": {
+      "title": "Desarrollo IoT",
+      "description": "Desarrollamos dispositivos y sistemas IoT personalizados que conectan el mundo físico con el digital. Creamos soluciones que optimizan procesos, recopilan datos valiosos y mejoran la eficiencia operativa.",
+      "subtitle": "Arduino - Raspberry Pi - ESP32 - Sensores - Automatización"
+    },
+    "iot-development": {
+      "title": "IoT Development",
+      "description": "We develop customized IoT devices and systems that connect the physical world with the digital one. We create solutions that optimize processes, collect valuable data and improve operational efficiency.",
+      "subtitle": "Arduino - Raspberry Pi - Sensors - Connectivity"
+    },
+    "printing3d": {
+      "title": "Impresión 3D",
+      "description": "Ofrecemos servicios de impresión 3D de alta calidad para prototipos, productos finales, piezas personalizadas y proyectos creativos con tecnologías avanzadas y materiales premium.",
+      "subtitle": "Prototipado - Producción - Piezas Personalizadas - Modelos"
+    },
+    "3d-printing": {
+      "title": "3D Printing",
+      "description": "We offer high quality 3D printing services for prototypes, final products, custom parts and creative projects with advanced technologies and premium materials.",
+      "subtitle": "Prototyping - Production - Industrial Design"
+    },
+    "consulting": {
+      "title": "Consulting",
+      "description": "We offer specialized consulting services to help companies and organizations optimize their processes, implement new technologies and develop effective digital strategies.",
+      "subtitle": "Digital Transformation - Optimization - Tech Strategy",
+      "technologies": "Data Analysis - Digital Transformation - Process Optimization - Tech Strategy - Cybersecurity"
+    },
+    "modeling3d": {
+      "title": "Modelado 3D",
+      "description": "Creamos modelos 3D profesionales para visualización arquitectónica, diseño de productos, animación, videojuegos, realidad virtual y aumentada con detalle y realismo.",
+      "subtitle": "Visualización - Diseño de Productos - Personajes - Entornos",
+      "services": {
+        "architectural": {
+          "title": "Modelado Arquitectónico",
+          "description": "Creación de modelos 3D detallados de edificios, interiores y espacios urbanos para visualización y presentación."
+        },
+        "product": {
+          "title": "Diseño de Productos",
+          "description": "Modelado de productos, prototipos y conceptos para visualización, marketing y fabricación."
+        },
+        "character": {
+          "title": "Personajes y Orgánicos",
+          "description": "Creación de personajes, criaturas y modelos orgánicos para animación, videojuegos y efectos visuales."
+        },
+        "environment": {
+          "title": "Entornos Virtuales",
+          "description": "Desarrollo de escenarios y entornos inmersivos para videojuegos, realidad virtual y simulaciones."
+        },
+        "scientific": {
+          "title": "Visualización Científica",
+          "description": "Modelado de conceptos científicos, médicos y educativos para facilitar la comprensión y el aprendizaje."
+        },
+        "animation": {
+          "title": "Animación 3D",
+          "description": "Creación de modelos optimizados para animación con sistemas de rigging y controles avanzados."
+        }
+      }
+    },
+    "3d-modeling": {
+      "title": "3D Modeling",
+      "description": "We create professional 3D models for architectural visualization, product design, animation, video games, virtual and augmented reality with exceptional detail and realism.",
+      "subtitle": "Animation - Rendering - Visualization",
+      "services": {
+        "architectural": {
+          "title": "Modelado Arquitectónico",
+          "description": "Creación de modelos 3D detallados de edificios, interiores y espacios urbanos para visualización y presentación."
+        },
+        "product": {
+          "title": "Diseño de Productos",
+          "description": "Modelado de productos, prototipos y conceptos para visualización, marketing y fabricación."
+        },
+        "character": {
+          "title": "Personajes y Orgánicos",
+          "description": "Creación de personajes, criaturas y modelos orgánicos para animación, videojuegos y efectos visuales."
+        },
+        "environment": {
+          "title": "Entornos Virtuales",
+          "description": "Desarrollo de escenarios y entornos inmersivos para videojuegos, realidad virtual y simulaciones."
+        },
+        "scientific": {
+          "title": "Visualización Científica",
+          "description": "Modelado de conceptos científicos, médicos y educativos para facilitar la comprensión y el aprendizaje."
+        },
+        "animation": {
+          "title": "Animación 3D",
+          "description": "Creación de modelos optimizados para animación con sistemas de rigging y controles avanzados."
+        }
+      }
+    },
+    "cloud": {
+      "title": "Nube Empresarial",
+      "description": "La seguridad de tu información y bases de datos es una prioridad. Con almacenamiento en nube puedes administrar información y compartirla de manera segura entre miembros de tu empresa.",
+      "subtitle": "AWS - Google Cloud - Microsoft Azure - Migración",
+      "technologies": "AWS - Google Cloud - Azure - OwnCloud - Docker - Kubernetes - Virtualización"
+    },
+    "cloud-enterprise": {
+      "title": "Enterprise Cloud",
+      "description": "The security of your information and databases is a priority. With cloud storage you can manage information and share it securely among members of your company.",
+      "subtitle": "AWS - Google Cloud - Microsoft Azure - Migration",
+      "technologies": "AWS - Google Cloud - Azure - OwnCloud - Docker - Kubernetes - Virtualización"
+    },
+    "blockchainService": {
+      "pageTitle": "Blockchain & Web3 | IzignaMX - Decentralized Solutions",
+      "pageDescription": "We develop innovative blockchain solutions that revolutionize the way of doing business. From cryptocurrencies and NFTs to smart contracts and decentralized applications.",
+      "serviceInfo": {
+        "title": "Blockchain",
+        "subtitle": "Decentralized Solutions for the New Digital Economy",
+        "description": "We develop innovative blockchain solutions that revolutionize the way of doing business. From cryptocurrencies and NFTs to smart contracts and decentralized applications, we implement blockchain technology to maximize transparency, security, and efficiency for your company."
+      },
+      "benefits": {
+        "totalTransparency": {
+          "title": "Total Transparency",
+          "description": "All transactions are public and verifiable on the blockchain."
+        },
+        "advancedSecurity": {
+          "title": "Advanced Security",
+          "description": "Military-grade cryptography and decentralized architecture."
+        },
+        "eliminateIntermediaries": {
+          "title": "Elimination of Intermediaries",
+          "description": "Direct transactions without trusted third parties."
+        },
+        "smartAutomation": {
+          "title": "Smart Automation",
+          "description": "Contracts that execute automatically when conditions are met."
+        }
+      },
+      "services": {
+        "title": "Our Blockchain Services",
+        "cryptocurrency": {
+          "title": "Cryptocurrency Development",
+          "description": "We create tokens and custom cryptocurrencies for your project, including tokenomics, distribution and listing on exchanges.",
+          "features": [
+            "ERC-20/BEP-20 Tokens",
+            "Custom Tokenomics",
+            "Distribution Smart Contracts",
+            "Security Audits"
+          ]
+        },
+        "nfts": {
+          "title": "NFTs and Digital Collections",
+          "description": "We develop NFT marketplaces, unique collections and trading platforms for digital art and unique assets.",
+          "features": [
+            "ERC-721 NFT Contracts",
+            "Custom Marketplace",
+            "Metadata on IPFS",
+            "Royalty functions"
+          ]
+        },
+        "defi": {
+          "title": "DeFi and Decentralized Finance",
+          "description": "We build DeFi protocols such as decentralized exchanges, liquidity pools and lending platforms.",
+          "features": [
+            "AMM and DEX",
+            "Yield farming",
+            "Staking and governance",
+            "Liquidity pools"
+          ]
+        },
+        "smartContracts": {
+          "title": "Smart Contracts",
+          "description": "We develop secure and audited smart contracts to automate business processes and transactions.",
+          "features": [
+            "Solidity Contracts",
+            "Code Audits",
+            "Exhaustive Testing",
+            "Gas Optimization"
+          ]
+        },
+        "dapps": {
+          "title": "Decentralized dApps",
+          "description": "Fully decentralized web3 applications that work without centralized servers.",
+          "features": [
+            "Web3 Frontend",
+            "MetaMask Integration",
+            "IPFS hosting",
+            "Decentralized Architecture"
+          ]
+        },
+        "consulting": {
+          "title": "Blockchain Consulting",
+          "description": "We advise on blockchain implementation to optimize existing business processes.",
+          "features": [
+            "Feasibility Analysis",
+            "Implementation Roadmap",
+            "Technical Training",
+            "Go-to-market Strategy"
+          ]
+        }
+      },
+      "methodology": {
+        "title": "Development Methodology",
+        "subtitle": "We follow a rigorous methodology that prioritizes security and auditability in every phase of blockchain development.",
+        "steps": {
+          "analysis": {
+            "title": "Analysis and Design",
+            "description": "We evaluate requirements and design the optimal blockchain architecture"
+          },
+          "development": {
+            "title": "Development",
+            "description": "We program smart contracts and components with best practices"
+          },
+          "testing": {
+            "title": "Testing and Audit",
+            "description": "We perform exhaustive tests and security audits"
+          },
+          "deployment": {
+            "title": "Deployment",
+            "description": "We deploy on mainnet with production configurations"
+          },
+          "maintenance": {
+            "title": "Maintenance",
+            "description": "Continuous support and updates according to protocol evolution"
+          }
+        }
+      },
+      "networks": {
+        "title": "Supported Blockchain Networks",
+        "subtitle": "We work with major blockchain networks to ensure compatibility and scalability."
+      },
+      "advantages": {
+        "title": "Why choose Blockchain?",
+        "technical": {
+          "title": "Technical Advantages",
+          "immutability": "Immutability of records",
+          "decentralization": "Decentralization and 24/7 availability",
+          "transparency": "Total transparency in transactions",
+          "noFailure": "Elimination of single points of failure"
+        },
+        "business": {
+          "title": "Business Benefits",
+          "costReduction": "Operational cost reduction",
+          "eliminateIntermediaries": "Elimination of intermediaries",
+          "newModels": "New monetization models",
+          "userTrust": "Greater user trust"
+        },
+        "cta": "Ready to revolutionize your business with blockchain?",
+        "ctaButton": "Request Technical Consultation"
+      },
+      "faq": {
+        "title": "Blockchain FAQ",
+        "question1": {
+          "question": "What blockchain networks do you use?",
+          "answer": "We work with major blockchain networks including Ethereum, Binance Smart Chain, Polygon, Solana, and other Layer 1 and Layer 2 networks. We select the most suitable network according to specific project requirements, considering factors such as transaction costs, speed, and available ecosystem."
+        },
+        "question2": {
+          "question": "How much does it cost?",
+          "answer": "Costs vary significantly depending on project complexity. A simple token can cost from $3,000 USD, while a complete dApp with advanced smart contracts may require $15,000-50,000 USD. We offer detailed quotes based on specific requirements."
+        },
+        "question3": {
+          "question": "Do you perform security audits?",
+          "answer": "Yes, we include internal audits in all our projects and recommend external audits by specialized firms for projects with high value locked. We use tools like Slither, Mythril and perform exhaustive testing before mainnet deployment."
+        },
+        "question4": {
+          "question": "What support do you offer?",
+          "answer": "We offer post-deployment support that includes contract monitoring, frontend updates, technical issue resolution and new functionalities. We also provide complete technical documentation and training so your team can manage the project independently."
+        }
+      },
+      "cta": {
+        "title": "Ready to boost your project with Blockchain?",
+        "subtitle": "Our team of blockchain experts is ready to help you revolutionize your business with cutting-edge decentralized technology.",
+        "requestQuote": "Request Quote",
+        "whatsappDirect": "Direct WhatsApp"
+      }
+    },
+    "packages": {
+      "corporate": {
+        "title": "Corporate Websites",
+        "description": "We create professional and customized websites that reflect your company's identity, optimized to build trust and convert visitors into potential customers.",
+        "features": [
+          "Custom design",
+          "SEO Optimization",
+          "SSL Certificate",
+          "Social media integration"
+        ]
+      },
+      "ecommerce": {
+        "title": "E-commerce & Online Stores",
+        "description": "We develop complete e-commerce platforms with all the tools needed to sell online: product catalog, cart, payment gateways, and inventory management.",
+        "features": [
+          "Multiple payment gateways",
+          "Inventory management",
+          "Electronic invoicing",
+          "Sales reports"
+        ]
+      },
+      "landing": {
+        "title": "Conversion Landing Pages",
+        "description": "We design result-oriented landing pages that transform visitors into leads or sales through strategic design and effective calls to action.",
+        "features": [
+          "A/B Tests",
+          "Optimized forms",
+          "CRM Integration",
+          "Conversion analysis"
+        ]
+      },
+      "webapp": {
+        "title": "Custom Web Applications",
+        "description": "We create custom web solutions for specific business needs with advanced functionalities, databases, and custom APIs to automate processes.",
+        "features": [
+          "Scalable architecture",
+          "API connection",
+          "Secure authentication",
+          "Custom backend"
+        ]
+      },
+      "optimization": {
+        "title": "Web Performance Optimization",
+        "description": "We improve the loading speed and performance of existing websites to enhance user experience, conversion rates, and SEO positioning.",
+        "features": [
+          "Core Web Vitals improvement",
+          "Image optimization",
+          "Resource minification",
+          "Advanced cache"
+        ]
+      },
+      "maintenance": {
+        "title": "Web Maintenance & Support",
+        "description": "We offer continuous services to keep your site updated, secure, and functioning correctly, with preventive maintenance plans and specialized technical support.",
+        "features": [
+          "Security updates",
+          "Backups",
+          "24/7 Monitoring",
+          "Priority support"
+        ]
+      }
+    }
+  },
+  "portfolio": {
+    "projects": {
+      "proyecto1": {
+        "title": "Premium Web Development",
+        "description": "WordPress platform that increased traffic by 85% in 3 months.",
+        "detailedDescription": "<p class=\"mb-4\">This project completely transformed the client's digital presence, achieving immediate results after migrating from wordpress.com to personalized hosting.</p><p class=\"mb-4\">Outstanding results:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>85% increase in organic traffic in just 3 months</li><li>40% reduction in bounce rate with optimized responsive design</li><li>120% increase in dwell time thanks to personalized animations</li><li>90% improvement in site loading speed</li></ul>"
+      },
+      "proyecto2": {
+        "title": "Payment App with +15K Users Support",
+        "description": "Payment app that reduced transaction processing time by 65%.",
+        "detailedDescription": "<p class=\"mb-4\">We developed an intuitive mobile application that revolutionized the way our client processes digital payments.</p><p class=\"mb-4\">Business impact:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>Acquisition of +15,000 active users in the first 6 months</li><li>65% reduction in transaction processing time</li><li>User retention rate 38% higher than industry average</li><li>Average rating of 4.7/5 in app stores</li></ul>"
+      },
+      "proyecto3": {
+        "title": "Healthcare Web Design",
+        "description": "Redesign that increased online appointments by 120% for specialized clinic.",
+        "detailedDescription": "<p class=\"mb-4\">We transformed the digital presence of this specialized clinic with a focus centered on patient experience.</p><p class=\"mb-4\">Results obtained:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>120% increase in online appointment bookings</li><li>75% increase in new patient consultations</li><li>40% reduction in navigation time to find key information</li><li>Accessible design that improved experience for all users</li></ul>"
+      },
+      "proyecto4": {
+        "title": "Cultural Platform with +25K Visitors",
+        "description": "Platform with 25K visitors and 95% retention during cultural event.",
+        "detailedDescription": "<p class=\"mb-4\">We developed a high-impact website for this prestigious film festival, achieving a digital experience worthy of the event.</p><p class=\"mb-4\">Measurable results:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>More than 25,000 unique visitors during the festival</li><li>95% retention rate during event days</li><li>85% increase in online ticket reservations vs. previous year</li><li>60% reduction in customer service inquiries</li><li>70% increase in media coverage thanks to digital presence</li></ul>"
+      },
+      "proyecto5": {
+        "title": "Corporate Website with +140% Leads",
+        "description": "Platform that increased leads by 140% for advertising agency.",
+        "detailedDescription": "<p class=\"mb-4\">We completely redesigned the digital presence of this advertising agency, turning their website into a powerful business generation tool.</p><p class=\"mb-4\">Business impact:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>140% increase in qualified contact requests</li><li>95% improvement in site loading speed</li><li>75% increase in website dwell time</li><li>50% reduction in bounce rate</li><li>35% more projects closed directly from the website</li></ul>"
+      },
+      "proyecto6": {
+        "title": "International Website (+180% Visibility)",
+        "description": "Website that increased international visibility of the studio by 180%.",
+        "detailedDescription": "<p class=\"mb-4\">We created a digital presence worthy of the prestige of this architecture studio, with a focus on the visual presentation of their projects.</p><p class=\"mb-4\">Key results:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>180% increase in international visibility</li><li>Acquisition of 3 new international projects directly from the website</li><li>90% increase in portfolio viewing time</li><li>70% reduction in project update time</li><li>110% improvement in multimedia content interactions</li></ul>"
+      },
+      "proyecto7": {
+        "title": "Visual Identity (+85% Recognition)",
+        "description": "Visual identity that strengthened brand recognition by 85%.",
+        "detailedDescription": "<p class=\"mb-4\">We developed a complete brand identity that transformed Ispharus' perception and positioning in their market.</p><p class=\"mb-4\">Measurable impact:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>250% ROI on investment in the first year</li><li>85% increase in brand recognition (post-launch study)</li><li>70% increase in perception of professionalism and trust</li><li>Coherent visual identity system applied to +25 touchpoints</li><li>45% growth in perceived value of their services</li></ul>"
+      },
+      "proyecto8": {
+        "title": "Fashion Branding (+120% Sales)",
+        "description": "Identity that boosted online sales by 120% for fashion brand.",
+        "detailedDescription": "<p class=\"mb-4\">We created a distinctive visual identity that helped this fashion brand stand out in a highly competitive market.</p><p class=\"mb-4\">Outstanding results:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>120% increase in online sales after relaunch</li><li>65% increase in social media engagement</li><li>85% improvement in brand recognition</li><li>Packaging system that reduced costs by 30% while maintaining premium quality</li><li>45% increase in customer retention rate</li></ul>"
+      },
+      "proyecto9": {
+        "title": "E-commerce with +90% Conversion",
+        "description": "Online store that doubled revenue in the first 6 months.",
+        "detailedDescription": "<p class=\"mb-4\">We designed and developed an optimized shopping experience that transformed the business results of this fashion brand.</p><p class=\"mb-4\">Sales impact:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>90% increase in conversion rate</li><li>105% increase in total revenue in 6 months</li><li>60% reduction in cart abandonment rate</li><li>40% increase in average purchase value</li><li>75% improvement in returning customer rate</li></ul>"
+      },
+      "proyecto10": {
+        "title": "Management App (-70% Time)",
+        "description": "Application that reduced personnel management times by 70%.",
+        "detailedDescription": "<p class=\"mb-4\">We developed a mobile application that transformed human resources processes, generating significant time and cost savings.</p><p class=\"mb-4\">Proven results:</p><ul class=\"list-disc list-inside space-y-2 text-gray-300\"><li>70% reduction in time dedicated to personnel management</li><li>Estimated savings of 35 hours per week in administrative tasks</li><li>60% increase in employee satisfaction with HR processes</li><li>95% adoption among staff in the first 2 weeks</li><li>Positive ROI achieved in just 3 months after implementation</li></ul>"
+      }
+    },
+    "categories": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "design": "Design"
+    },
+    "modal": {
+      "description": "Description",
+      "projectDetails": "Project Details",
+      "client": "Client:",
+      "date": "Date:",
+      "category": "Category:",
+      "tools": "Tools:",
+      "viewFullProject": "View Full Project",
+      "categories": {
+        "web": "Web",
+        "mobile": "Mobile",
+        "design": "Design"
+      }
+    }
+  },
+  "centralComunicacion": {
+    "title": "Central Comunicación",
+    "description": "Corporate website redesign with product catalog integration"
+  },
+  "doradoStudio": {
+    "title": "Dorado Studio",
+    "description": "Digital platform for tattoo studio with booking system"
+  },
+  "legal": {
+    "terms": {
+      "title": "Terms and Conditions",
+      "subtitle": "Legal information about the use of our services",
+      "pageTitle": "Terms and Conditions | IzignaMX",
+      "pageDescription": "Legal terms and conditions for the use of IzignaMX services and website.",
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "content": "By accessing and using the IzignaMX website (\"we\", \"our\" or \"the Company\"), you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, you may not access our services."
+      },
+      "privacy": {
+        "title": "4. Privacy",
+        "content": "Your privacy is important to us. Our Privacy Policy explains how we collect, use and protect the information you provide.",
+        "linkText": "Privacy Policy"
+      }
+    }
+  },
+  "about": {
+    "pageTitle": "About IzignaMx | Creative Digital Agency",
+    "pageDescription": "Learn more about IzignaMx, our mission, values and the team that makes your business digital transformation possible",
+    "badge": "MEET US",
+    "title": "About Us",
+    "subtitle": "We are a digital agency committed to excellence, specialized in transforming ideas into effective and memorable digital solutions.",
+    "mission": {
+      "title": "Our Mission",
+      "content1": "At IzignaMx we have the mission to empower companies of all sizes through innovative digital solutions that drive their growth and visibility in the digital environment.",
+      "content2": "We firmly believe that digital transformation is a continuous and personalized process, that's why we work hand in hand with our clients to deeply understand their needs and objectives."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "content": "We aspire to be recognized as a benchmark in digital innovation in Mexico, creating exceptional digital experiences that connect brands with people in a meaningful and lasting way."
+    },
+    "values": {
+      "badge": "OUR PRINCIPLES",
+      "title": "Values that define us",
+      "subtitle": "These fundamental principles guide every decision we make and every project we undertake.",
+      "innovation": {
+        "title": "Innovation",
+        "description": "We constantly seek new ways to overcome challenges, incorporating the latest technologies and methodologies in our projects."
+      },
+      "quality": {
+        "title": "Quality",
+        "description": "We commit to excellence in every detail, guaranteeing results that exceed our clients' expectations."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "We believe in the power of working together, establishing strategic alliances with our clients to achieve common objectives."
+      },
+      "adaptability": {
+        "title": "Adaptability",
+        "description": "The digital world constantly evolves, and we evolve with it, staying at the forefront of trends and technologies."
+      }
+    },
+    "metrics": {
+      "experience": "Years of Experience",
+      "projects": "Completed Projects",
+      "clients": "Satisfied Clients"
+    },
+    "cta": {
+      "title": "Ready to work together?",
+      "subtitle": "Every project is an opportunity to create something extraordinary. Contact us today and let's start building your digital success.",
+      "button": "Start Project"
+    }
+  },
+  "aiProjectHelp": {
+    "pageTitle": "AI Project Help | Rescue & Optimization",
+    "pageDescription": "Is your AI project stuck or not delivering results? Experts in rescuing, fixing, and optimizing Artificial Intelligence developments.",
+    "keywords": "ai project rescue, ai consulting, fix chatbot, optimize ai model, artificial intelligence development",
+    "hero": {
+      "urgencyBadge": "Critical Project Rescue",
+      "title": {
+        "part1": "We Rescue Your",
+        "part2": "AI Project",
+        "part3": "and make it",
+        "part4": "Work"
+      },
+      "subtitle": "Don't let poor implementation stop your innovation. We <span class='text-blue-400'>audit, fix, and scale</span> your Artificial Intelligence initiatives.",
+      "socialProof": {
+        "projectsCompleted": "+50 Projects Rescued",
+        "rating": "4.9/5 Satisfaction",
+        "delivery": "Results in < 2 Weeks"
+      },
+      "ctaPrimary": "Request Express Audit",
+      "ctaSecondary": "View Supported Tools",
+      "guarantee": "Initial diagnosis in 24h guaranteed"
+    },
+    "problems": {
+      "title": "Do you identify with these <span class='text-red-500'>problems?</span>",
+      "solutionTitle": "We Have the Solution",
+      "solutionSubtitle": "A systematic approach to correct course",
+      "problem1": {
+        "title": "Hallucinations and Errors",
+        "description": "Your model generates incorrect answers, invents data, or doesn't follow business instructions."
+      },
+      "problem2": {
+        "title": "Excessive Costs",
+        "description": "Token or cloud infrastructure consumption is out of control with no clear return."
+      },
+      "problem3": {
+        "title": "Failed Integration",
+        "description": "The AI system works in isolation but breaks when connected to your database or CRM."
+      },
+      "solutions": {
+        "analysis": "Root Cause Analysis",
+        "correction": "Prompt/Code Refactoring",
+        "deployment": "Optimized Reduployment",
+        "customization": "Specific Fine-Tuning",
+        "support": "Support and Monitoring"
+      }
+    },
+    "aiTools": {
+      "title": "Experts in <span class='text-blue-500'>All Technologies</span>",
+      "subtitle": "We work with the stack you already use",
+      "example": "From commercial LLMs to open source models",
+      "formats": "We support <strong>Python, LangChain, Vercel AI SDK</strong> and more",
+      "cta": "Is your tool not listed? Ask us"
+    },
+    "process": {
+      "title": "How We Rescue Your Project",
+      "step1": {
+        "title": "1. Technical Audit",
+        "description": "We review code, architecture, and prompts to identify bottlenecks."
+      },
+      "step2": {
+        "title": "2. Action Plan",
+        "description": "Detailed proposal of fixes with fixed times and costs."
+      },
+      "step3": {
+        "title": "3. Execution and Delivery",
+        "description": "We implement improvements and deliver the project working and documented."
+      }
+    },
+    "pricing": {
+      "title": "Recovery Plans",
+      "subtitle": "Transparent investment for concrete results",
+      "basic": {
+        "title": "Diagnosis and Quick Fix",
+        "price": "From $997 USD",
+        "description": "For specific issues and critical errors.",
+        "features": [
+          "Code audit (up to 5k lines)",
+          "Critical error correction",
+          "Basic prompt optimization",
+          "Delivery in 3-5 days"
+        ],
+        "cta": "Start Now"
+      },
+      "professional": {
+        "title": "Complete Rescue",
+        "badge": "Most Popular",
+        "price": "From $2,497 USD",
+        "description": "Comprehensive solution for complex projects.",
+        "features": [
+          "Complete architecture audit",
+          "Code and prompt refactoring",
+          "Performance and cost optimization",
+          "Delivery in 1-2 weeks",
+          "Priority support for 30 days"
+        ],
+        "cta": "Request Rescue"
+      },
+      "enterprise": {
+        "title": "Dedicated AI Partner",
+        "price": "Custom",
+        "description": "Ongoing support and custom development.",
+        "features": [
+          "Dedicated expert team",
+          "Guaranteed SLA",
+          "Strategic consulting",
+          "Legacy system integration",
+          "24/7 Monitoring"
+        ],
+        "cta": "Contact Sales"
+      },
+      "guarantees": [
+        "Confidentiality Guaranteed (NDA)",
+        "100% Satisfaction Guarantee",
+        "Post-Delivery Support"
+      ],
+      "help": "Not sure which plan you need? Contact us for a free evaluation."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Ready to start?",
+      "urgency": "Urgent"
+    },
+    "form": {
+      "title": "Request Your Free Analysis",
+      "subtitle": "Complete the form and we will contact you in less than 2 hours.",
+      "name": "Full Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "company": "Company / Project",
+      "companyPlaceholder": "Name of your company or project",
+      "budget": "Approximate Budget",
+      "budgetPlaceholder": "Select a range",
+      "timeline": "When do you need the project ready?",
+      "timelinePlaceholder": "Select a date",
+      "description": "Describe your project and specific problems",
+      "descriptionPlaceholder": "Tell us what works, what doesn't, what improvements you need, etc.",
+      "projectUrl": "Project Link (GitHub, Replit, etc.)",
+      "projectUrlPlaceholder": "https://github.com/...",
+      "projectUrlHelp": "Optional: Share the link for a more accurate analysis",
+      "submit": "Get Free Analysis",
+      "privacyNotice": "By sending this form, you accept that we process your information to send you the free analysis.",
+      "successTitle": "Request Sent!",
+      "successMessage": "We have received your request. We will contact you soon.",
+      "errorTitle": "Error sending",
+      "errorMessage": "There was a problem sending your request. Please try again.",
+      "budgetOptions": {
+        "200-400": "$200 - $400 USD",
+        "400-600": "$400 - $600 USD",
+        "600-1000": "$600 - $1,000 USD",
+        "1000+": "$1,000+ USD",
+        "needQuote": "I need a quote"
+      },
+      "timelineOptions": {
+        "asap": "As soon as possible",
+        "thisWeek": "This week",
+        "twoWeeks": "In 2 weeks",
+        "oneMonth": "In 1 month",
+        "noRush": "No rush"
+      },
+      "aiTool": "AI Tool Used",
+      "aiToolPlaceholder": "Select a tool",
+      "aiToolOptions": {
+        "chatgpt": "ChatGPT / GPT-4",
+        "claude": "Claude 3 / 3.5",
+        "cursor": "Cursor / VS Code AI",
+        "bolt": "Bolt.new",
+        "replit": "Replit / Ghostwriter",
+        "copilot": "GitHub Copilot",
+        "codeium": "Codeium",
+        "other": "Other tool"
+      },
+      "projectType": "Project Type",
+      "projectTypePlaceholder": "Select type",
+      "projectTypeOptions": {
+        "landing": "Landing Page",
+        "corporate": "Corporate Site",
+        "ecommerce": "Online Store / E-commerce",
+        "webapp": "Web Application / SaaS",
+        "blog": "Blog / Content",
+        "dashboard": "Control Panel / Dashboard",
+        "portfolio": "Personal Portfolio",
+        "other": "Other type of project"
+      },
+      "currentStatus": "Current Status",
+      "currentStatusOptions": {
+        "notWorking": "Not working / Critical errors",
+        "needsImprovements": "Works but needs improvements",
+        "dontKnowDeploy": "Works but don't know how to deploy",
+        "needsHosting": "Need hosting / domain",
+        "other": "Other status"
+      }
+    },
+    "benefits": {
+      "title": "What does the free analysis include?",
+      "codeReview": "Complete review of AI-generated code",
+      "errorIdentification": "Error and problem identification",
+      "improvementPlan": "Improvement and optimization plan",
+      "detailedQuote": "Detailed quote and timeline",
+      "deploymentRecommendations": "Deployment recommendations"
+    },
+    "specialists": {
+      "title": "🎯 AI Specialists",
+      "description": "We are experts in working with code generated by AI tools. We understand the limitations and strengths of each tool.",
+      "responseTime": "Response in less than 2 hours"
+    },
+    "testimonials": {
+      "title": "💬 Testimonials",
+      "testimonial1": {
+        "text": "I had a ChatGPT project that wasn't working. In 24 hours they had it working perfectly and deployed.",
+        "author": "- Carlos M., Entrepreneur"
+      },
+      "testimonial2": {
+        "text": "Cursor generated my app but it was full of errors. IzignaMx transformed it into something professional.",
+        "author": "- Ana L., Startup"
+      }
+    }
+  },
+  "pwa": {
+    "installButton": "Install application",
+    "offlineIndicator": "Offline mode",
+    "newVersionAvailable": "New version available. Update now?",
+    "updateAvailable": "Update available",
+    "updateNow": "Update now",
+    "installedSuccessfully": "Application installed successfully"
+  },
+  "analytics": {
+    "consentBanner": {
+      "message": "We use cookies and analytics to improve your experience.",
+      "moreInfo": "More information",
+      "accept": "Accept",
+      "reject": "Reject"
+    },
+    "consentGranted": "Analytics consent granted",
+    "consentRevoked": "Analytics consent revoked",
+    "doNotTrackDetected": "Do Not Track detected, skipping tracking",
+    "waitingForConsent": "Waiting for user consent",
+    "initialized": "Google Analytics 4 initialized",
+    "debugMode": "Debug mode enabled"
+  },
+  "ui": {
+    "skeleton": {
+      "loading": "Loading content"
+    },
+    "datepicker": {
+      "selectDate": "Select date",
+      "months": [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+      ],
+      "weekdays": [
+        "Su",
+        "Mo",
+        "Tu",
+        "We",
+        "Th",
+        "Fr",
+        "Sa"
+      ]
+    },
+    "multiselect": {
+      "selectOptions": "Select options"
+    }
+  },
+  "gracias": {
+    "title": "Thank you for contacting us!",
+    "description": "We have received your message.",
+    "titleHtml": "Request <span class=\"text-primary\">Received!</span>",
+    "successHtml": "We have received your information correctly.",
+    "sectionNextStepsTitle": "Next Steps",
+    "nextSteps": {
+      "reviewTitle": "Review",
+      "reviewDesc": "Our team will review your request within the next 24 hours.",
+      "contactTitle": "Contact",
+      "contactDesc": "We will contact you to schedule a discovery call.",
+      "proposalTitle": "Proposal",
+      "proposalDesc": "You will receive a detailed proposal adjusted to your needs.",
+      "startTitle": "Start",
+      "startDesc": "We begin working on your project immediately."
+    },
+    "urgentContactTitle": "Need an urgent response?",
+    "social": {
+      "whatsapp": "Contact via WhatsApp",
+      "joinText": "Join our community",
+      "ratingText": "Rate us"
+    },
+    "actions": {
+      "backHome": "Back to Home",
+      "viewServices": "View Services"
+    }
+  }
+}

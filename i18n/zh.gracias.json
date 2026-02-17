@@ -1,0 +1,32 @@
+{
+  "gracias": {
+    "seo": {
+      "title": "感谢您的联系！ - IzignaMx",
+      "description": "我们已收到您的消息，将尽快与您联系。"
+    },
+    "titleHtml": "消息<span class=\"text-gradient bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent\">已成功</span>发送！",
+    "successHtml": "感谢您的联系。我们已收到您的请求，专业人员将在接下来的<strong class=\"text-green-400\">24小时</strong>内与您取得联系。",
+    "sectionNextStepsTitle": "接下来是什么？",
+    "nextSteps": {
+      "reviewTitle": "审核您的请求",
+      "reviewDesc": "我们将分析您的项目和具体需求",
+      "contactTitle": "个性化联系",
+      "contactDesc": "我们会联系您预约免费咨询",
+      "proposalTitle": "个性化方案",
+      "proposalDesc": "您将收到详细的方案和项目时间表",
+      "startTitle": "项目启动",
+      "startDesc": "批准后我们将开始为您开展项目"
+    },
+    "urgentContactTitle": "需要紧急联系我们？",
+    "actions": {
+      "backHome": "返回首页",
+      "viewServices": "查看我们的服务"
+    },
+    "social": {
+      "joinText": "加入信任我们的 500+ 家企业",
+      "ratingText": "基于 200+ 条评价的 4.9/5",
+      "whatsapp": "WhatsApp",
+      "whatsappText": "你好 IzignaMx，我刚刚提交了一个表单"
+    }
+  }
+}

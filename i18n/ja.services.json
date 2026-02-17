@@ -1,0 +1,10 @@
+{
+  "services": {
+    "seo": {
+      "title": "サービス | IzignaMx",
+      "description": "オンラインでの存在感を高めるための、完全かつパーソナライズされたデジタルソリューション。",
+      "keywords": "デジタルサービス, Web開発, アプリ, グラフィックデザイン, デジタルマーケティング, SEO, ブランディング",
+      "image": "/assets/images/og-image.jpg"
+    }
+  }
+}

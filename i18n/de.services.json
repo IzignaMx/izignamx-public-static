@@ -1,0 +1,10 @@
+{
+  "services": {
+    "seo": {
+      "title": "Leistungen | IzignaMx",
+      "description": "Umfassende und personalisierte digitale Lösungen zur Stärkung Ihrer Online-Präsenz.",
+      "keywords": "digitale dienstleistungen, webentwicklung, apps, grafikdesign, digitales marketing, SEO, branding",
+      "image": "/assets/images/og-image.jpg"
+    }
+  }
+}

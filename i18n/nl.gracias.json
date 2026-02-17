@@ -1,0 +1,32 @@
+{
+  "gracias": {
+    "seo": {
+      "title": "Bedankt voor je bericht! - IzignaMx",
+      "description": "We hebben je bericht ontvangen en nemen snel contact op."
+    },
+    "titleHtml": "Bericht <span class=\"text-gradient bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent\">succesvol</span> verzonden!",
+    "successHtml": "Bedankt voor je bericht. We hebben je aanvraag ontvangen en een specialist neemt binnen de volgende <strong class=\"text-green-400\">24 uur</strong> contact met je op.",
+    "sectionNextStepsTitle": "Wat nu?",
+    "nextSteps": {
+      "reviewTitle": "Beoordeling van je aanvraag",
+      "reviewDesc": "We analyseren je project en specifieke behoeften",
+      "contactTitle": "Persoonlijk contact",
+      "contactDesc": "We nemen contact op om een gratis consult in te plannen",
+      "proposalTitle": "Persoonlijk voorstel",
+      "proposalDesc": "Je ontvangt een gedetailleerd voorstel en projectplanning",
+      "startTitle": "Start van het project",
+      "startDesc": "Na goedkeuring beginnen we aan je project"
+    },
+    "urgentContactTitle": "Moet je ons dringend bereiken?",
+    "actions": {
+      "backHome": "Terug naar Home",
+      "viewServices": "Bekijk onze diensten"
+    },
+    "social": {
+      "joinText": "Sluit je aan bij 500+ bedrijven die ons vertrouwen",
+      "ratingText": "4,9/5 gebaseerd op 200+ beoordelingen",
+      "whatsapp": "WhatsApp",
+      "whatsappText": "Hallo IzignaMx, ik heb zojuist een formulier verzonden"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "aiProjectBanner": {
+    "newService": "新サービス",
+    "titlePrefix": "あなたのAIプロジェクトは",
+    "stuck": "停滞中",
+    "titleSuffix": "ですか？",
+    "description": "もし <strong class=\"text-blue-400\">ChatGPT</strong>、<strong class=\"text-orange-400\">Claude</strong>、<strong class=\"text-purple-400\">Cursor</strong> でWebプロジェクトを生成したものの、動作しない、またはプロの改善が必要な場合、<strong class=\"text-green-400\">私たちが完成させます</strong>。",
+    "freeAnalysis": "2時間で無料分析",
+    "rescuedProjects": "+150件のAIプロジェクトを救済",
+    "rating": "評価 4.9/5",
+    "delivery": "24–48時間で納品",
+    "guarantee": "30日間保証"
+  }
+}

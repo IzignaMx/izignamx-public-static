@@ -1,0 +1,10 @@
+{
+  "services": {
+    "seo": {
+      "title": "服务 | IzignaMx",
+      "description": "完整且个性化的数字解决方案，助力提升您的线上影响力。",
+      "keywords": "数字服务, 网站开发, 应用, 平面设计, 数字营销, SEO, 品牌塑造",
+      "image": "/assets/images/og-image.jpg"
+    }
+  }
+}

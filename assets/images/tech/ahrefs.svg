@@ -1,0 +1,15 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo del icono -->
+  <circle cx="32" cy="32" r="30" fill="#0075FF" opacity="0.1"/>
+  
+  <!-- Estilización del logo de Ahrefs, letra "a" -->
+  <path d="M32,15 C25,15 20,20 20,27 L20,48 L25,48 L25,39 C27,41 29,42 32,42 C39,42 44,37 44,28.5 C44,20 39,15 32,15 Z M32,19 C36,19 39,23 39,28.5 C39,34 36,38 32,38 C28,38 25,34 25,28.5 C25,23 28,19 32,19 Z" 
+        fill="#0075FF"/>
+  
+  <!-- Gráfico de rendimiento -->
+  <polyline points="15,54 23,46 30,50 38,42 45,46 53,38" 
+           fill="none" stroke="#0075FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Indicador ascendente -->
+  <path d="M53,38 L53,45 L46,38 Z" fill="#0075FF"/>
+</svg> 

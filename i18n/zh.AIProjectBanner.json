@@ -1,0 +1,14 @@
+{
+  "aiProjectBanner": {
+    "newService": "新服务",
+    "titlePrefix": "你的 AI 项目是否",
+    "stuck": "卡住了",
+    "titleSuffix": "？",
+    "description": "如果你使用 <strong class=\"text-blue-400\">ChatGPT</strong>、<strong class=\"text-orange-400\">Claude</strong> 或 <strong class=\"text-purple-400\">Cursor</strong> 生成了一个 Web 项目，但它无法正常运行或需要专业优化，<strong class=\"text-green-400\">我们来为你完成</strong>。",
+    "freeAnalysis": "2小时内免费分析",
+    "rescuedProjects": "+150 个 AI 项目已救援",
+    "rating": "评分 4.9/5",
+    "delivery": "24–48 小时交付",
+    "guarantee": "30 天保障"
+  }
+}

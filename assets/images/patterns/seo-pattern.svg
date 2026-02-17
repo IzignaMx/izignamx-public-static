@@ -1,0 +1,32 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="seo-grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <!-- Líneas de gráficos -->
+      <line x1="0" y1="20" x2="100" y2="20" stroke="#ffffff" stroke-width="0.5" opacity="0.05"/>
+      <line x1="0" y1="40" x2="100" y2="40" stroke="#ffffff" stroke-width="0.5" opacity="0.05"/>
+      <line x1="0" y1="60" x2="100" y2="60" stroke="#ffffff" stroke-width="0.5" opacity="0.05"/>
+      <line x1="0" y1="80" x2="100" y2="80" stroke="#ffffff" stroke-width="0.5" opacity="0.05"/>
+      
+      <line x1="20" y1="0" x2="20" y2="100" stroke="#ffffff" stroke-width="0.5" opacity="0.05"/>
+      <line x1="40" y1="0" x2="40" y2="100" stroke="#ffffff" stroke-width="0.5" opacity="0.05"/>
+      <line x1="60" y1="0" x2="60" y2="100" stroke="#ffffff" stroke-width="0.5" opacity="0.05"/>
+      <line x1="80" y1="0" x2="80" y2="100" stroke="#ffffff" stroke-width="0.5" opacity="0.05"/>
+      
+      <!-- Elementos de SEO -->
+      <circle cx="20" cy="20" r="3" fill="#ffffff" opacity="0.1"/>
+      <circle cx="80" cy="40" r="3" fill="#ffffff" opacity="0.1"/>
+      <circle cx="40" cy="60" r="3" fill="#ffffff" opacity="0.1"/>
+      <circle cx="60" cy="80" r="3" fill="#ffffff" opacity="0.1"/>
+      
+      <!-- Líneas de tendencia -->
+      <path d="M10,90 L30,70 L50,80 L70,40 L90,20" stroke="#ffffff" stroke-width="1" opacity="0.1" fill="none"/>
+      
+      <!-- Formas de SEO -->
+      <rect x="15" y="35" width="10" height="10" fill="#ffffff" opacity="0.05"/>
+      <rect x="75" y="15" width="10" height="10" fill="#ffffff" opacity="0.05"/>
+      <rect x="35" y="75" width="10" height="10" fill="#ffffff" opacity="0.05"/>
+    </pattern>
+  </defs>
+  
+  <rect width="100" height="100" fill="url(#seo-grid)"/>
+</svg> 

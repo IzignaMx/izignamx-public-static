@@ -1,0 +1,14 @@
+{
+  "aiProjectBanner": {
+    "newService": "신규 서비스",
+    "titlePrefix": "당신의 AI 프로젝트가 ",
+    "stuck": "막혔나요",
+    "titleSuffix": "?",
+    "description": "만약 <strong class=\"text-blue-400\">ChatGPT</strong>, <strong class=\"text-orange-400\">Claude</strong>, <strong class=\"text-purple-400\">Cursor</strong>로 웹 프로젝트를 만들었지만 작동하지 않거나 전문적인 개선이 필요하다면, <strong class=\"text-green-400\">저희가 완성해드립니다</strong>.",
+    "freeAnalysis": "2시간 내 무료 분석",
+    "rescuedProjects": "+150 AI 프로젝트 복구",
+    "rating": "평점 4.9/5",
+    "delivery": "24–48시간 내 납품",
+    "guarantee": "30일 보증"
+  }
+}

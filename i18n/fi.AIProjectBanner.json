@@ -1,0 +1,14 @@
+{
+  "aiProjectBanner": {
+    "newService": "UUSI PALVELU",
+    "titlePrefix": "Onko AI-projektisi ",
+    "stuck": "jumissa",
+    "titleSuffix": "?",
+    "description": "Jos loit verkkoprojektin <strong class=\"text-blue-400\">ChatGPT</strong>, <strong class=\"text-orange-400\">Claude</strong> tai <strong class=\"text-purple-400\">Cursor</strong> -työkaluilla, mutta se ei toimi tai tarvitset ammattilaisparannuksia, <strong class=\"text-green-400\">me viimeistelemme sen</strong>.",
+    "freeAnalysis": "ILMAINEN analyysi 2 h",
+    "rescuedProjects": "+150 AI-projektia pelastettu",
+    "rating": "Arvosana 4.9/5",
+    "delivery": "Toimitus 24–48 h",
+    "guarantee": "30 päivän takuu"
+  }
+}

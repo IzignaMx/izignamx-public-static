@@ -1,0 +1,14 @@
+{
+  "aiProjectBanner": {
+    "newService": "НОВАЯ УСЛУГА",
+    "titlePrefix": "Ваш проект ИИ ",
+    "stuck": "застрял",
+    "titleSuffix": "?",
+    "description": "Если вы сгенерировали веб-проект с помощью <strong class=\"text-blue-400\">ChatGPT</strong>, <strong class=\"text-orange-400\">Claude</strong> или <strong class=\"text-purple-400\">Cursor</strong>, но он не работает или нужны профессиональные улучшения, <strong class=\"text-green-400\">мы доведём его до конца</strong>.",
+    "freeAnalysis": "БЕСПЛАТНЫЙ анализ за 2 часа",
+    "rescuedProjects": "+150 спасённых проектов ИИ",
+    "rating": "Оценка 4.9/5",
+    "delivery": "Поставка 24–48 ч",
+    "guarantee": "Гарантия 30 дней"
+  }
+}
