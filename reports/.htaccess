@@ -1,5 +1,0 @@
-Options -Indexes
-
-<FilesMatch "^csp-violations-.*\.jsonl$">
-    Require all denied
-</FilesMatch>
