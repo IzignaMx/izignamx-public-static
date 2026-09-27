@@ -1,0 +1,16 @@
+name: Validate static publication
+on:
+  push:
+    branches: [main, version_1.5.0]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  artifact:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+      - name: Validate root artifact, routes, assets and CSP
+        run: python3 .github/scripts/validate-static.py .
