@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-n5LQ9ujS.js";import{t}from"./StudioPage-C87NBWbb.js";var n=e(),r=()=>(0,n.jsx)(t,{locale:`es`});export{r as component};
