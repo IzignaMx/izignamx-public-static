@@ -1,15 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: /
 
-# Rutas bloqueadas para todos los bots
-Disallow: /admin/
-Disallow: /private/
-Disallow: /api/
-Disallow: /tmp/
-Disallow: /*.json$
-Disallow: /interno/
-Disallow: /*?utm_source=
-
-# Sitemap generado por @astrojs/sitemap
-Sitemap: https://izignamx.com/sitemap-index.xml
+Sitemap: https://izignamx.com/sitemap.xml

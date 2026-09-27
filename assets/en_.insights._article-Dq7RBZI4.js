@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-n5LQ9ujS.js";import{t}from"./index-AVBQOSzA.js";import{t as n}from"./AtlasPage-C1yBJIlk.js";var r=e();function i(){let{article:e}=t.useParams();return(0,r.jsx)(n,{locale:`en`,pageKey:`insights/`+e},e)}export{i as component};

@@ -1,0 +1,12 @@
+{
+  "version": "1.5.0",
+  "sourceBranch": "new_version_3.0",
+  "sourceRevision": "4786036544cf6faf82188f2e34846ac537775f6d",
+  "pages": 46,
+  "aliases": 23,
+  "generatedAt": "2026-09-27T04:52:35.451Z",
+  "validation": {
+    "applicationTests": 126,
+    "staticBrowserChecks": 238
+  }
+}
