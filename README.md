@@ -1,10 +1,10 @@
-# IzignaMx public static website — 1.5.0
+# IzignaMx public static website — 1.6.0
 
 This repository contains the pre-rendered website at its root. GitHub Pages serves `index.html` directly from `main / (root)`. Keep `.nojekyll` and the existing `CNAME` (`izignamx.com`).
 
-The HTML, JavaScript, styles, images and media are self-contained. They do not require a Node server, Cloudflare Worker or Higgsfield login. There are 46 content pages, 23 compatibility redirects and a custom 404 page. The book remains at https://book.izignamx.com/.
+The HTML, JavaScript, styles, images and media are self-contained. They do not require a Node server, Cloudflare Worker or Higgsfield login. There are 48 content pages, 24 compatibility redirects and a custom 404 page. The book remains at https://book.izignamx.com/.
 
-The edition retains its original layout, interactive forms, exhibition, observatory and three procedural 3D experiments. Contact messages are prepared locally and are not sent automatically.
+The edition adopts the approved “Tecnología que abre caminos” narrative, adds contextual brand principles and a bilingual handoff guide, and retains its original layout, interactive forms, exhibition, observatory and three procedural 3D experiments. Contact messages are prepared locally and are not sent automatically.
 
 The complete application source is maintained separately in `IzignaMx/izignamx` on `new_version_3.0`. From that source's `app/` directory, run `bun install --frozen-lockfile`, `bun run test`, and `bun run build:static`. Copy the contents of `app/dist/static/`, not the containing folder, here.
 

@@ -1,0 +1,46 @@
+name: Verify published custom domain
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: verify-published-domain
+  cancel-in-progress: true
+jobs:
+  delivery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - name: Wait for Pages deployment of this exact commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import json, os, time
+          from urllib.request import Request, urlopen
+          repo = os.environ['GITHUB_REPOSITORY']
+          revision = os.environ['GITHUB_SHA']
+          endpoint = f'https://api.github.com/repos/{repo}/actions/runs?head_sha={revision}&per_page=30'
+          deadline = time.monotonic() + 300
+          while time.monotonic() < deadline:
+              request = Request(endpoint, headers={'Authorization': 'Bearer ' + os.environ['GH_TOKEN'], 'Accept': 'application/vnd.github+json'})
+              with urlopen(request, timeout=20) as response:
+                  runs = json.load(response)['workflow_runs']
+              pages = [run for run in runs if run['name'] == 'pages build and deployment' and run['head_sha'] == revision]
+              if pages and pages[0]['status'] == 'completed':
+                  if pages[0]['conclusion'] != 'success':
+                      raise SystemExit('Pages deployment did not succeed')
+                  print('Verified Pages deployment:', pages[0]['html_url'])
+                  break
+              print('Pages deployment not complete for this revision', flush=True)
+              time.sleep(10)
+          else:
+              raise SystemExit('Matching Pages deployment was not verified')
+          PY
+      - name: Verify ordinary production URLs without sending messages
+        run: python3 .github/scripts/verify-live.py
