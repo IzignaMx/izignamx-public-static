@@ -1,1 +1,0 @@
-import{t as e}from"./jsx-runtime-n5LQ9ujS.js";import{r as t}from"./experiment-model-Bbb6darX.js";import{o as n}from"./index-CIQQL242.js";import{t as r}from"./ExperimentPage-IG2Jg17A.js";var i=e();function a(){let{experiment:e}=n.useParams();return t(e)?(0,i.jsx)(r,{id:e,locale:`es`},e):null}export{a as component};
