@@ -1,0 +1,43 @@
+name: Import reviewed brand v2 once
+on:
+  push:
+    branches: [feat/brand-v2-storytelling]
+    paths: [.github/workflows/import-brand-v2-once.yml]
+permissions:
+  contents: write
+concurrency:
+  group: import-reviewed-brand-v2
+  cancel-in-progress: false
+jobs:
+  import:
+    if: github.repository == 'IzignaMx/izignamx-public-static' && github.ref == 'refs/heads/feat/brand-v2-storytelling'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: feat/brand-v2-storytelling
+      - name: Download only the reviewed public-site distribution
+        env:
+          ARTIFACT_URL: 'https://sdmntprsoutheastus3.oaiusercontent.com/files/00000000-9b3c-820c-b6fa-d2d0a5d93098/raw?se=2026-11-03T02%3A32%3A13Z&sp=r&sv=2026-02-06&sr=b&scid=88ee08a4-7903-5829-814a-7d7170e18c75&skoid=dd316919-ffbf-4550-9c54-dfc99f412009&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-02T22%3A24%3A07Z&ske=2026-11-03T22%3A24%3A07Z&sks=b&skv=2026-02-06&sig=om7dkYN0/MA/4yplywuHoUX2JBdM/dustPc3cryUnsQ%3D'
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          test "$(git ls-remote origin refs/heads/main | cut -f1)" = 31c62705e17c02dd28582032d19e0601601be7e6
+          curl --fail --silent --show-error --location --retry 2 "$ARTIFACT_URL" -o "$RUNNER_TEMP/brand-v2.zip"
+          echo "d0c6d5abf63c4250415302a97b7db43ad3598fbccbe68254a12164374cd41558  $RUNNER_TEMP/brand-v2.zip" | sha256sum -c -
+      - name: Import validated bytes and retain cached-page assets
+        run: |
+          set -euo pipefail
+          python3 .github/scripts/import-brand-v2-once.py "$RUNNER_TEMP/brand-v2.zip" d0c6d5abf63c4250415302a97b7db43ad3598fbccbe68254a12164374cd41558
+          rm .github/scripts/import-brand-v2-once.py .github/workflows/import-brand-v2-once.yml
+          python3 .github/scripts/validate-static.py .
+          git diff --exit-code -- CNAME .nojekyll fonts
+          git add --all
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'feat(brand): publish reviewed additive storytelling v2 (1.6.0)' -m 'Exact source ec753c25a48ca0a955da1888c6f210e38a1e1ef8, reviewed by source PR59 run41565560499. Preserve existing hashed assets. Import helper removed. Publication still requires a checked PR to main.'
+          test "$(git ls-remote origin refs/heads/feat/brand-v2-storytelling | cut -f1)" = "$GITHUB_SHA"
+          git push origin HEAD:refs/heads/feat/brand-v2-storytelling
+          echo "Reviewed publication branch commit: $(git rev-parse HEAD)" >> "$GITHUB_STEP_SUMMARY"
+          echo 'No direct main push, no DNS changes, no private source archive, no automatic merge.' >> "$GITHUB_STEP_SUMMARY"
