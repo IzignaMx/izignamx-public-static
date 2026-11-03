@@ -22,7 +22,8 @@ jobs:
     env:
       PYTHONDONTWRITEBYTECODE: '1'
       EXPECTED_MAIN: dc3944bc1d80914cad604b0b0e172defae0badb1
-      EXPECTED_TREE: f9a5a9e3653f2fa2cf2fe756a7f5aa770f23ffc5
+      EXPECTED_ARTIFACT_TREE: f9a5a9e3653f2fa2cf2fe756a7f5aa770f23ffc5
+      EXPECTED_TREE: cc14d1314a67f96548f5e703273559809ad541e4
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
         with:
@@ -41,11 +42,11 @@ jobs:
           set -euo pipefail
           curl --silent --show-error --fail --location --max-time 90 --proto '=https' --tlsv1.2 "$STATIC_ARCHIVE_URL" --output "$RUNNER_TEMP/reviewed-static.zip"
           printf '%s  %s\n' fb021a96a70de97280026bd10ffad661615362b019714754adb3829095dcf0de "$RUNNER_TEMP/reviewed-static.zip" | sha256sum --check --strict
-      - name: Import exact static bytes and remove this temporary helper
+      - name: Import exact static bytes and regenerate the checksum manifest
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          import json, os, shutil, subprocess, tarfile, zipfile
+          import hashlib, json, os, shutil, subprocess, tarfile, zipfile
           from pathlib import Path, PurePosixPath
 
           root = Path.cwd()
@@ -83,7 +84,7 @@ jobs:
           tracked = subprocess.check_output(['git', 'ls-files', '-z']).decode().split('\0')
           for name in filter(None, tracked):
               if name not in files:
-                  if not (name == helper or name.startswith('assets/') or name.endswith('.html')):
+                  if not (name in (helper, 'SHA256SUMS') or name.startswith('assets/') or name.endswith('.html')):
                       raise SystemExit('Refusing to remove unexpected tracked file: ' + name)
                   (root / name).unlink()
           for name, source in files.items():
@@ -92,16 +93,24 @@ jobs:
               shutil.copy2(source, destination)
           subprocess.run(['git', 'add', '--all'], check=True)
           actual = subprocess.check_output(['git', 'write-tree'], text=True).strip()
-          if actual != os.environ['EXPECTED_TREE']:
+          if actual != os.environ['EXPECTED_ARTIFACT_TREE']:
               raise SystemExit('Static tree does not match the independently verified artifact: ' + actual)
           print('Exact artifact tree verified:', actual)
-          print('Protected CNAME, .nojekyll and delivery files preserved.')
+          manifest = ''.join(f'{hashlib.sha256(files[name].read_bytes()).hexdigest()}  {name}\n' for name in sorted(files))
+          (root / 'SHA256SUMS').write_text(manifest, encoding='utf-8')
+          subprocess.run(['git', 'add', 'SHA256SUMS'], check=True)
+          actual = subprocess.check_output(['git', 'write-tree'], text=True).strip()
+          if actual != os.environ['EXPECTED_TREE']:
+              raise SystemExit('Publication tree does not match the independently verified manifest: ' + actual)
+          print('Publication tree with refreshed 208-file manifest verified:', actual)
+          print('Protected CNAME, .nojekyll and delivery files preserved. Temporary helper removed.')
           PY
           git diff --cached --stat
           git diff --cached --exit-code origin/main -- CNAME .nojekyll .github
       - name: Validate the final static tree
         run: |
           set -euo pipefail
+          sha256sum --check --strict SHA256SUMS
           python3 .github/scripts/validate-static.py .
           python3 -m unittest discover -s .github/scripts -p 'test_cdn_purge.py' -v
           python3 .github/scripts/purge_cdn.py --dry-run > "$RUNNER_TEMP/static-purge-inventory.json"
@@ -114,7 +123,7 @@ jobs:
           test "$(git rev-parse origin/main)" = "$EXPECTED_MAIN"
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'feat(static): publish merged scroll sculpture' -m 'Publish the exact static-review artifact 13206500753 from reviewed source b1581464ea4de8f1769aeb351dd06ae5c844f5db. Its application tree is identical to merged source 30088e90a71f91eb5a8c27132decfebaa051bf00.' -m 'Artifact ZIP SHA-256: fb021a96a70de97280026bd10ffad661615362b019714754adb3829095dcf0de. Static tree: f9a5a9e3653f2fa2cf2fe756a7f5aa770f23ffc5. Preserve all existing delivery controls and remove the one-use import workflow.'
+          git commit -m 'feat(static): publish merged scroll sculpture' -m 'Publish the exact static-review artifact 13206500753 from reviewed source b1581464ea4de8f1769aeb351dd06ae5c844f5db. Its application tree is identical to merged source 30088e90a71f91eb5a8c27132decfebaa051bf00.' -m 'Artifact ZIP SHA-256: fb021a96a70de97280026bd10ffad661615362b019714754adb3829095dcf0de. Artifact tree: f9a5a9e3653f2fa2cf2fe756a7f5aa770f23ffc5. Publication tree including refreshed SHA256SUMS: cc14d1314a67f96548f5e703273559809ad541e4. Preserve delivery controls and remove the one-use import workflow.'
           test "$(git rev-parse HEAD^{tree})" = "$EXPECTED_TREE"
           git push origin HEAD:refs/heads/release/static-scroll-sculpture-30088e9
           printf 'Published review branch commit: '
