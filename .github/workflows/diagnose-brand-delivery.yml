@@ -1,0 +1,70 @@
+name: Diagnose brand v2 domain delivery
+on:
+  push:
+    branches: [diagnostics/brand-v2-domain-delivery]
+    paths: [.github/workflows/diagnose-brand-delivery.yml]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - name: Compare ordinary public responses with the reviewed files
+        run: |
+          python3 - <<'PY'
+          import hashlib, json
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          from urllib.error import HTTPError, URLError
+          ORIGIN = 'https://izignamx.com'
+          EXPECTED = 'ec753c25a48ca0a955da1888c6f210e38a1e1ef8'
+          assert json.loads(Path('release.json').read_text())['sourceRevision'] == EXPECTED
+          class Page(HTMLParser):
+              def __init__(self):
+                  super().__init__(); self.parts=[]; self.h1=[]; self.inside=False
+              def handle_starttag(self, tag, attrs):
+                  if tag == 'h1': self.inside=True
+              def handle_endtag(self, tag):
+                  if tag == 'h1': self.inside=False
+              def handle_data(self, data):
+                  self.parts.append(data)
+                  if self.inside: self.h1.append(data)
+          routes = {
+              '/release.json': 'release.json',
+              '/': 'index.html',
+              '/index.html': 'index.html',
+              '/en/': 'en/index.html',
+              '/es-mx/about/': 'es-mx/about/index.html',
+              '/en/about/': 'en/about/index.html',
+              '/es-mx/process/': 'es-mx/process/index.html',
+              '/es-mx/insights/entrega-con-autonomia/': 'es-mx/insights/entrega-con-autonomia/index.html',
+          }
+          for route, local in routes.items():
+              row={'route': route, 'cacheBypass': False}
+              try:
+                  request=Request(ORIGIN+route, headers={'User-Agent':'IzignaMx-Release-Verification/1.0'})
+                  with urlopen(request, timeout=15) as response:
+                      body=response.read(1000001)
+                      assert len(body) <= 1000000, 'Response exceeds diagnostic bound'
+                      assert response.url.startswith(ORIGIN+'/'), 'Unexpected redirect origin'
+                      row.update(status=response.status, finalUrl=response.url,
+                                 headers={key:response.headers.get(key) for key in ['Content-Type','Cache-Control','CF-Cache-Status','Age','ETag','Last-Modified','Vary','X-Cache','Content-Language']})
+                  local_bytes=Path(local).read_bytes()
+                  row.update(sha256=hashlib.sha256(body).hexdigest(), expectedSha256=hashlib.sha256(local_bytes).hexdigest(), exactBytes=body==local_bytes)
+                  if route.endswith('.json'):
+                      data=json.loads(body)
+                      row['release']={key:data.get(key) for key in ['version','sourceRevision','pages','aliases']}
+                  else:
+                      page=Page(); page.feed(body.decode('utf-8'))
+                      local_page=Page(); local_page.feed(local_bytes.decode('utf-8'))
+                      text=' '.join(' '.join(page.parts).split())
+                      row.update(h1=' '.join(' '.join(page.h1).split()), expectedH1=' '.join(' '.join(local_page.h1).split()), currentSpanishTagline='Tecnología que abre caminos.' in text, currentEnglishTagline='Technology that opens paths.' in text)
+              except (HTTPError, URLError, ValueError, AssertionError, TimeoutError) as error:
+                  row['error']=str(error)[:300]
+              print(json.dumps(row, ensure_ascii=False), flush=True)
+          PY
