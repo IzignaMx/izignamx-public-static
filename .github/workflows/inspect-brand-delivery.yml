@@ -1,0 +1,38 @@
+name: Inspect brand delivery responses
+on:
+  push:
+    branches: [ci/brand-v2-delivery-diagnostics]
+    paths: [.github/workflows/inspect-brand-delivery.yml]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Read normal public URLs and report headers and visible content
+        run: |
+          python3 - <<'PY'
+          import hashlib, json
+          from html.parser import HTMLParser
+          from urllib.request import Request, urlopen
+          class Visible(HTMLParser):
+              def __init__(self):
+                  super().__init__(); self.parts=[]; self.hidden=0; self.lang=None
+              def handle_starttag(self, tag, attrs):
+                  if tag in ('script','style'): self.hidden += 1
+                  if tag == 'html': self.lang=dict(attrs).get('lang')
+              def handle_endtag(self, tag):
+                  if tag in ('script','style'): self.hidden=max(0,self.hidden-1)
+              def handle_data(self, data):
+                  if not self.hidden: self.parts.append(data)
+          routes={'/':'Tecnología que abre caminos.', '/en/':'Technology that opens paths.', '/es-mx/about/':'no es una traducción literal', '/en/about/':'not a literal translation', '/es-mx/process/':'Cuatro fases para entender el recorrido.', '/es-mx/insights/entrega-con-autonomia/':'Una entrega digital con autonomía', '/en/insights/entrega-con-autonomia/':'A digital handoff with autonomy', '/release.json':'1.6.0'}
+          for route,phrase in routes.items():
+              try:
+                  req=Request('https://izignamx.com'+route,headers={'User-Agent':'IzignaMx-Release-Verification/1.0'})
+                  with urlopen(req,timeout=15) as res:
+                      raw=res.read(); text=raw.decode('utf-8'); parsed=Visible(); parsed.feed(text)
+                      visible=' '.join(' '.join(parsed.parts).split())
+                      print(json.dumps({'route':route,'status':res.status,'finalUrl':res.url,'headers':{k:v for k,v in res.headers.items() if k.lower() in ('date','age','cf-cache-status','cache-control','etag','last-modified','content-type','server','vary')},'sha256':hashlib.sha256(raw).hexdigest(),'language':parsed.lang,'expectedContentPresent':phrase in visible,'excerpt':visible[:1600]},ensure_ascii=False),flush=True)
+              except Exception as error: print(json.dumps({'route':route,'error':str(error)}),flush=True)
+          PY
