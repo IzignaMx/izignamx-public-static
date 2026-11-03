@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-n5LQ9ujS.js";import{c as t}from"./index-AVBQOSzA.js";import{t as n}from"./InternalPage-RyQ4BDOc.js";var r=e();function i(){let{service:e}=t.useParams();return(0,r.jsx)(n,{locale:`es`,id:e})}export{i as component};
