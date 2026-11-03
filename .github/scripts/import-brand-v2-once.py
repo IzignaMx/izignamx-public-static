@@ -9,7 +9,7 @@ import tempfile
 import zipfile
 from pathlib import Path
 
-EXPECTED_SOURCE = 'c1ba395386a5c65509577056df7e5dc55e1fce4c'
+EXPECTED_SOURCE = 'ec753c25a48ca0a955da1888c6f210e38a1e1ef8'
 assert subprocess.check_output(['git', 'branch', '--show-current'], text=True).strip() == 'feat/brand-v2-storytelling'
 root = Path.cwd()
 archive = Path(sys.argv[1]).resolve()
