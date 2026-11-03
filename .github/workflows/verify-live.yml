@@ -1,0 +1,19 @@
+name: Verify published custom domain
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: verify-published-domain
+  cancel-in-progress: true
+jobs:
+  delivery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - name: Verify ordinary production URLs without sending messages
+        run: python3 .github/scripts/verify-live.py
