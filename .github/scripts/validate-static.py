@@ -51,7 +51,7 @@ for f in root.rglob('*.css'):
  for match in re.finditer(r'url\([\s\'"]*(/[^\s\)\'"]+)',f.read_text()):
   if not (root/match[1].lstrip('/')).is_file():errors.append([str(f.relative_to(root)),'missing css asset',match[1]])
 release=json.loads((root/'release.json').read_text())
-assert release['pages']==46, 'Unexpected route inventory'
+assert release['pages']==48, 'Unexpected route inventory'
 summary={'contentPages':release['pages'],'compatibilityRedirects':release['aliases'],'htmlDocuments':len(pages),'errors':errors}
 print(json.dumps(summary,indent=2))
 if errors:sys.exit(1)

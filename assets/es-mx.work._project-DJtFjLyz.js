@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-n5LQ9ujS.js";import{l as t}from"./index-CIQQL242.js";import{t as n}from"./AtlasPage-BKvFlVWH.js";var r=e();function i(){let{project:e}=t.useParams();return(0,r.jsx)(n,{locale:`es`,pageKey:`work/`+e},e)}export{i as component};
