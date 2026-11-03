@@ -14,3 +14,7 @@ jobs:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
       - name: Validate root artifact, routes, assets and CSP
         run: python3 .github/scripts/validate-static.py .
+      - name: Test the CDN delivery boundary without credentials or network
+        run: python3 -m unittest discover -s .github/scripts -p 'test_cdn_purge.py' -v
+      - name: Review the bounded purge inventory without invalidating anything
+        run: python3 .github/scripts/purge_cdn.py --dry-run
