@@ -1,0 +1,75 @@
+name: Diagnose production delivery read-only
+on:
+  push:
+    branches: [ops/brand-v2-delivery-check]
+    paths: [.github/workflows/diagnose-delivery.yml]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - name: Inspect ordinary URLs, text and cache headers
+        run: |
+          python3 - <<'PY'
+          import json, hashlib
+          from pathlib import Path
+          from html.parser import HTMLParser
+          from urllib.request import Request, urlopen
+          from urllib.error import HTTPError
+          class Page(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.h1 = []
+                  self.inside = False
+                  self.canonical = []
+              def handle_starttag(self, tag, attrs):
+                  if tag == 'h1': self.inside = True
+                  if tag == 'br' and self.inside: self.h1.append(' ')
+                  values = dict(attrs)
+                  if tag == 'link' and values.get('rel') == 'canonical': self.canonical.append(values.get('href'))
+              def handle_endtag(self, tag):
+                  if tag == 'h1': self.inside = False
+              def handle_data(self, text):
+                  if self.inside: self.h1.append(text)
+          origin = 'https://izignamx.com'
+          routes = ['/', '/en/', '/es-mx/about/', '/es-mx/process/', '/es-mx/insights/entrega-con-autonomia/', '/en/insights/entrega-con-autonomia/', '/release.json']
+          results = []
+          for route in routes:
+              item = {'route': route}
+              try:
+                  request = Request(origin + route, headers={'User-Agent': 'IzignaMx-Release-Verification/1.0'})
+                  with urlopen(request, timeout=15) as response:
+                      item['status'] = response.status
+                      item['url'] = response.url
+                      item['headers'] = {key: response.headers.get(key) for key in ['Date', 'Age', 'Cache-Control', 'Last-Modified', 'ETag', 'Server', 'CF-Cache-Status', 'X-Cache', 'X-Proxy-Cache', 'Via'] if response.headers.get(key)}
+                      raw = response.read()
+                  text = raw.decode('utf-8')
+                  item['sha256'] = hashlib.sha256(raw).hexdigest()
+                  if route.endswith('.json'):
+                      item['liveRelease'] = json.loads(text)
+                      item['expectedRelease'] = json.loads(Path('release.json').read_text())
+                  else:
+                      page = Page(); page.feed(text)
+                      item['h1'] = ' '.join(''.join(page.h1).split())
+                      item['canonical'] = page.canonical
+                      local = Path(route.lstrip('/')) / 'index.html'
+                      expected = Page(); expected.feed(local.read_text())
+                      item['expectedH1'] = ' '.join(''.join(expected.h1).split())
+                      item['h1Matches'] = item['h1'] == item['expectedH1']
+                      item['byteMatch'] = raw == local.read_bytes()
+              except Exception as error:
+                  item['error'] = str(error)
+              results.append(item)
+              print(json.dumps(item, ensure_ascii=False), flush=True)
+          Path('delivery-diagnostic.json').write_text(json.dumps(results, ensure_ascii=False, indent=2))
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: delivery-diagnostic
+          path: delivery-diagnostic.json
+          retention-days: 3
