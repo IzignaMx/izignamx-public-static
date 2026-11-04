@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-n5LQ9ujS.js";import{d as t}from"./index-C2cHDPGB.js";import{t as n}from"./AtlasPage-X-5kt7FI.js";var r=e();function i(){let{section:e}=t.useParams(),{service:i}=t.useSearch();return(0,r.jsx)(n,{locale:`es`,pageKey:e,service:i},e)}export{i as component};
